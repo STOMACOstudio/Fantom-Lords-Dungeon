@@ -55,4 +55,4 @@ draw_text_color(x,y+64,"ACT " + string(global.ACT), colorACT,colorACT,colorACT,c
 
 draw_text(x,y+80,"TOT " + string(global.TOT));
 
-draw_text(x,y+96,"WEAPON " + string(global.weaponAttack));
+draw_text(x,y+96,"WEAPON: " + string(global.weaponAttack));

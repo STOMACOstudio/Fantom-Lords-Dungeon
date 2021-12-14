@@ -25,6 +25,22 @@ global.modACT = 0;
 global.TOT = global.LIF + global.ATK + global.DEF + global.MAG + global.ACT;
 
 global.weaponAttack = "none";
+
+global.ancestry = 0;
+global.ancestryMAX = 14;
+
+global.weapon = 0;
+global.weaponMAX = 16;
+
+global.headgear = 0;
+global.headgearMAX = 16;
+
+global.relic = 0;
+global.relicMAX = 12;
+
+global.background = 0;
+global.backgroundMAX = 5;
+
 #endregion
 #region COLORS
 colorNeutral = c_white;

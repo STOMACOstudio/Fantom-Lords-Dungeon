@@ -2,11 +2,11 @@
 // You can write your code in this editor
 
 classArmor = 0;
-classArmorMax = 12;
+classArmorMax = 11;
 
 list_classArmor = ds_list_create();
 
-ds_list_add(list_classArmor, "none", "Ranger Leather Armor", "Assassin Nightly Garments", "Druid Wild Vest",
+ds_list_add(list_classArmor, "Ranger Leather Armor", "Assassin Nightly Garments", "Druid Wild Vest",
 							 "Plague Doctor Attire", "Warlock Fel Cuirass", "Sorcerer Robe",
 							 "Bard Glamour Jacket", "Paladin Plate Armor", "Pyromancer Robe",
 							 "Necromancer Bone Armor", "Eldritch Knight Mithral Chainmail",
