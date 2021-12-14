@@ -1,5 +1,11 @@
 {
   "resources": [
+    {"id":{"name":"oBuilderClassArmor_ArrowUp","path":"objects/oBuilderClassArmor_ArrowUp/oBuilderClassArmor_ArrowUp.yy",},"order":2,},
+    {"id":{"name":"sGUI_arrow","path":"sprites/sGUI_arrow/sGUI_arrow.yy",},"order":0,},
+    {"id":{"name":"oBuilderClassArmor_ArrowDown","path":"objects/oBuilderClassArmor_ArrowDown/oBuilderClassArmor_ArrowDown.yy",},"order":3,},
+    {"id":{"name":"snClick","path":"sounds/snClick/snClick.yy",},"order":0,},
+    {"id":{"name":"oBuilderClassArmor","path":"objects/oBuilderClassArmor/oBuilderClassArmor.yy",},"order":0,},
+    {"id":{"name":"oBuilderPlayerStats","path":"objects/oBuilderPlayerStats/oBuilderPlayerStats.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
