@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if global.classArmor > 0 global.classArmor --;
-else global.classArmor = global.classArmorMax;
+if global.lordNumber > 1 global.lordNumber --;
+else global.lordNumber = global.lordNumberMAX;
 
 image_blend = c_yellow;
 audio_play_sound(snClick,0,false);

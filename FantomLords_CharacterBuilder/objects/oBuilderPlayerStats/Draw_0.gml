@@ -47,12 +47,13 @@ else if global.ACT > 14 && global.ACT < 20 colorACT = colorSup2;
 else if global.ACT > 19 colorACT = colorSup3;
 #endregion
 
+draw_text(x,y-34,string(global.lordName));
 draw_text_color(x,y,   "LIF " + string(global.LIF),	colorLIF,colorLIF,colorLIF,colorLIF,1);
-draw_text_color(x,y+16,"ATK " + string(global.ATK), colorATK,colorATK,colorATK,colorATK,1);
-draw_text_color(x,y+32,"DEF " + string(global.DEF), colorDEF,colorDEF,colorDEF,colorDEF,1);
-draw_text_color(x,y+48,"MAG " + string(global.MAG), colorMAG,colorMAG,colorMAG,colorMAG,1);
-draw_text_color(x,y+64,"ACT " + string(global.ACT), colorACT,colorACT,colorACT,colorACT,1);
+draw_text_color(x,y+34,"ATK " + string(global.ATK), colorATK,colorATK,colorATK,colorATK,1);
+draw_text_color(x,y+68,"DEF " + string(global.DEF), colorDEF,colorDEF,colorDEF,colorDEF,1);
+draw_text_color(x,y+102,"MAG " + string(global.MAG), colorMAG,colorMAG,colorMAG,colorMAG,1);
+draw_text_color(x,y+138,"ACT " + string(global.ACT), colorACT,colorACT,colorACT,colorACT,1);
 
-draw_text(x,y+80,"TOT " + string(global.TOT));
+draw_text(x,y+172,"TOT " + string(global.TOT));
 
-draw_text(x,y+96,"WEAPON: " + string(global.weaponAttack));
+draw_text(x,y+206,"WEAPON: " + string(global.weaponAttack));

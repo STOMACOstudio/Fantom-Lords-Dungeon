@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-oBuilderClassArmor.classArmor = irandom_range(0,oBuilderClassArmor.classArmorMax);
+global.classArmor = irandom_range(0,global.classArmorMax);
 global.ancestry = irandom_range(0,global.ancestryMAX);
 global.weapon = irandom_range(0,global.weaponMAX);
 global.headgear = irandom_range(0,global.headgearMAX);

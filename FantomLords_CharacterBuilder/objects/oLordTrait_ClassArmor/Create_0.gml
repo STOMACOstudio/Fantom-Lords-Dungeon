@@ -1,9 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-classArmor = 0;
-classArmorMax = 11;
-
 list_classArmor = ds_list_create();
 
 ds_list_add(list_classArmor, "Ranger Leather Armor", "Assassin Nightly Garments", "Druid Wild Vest",
