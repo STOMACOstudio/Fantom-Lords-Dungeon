@@ -20,11 +20,11 @@ draw_set_font(foAlagard24);
 	global.ACT = 12;
 
 
-	global.modLIF = 0;
-	global.modATK = 0;
-	global.modDEF = 0;
-	global.modMAG = 0;
-	global.modACT = 0;
+	global.modLIFancestry = 0;
+	global.modATKancestry = 0;
+	global.modDEFancestry = 0;
+	global.modMAGancestry = 0;
+	global.modACTancestry = 0;
 
 	global.modLIFarmor = 0;
 	global.modATKarmor = 0;

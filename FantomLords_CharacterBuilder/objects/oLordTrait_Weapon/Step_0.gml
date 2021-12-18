@@ -3,98 +3,145 @@
 
 image_index = global.weapon;
 
-if global.weapon = 3 || global.weapon = 4 || global.weapon = 6 || global.weapon = 7 || global.weapon = 9
+if global.weapon = 3 || global.weapon = 4 || global.weapon = 6 || global.weapon = 7 || global.weapon = 9 
 					 || global.weapon = 10 || global.weapon = 11 || global.weapon = 12 || global.weapon = 13
 					 || global.weapon = 14 global.weaponAttack = "MELEE";
 else global.weaponAttack = "RANGED";
 
-/*
-if global.classArmor = 0 //ranger
+
+if global.weapon = 0 //Charred Wand
 {
-	global.modLIF = RangLIFmod;
-	global.modATK = RangATKmod;
-	global.modDEF = RangDEFmod;
-	global.modMAG = RangMAGmod;
-	global.modACT = RangACTmod;
+	global.modLIFweapon = CharBellLIFmod;
+	global.modATKweapon = CharBellATKmod;
+	global.modDEFweapon = CharBellDEFmod;
+	global.modMAGweapon = CharBellMAGmod;
+	global.modACTweapon = CharBellACTmod;
 }
-else if global.classArmor = 1 //assassin
+else if global.weapon = 1 //Coral Staff
 {
-	global.modLIFarmor = AssaLIFmod;
-	global.modATKarmor = AssaATKmod;
-	global.modDEFarmor = AssaDEFmod;
-	global.modMAGarmor = AssaMAGmod;
-	global.modACTarmor = AssaACTmod;
+	global.modLIFweapon = CoralHydroLIFmod;
+	global.modATKweapon = CoralHydroATKmod;
+	global.modDEFweapon = CoralHydroDEFmod;
+	global.modMAGweapon = CoralHydroMAGmod;
+	global.modACTweapon = CoralHydroACTmod;
 }
-else if global.classArmor = 2 //druid
+else if global.weapon = 2 //Crossbow
 {
-	global.modLIFarmor = DruiLIFmod;
-	global.modATKarmor = DruiATKmod;
-	global.modDEFarmor = DruiDEFmod;
-	global.modMAGarmor = DruiMAGmod;
-	global.modACTarmor = DruiACTmod;
+	global.modLIFweapon = CrossbowLIFmod;
+	global.modATKweapon = CrossbowATKmod;
+	global.modDEFweapon = CrossbowDEFmod;
+	global.modMAGweapon = CrossbowMAGmod;
+	global.modACTweapon = CrossbowACTmod;
 }
-else if global.classArmor = 3 //doctor
+else if global.weapon = 3 //Death Schyte
 {
-	global.modLIFarmor = DoctLIFmod;
-	global.modATKarmor = DoctATKmod;
-	global.modDEFarmor = DoctDEFmod;
-	global.modMAGarmor = DoctMAGmod;
-	global.modACTarmor = DoctACTmod;
+	global.modLIFweapon = SchySouLIFmod;
+	global.modATKweapon = SchySouATKmod;
+	global.modDEFweapon = SchySouDEFmod;
+	global.modMAGweapon = SchySouMAGmod;
+	global.modACTweapon = SchySouACTmod;
 }
-else if global.classArmor = 4 //warlock
+else if global.weapon = 4 //Dragon Slayer
 {
-	global.modLIFarmor = WarlLIFmod;
-	global.modATKarmor = WarlATKmod;
-	global.modDEFarmor = WarlDEFmod;
-	global.modMAGarmor = WarlMAGmod;
-	global.modACTarmor = WarlACTmod;
+	global.modLIFweapon = DraSlaylLIFmod;
+	global.modATKweapon = DraSlaylATKmod;
+	global.modDEFweapon = DraSlaylDEFmod;
+	global.modMAGweapon = DraSlaylMAGmod;
+	global.modACTweapon = DraSlaylACTmod;
 }
-else if global.classArmor = 5 //sorcerer
+else if global.weapon = 5 //Elemental Staff
 {
-	global.modLIFarmor = SorcLIFmod;
-	global.modATKarmor = SorcATKmod;
-	global.modDEFarmor = SorcDEFmod;
-	global.modMAGarmor = SorcMAGmod;
-	global.modACTarmor = SorcACTmod;
+	global.modLIFweapon = EleStaLIFmod;
+	global.modATKweapon = EleStaATKmod;
+	global.modDEFweapon = EleStaDEFmod;
+	global.modMAGweapon = EleStaMAGmod;
+	global.modACTweapon = EleStaACTmod;
 }
-else if global.classArmor = 6 //bard
+else if global.weapon = 6 //Holy Avenger
 {
-	global.modLIFarmor = BardLIFmod;
-	global.modATKarmor = BardATKmod;
-	global.modDEFarmor = BardDEFmod;
-	global.modMAGarmor = BardMAGmod;
-	global.modACTarmor = BardACTmod;
+	global.modLIFweapon = HolyAvLIFmod;
+	global.modATKweapon = HolyAvATKmod;
+	global.modDEFweapon = HolyAvDEFmod;
+	global.modMAGweapon = HolyAvMAGmod;
+	global.modACTweapon = HolyAvACTmod;
 }
-else if global.classArmor = 7 //paladin
+else if global.weapon = 7 //Katars
 {
-	global.modLIFarmor = PalaLIFmod;
-	global.modATKarmor = PalaATKmod;
-	global.modDEFarmor = PalaDEFmod;
-	global.modMAGarmor = PalaMAGmod;
-	global.modACTarmor = PalaACTmod;
+	global.modLIFweapon = KataLIFmod;
+	global.modATKweapon = KataATKmod;
+	global.modDEFweapon = KataDEFmod;
+	global.modMAGweapon = KataMAGmod;
+	global.modACTweapon = KataACTmod;
 }
-else if global.classArmor = 8 //pyromancer
+else if global.weapon = 8 //Longbow
 {
-	global.modLIFarmor = PyroLIFmod;
-	global.modATKarmor = PyroATKmod;
-	global.modDEFarmor = PyroDEFmod;
-	global.modMAGarmor = PyroMAGmod;
-	global.modACTarmor = PyroACTmod;
+	global.modLIFweapon = LongBoLIFmod;
+	global.modATKweapon = LongBoATKmod;
+	global.modDEFweapon = LongBoDEFmod;
+	global.modMAGweapon = LongBoMAGmod;
+	global.modACTweapon = LongBoACTmod;
 }
-else if global.classArmor = 9 //necromancer
+else if global.weapon = 9 //Longsword
 {
-	global.modLIFarmor = NecrLIFmod;
-	global.modATKarmor = NecrATKmod;
-	global.modDEFarmor = NecrDEFmod;
-	global.modMAGarmor = NecrMAGmod;
-	global.modACTarmor = NecrACTmod;
+	global.modLIFweapon = LongSwLIFmod;
+	global.modATKweapon = LongSwATKmod;
+	global.modDEFweapon = LongSwDEFmod;
+	global.modMAGweapon = LongSwMAGmod;
+	global.modACTweapon = LongSwACTmod;
 }
-else if global.classArmor = 10 //knight
+else if global.weapon = 10 //Moonlight
 {
-	global.modLIFarmor = KnigLIFmod;
-	global.modATKarmor = KnigATKmod;
-	global.modDEFarmor = KnigDEFmod;
-	global.modMAGarmor = KnigMAGmod;
-	global.modACTarmor = KnigACTmod;
+	global.modLIFweapon = MoonGrLIFmod;
+	global.modATKweapon = MoonGrATKmod;
+	global.modDEFweapon = MoonGrDEFmod;
+	global.modMAGweapon = MoonGrMAGmod;
+	global.modACTweapon = MoonGrACTmod;
 }
-else if global.classArmor = 11 //oathbreaker
+else if global.weapon = 11 //Rapier and Harp
+{
+	global.modLIFweapon = RapHarLIFmod;
+	global.modATKweapon = RapHarATKmod;
+	global.modDEFweapon = RapHarDEFmod;
+	global.modMAGweapon = RapHarMAGmod;
+	global.modACTweapon = RapHarACTmod;
+}
+else if global.weapon = 12 //Scimitar and Magic
+{
+	global.modLIFweapon = SciMaLIFmod;
+	global.modATKweapon = SciMaATKmod;
+	global.modDEFweapon = SciMaDEFmod;
+	global.modMAGweapon = SciMaMAGmod;
+	global.modACTweapon = SciMaACTmod;
+}
+else if global.weapon = 13 //Sickle and Ankh
+{
+	global.modLIFweapon = SikAnLIFmod;
+	global.modATKweapon = SikAnATKmod;
+	global.modDEFweapon = SikAnDEFmod;
+	global.modMAGweapon = SikAnMAGmod;
+	global.modACTweapon = SikAnACTmod;
+}
+else if global.weapon = 14 //Stormbringer
+{
+	global.modLIFweapon = StormLIFmod;
+	global.modATKweapon = StormATKmod;
+	global.modDEFweapon = StormDEFmod;
+	global.modMAGweapon = StormMAGmod;
+	global.modACTweapon = StormACTmod;
+}
+else if global.weapon = 15 //Wand and Bell
+{
+	global.modLIFweapon = WaBellLIFmod;
+	global.modATKweapon = WaBellATKmod;
+	global.modDEFweapon = WaBellDEFmod;
+	global.modMAGweapon = WaBellMAGmod;
+	global.modACTweapon = WaBellACTmod;
+}
+else if global.weapon = 16 //Wooden Staff
+{
+	global.modLIFweapon = WoodLIFmod;
+	global.modATKweapon = WoodATKmod;
+	global.modDEFweapon = WoodDEFmod;
+	global.modMAGweapon = WoodMAGmod;
+	global.modACTweapon = WoodACTmod;
+}

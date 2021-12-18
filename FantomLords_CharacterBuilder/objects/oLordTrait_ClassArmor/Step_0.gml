@@ -14,11 +14,11 @@ image_index = global.classArmor;
 
 if global.classArmor = 0 //ranger
 {
-	global.modLIF = RangLIFmod;
-	global.modATK = RangATKmod;
-	global.modDEF = RangDEFmod;
-	global.modMAG = RangMAGmod;
-	global.modACT = RangACTmod;
+	global.modLIFarmor = RangLIFmod;
+	global.modATKarmor = RangATKmod;
+	global.modDEFarmor = RangDEFmod;
+	global.modMAGarmor = RangMAGmod;
+	global.modACTarmor = RangACTmod;
 }
 else if global.classArmor = 1 //assassin
 {
