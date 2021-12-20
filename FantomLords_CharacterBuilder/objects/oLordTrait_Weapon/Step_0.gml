@@ -16,6 +16,7 @@ if global.weapon = 0 //Charred Wand
 	global.modDEFweapon = CharBellDEFmod;
 	global.modMAGweapon = CharBellMAGmod;
 	global.modACTweapon = CharBellACTmod;
+	global.weaponSkill = "Fire Ball";
 }
 else if global.weapon = 1 //Coral Staff
 {
@@ -24,6 +25,7 @@ else if global.weapon = 1 //Coral Staff
 	global.modDEFweapon = CoralHydroDEFmod;
 	global.modMAGweapon = CoralHydroMAGmod;
 	global.modACTweapon = CoralHydroACTmod;
+	global.weaponSkill = "Hydro Bolt";
 }
 else if global.weapon = 2 //Crossbow
 {
@@ -32,6 +34,7 @@ else if global.weapon = 2 //Crossbow
 	global.modDEFweapon = CrossbowDEFmod;
 	global.modMAGweapon = CrossbowMAGmod;
 	global.modACTweapon = CrossbowACTmod;
+	global.weaponSkill = "Poison Vial";
 }
 else if global.weapon = 3 //Death Schyte
 {
@@ -40,6 +43,7 @@ else if global.weapon = 3 //Death Schyte
 	global.modDEFweapon = SchySouDEFmod;
 	global.modMAGweapon = SchySouMAGmod;
 	global.modACTweapon = SchySouACTmod;
+	global.weaponSkill = "Soul Siphon";
 }
 else if global.weapon = 4 //Dragon Slayer
 {
@@ -48,6 +52,7 @@ else if global.weapon = 4 //Dragon Slayer
 	global.modDEFweapon = DraSlaylDEFmod;
 	global.modMAGweapon = DraSlaylMAGmod;
 	global.modACTweapon = DraSlaylACTmod;
+	global.weaponSkill = "Slay";
 }
 else if global.weapon = 5 //Elemental Staff
 {
@@ -56,6 +61,7 @@ else if global.weapon = 5 //Elemental Staff
 	global.modDEFweapon = EleStaDEFmod;
 	global.modMAGweapon = EleStaMAGmod;
 	global.modACTweapon = EleStaACTmod;
+	global.weaponSkill = "Stone Shield";
 }
 else if global.weapon = 6 //Holy Avenger
 {
@@ -64,6 +70,7 @@ else if global.weapon = 6 //Holy Avenger
 	global.modDEFweapon = HolyAvDEFmod;
 	global.modMAGweapon = HolyAvMAGmod;
 	global.modACTweapon = HolyAvACTmod;
+	global.weaponSkill = "Exorcism";
 }
 else if global.weapon = 7 //Katars
 {
@@ -72,6 +79,7 @@ else if global.weapon = 7 //Katars
 	global.modDEFweapon = KataDEFmod;
 	global.modMAGweapon = KataMAGmod;
 	global.modACTweapon = KataACTmod;
+	global.weaponSkill = "Double Strike";
 }
 else if global.weapon = 8 //Longbow
 {
@@ -80,6 +88,7 @@ else if global.weapon = 8 //Longbow
 	global.modDEFweapon = LongBoDEFmod;
 	global.modMAGweapon = LongBoMAGmod;
 	global.modACTweapon = LongBoACTmod;
+	global.weaponSkill = "Close Shot";
 }
 else if global.weapon = 9 //Longsword
 {
@@ -88,6 +97,7 @@ else if global.weapon = 9 //Longsword
 	global.modDEFweapon = LongSwDEFmod;
 	global.modMAGweapon = LongSwMAGmod;
 	global.modACTweapon = LongSwACTmod;
+	global.weaponSkill = "Shield Bash";
 }
 else if global.weapon = 10 //Moonlight
 {
@@ -96,6 +106,7 @@ else if global.weapon = 10 //Moonlight
 	global.modDEFweapon = MoonGrDEFmod;
 	global.modMAGweapon = MoonGrMAGmod;
 	global.modACTweapon = MoonGrACTmod;
+	global.weaponSkill = "Moon Power";
 }
 else if global.weapon = 11 //Rapier and Harp
 {
@@ -104,6 +115,7 @@ else if global.weapon = 11 //Rapier and Harp
 	global.modDEFweapon = RapHarDEFmod;
 	global.modMAGweapon = RapHarMAGmod;
 	global.modACTweapon = RapHarACTmod;
+	global.weaponSkill = "Heal Song";
 }
 else if global.weapon = 12 //Scimitar and Magic
 {
@@ -112,6 +124,7 @@ else if global.weapon = 12 //Scimitar and Magic
 	global.modDEFweapon = SciMaDEFmod;
 	global.modMAGweapon = SciMaMAGmod;
 	global.modACTweapon = SciMaACTmod;
+	global.weaponSkill = "Magic Missile";
 }
 else if global.weapon = 13 //Sickle and Ankh
 {
@@ -120,6 +133,7 @@ else if global.weapon = 13 //Sickle and Ankh
 	global.modDEFweapon = SikAnDEFmod;
 	global.modMAGweapon = SikAnMAGmod;
 	global.modACTweapon = SikAnACTmod;
+	global.weaponSkill = "Drain Slash";
 }
 else if global.weapon = 14 //Stormbringer
 {
@@ -128,6 +142,7 @@ else if global.weapon = 14 //Stormbringer
 	global.modDEFweapon = StormDEFmod;
 	global.modMAGweapon = StormMAGmod;
 	global.modACTweapon = StormACTmod;
+	global.weaponSkill = "Storm";
 }
 else if global.weapon = 15 //Wand and Bell
 {
@@ -136,6 +151,7 @@ else if global.weapon = 15 //Wand and Bell
 	global.modDEFweapon = WaBellDEFmod;
 	global.modMAGweapon = WaBellMAGmod;
 	global.modACTweapon = WaBellACTmod;
+	global.weaponSkill = "Scry";
 }
 else if global.weapon = 16 //Wooden Staff
 {
@@ -144,4 +160,5 @@ else if global.weapon = 16 //Wooden Staff
 	global.modDEFweapon = WoodDEFmod;
 	global.modMAGweapon = WoodMAGmod;
 	global.modACTweapon = WoodACTmod;
+	global.weaponSkill = "Hunt";
 }

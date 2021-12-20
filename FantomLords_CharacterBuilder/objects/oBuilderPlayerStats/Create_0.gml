@@ -54,6 +54,7 @@ draw_set_font(foAlagard24);
 	#endregion
 
 global.weaponAttack = "none";
+global.weaponSkill = "none";
 
 global.ancestry = 0;
 global.ancestryMAX = 14;
@@ -77,6 +78,11 @@ global.lordName = "FANTOM LORD";
 
 global.lordNumber = 1;
 global.lordNumberMAX = 3333;
+
+global.partyLord1 = 0;
+global.partyLord2 = 1;
+global.partyLord3 = 2;
+global.partyLord4 = 3;
 
 #endregion
 #region COLORS

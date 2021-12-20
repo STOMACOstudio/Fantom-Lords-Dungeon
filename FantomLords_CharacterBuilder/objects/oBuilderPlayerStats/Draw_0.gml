@@ -52,8 +52,6 @@ draw_text_color(x,y,   "LIF " + string(global.LIF),	colorLIF,colorLIF,colorLIF,c
 draw_text_color(x,y+34,"ATK " + string(global.ATK), colorATK,colorATK,colorATK,colorATK,1);
 draw_text_color(x,y+68,"DEF " + string(global.DEF), colorDEF,colorDEF,colorDEF,colorDEF,1);
 draw_text_color(x,y+102,"MAG " + string(global.MAG), colorMAG,colorMAG,colorMAG,colorMAG,1);
-draw_text_color(x,y+138,"ACT " + string(global.ACT), colorACT,colorACT,colorACT,colorACT,1);
+draw_text_color(x,y+136,"ACT " + string(global.ACT), colorACT,colorACT,colorACT,colorACT,1);
 
 draw_text(x,y+172,"TOT " + string(global.TOT));
-
-draw_text(x,y+206,"WEAPON: " + string(global.weaponAttack));
