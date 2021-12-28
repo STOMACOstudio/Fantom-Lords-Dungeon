@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if mouse_on room_goto(Room2_wallet);
+mouse_on = false;
+image_blend = c_white;
