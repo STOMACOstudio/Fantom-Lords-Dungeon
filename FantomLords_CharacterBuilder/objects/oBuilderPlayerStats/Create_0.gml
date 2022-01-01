@@ -55,6 +55,7 @@ draw_set_font(foAlagard24);
 
 global.weaponAttack = "none";
 global.weaponSkill = "none";
+global.classArmorSkill = "none";
 
 global.ancestry = 0;
 global.ancestryMAX = 14;

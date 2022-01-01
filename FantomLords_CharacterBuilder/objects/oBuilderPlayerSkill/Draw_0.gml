@@ -3,3 +3,4 @@
 
 draw_text(x,y,"ATTACK: " + string(global.weaponAttack));
 draw_text(x,y+34,"SKILL: " + string(global.weaponSkill));
+draw_text(x,y+68,"SKILL: " + string(global.classArmorSkill));

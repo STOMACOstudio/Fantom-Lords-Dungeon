@@ -19,6 +19,7 @@ if global.classArmor = 0 //ranger
 	global.modDEFarmor = RangDEFmod;
 	global.modMAGarmor = RangMAGmod;
 	global.modACTarmor = RangACTmod;
+	global.classArmorSkill = "Scout";
 }
 else if global.classArmor = 1 //assassin
 {
@@ -27,6 +28,8 @@ else if global.classArmor = 1 //assassin
 	global.modDEFarmor = AssaDEFmod;
 	global.modMAGarmor = AssaMAGmod;
 	global.modACTarmor = AssaACTmod;
+	global.classArmorSkill = "Shadow";
+	
 }
 else if global.classArmor = 2 //druid
 {
@@ -35,6 +38,7 @@ else if global.classArmor = 2 //druid
 	global.modDEFarmor = DruiDEFmod;
 	global.modMAGarmor = DruiMAGmod;
 	global.modACTarmor = DruiACTmod;
+	global.classArmorSkill = "Sunbathe";
 }
 else if global.classArmor = 3 //doctor
 {
@@ -43,6 +47,7 @@ else if global.classArmor = 3 //doctor
 	global.modDEFarmor = DoctDEFmod;
 	global.modMAGarmor = DoctMAGmod;
 	global.modACTarmor = DoctACTmod;
+	global.classArmorSkill = "Suture";
 }
 else if global.classArmor = 4 //warlock
 {
@@ -51,6 +56,7 @@ else if global.classArmor = 4 //warlock
 	global.modDEFarmor = WarlDEFmod;
 	global.modMAGarmor = WarlMAGmod;
 	global.modACTarmor = WarlACTmod;
+	global.classArmorSkill = "Lifesteal";
 }
 else if global.classArmor = 5 //sorcerer
 {
@@ -59,6 +65,7 @@ else if global.classArmor = 5 //sorcerer
 	global.modDEFarmor = SorcDEFmod;
 	global.modMAGarmor = SorcMAGmod;
 	global.modACTarmor = SorcACTmod;
+	global.classArmorSkill = "Blast";
 }
 else if global.classArmor = 6 //bard
 {
@@ -75,6 +82,7 @@ else if global.classArmor = 7 //paladin
 	global.modDEFarmor = PalaDEFmod;
 	global.modMAGarmor = PalaMAGmod;
 	global.modACTarmor = PalaACTmod;
+	global.classArmorSkill = "Burden";
 }
 else if global.classArmor = 8 //pyromancer
 {
@@ -83,6 +91,7 @@ else if global.classArmor = 8 //pyromancer
 	global.modDEFarmor = PyroDEFmod;
 	global.modMAGarmor = PyroMAGmod;
 	global.modACTarmor = PyroACTmod;
+	global.classArmorSkill = "Burn";
 }
 else if global.classArmor = 9 //necromancer
 {
@@ -91,6 +100,7 @@ else if global.classArmor = 9 //necromancer
 	global.modDEFarmor = NecrDEFmod;
 	global.modMAGarmor = NecrMAGmod;
 	global.modACTarmor = NecrACTmod;
+	global.classArmorSkill = "Revive";
 }
 else if global.classArmor = 10 //knight
 {
@@ -99,6 +109,7 @@ else if global.classArmor = 10 //knight
 	global.modDEFarmor = KnigDEFmod;
 	global.modMAGarmor = KnigMAGmod;
 	global.modACTarmor = KnigACTmod;
+	global.classArmorSkill = "Battlecry";
 }
 else if global.classArmor = 11 //oathbreaker
 {
@@ -107,4 +118,5 @@ else if global.classArmor = 11 //oathbreaker
 	global.modDEFarmor = OathDEFmod;
 	global.modMAGarmor = OathMAGmod;
 	global.modACTarmor = OathACTmod;
+	global.classArmorSkill = "Crush";
 }
