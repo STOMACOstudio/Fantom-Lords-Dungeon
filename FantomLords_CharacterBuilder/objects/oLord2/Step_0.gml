@@ -92,7 +92,23 @@ if instLeft != noone
 }
 #endregion
 
-if keyboard_check_pressed(vk_numpad8) && thisLocked && instTop != noone && instTop.empty y -= global.tileRate;
-if keyboard_check_pressed(vk_numpad6) && thisLocked && instRight != noone && instRight.empty x += global.tileRate;
-if keyboard_check_pressed(vk_numpad2) && thisLocked && instDown != noone && instDown.empty y += global.tileRate;
-if keyboard_check_pressed(vk_numpad4) && thisLocked && instLeft != noone && instLeft.empty x -= global.tileRate;
+if keyboard_check_pressed(vk_numpad8) && thisLocked && instTop != noone && instTop.empty && thisLord_ACTpoints > 0
+{
+	y -= global.tileRate;
+	thisLord_ACTpoints --;
+}
+if keyboard_check_pressed(vk_numpad6) && thisLocked && instRight != noone && instRight.empty && thisLord_ACTpoints > 0
+{
+	x += global.tileRate;
+	thisLord_ACTpoints --;
+}
+if keyboard_check_pressed(vk_numpad2) && thisLocked && instDown != noone && instDown.empty && thisLord_ACTpoints > 0
+{
+	y += global.tileRate;
+	thisLord_ACTpoints --;
+}
+if keyboard_check_pressed(vk_numpad4) && thisLocked && instLeft != noone && instLeft.empty && thisLord_ACTpoints > 0
+{
+	x -= global.tileRate;
+	thisLord_ACTpoints --;
+}

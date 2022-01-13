@@ -15,6 +15,10 @@ if oLordStats.lord2active
 	thisLord_MAGmax = oLordStats.lord2MAGmax;
 	thisLord_ACT = oLordStats.lord2ACT;
 	thisLord_ACTmax = oLordStats.lord2ACTmax;
+	thisLord_ACTpoints = round((thisLord_ACT)/10);
+	if thisLord_ACTpoints < 1 thisLord_ACTpoints = 1;
+	thisLord_ACTpointsMAX = round((thisLord_ACT)/10);
+	if thisLord_ACTpointsMAX < 1 thisLord_ACTpointsMAX = 1;
 	sprite_index = oLordStats.lord2sprite;
 	image_xscale /= 5;
 	image_yscale /= 5;

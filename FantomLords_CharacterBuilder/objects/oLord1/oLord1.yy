@@ -33,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Lord1",
+    "path": "folders/Objects/oGUI_Lords/Lord1.yy",
   },
   "resourceVersion": "1.0",
   "name": "oLord1",

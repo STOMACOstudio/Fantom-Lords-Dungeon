@@ -11,11 +11,12 @@ thisLord_DEF = oLordStats.lord1DEF;
 thisLord_DEFmax = oLordStats.lord1DEFmax;
 thisLord_MAG = oLordStats.lord1MAG;
 thisLord_MAGmax = oLordStats.lord1MAGmax;
-thisLord_ACT = oLordStats.lord1ACT;
-thisLord_ACTmax = oLordStats.lord1ACTmax;
+thisLord_ACT = oLordStats.lord1ACT + 30;
+thisLord_ACTmax = oLordStats.lord1ACTmax + 30;
+thisLord_ACTpoints = round((thisLord_ACT)/10);
+if thisLord_ACTpoints < 1 thisLord_ACTpoints = 1;
+thisLord_ACTpointsMAX = round((thisLord_ACT)/10);
+if thisLord_ACTpointsMAX < 1 thisLord_ACTpointsMAX = 1;
 sprite_index = oLordStats.lord1sprite;
 image_xscale /= 5;
 image_yscale /= 5;
-
-thisLord_LIF -= 5;
-

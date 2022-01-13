@@ -4,12 +4,9 @@
 if !global.isLocked
 {
 	image_blend = c_yellow;
-	global.currentSprite = sprite_index;
-	global.currentName = thisLord_name;
-	global.currentHealthMAX = thisLord_LIFmax;
-	global.currentHealth = thisLord_LIF;
-	global.currentATK = thisLord_ATK;
-	global.currentDEF = thisLord_DEF;
-	global.currentMAG = thisLord_MAG;
-	global.currentACT = thisLord_ACT;
+}
+
+if !instance_exists(oGUI_LordStatsOverlay1)
+{
+	instance_create_layer(mouse_x,mouse_y,"Instances",oGUI_LordStatsOverlay1);
 }
