@@ -5,3 +5,4 @@ image_alpha = 0;
 revealed = false;
 stepped = false;
 empty = true;
+filled = false;
