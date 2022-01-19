@@ -25,13 +25,13 @@
     [ ] - Middle
     [ ] - Dark
 
-[ ] MAIN = Purple
-    [ ] - Light
-    [ ] - Middle
-    [ ] - Dark
+[X] MAIN = Purple
+    [X] - Light #8F00FF
+    [X] - Middle #381E4C
+    [X] - Dark #241433
 
 [ ] SELECTION = Yellow
-    [ ] - regular
+    [ ] - regular #FFFF00 [YELLOW]
 
 [ ] BRONZE
     [ ] Light
