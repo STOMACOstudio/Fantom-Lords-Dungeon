@@ -1,4 +1,4 @@
-# COLOR PALETTE
+### COLOR PALETTE
 
 [ ] LIF = Red
     [ ] - Light
@@ -30,8 +30,8 @@
     [X] - Middle #381E4C
     [X] - Dark #241433
 
-[ ] SELECTION = Yellow
-    [ ] - regular #FFFF00 [YELLOW]
+[X] SELECTION = Yellow
+    [X] - regular #FFFF00 [YELLOW]
 
 [ ] BRONZE
     [ ] Light
@@ -49,7 +49,7 @@
     [ ] Dark #daa520 [GOLDENROD]
 
 [ ] SKULL
-    [ ] Light #e3dac9 [BONE]
+    [X] Light #e3dac9 [BONE]
     [ ] Middle
     [ ] Dark
 
