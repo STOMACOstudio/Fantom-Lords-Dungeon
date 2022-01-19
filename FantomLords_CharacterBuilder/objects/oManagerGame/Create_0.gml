@@ -22,4 +22,15 @@ global.dmgLORD = 0;
 global.dmgENEMY = 0;
 global.scoreAdd = 0;
 
+global.LIFgems = 0;
+global.ATKgems = 0;
+global.DEFgems = 0;
+global.MAGgems = 0;
+global.ACTgems = 0;
+global.RNBgems = 0;
+global.BRONZEkey = 0;
+global.SILVERkey = 0;
+global.GOLDkey = 0;
+global.SKULLkey = 0;
+
 score = 0;

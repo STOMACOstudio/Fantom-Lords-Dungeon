@@ -1,0 +1,91 @@
+# COLOR PALETTE
+
+[ ] LIF = Red
+    [ ] - Light
+    [ ] - Middle
+    [X] - Dark #880808 [BLOOD]
+
+[ ] ATK = Grey
+    [ ] - Light
+    [ ] - Middle
+    [ ] - Dark
+
+[ ] DEF = Green
+    [ ] - Light
+    [ ] - Middle
+    [ ] - Dark
+
+[ ] MAG = Blue
+    [ ] - Light
+    [ ] - Middle
+    [ ] - Dark
+
+[ ] ACT = Orange
+    [ ] - Light
+    [ ] - Middle
+    [ ] - Dark
+
+[ ] MAIN = Purple
+    [ ] - Light
+    [ ] - Middle
+    [ ] - Dark
+
+[ ] SELECTION = Yellow
+    [ ] - regular
+
+[ ] BRONZE
+    [ ] Light
+    [X] Middle #cd7f32 [BRONZE]
+    [ ] Dark
+
+[ ] SILVER
+    [ ] Light
+    [X] Middle #E6E8FA [SILVER]
+    [ ] Dark
+
+[ ] GOLD
+    [ ] Light
+    [X] Middle #cda434 [GOLD]
+    [ ] Dark #daa520 [GOLDENROD]
+
+[ ] SKULL
+    [ ] Light #e3dac9 [BONE]
+    [ ] Middle
+    [ ] Dark
+
+### ICONS
+
+[ ] STATS ICONS 64x64 full
+    [ ] - LIFE
+    [ ] - ATTACK
+    [ ] - DEFENSE
+    [ ] - MAGIC
+    [ ] - ACTION
+
+[X] KEYS 16 no background
+    [X] - Bronze Key
+    [X] - Silver Key
+    [X] - Gold Key
+    [X] - Skull Key
+
+[ ] COLLECTIBLES ??x?? no background
+    [ ] - Potion 64x64
+    [ ] - Money 64x64
+    [ ] - LIFE Gem 16x16
+    [ ] - ATTACK Gem 16x16
+    [ ] - DEFENSE Gem 16x16
+    [ ] - MAGIC Gem 16x16
+    [ ] - ACTION Gem 16x16
+    [ ] - RAINBOW Gem 16x16
+
+[ ] OTHERS 64x64 no background
+    [ ] - Trap
+    [ ] - Door Wood
+    [ ] - Door Bronze
+    [ ] - Door Silver
+    [ ] - Door Gold
+    [ ] - Door Skull
+    [ ] - Treasure Chest Wood
+    [ ] - Treasure Chest Bronze
+    [ ] - Treasure Chest Silver
+    [ ] - Treasure Chest Gold
