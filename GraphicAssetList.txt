@@ -33,6 +33,11 @@
 [X] SELECTION = Yellow
     [X] - regular #FFFF00 [YELLOW]
 
+[ ] WOOD
+    [ ] Light
+    [ ] Middle
+    [ ] Dark
+
 [ ] BRONZE
     [ ] Light
     [X] Middle #cd7f32 [BRONZE]
@@ -51,7 +56,7 @@
 [ ] SKULL
     [X] Light #e3dac9 [BONE]
     [ ] Middle
-    [ ] Dark
+    [X] Dark
 
 ### ICONS
 
