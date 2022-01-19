@@ -1,0 +1,72 @@
+# STATS COLOR
+
+[ ] LIF = Red
+    [ ] - Light
+    [ ] - Middle
+    [X] - Dark #880808 [BLOOD]
+
+[ ] ATK = Grey
+    [ ] - Light
+    [ ] - Middle
+    [ ] - Dark
+
+[ ] DEF = Green
+    [ ] - Light
+    [ ] - Middle
+    [ ] - Dark
+
+[ ] MAG = Blue
+    [ ] - Light
+    [ ] - Middle
+    [ ] - Dark
+
+[ ] ACT = Orange
+    [ ] - Light
+    [ ] - Middle
+    [ ] - Dark
+
+MAIN = Purple
+OTHER = Yellow
+
+### ICONS 64x64
+
+[ ] STATS
+    [ ] - LIFE
+    [ ] - ATTACK
+    [ ] - DEFENSE
+    [ ] - MAGIC
+    [ ] - ACTION
+    [ ] - RAINBOW
+
+[ ] KEYS
+    [ ] - Bronze Key
+    [ ] - Silver Key
+    [ ] - Gold Key
+    [ ] - Skull Key
+
+[ ] COLLECTIBLES
+    [ ] - Potion Small
+    [ ] - Potion Medium
+    [ ] - Potion Large
+    [ ] - Money Small
+    [ ] - Money Medium
+    [ ] - Money Large
+    [ ] - LIFE Gem
+    [ ] - ATTACK Gem
+    [ ] - DEFENSE Gem
+    [ ] - MAGIC Gem
+    [ ] - ACTION Gem
+    [ ] - RAINBOW Gem
+
+[ ] OTHERS
+    [ ] - Trap
+    [ ] - Door Wood
+    [ ] - Door Bronze
+    [ ] - Door Silver
+    [ ] - Door Gold
+    [ ] - Door Skull
+    [ ] - Treasure Chest Wood
+    [ ] - Treasure Chest Bronze
+    [ ] - Treasure Chest Silver
+    [ ] - Treasure Chest Gold
+
