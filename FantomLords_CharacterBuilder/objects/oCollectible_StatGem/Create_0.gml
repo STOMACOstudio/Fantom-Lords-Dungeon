@@ -9,5 +9,6 @@
 5 = RAINBOW*/
 
 gemChoice = irandom_range(0,5);
+//gemChoice = 4;
 
 image_index = gemChoice;
