@@ -4,7 +4,7 @@
 #region check map tile
 
 var instTopLeft;
-instTopLeft = collision_point(x-32,y-32,oMap_blocktile,false,true)
+instTopLeft = collision_point(x-32,y-32,oMap_0parent,false,true)
 if instTopLeft != noone
 {
 	if !instTopLeft.revealed
@@ -15,7 +15,7 @@ if instTopLeft != noone
 }
 
 var instTop;
-instTop = collision_point(x+32,y-32,oMap_blocktile,false,true)
+instTop = collision_point(x+32,y-32,oMap_0parent,false,true)
 if instTop != noone
 {
 	if !instTop.revealed
@@ -26,7 +26,7 @@ if instTop != noone
 }
 
 var instTopRight;
-instTopRight = collision_point(x+96,y-32,oMap_blocktile,false,true)
+instTopRight = collision_point(x+96,y-32,oMap_0parent,false,true)
 if instTopRight != noone
 {
 	if !instTopRight.revealed
@@ -37,7 +37,7 @@ if instTopRight != noone
 }
 
 var instRight;
-instRight = collision_point(x+96,y+32,oMap_blocktile,false,true)
+instRight = collision_point(x+96,y+32,oMap_0parent,false,true)
 if instRight != noone
 {
 	if !instRight.revealed
@@ -48,7 +48,7 @@ if instRight != noone
 }
 
 var instDownRight;
-instDownRight = collision_point(x+96,y+96,oMap_blocktile,false,true)
+instDownRight = collision_point(x+96,y+96,oMap_0parent,false,true)
 if instDownRight != noone
 {
 	if !instDownRight.revealed
@@ -59,7 +59,7 @@ if instDownRight != noone
 }
 
 var instDown;
-instDown = collision_point(x+32,y+96,oMap_blocktile,false,true)
+instDown = collision_point(x+32,y+96,oMap_0parent,false,true)
 if instDown != noone
 {
 	if !instDown.revealed
@@ -70,7 +70,7 @@ if instDown != noone
 }
 
 var instDownLeft;
-instDownLeft = collision_point(x-32,y+96,oMap_blocktile,false,true)
+instDownLeft = collision_point(x-32,y+96,oMap_0parent,false,true)
 if instDownLeft != noone
 {
 	if !instDownLeft.revealed
@@ -81,7 +81,7 @@ if instDownLeft != noone
 }
 
 var instLeft;
-instLeft = collision_point(x-32,y+32,oMap_blocktile,false,true)
+instLeft = collision_point(x-32,y+32,oMap_0parent,false,true)
 if instLeft != noone
 {
 	if !instLeft.revealed
