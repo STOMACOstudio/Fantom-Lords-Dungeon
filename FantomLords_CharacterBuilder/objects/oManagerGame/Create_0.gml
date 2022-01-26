@@ -32,5 +32,6 @@ global.BRONZEkey = 0;
 global.SILVERkey = 0;
 global.GOLDkey = 0;
 global.SKULLkey = 0;
+global.potionLIF = 0;
 
 score = 0;
