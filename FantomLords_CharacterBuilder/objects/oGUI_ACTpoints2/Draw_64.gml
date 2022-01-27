@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if oLordStats.lord2active
+if instance_exists(oLord2) && oLordStats.lord2active
 {
 	if oLord2.thisLord_ACTpointsMAX >= 1 && oLord2.thisLord_ACTpoints >= 1 draw_sprite(sGUI_ACTpoints,0,x,y);
 	else if oLord2.thisLord_ACTpointsMAX >= 1 && oLord2.thisLord_ACTpoints < 1 draw_sprite(sGUI_ACTpoints,1,x,y);

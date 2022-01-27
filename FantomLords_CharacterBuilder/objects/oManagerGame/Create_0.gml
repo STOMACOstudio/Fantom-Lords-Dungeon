@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if oLordStats.lord1active && !instance_exists(oLord1) instance_create_layer(450,192,"Instances",oLord1);
+if oLordStats.lord2active && !instance_exists(oLord2) instance_create_layer(514,192,"Instances",oLord2);
+if oLordStats.lord3active && !instance_exists(oLord3) instance_create_layer(450,256,"Instances",oLord3);
+if oLordStats.lord4active && !instance_exists(oLord4) instance_create_layer(514,256,"Instances",oLord4);
+
 global.isLocked = false;
 
 global.tileRate = 64;

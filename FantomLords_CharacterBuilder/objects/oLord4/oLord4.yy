@@ -6,7 +6,7 @@
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": {
     "name": "oLord0Parent",
     "path": "objects/oLord0Parent/oLord0Parent.yy",
