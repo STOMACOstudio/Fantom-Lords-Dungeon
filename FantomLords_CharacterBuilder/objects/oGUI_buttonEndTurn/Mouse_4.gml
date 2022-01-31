@@ -3,7 +3,7 @@
 
 if global.ACTpointsTOT = 0
 {
-	oLord1.thisLord_ACTpoints = oLord1.thisLord_ACTpointsMAX;
+	if instance_exists(oLord1) oLord1.thisLord_ACTpoints = oLord1.thisLord_ACTpointsMAX;
 	if instance_exists(oLord2) oLord2.thisLord_ACTpoints = oLord2.thisLord_ACTpointsMAX;
 	if instance_exists(oLord3) oLord3.thisLord_ACTpoints = oLord3.thisLord_ACTpointsMAX;
 	if instance_exists(oLord4) oLord4.thisLord_ACTpoints = oLord4.thisLord_ACTpointsMAX;

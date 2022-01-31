@@ -236,3 +236,15 @@ if keyboard_check_pressed(vk_numpad4) && thisLocked
 	}
 }
 #endregion
+
+if thisLord_LIF <= 0
+{
+	instance_create_layer(oGUI_LordFrame3.x,oGUI_LordFrame3.y,"bG",oGUI_deathLord);
+	instance_destroy(oGUI_ACTpoints3);
+	instance_destroy(oGUI_LordFrame3);
+	instance_destroy(oGUI_lordHealthFront3);
+	instance_destroy(oGUI_lordHealthPrint3);
+	oLordStats.lord3active = false;
+	global.isLocked = false;
+	instance_destroy();
+}

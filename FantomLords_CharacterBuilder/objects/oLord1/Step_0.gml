@@ -237,3 +237,14 @@ if keyboard_check_pressed(vk_numpad4) && thisLocked
 }
 #endregion
 
+if thisLord_LIF <= 0
+{
+	instance_create_layer(oGUI_LordFrame1.x,oGUI_LordFrame1.y,"bG",oGUI_deathLord);
+	instance_destroy(oGUI_ACTpoints1);
+	instance_destroy(oGUI_LordFrame1);
+	instance_destroy(oGUI_lordHealthFront1);
+	instance_destroy(oGUI_lordHealthPrint1);
+	oLordStats.lord1active = false;
+	global.isLocked = false;
+	instance_destroy();
+}
