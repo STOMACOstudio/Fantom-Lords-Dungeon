@@ -1,5 +1,6 @@
+TODO
+
 [ ] - Condition: to complete every room, you must fullfill one simple condition (no condition, find a key to open door, kill all enemies, explore all the room);
-[X] - First Game Over;
 [ ] - Enemies actions;
 [ ] - Use of skills;
 [ ] - Lord level counter;
@@ -7,5 +8,10 @@
 [ ] - Boss and boss room;
 [ ] - Type of room (background);
 [ ] - Highscore save;
-[ ] - Door fix: all Lords must reach the door to change room;
 [ ] - Reset action points on new room;
+[ ] - Door fix: when Lords are in "waiting" state objects can't be used on them;
+
+DONE
+
+[X] - First Game Over;
+[X] - Door fix: all Lords must reach the door to change room;
