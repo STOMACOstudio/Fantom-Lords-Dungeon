@@ -10,6 +10,11 @@ TODO
 [ ] - Highscore save;
 [ ] - Reset action points on new room;
 [ ] - Door fix: when Lords are in "waiting" state objects can't be used on them;
+[ ] - Item fix: can't use item when in "dead" or "waiting" status;
+[ ] - Randomize attack damage;
+[ ] - d20 damage;
+[ ] - damage position randomizer;
+
 
 DONE
 
