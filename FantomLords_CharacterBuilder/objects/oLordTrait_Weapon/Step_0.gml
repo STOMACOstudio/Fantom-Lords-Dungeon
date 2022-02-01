@@ -97,7 +97,7 @@ else if global.weapon = 9 //Longsword
 	global.modDEFweapon = LongSwDEFmod;
 	global.modMAGweapon = LongSwMAGmod;
 	global.modACTweapon = LongSwACTmod;
-	global.weaponSkill = "Shield Bash";
+	global.weaponSkill = "Protect";
 }
 else if global.weapon = 10 //Moonlight
 {

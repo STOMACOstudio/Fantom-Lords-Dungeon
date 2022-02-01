@@ -74,6 +74,7 @@ else if global.classArmor = 6 //bard
 	global.modDEFarmor = BardDEFmod;
 	global.modMAGarmor = BardMAGmod;
 	global.modACTarmor = BardACTmod;
+	global.classArmorSkill = "Song";
 }
 else if global.classArmor = 7 //paladin
 {
