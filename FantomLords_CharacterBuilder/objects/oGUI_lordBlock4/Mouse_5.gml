@@ -20,5 +20,8 @@ if !empty
 	oLordStats.lord4MAGmax = 0;
 	oLordStats.lord4ACT = 0;
 	oLordStats.lord4ACTmax = 0;
+	oLordStats.lord4typeAttack = "none";
+	oLordStats.lord4skillClassArmor = 0;
+	oLordStats.lord4skillWeapon = 0;
 	empty = true;
 }

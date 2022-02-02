@@ -36,6 +36,9 @@ if empty
 	oLordStats.lord1MAGmax = global.MAG;
 	oLordStats.lord1ACT = global.ACT;
 	oLordStats.lord1ACTmax = global.ACT;
+	oLordStats.lord1typeAttack = global.weaponAttack;
+	oLordStats.lord1skillClassArmor = global.classArmor;
+	oLordStats.lord1skillWeapon = global.weapon;
 	
 	empty = false;
 }

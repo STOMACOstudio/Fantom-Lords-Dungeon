@@ -26,6 +26,7 @@ global.currentSelectedMAGmax = 0;
 global.dmgLORD = 0;
 global.dmgENEMY = 0;
 global.scoreAdd = 0;
+global.printSkill = "none";
 
 global.LIFgems = 0;
 global.ATKgems = 0;

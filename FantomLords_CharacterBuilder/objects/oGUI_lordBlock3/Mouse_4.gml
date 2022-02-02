@@ -36,6 +36,9 @@ if empty && !oGUI_lordBlock1.empty && !oGUI_lordBlock2.empty
 	oLordStats.lord3MAGmax = global.MAG;
 	oLordStats.lord3ACT = global.ACT;
 	oLordStats.lord3ACTmax = global.ACT;
+	oLordStats.lord3typeAttack = global.weaponAttack;
+	oLordStats.lord3skillClassArmor = global.classArmor;
+	oLordStats.lord3skillWeapon = global.weapon;
 	
 	empty = false;
 }

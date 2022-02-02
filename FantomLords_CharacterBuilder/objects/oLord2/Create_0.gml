@@ -19,6 +19,9 @@ if oLordStats.lord2active
 	if thisLord_ACTpoints < 1 thisLord_ACTpoints = 1;
 	thisLord_ACTpointsMAX = round((thisLord_ACT)/10);
 	if thisLord_ACTpointsMAX < 1 thisLord_ACTpointsMAX = 1;
+	thisLord_typeAttack = oLordStats.lord2typeAttack;
+	thisLord_skillClassArmor = oLordStats.lord2skillClassArmor;
+	thisLord_skillWeapon = oLordStats.lord2skillWeapon;
 	sprite_index = oLordStats.lord2sprite;
 	image_xscale /= 5;
 	image_yscale /= 5;

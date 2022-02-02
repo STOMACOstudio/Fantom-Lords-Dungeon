@@ -20,5 +20,8 @@ if !empty && oGUI_lordBlock3.empty && oGUI_lordBlock4.empty
 	oLordStats.lord2MAGmax = 0;
 	oLordStats.lord2ACT = 0;
 	oLordStats.lord2ACTmax = 0;
+	oLordStats.lord2typeAttack = "none";
+	oLordStats.lord2skillClassArmor = 0;
+	oLordStats.lord2skillWeapon = 0;
 	empty = true;
 }

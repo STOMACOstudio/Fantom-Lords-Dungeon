@@ -2,7 +2,8 @@ TODO
 
 [ ] - Condition: to complete every room, you must fullfill one simple condition (no condition, find a key to open door, kill all enemies, explore all the room);
 [ ] - Enemies actions;
-[ ] - Use of skills;
+[ ] - Use of skills
+    [X] - Icons placeholder + overlay skill name;
 [ ] - Lord level counter;
 [ ] - Room counter;
 [ ] - Boss and boss room;
@@ -14,6 +15,8 @@ TODO
 [ ] - Randomize attack damage;
 [ ] - d20 damage;
 [ ] - damage position randomizer;
+[ ] - Game Over fix;
+[ ] - Select GUI to select Lord;
 
 
 DONE
