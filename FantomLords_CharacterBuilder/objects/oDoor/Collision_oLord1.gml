@@ -4,7 +4,7 @@
 audio_play_sound(snDoor,0,false);
 
 if oLordStats.lord1active
-{
+{	
 	oLordStats.lord1LIF = oLord1.thisLord_LIF;
 	oLordStats.lord1LIFmax = oLord1.thisLord_LIFmax;
 	oLordStats.lord1ATK = oLord1.thisLord_ATK;

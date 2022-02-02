@@ -7,6 +7,7 @@ if oLordStats.lord3active && !instance_exists(oLord3) instance_create_layer(450,
 if oLordStats.lord4active && !instance_exists(oLord4) instance_create_layer(514,256,"Instances",oLord4);
 
 global.isLocked = false;
+global.isLockedSkill = false;
 
 global.tileRate = 64;
 
