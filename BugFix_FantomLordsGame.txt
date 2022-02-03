@@ -7,6 +7,9 @@ TODO
     [X] - Yellow overlay;
     [ ] - Drag and Drop attack;
     [ ] - Spell Attack;
+	[ ] - Lord can't move while casting;
+	[X] - Consume Action Point;
+	[ ] - Lord can cast only if selected;
 [ ] - Lord level counter;
 [ ] - Room counter;
 [ ] - Boss and boss room;
@@ -20,53 +23,11 @@ TODO
 [ ] - damage position randomizer;
 [ ] - Game Over fix;
 [ ] - Select GUI to select Lord;
+[X] - Lord move WASD;
 
 
 DONE
 
 [X] - First Game Over;
 [X] - Door fix: all Lords must reach the door to change room;
-
-if enemyTop != noone && thisLord_ACTpoints > 0
-{
-	var dmgLORD = enemyTop.thisATK - thisLord_DEF;
-	if dmgLORD < 0 dmgLORD = 0;
-	var dmgENEMY = thisLord_ATK - enemyTop.thisDEF;
-	if dmgENEMY < 0 dmgENEMY = 0;
-	global.dmgLORD = string(dmgLORD);
-	global.dmgENEMY = string(dmgENEMY);
-	
-	audio_play_sound(snAttack,0,false);
-	instance_create_layer(enemyTop.x+32,enemyTop.y+32,"Instances",oGUI_printDMGenemy);
-	instance_create_layer(x+32,y+32,"Instances",oGUI_printDMGlord);
-	if dmgLORD > 0 instance_create_layer(x+32,y+32,"VFX",oVFX_attack);
-	if dmgENEMY > 0 instance_create_layer(enemyTop.x+32,enemyTop.y+32,"VFX",oVFX_attack);
-	
-	thisLord_LIF -= dmgLORD;
-	enemyTop.thisLIF -= dmgENEMY;
-	
-	thisLord_ACTpoints --;
-}
-
-enemyTopLeft = collision_point(x-32,y-32,oEnemy0_Father,false,true)
-
-var enemyTop;
-enemyTop = collision_point(x+32,y-32,oEnemy0_Father,false,true)
-
-var enemyTopRight;
-enemyTopRight = collision_point(x+96,y-32,oEnemy0_Father,false,true)
-
-var enemyRight;
-enemyRight = collision_point(x+96,y+32,oEnemy0_Father,false,true)
-
-var enemyDownRight;
-enemyDownRight = collision_point(x+96,y+96,oEnemy0_Father,false,true)
-
-var enemyDown;
-enemyDown = collision_point(x+32,y+96,oEnemy0_Father,false,true)
-
-var enemyDownLeft;
-enemyDownLeft = collision_point(x-32,y+96,oEnemy0_Father,false,true)
-
-var enemyLeft;
-enemyLeft = collision_point(x-32,y+32,oEnemy0_Father,false,true)
+[X] - End Turn SPACE;

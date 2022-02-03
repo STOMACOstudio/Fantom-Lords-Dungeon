@@ -91,7 +91,7 @@ if instLeft != noone
 }
 #endregion
 #region lord move
-if keyboard_check_pressed(vk_numpad8) && thisLocked && thisLord_ACTpoints > 0
+if keyboard_check_pressed(ord("W")) && thisLocked && thisLord_ACTpoints > 0
 {
 	if instTop != noone && instTop.empty
 	{
@@ -100,7 +100,16 @@ if keyboard_check_pressed(vk_numpad8) && thisLocked && thisLord_ACTpoints > 0
 	thisLord_ACTpoints --;
 	}	
 }
-if keyboard_check_pressed(vk_numpad6) && thisLocked
+if keyboard_check_pressed(ord("A")) && thisLocked
+{
+	if  instLeft != noone && instLeft.empty && thisLord_ACTpoints > 0
+	{
+		audio_play_sound(snWalk,0,false);
+		x -= global.tileRate;
+		thisLord_ACTpoints --;
+	}
+}
+if keyboard_check_pressed(ord("D")) && thisLocked
 {
 	if instRight != noone && instRight.empty && thisLord_ACTpoints > 0
 	{
@@ -109,21 +118,12 @@ if keyboard_check_pressed(vk_numpad6) && thisLocked
 		thisLord_ACTpoints --;
 	}
 }
-if keyboard_check_pressed(vk_numpad2) && thisLocked
+if keyboard_check_pressed(ord("S")) && thisLocked
 {
 	if instDown != noone && instDown.empty && thisLord_ACTpoints > 0
 	{
 		audio_play_sound(snWalk,0,false);
 		y += global.tileRate;
-		thisLord_ACTpoints --;
-	}
-}
-if keyboard_check_pressed(vk_numpad4) && thisLocked
-{
-	if  instLeft != noone && instLeft.empty && thisLord_ACTpoints > 0
-	{
-		audio_play_sound(snWalk,0,false);
-		x -= global.tileRate;
 		thisLord_ACTpoints --;
 	}
 }

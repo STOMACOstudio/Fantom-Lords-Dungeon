@@ -1,8 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if !instance_exists(oVFX_spellCast) && instance_exists(oLord1)
+if !instance_exists(oVFX_spellCast0father) && instance_exists(oLord1) && oLord1.thisLord_ACTpoints > 0
 {
-	instance_create_layer(mouse_x,mouse_y,"VFX",oVFX_spellCast);
+	instance_create_layer(mouse_x,mouse_y,"VFX",oVFX_spellCast1);
+	
+	global.dmgLORD = oLord1.thisLord_ATK;	
+	
 	casting = true;
 }
