@@ -7,4 +7,6 @@ if global.isLocked && thisLocked
 	thisLocked = false;
 	image_blend = c_white;
 	audio_play_sound(snRemoveLord,0,false);
+	
+	if instance_exists(oVFX_spellCast0father) instance_destroy(oVFX_spellCast0father);
 }

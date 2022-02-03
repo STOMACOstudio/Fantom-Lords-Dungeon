@@ -91,44 +91,46 @@ if instLeft != noone
 	}
 }
 #endregion
-#region lord move
-if keyboard_check_pressed(ord("W")) && thisLocked && thisLord_ACTpoints > 0
+
+if !instance_exists(oVFX_spellCast0father)
 {
-	if instTop != noone && instTop.empty
+	if keyboard_check_pressed(ord("W")) && thisLocked
 	{
-	audio_play_sound(snWalk,0,false);
-	y -= global.tileRate;
-	thisLord_ACTpoints --;
-	}	
-}
-if keyboard_check_pressed(ord("A")) && thisLocked
-{
-	if  instLeft != noone && instLeft.empty && thisLord_ACTpoints > 0
-	{
+		if instTop != noone && instTop.empty && thisLord_ACTpoints > 0
+		{
 		audio_play_sound(snWalk,0,false);
-		x -= global.tileRate;
+		y -= global.tileRate;
 		thisLord_ACTpoints --;
+		}	
+	}
+	if keyboard_check_pressed(ord("A")) && thisLocked
+	{
+		if  instLeft != noone && instLeft.empty && thisLord_ACTpoints > 0
+		{
+			audio_play_sound(snWalk,0,false);
+			x -= global.tileRate;
+			thisLord_ACTpoints --;
+		}
+	}
+	if keyboard_check_pressed(ord("D")) && thisLocked
+	{
+		if instRight != noone && instRight.empty && thisLord_ACTpoints > 0
+		{
+			audio_play_sound(snWalk,0,false);
+			x += global.tileRate;
+			thisLord_ACTpoints --;
+		}
+	}
+	if keyboard_check_pressed(ord("S")) && thisLocked
+	{
+		if instDown != noone && instDown.empty && thisLord_ACTpoints > 0
+		{
+			audio_play_sound(snWalk,0,false);
+			y += global.tileRate;
+			thisLord_ACTpoints --;
+		}
 	}
 }
-if keyboard_check_pressed(ord("D")) && thisLocked
-{
-	if instRight != noone && instRight.empty && thisLord_ACTpoints > 0
-	{
-		audio_play_sound(snWalk,0,false);
-		x += global.tileRate;
-		thisLord_ACTpoints --;
-	}
-}
-if keyboard_check_pressed(ord("S")) && thisLocked
-{
-	if instDown != noone && instDown.empty && thisLord_ACTpoints > 0
-	{
-		audio_play_sound(snWalk,0,false);
-		y += global.tileRate;
-		thisLord_ACTpoints --;
-	}
-}
-#endregion
 
 if thisLord_LIF <= 0
 {

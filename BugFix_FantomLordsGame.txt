@@ -1,15 +1,8 @@
 TODO
 
+[ ] - Regular attack for spell-based weapons;
 [ ] - Condition: to complete every room, you must fullfill one simple condition (no condition, find a key to open door, kill all enemies, explore all the room);
 [ ] - Enemies actions;
-[ ] - Use of skills
-    [X] - Icons placeholder + overlay skill name;
-    [X] - Yellow overlay;
-    [ ] - Drag and Drop attack;
-    [ ] - Spell Attack;
-	[ ] - Lord can't move while casting;
-	[X] - Consume Action Point;
-	[ ] - Lord can cast only if selected;
 [ ] - Lord level counter;
 [ ] - Room counter;
 [ ] - Boss and boss room;
@@ -20,14 +13,22 @@ TODO
 [ ] - Item fix: can't use item when in "dead" or "waiting" status;
 [ ] - Randomize attack damage;
 [ ] - d20 damage;
-[ ] - damage position randomizer;
 [ ] - Game Over fix;
 [ ] - Select GUI to select Lord;
-[X] - Lord move WASD;
-
+[ ] - Use of skills pt
 
 DONE
 
 [X] - First Game Over;
 [X] - Door fix: all Lords must reach the door to change room;
 [X] - End Turn SPACE;
+[X] - Lord move WASD;
+[X] - Damage position randomizer;
+[X] - Use of skills pt 1
+    [X] - Icons placeholder + overlay skill name;
+    [X] - Yellow overlay;
+    [X] - Drag and Drop attack;
+    [X] - Spell Attack;
+	[X] - Lord can't move while casting;
+	[X] - Consume Action Point;
+	[X] - Lord can cast only if selected;

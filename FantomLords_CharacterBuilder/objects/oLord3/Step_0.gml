@@ -91,7 +91,9 @@ if instLeft != noone
 	}
 }
 #endregion
-#region lord move
+
+if !instance_exists(oVFX_spellCast0father)
+{
 if keyboard_check_pressed(ord("W")) && thisLocked && thisLord_ACTpoints > 0
 {
 	if instTop != noone && instTop.empty
@@ -128,7 +130,7 @@ if keyboard_check_pressed(ord("S")) && thisLocked
 		thisLord_ACTpoints --;
 	}
 }
-#endregion
+}
 
 if thisLord_LIF <= 0
 {
