@@ -1,21 +1,21 @@
 TODO
 
-[ ] - Regular attack for spell-based weapons;
-[ ] - Condition: to complete every room, you must fullfill one simple condition (no condition, find a key to open door, kill all enemies, explore all the room);
-[ ] - Enemies actions;
+[ ] - X Regular attack for spell-based weapons; based on MAG;
+[ ] - X Condition: to complete every room, you must fullfill one simple condition (no condition, find a key to open door, kill all enemies, explore all the room);
+[ ] - X Enemies actions;
 [ ] - Lord level counter;
 [ ] - Room counter;
 [ ] - Boss and boss room;
 [ ] - Type of room (background);
 [ ] - Highscore save;
-[ ] - Reset action points on new room;
-[ ] - Door fix: when Lords are in "waiting" state objects can't be used on them;
-[ ] - Item fix: can't use item when in "dead" or "waiting" status;
-[ ] - Randomize attack damage;
+[ ] - X Randomize attack damage;
 [ ] - d20 damage;
 [ ] - Game Over fix;
-[ ] - Select GUI to select Lord;
-[ ] - Use of skills pt
+[ ] - X Select GUI to select Lord;
+[ ] - Use of skills pt 2;
+[ ] - Procedural room generation pt 1;
+[ ] - Full keyboard control;
+[ ] - End turn fix;
 
 DONE
 
@@ -32,3 +32,5 @@ DONE
 	[X] - Lord can't move while casting;
 	[X] - Consume Action Point;
 	[X] - Lord can cast only if selected;
+[X] - Reset action points on new room;
+[X] - Item fix: can't use item when in "dead" or "waiting" status;

@@ -10,3 +10,4 @@
 		isDoorMade = true;
 	}
 }
+else instance_destroy();

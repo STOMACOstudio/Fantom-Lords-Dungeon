@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if oLordStats.lord1active
+if oLordStats.lord4active
 {
 	if instance_exists(oLord4)
 	{
