@@ -20,8 +20,8 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 		else if oLord3.thisLord_skillWeapon = 12 global.printSkill = "MAGIC MISSILE";
 		else if oLord3.thisLord_skillWeapon = 13 global.printSkill = "DRAIN SLASH";
 		else if oLord3.thisLord_skillWeapon = 14 global.printSkill = "STORM";
-		else if oLord3.thisLord_skillWeapon = 11 global.printSkill = "SCRY";
-		else if oLord3.thisLord_skillWeapon = 11 global.printSkill = "HUNT";
+		else if oLord3.thisLord_skillWeapon = 15 global.printSkill = "SCRY";
+		else if oLord3.thisLord_skillWeapon = 16 global.printSkill = "HUNT";
 	
 		instance_create_layer(mouse_x,mouse_y,"Instances",oGUI_printSkill);
 	}

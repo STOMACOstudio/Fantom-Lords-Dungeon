@@ -29,33 +29,34 @@
     [X] - Light #8F00FF
     [X] - Middle #381E4C
     [X] - Dark #241433
-
 [X] SELECTION = Yellow
     [X] - regular #FFFF00 [YELLOW]
 
 [ ] WOOD
     [ ] Light
-    [ ] Middle
+    [X] Middle
     [ ] Dark
 
-[ ] BRONZE
-    [ ] Light
+[ ] IRON
+    [X] Light #A59C94
+    [X] Middle #66615C
+    [ ] Dark
+
+[X] BRONZE
+    [X] Light #dca570
     [X] Middle #cd7f32 [BRONZE]
-    [ ] Dark
-
-[ ] SILVER
-    [ ] Light
-    [X] Middle #E6E8FA [SILVER]
-    [ ] Dark
-
-[ ] GOLD
-    [ ] Light
-    [X] Middle #cda434 [GOLD]
-    [ ] Dark #daa520 [GOLDENROD]
-
-[ ] SKULL
+    [X] Dark #905923
+[X] SILVER
+    [X] Light #dddddd
+    [X] Middle #c0c0c0c0c0c0  [SILVER]
+    [X] Dark  #858585
+[X] GOLD
+    [X] Light #fafad2 [LIGHT GOLDEN ROD]
+    [X] Middle #ffd700 [GOLD]
+    [X] Dark #daa520 [GOLDENROD]
+[X] SKULL
     [X] Light #e3dac9 [BONE]
-    [ ] Middle
+    [X] Middle #c2ae88
     [X] Dark
 
 ### ICONS
@@ -85,12 +86,15 @@
 
 [ ] OTHERS 64x64 no background
     [ ] - Trap
-    [ ] - Door Wood
-    [ ] - Door Bronze
-    [ ] - Door Silver
-    [ ] - Door Gold
-    [ ] - Door Skull
-    [ ] - Treasure Chest Wood
-    [ ] - Treasure Chest Bronze
-    [ ] - Treasure Chest Silver
-    [ ] - Treasure Chest Gold
+    [ ] - Doors
+        [ ] - Door Wood
+        [ ] - Door Bronze
+        [ ] - Door Silver
+        [ ] - Door Gold
+        [ ] - Door Skull
+    
+    [X] - Treasure Chest
+        [X] - Bronze
+        [X] - Silver
+        [X] - Gold
+        [X] - Bone
