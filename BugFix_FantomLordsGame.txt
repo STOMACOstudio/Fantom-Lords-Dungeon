@@ -1,21 +1,24 @@
 TODO
 
-[ ] - X Regular attack for spell-based weapons; based on MAG;
-[ ] - X Condition: to complete every room, you must fullfill one simple condition (no condition, find a key to open door, kill all enemies, explore all the room);
+[ ] - X Condition to complete every room
+    [X] - No condition;
+    [ ] - Find the key;
+    [ ] - Kill all enemies;
+    [ ] - Exploration;
 [ ] - X Enemies actions;
 [ ] - Lord level counter;
 [ ] - Room counter;
 [ ] - Boss and boss room;
 [ ] - Type of room (background);
 [ ] - Highscore save;
-[ ] - X Randomize attack damage;
 [ ] - d20 damage;
 [ ] - Game Over fix;
-[ ] - X Select GUI to select Lord;
 [ ] - Use of skills pt 2;
 [ ] - Procedural room generation pt 1;
 [ ] - Full keyboard control;
 [ ] - End turn fix;
+[ ] - Treasure chest;
+[ ] - Regular magic attack damage LordMAG - EnemyMAG;
 
 DONE
 
@@ -34,3 +37,6 @@ DONE
 	[X] - Lord can cast only if selected;
 [X] - Reset action points on new room;
 [X] - Item fix: can't use item when in "dead" or "waiting" status;
+[X] - Randomize attack damage;
+[X] - Select GUI to select Lord;
+[X] - Regular attack for spell-based weapons, based on MAG;

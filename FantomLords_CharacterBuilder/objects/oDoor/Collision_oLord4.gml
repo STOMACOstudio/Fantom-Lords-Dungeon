@@ -17,6 +17,7 @@ if oLordStats.lord4active
 	oLordStats.lord4ACTmax = oLord4.thisLord_ACTmax;
 	
 	oLord4.thisLocked = false;
+	oGUI_LordFrame4.thisLocked = false;
 	oLord4.x = oLord4.xstart;
 	oLord4.y = oLord4.ystart;
 	oLord4.image_blend = c_white;

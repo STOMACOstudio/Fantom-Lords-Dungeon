@@ -17,6 +17,7 @@ if oLordStats.lord3active
 	oLordStats.lord3ACTmax = oLord3.thisLord_ACTmax;
 	
 	oLord3.thisLocked = false;
+	oGUI_LordFrame3.thisLocked = false;
 	oLord3.x = oLord3.xstart;
 	oLord3.y = oLord3.ystart;
 	oLord3.image_blend = c_white;

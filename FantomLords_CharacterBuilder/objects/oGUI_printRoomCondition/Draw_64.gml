@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-thisLord_LIF = 0;
+draw_text(x,y,global.roomCondition);

@@ -9,7 +9,7 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 
 if casting
 {
-	if oLord3.thisLord_typeAttack == "MELEE"
+	if oLord3.thisLord_typeAttack == "MELEE" || oLord3.thisLord_typeAttack == "MAGIC"
 	{
 	var _list = ds_list_create();
 	var _num = collision_rectangle_list(oLord3.x-32,oLord3.y-32,oLord3.x+96,oLord3.y+96,oEnemy0_Father,false,true,_list,true);

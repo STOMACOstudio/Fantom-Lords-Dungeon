@@ -4,7 +4,7 @@
 var enemy = collision_point(x,y,oEnemy0_Father,false,false)
 if enemy != noone && enemy.target = true
 {
-	var dmgLORD = global.dmgLORD - enemy.thisDEF;
+	var dmgLORD = (global.dmgLORD + irandom_range(-3,3)) - enemy.thisDEF;
 	if dmgLORD < 0 dmgLORD = 0;
 	global.dmgLORD = string(dmgLORD);
 	

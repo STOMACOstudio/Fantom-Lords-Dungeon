@@ -10,4 +10,8 @@
 		isDoorMade = true;
 	}
 }
-else instance_destroy();
+else
+{
+	global.roomCondition = choose( "NO CONDITION" , "FIND THE KEY" , "KILL ALL ENEMIES" , "EXPLORATION" );
+	instance_destroy();
+}
