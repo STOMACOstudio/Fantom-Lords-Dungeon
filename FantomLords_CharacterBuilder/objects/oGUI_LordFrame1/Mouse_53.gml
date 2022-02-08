@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if mouse_x > x && mouse_x < x+128 && mouse_y > y && mouse_y < y+128
+if mouse_x > x && mouse_x < x+128 && mouse_y > y && mouse_y < y+128 && instance_exists(oLord1)
 {
 	if !global.isLocked && !thisLocked
 	{

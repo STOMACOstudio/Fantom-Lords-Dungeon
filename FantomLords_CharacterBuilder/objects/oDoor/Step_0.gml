@@ -11,3 +11,20 @@ if instance_exists(oLord4) lord4 = 1;
 else lord4 = 0;
 
 nextRoom = lord1 + lord2 + lord3 + lord4;
+
+if global.roomCondition = "NO CONDITION" && open != true open = true;
+else if global.roomCondition = "KILL ALL ENEMIES"
+{
+	var enemies = instance_number(oEnemy_Goblin);
+	if enemies = 0 open = true;
+}
+else if global.roomCondition = "REMOVE GARBAGE"
+{
+	var garbage = instance_number(oEnemy_Barrell);
+	if garbage = 0 open = true;
+	else open = false;
+}
+else if global.roomCondition = "EXPLORATION"
+{
+	return;
+}

@@ -17,3 +17,6 @@ if nextRoom <= 0
 	
 	room_restart();
 }
+
+if open image_index = 1;
+else image_index = 0;

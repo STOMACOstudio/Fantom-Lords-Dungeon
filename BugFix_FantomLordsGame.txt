@@ -1,10 +1,12 @@
 TODO
 
 [ ] - X Condition to complete every room
-    [ ] - No condition;
+    [x] - No condition;
     [ ] - Find the key;
-    [ ] - Kill all enemies;
+    [X] - Kill all enemies;
     [ ] - Exploration;
+    [X] - Remove Garbage;
+    [ ] - Sacrifice;
 [ ] - X Enemies actions;
 [ ] - Lord level counter;
 [ ] - Room counter;
@@ -22,6 +24,7 @@ TODO
     [ ] - Gold;
     [ ] - Skull;
 [ ] - Regular magic attack damage LordMAG - EnemyMAG;
+[ ] - Achievement gamification;
 
 DONE
 

@@ -10,3 +10,5 @@ lord2 = 0;
 lord3 = 0;
 lord4 = 0;
 nextRoom = 1;
+
+open = false;
