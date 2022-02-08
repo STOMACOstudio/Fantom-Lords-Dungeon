@@ -4,22 +4,18 @@
     [ ] - Light
     [ ] - Middle
     [X] - Dark #880808 [BLOOD]
-
 [ ] ATK = Grey
     [ ] - Light
     [ ] - Middle
     [ ] - Dark
-
 [ ] DEF = Green
     [ ] - Light
     [ ] - Middle
     [ ] - Dark
-
 [ ] MAG = Blue
     [ ] - Light
     [ ] - Middle
     [ ] - Dark
-
 [ ] ACT = Orange
     [ ] - Light
     [ ] - Middle
@@ -32,23 +28,21 @@
 [X] SELECTION = Yellow
     [X] - regular #FFFF00 [YELLOW]
 
-[ ] WOOD
-    [ ] Light
-    [X] Middle
-    [ ] Dark
-
-[ ] IRON
-    [X] Light #A59C94
+[X] WOOD
+    [X] Light D6BAA1
+    [X] Middle 8e5b2f
+    [X] Dark 5D4632
+[X] IRON
+    [X] Light #a9a097
     [X] Middle #66615C
-    [ ] Dark
-
+    [X] Dark #423e3b
 [X] BRONZE
     [X] Light #dca570
     [X] Middle #cd7f32 [BRONZE]
     [X] Dark #905923
 [X] SILVER
     [X] Light #dddddd
-    [X] Middle #c0c0c0c0c0c0  [SILVER]
+    [X] Middle #c0c0c0  [SILVER]
     [X] Dark  #858585
 [X] GOLD
     [X] Light #fafad2 [LIGHT GOLDEN ROD]
@@ -84,6 +78,15 @@
     [ ] - ACTION Gem 16x16
     [ ] - RAINBOW Gem 16x16
 
+[ ] ENEMIES BASIC 64x64
+    [ ] - FLAN /MAG color (blue)
+    [ ] - RAT phsycal enemy
+    [ ] - BAT fast and weak enemy
+
+[ ] BOSS BASIC 64x64
+    [ ] - UNDERGROUND SORCERER /MAG color (blue)
+    [ ] - RAT LORD phsycal Boss
+
 [ ] OTHERS 64x64 no background
     [ ] - Trap
     [ ] - Doors
@@ -92,6 +95,7 @@
         [ ] - Door Silver
         [ ] - Door Gold
         [ ] - Door Skull
+    [X] - Barrell
     
     [X] - Treasure Chest
         [X] - Bronze

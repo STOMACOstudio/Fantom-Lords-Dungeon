@@ -15,6 +15,7 @@ global.ACTpointsTOT = 0;
 
 global.currentSelectedName = "none";
 global.currentSelectedSprite = "none";
+global.currentSelectedImageIndex = 0;
 global.currentSelectedLIF = 0;
 global.currentSelectedLIFmax = 0;
 global.currentSelectedATK = 0;
@@ -35,7 +36,7 @@ global.DEFgems = 0;
 global.MAGgems = 0;
 global.ACTgems = 0;
 global.RNBgems = 0;
-global.BRONZEkey = 0;
+global.BRONZEkey = 5;
 global.SILVERkey = 0;
 global.GOLDkey = 0;
 global.SKULLkey = 0;

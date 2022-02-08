@@ -1,7 +1,7 @@
 TODO
 
 [ ] - X Condition to complete every room
-    [X] - No condition;
+    [ ] - No condition;
     [ ] - Find the key;
     [ ] - Kill all enemies;
     [ ] - Exploration;
@@ -11,13 +11,16 @@ TODO
 [ ] - Boss and boss room;
 [ ] - Type of room (background);
 [ ] - Highscore save;
-[ ] - d20 damage;
 [ ] - Game Over fix;
 [ ] - Use of skills pt 2;
 [ ] - Procedural room generation pt 1;
 [ ] - Full keyboard control;
 [ ] - End turn fix;
-[ ] - Treasure chest;
+[ ] - Treasure chest
+    [X] - Bronze;
+    [ ] - Silver;
+    [ ] - Gold;
+    [ ] - Skull;
 [ ] - Regular magic attack damage LordMAG - EnemyMAG;
 
 DONE
