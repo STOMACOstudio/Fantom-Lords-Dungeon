@@ -32,6 +32,10 @@
     [X] Light D6BAA1
     [X] Middle 8e5b2f
     [X] Dark 5D4632
+[X] STONE
+    [X] Light BEBEBE
+    [X] Middle 918E85 [Stone]
+    [X] Dark 494743
 [X] IRON
     [X] Light #a9a097
     [X] Middle #66615C
@@ -83,6 +87,7 @@
     [ ] - RAT phsycal enemy
     [ ] - BAT fast and weak enemy
     [ ] - SKELETON
+    [ ] - MIMIC
 
 [ ] BOSS BASIC 64x64
     [ ] - UNDERGROUND SORCERER /MAG color (blue)
@@ -92,7 +97,7 @@
 [ ] OTHERS 64x64 no background
     [ ] - Trap
     [ ] - Doors
-        [ ] - Door Wood
+        [X] - Door Wood
         [ ] - Door Bronze
         [ ] - Door Silver
         [ ] - Door Gold
