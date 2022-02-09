@@ -12,19 +12,21 @@ else lord4 = 0;
 
 nextRoom = lord1 + lord2 + lord3 + lord4;
 
-if global.roomCondition = "NO CONDITION" && open != true open = true;
-else if global.roomCondition = "KILL ALL ENEMIES"
+if global.roomCondition = "NO CONDITION" && !open open = true;
+else if global.roomCondition = "KILL ALL ENEMIES" && !open
 {
 	var enemies = instance_number(oEnemy_Goblin);
 	if enemies = 0 open = true;
 }
-else if global.roomCondition = "REMOVE GARBAGE"
+else if global.roomCondition = "REMOVE GARBAGE"  && !open
 {
 	var garbage = instance_number(oEnemy_Barrell);
 	if garbage = 0 open = true;
 	else open = false;
 }
-else if global.roomCondition = "EXPLORATION"
+else if global.roomCondition = "EXPLORATION"  && !open
 {
-	return;
+	if global.tileNumber <= 12 open = true;
 }
+else if global.roomCondition = "PAY WITH GOLD" && !open open = true;
+else if global.roomCondition = "FIND THE KEY" && !open open = true;

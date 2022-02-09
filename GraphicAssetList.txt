@@ -82,10 +82,12 @@
     [ ] - FLAN /MAG color (blue)
     [ ] - RAT phsycal enemy
     [ ] - BAT fast and weak enemy
+    [ ] - SKELETON
 
 [ ] BOSS BASIC 64x64
     [ ] - UNDERGROUND SORCERER /MAG color (blue)
     [ ] - RAT LORD phsycal Boss
+    [ ] - VAMPIRE LORD
 
 [ ] OTHERS 64x64 no background
     [ ] - Trap
@@ -95,7 +97,8 @@
         [ ] - Door Silver
         [ ] - Door Gold
         [ ] - Door Skull
-    [X] - Barrell
+    [X] - Barrel
+    [ ] - Stairs
     
     [X] - Treasure Chest
         [X] - Bronze

@@ -1,13 +1,10 @@
 TODO
 
-[ ] - X Condition to complete every room
-    [x] - No condition;
-    [ ] - Find the key;
-    [X] - Kill all enemies;
-    [ ] - Exploration;
-    [X] - Remove Garbage;
-    [ ] - Sacrifice;
 [ ] - X Enemies actions;
+
+[ ] - Condition to complete every room pt 2
+    [ ] - Find the key;
+    [ ] - Pay with Gold;
 [ ] - Lord level counter;
 [ ] - Room counter;
 [ ] - Boss and boss room;
@@ -25,6 +22,11 @@ TODO
     [ ] - Skull;
 [ ] - Regular magic attack damage LordMAG - EnemyMAG;
 [ ] - Achievement gamification;
+[ ] - Cursore Negativo;
+[ ] - Merchant;
+    [ ] - Gold;
+    [ ] - Sacrifice;
+[ ] - Fix exploration condition (instance_number(oMapTile)<=12) find a way to change 12 to 0;
 
 DONE
 
@@ -46,3 +48,8 @@ DONE
 [X] - Randomize attack damage;
 [X] - Select GUI to select Lord;
 [X] - Regular attack for spell-based weapons, based on MAG;
+[X] - Condition to complete every room pt 1
+    [x] - No condition;
+    [X] - Kill all enemies;
+    [X] - Exploration;
+    [X] - Remove Garbage;

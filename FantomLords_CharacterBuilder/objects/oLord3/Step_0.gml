@@ -11,6 +11,7 @@ if instTopLeft != noone
 	{
 		instTopLeft.image_alpha = 0.4;
 		instTopLeft.revealed = true;
+		global.tileNumber --;
 	}
 }
 
@@ -22,6 +23,7 @@ if instTop != noone
 	{
 		instTop.image_alpha = 0.4;
 		instTop.revealed = true;
+		global.tileNumber --;
 	}
 }
 
@@ -33,6 +35,7 @@ if instTopRight != noone
 	{
 		instTopRight.image_alpha = 0.4;
 		instTopRight.revealed = true;
+		global.tileNumber --;
 	}
 }
 
@@ -44,6 +47,7 @@ if instRight != noone
 	{
 		instRight.image_alpha = 0.4;
 		instRight.revealed = true;
+		global.tileNumber --;
 	}
 }
 
@@ -55,6 +59,7 @@ if instDownRight != noone
 	{
 		instDownRight.image_alpha = 0.4;
 		instDownRight.revealed = true;
+		global.tileNumber --;
 	}
 }
 
@@ -66,6 +71,7 @@ if instDown != noone
 	{
 		instDown.image_alpha = 0.4;
 		instDown.revealed = true;
+		global.tileNumber --;
 	}
 }
 
@@ -77,6 +83,7 @@ if instDownLeft != noone
 	{
 		instDownLeft.image_alpha = 0.4;
 		instDownLeft.revealed = true;
+		global.tileNumber --;
 	}
 }
 
@@ -88,6 +95,7 @@ if instLeft != noone
 	{
 		instLeft.image_alpha = 0.4;
 		instLeft.revealed = true;
+		global.tileNumber --;
 	}
 }
 #endregion
