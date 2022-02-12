@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sCollect_GemMAG",
+    "path": "sprites/sCollect_GemMAG/sCollect_GemMAG.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

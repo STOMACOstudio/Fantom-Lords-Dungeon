@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sCollect_GemLIF",
+    "path": "sprites/sCollect_GemLIF/sCollect_GemLIF.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

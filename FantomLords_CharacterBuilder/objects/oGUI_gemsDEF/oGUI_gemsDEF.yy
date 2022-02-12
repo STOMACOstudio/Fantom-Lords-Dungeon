@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sCollect_GemDEF",
+    "path": "sprites/sCollect_GemDEF/sCollect_GemDEF.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

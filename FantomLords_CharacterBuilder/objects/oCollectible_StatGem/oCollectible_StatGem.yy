@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sCollect_Gem",
-    "path": "sprites/sCollect_Gem/sCollect_Gem.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

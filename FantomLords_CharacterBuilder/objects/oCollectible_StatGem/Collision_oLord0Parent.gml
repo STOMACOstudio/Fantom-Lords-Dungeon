@@ -1,12 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if gemChoice = 0 global.LIFgems ++;
-else if gemChoice = 1 global.ATKgems ++;
-else if gemChoice = 2 global.DEFgems ++;
-else if gemChoice = 3 global.MAGgems ++;
-else if gemChoice = 4 global.ACTgems ++;
-else if gemChoice = 5 global.RNBgems ++;
+if gemChoice = sCollect_GemLIF global.LIFgems ++;
+else if gemChoice = sCollect_GemATK global.ATKgems ++;
+else if gemChoice = sCollect_GemDEF global.DEFgems ++;
+else if gemChoice = sCollect_GemMAG global.MAGgems ++;
+else if gemChoice = sCollect_GemACT global.ACTgems ++;
+else if gemChoice = sCollect_GemRNB global.RNBgems ++;
 
 audio_play_sound(snCollectGem,0,false);
 instance_destroy();

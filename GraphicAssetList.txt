@@ -1,33 +1,31 @@
 ### COLOR PALETTE
 
-[ ] LIF = Red
-    [ ] - Light
-    [ ] - Middle
+[X] LIF = Red
+    [X] - Light ##e56873
+    [X] - Middle #e31728
     [X] - Dark #880808 [BLOOD]
-[ ] ATK = Grey
-    [ ] - Light
-    [ ] - Middle
-    [ ] - Dark
-[ ] DEF = Green
-    [ ] - Light
-    [ ] - Middle
-    [ ] - Dark
-[ ] MAG = Blue
-    [ ] - Light
-    [ ] - Middle
-    [ ] - Dark
-[ ] ACT = Orange
-    [ ] - Light
-    [ ] - Middle
-    [ ] - Dark
-
+[X] ATK = Grey
+    [X] - Light #EEEEEE
+    [X] - Middle #bfbfbf
+    [X] - Dark #747474
+[X] DEF = Green
+    [X] - Light ##44c144
+    [X] - Middle #008000 [GREEN]
+    [X] - Dark #004d00
+[X] MAG = Blue
+    [X] - Light #83beff
+    [X] - Middle #0078ff
+    [X] - Dark #0358b8
+[X] ACT = Orange
+    [X] - Light #ffcf78
+    [X] - Middle #ffa500 [ORANGE] 
+    [X] - Dark #9d6600
 [X] MAIN = Purple
     [X] - Light #8F00FF
     [X] - Middle #381E4C
     [X] - Dark #241433
 [X] SELECTION = Yellow
     [X] - regular #FFFF00 [YELLOW]
-
 [X] WOOD
     [X] Light D6BAA1
     [X] Middle 8e5b2f
@@ -49,7 +47,7 @@
     [X] Middle #c0c0c0  [SILVER]
     [X] Dark  #858585
 [X] GOLD
-    [X] Light #fafad2 [LIGHT GOLDEN ROD]
+    [X] Light #fafad2  [LIGHT GOLDEN ROD]
     [X] Middle #ffd700 [GOLD]
     [X] Dark #daa520 [GOLDENROD]
 [X] SKULL
@@ -73,29 +71,27 @@
     [X] - Skull Key
 
 [ ] COLLECTIBLES ??x?? no background
-    [ ] - Potion 64x64
-    [ ] - Money 64x64
-    [ ] - LIFE Gem 16x16
-    [ ] - ATTACK Gem 16x16
-    [ ] - DEFENSE Gem 16x16
-    [ ] - MAGIC Gem 16x16
-    [ ] - ACTION Gem 16x16
-    [ ] - RAINBOW Gem 16x16
+    [X] - Potion 16x16
+    [ ] - Money 32x32
+    [X] - LIFE Gem 16x16
+    [X] - ATTACK Gem 16x16
+    [X] - DEFENSE Gem 16x16
+    [X] - MAGIC Gem 16x16
+    [X] - ACTION Gem 16x16
+    [X] - RAINBOW Gem 16x16
 
 [ ] ENEMIES BASIC 64x64
     [ ] - FLAN /MAG color (blue)
-    [ ] - RAT phsycal enemy
-    [ ] - BAT fast and weak enemy
     [ ] - SKELETON
     [ ] - MIMIC
 
 [ ] BOSS BASIC 64x64
-    [ ] - UNDERGROUND SORCERER /MAG color (blue)
-    [ ] - RAT LORD phsycal Boss
-    [ ] - VAMPIRE LORD
+    [ ] - UNDERGROUND NECROMANCER /MAG color (blue)
+    [ ] - FLAN LORD
 
 [ ] OTHERS 64x64 no background
-    [ ] - Trap
+    [X] - Trap
+        [X] - Spike
     [ ] - Doors
         [X] - Door Wood
         [ ] - Door Bronze
@@ -103,10 +99,9 @@
         [ ] - Door Gold
         [ ] - Door Skull
     [X] - Barrel
-    [ ] - Stairs
-    
-    [X] - Treasure Chest
-        [X] - Bronze
-        [X] - Silver
-        [X] - Gold
-        [X] - Bone
+    [X] - Stairs 
+    [ ] - Treasure Chest
+        [ ] - Bronze
+        [ ] - Silver
+        [ ] - Gold
+        [ ] - Bone

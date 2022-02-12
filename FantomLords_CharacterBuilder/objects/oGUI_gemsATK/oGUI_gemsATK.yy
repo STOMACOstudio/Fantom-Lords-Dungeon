@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sCollect_GemATK",
+    "path": "sprites/sCollect_GemATK/sCollect_GemATK.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

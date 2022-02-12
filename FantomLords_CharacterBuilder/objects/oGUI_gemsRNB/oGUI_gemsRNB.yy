@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sCollect_GemRNB",
+    "path": "sprites/sCollect_GemRNB/sCollect_GemRNB.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

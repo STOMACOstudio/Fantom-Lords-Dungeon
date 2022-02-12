@@ -8,7 +8,6 @@
 4 = ACTIONS
 5 = RAINBOW*/
 
-gemChoice = irandom_range(0,5);
-//gemChoice = 4;
+gemChoice = choose(sCollect_GemACT , sCollect_GemATK , sCollect_GemDEF , sCollect_GemLIF , sCollect_GemMAG , sCollect_GemRNB);
 
-image_index = gemChoice;
+sprite_index = gemChoice;
