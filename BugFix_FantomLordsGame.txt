@@ -1,7 +1,5 @@
 TODO
 
-[ ] - X Enemies actions;
-
 [ ] - Condition to complete every room pt 2
     [ ] - Find the key;
     [ ] - Pay with Gold;
@@ -27,6 +25,8 @@ TODO
     [ ] - Gold;
     [ ] - Sacrifice;
 [ ] - Fix exploration condition (instance_number(oMapTile)<=12) find a way to change 12 to 0;
+[ ] - Dialogue box mock-up;
+[ ] - Dadi;
 
 DONE
 
@@ -53,3 +53,4 @@ DONE
     [X] - Kill all enemies;
     [X] - Exploration;
     [X] - Remove Garbage;
+[X] - Enemies actions;

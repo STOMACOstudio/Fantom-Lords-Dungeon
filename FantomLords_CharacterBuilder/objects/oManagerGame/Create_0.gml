@@ -45,4 +45,6 @@ global.potionLIF = 0;
 global.roomCondition = "none";
 global.tileNumber = 0;
 
+global.waitTimer = 50;
+
 score = 0;

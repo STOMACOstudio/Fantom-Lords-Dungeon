@@ -100,7 +100,7 @@ if instLeft != noone
 }
 #endregion
 
-if !instance_exists(oVFX_spellCast0father)
+if !instance_exists(oVFX_spellCast0father) //move the lord
 {
 	if keyboard_check_pressed(ord("W")) && thisLocked
 	{
