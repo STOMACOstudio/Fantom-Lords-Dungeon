@@ -11,3 +11,10 @@ if isSelected && revealed
 	global.currentSelectedDEF = thisDEF;
 	global.currentSelectedMAG = thisMAG;
 }
+
+if isFighting && !turnComplete
+{
+	oManagerCombat.fightStart ++;
+	alarm[0] = 100;
+	isFighting = false;
+}

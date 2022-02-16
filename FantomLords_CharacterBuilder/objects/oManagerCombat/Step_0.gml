@@ -1,31 +1,41 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//if combat phase = 0 do nothing sta giocando il giocatore umano
-
-//if combat phase = 1
-
-iterare tutti i nemici nella mappa
-e quando ne trova uno in stato revealed e !haCombattuto lo attiva per il combattimento
-combat manager in pausa
-il nemico combatte e haCombattuto quando termina il turno, riattiva il combat manager
-
-if !staCombattendo
+if combatPhase = 1
 {
-	var _list = ds_list_create();
-	var _num = collision_rectangle_list(x,y,x2,y2,oEnemy0_Father,false,false,_list,false);
-	if _num > 0
+	if i >= (instance_number(oEnemy0_Father) - 1)
 	{
-	    for (var i = 0; i < _num; ++i;)
-	    {
-	        //(_list[| i]).image_blend = c_blue;
-			if ((_list[| i]).revealed) && !haCombattuto
-			{
-				(_list[| i]).isCombatActive = true;
-				staCombattendo = true break;
-			}
-
-	    }
+		with (oEnemy0_Father)
+		{
+			turnCompelete = false;
+			isFighting = false;
+		}
+		
+		if instance_exists(oLord1) oLord1.thisLord_ACTpoints = oLord1.thisLord_ACTpointsMAX;
+		if instance_exists(oLord2) oLord2.thisLord_ACTpoints = oLord2.thisLord_ACTpointsMAX;
+		if instance_exists(oLord3) oLord3.thisLord_ACTpoints = oLord3.thisLord_ACTpointsMAX;
+		if instance_exists(oLord4) oLord4.thisLord_ACTpoints = oLord4.thisLord_ACTpointsMAX;
+		
+		fightStart = 0;
+		fightEnd = 0;
+		i  = 0;
+		draw_i = i;
+		combatPhase = 0;
 	}
-	ds_list_destroy(_list);
+	else
+	{
+		enemy[i] = instance_find(oEnemy0_Father,i);
+		whosfighting = string(enemy[i]);
+		draw_i = i;
+		if enemy[i].revealed && !enemy[i].isFighting && !enemy[i].turnComplete
+		{
+			enemy[i].isFighting = true;
+			if i < (instance_number(oEnemy0_Father) - 1) i++;
+			combatPhase = 2;
+		}
+		else
+		{
+			if i < (instance_number(oEnemy0_Father) - 1) i++;
+		}
+	}
 }
