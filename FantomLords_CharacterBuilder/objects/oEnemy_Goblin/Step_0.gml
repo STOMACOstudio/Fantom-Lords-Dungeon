@@ -1,6 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if revealed
+{
+	lordTop = collision_point(x+32,y-32,oLord0Parent,false,true);
+	lordRight = collision_point(x+96,y+32,oLord0Parent,false,true);
+	lordDown = collision_point(x+32,y+96,oLord0Parent,false,true);
+	lordLeft = collision_point(x-32,y+32,oLord0Parent,false,true);
+}
+
 if isSelected && revealed
 {
 	global.currentSelectedName = thisName;
@@ -14,72 +22,130 @@ if isSelected && revealed
 
 if isFighting && !turnComplete
 {
-	oManagerCombat.fightStart ++;
 	
-	var checkTile = irandom_range(0,3);
+	if lordTop != noone
+	{
+		var dmgENEMY = (thisATK + irandom_range(-3,3)) - lordTop.thisLord_DEF;
+		if dmgENEMY < 0 dmgENEMY = 0;
+		global.dmgENEMY = string(dmgENEMY);
 	
-	if checkTile = 0
-	{
-		var tile = collision_point(x+32,y-32,oMap_0parent,false,true);
-		if tile != noone
-		{
-			if tile.empty
-			{
-				audio_play_sound(snWalk,0,false);
-				y -= global.tileRate;
-				if tile.revealed instance_create_layer(x+32,y+32,"VFX",oVFX_arrowUp);
-				alarm[0] = global.waitTimer;
-				isFighting = false;
-			}
-			else checkTile = irandom_range(0,3);
-		}
+		audio_play_sound(snAttack,0,false);
+		if dmgENEMY > 0 instance_create_layer(lordTop.x+32,lordTop.y+32,"VFX",oVFX_attack);
+		instance_create_layer(lordTop.x+irandom_range(8,56),lordTop.y+irandom_range(8,56),"VFX",oGUI_printDMGenemy);
+		alarm[0] = global.waitTimer;
+		isFighting = false;
+	
+		lordTop.thisLord_LIF -= dmgENEMY;
 	}
-	else if checkTile = 1
+	else if lordRight != noone
 	{
-		var tile = collision_point(x+96,y+32,oMap_0parent,false,true);
-		if tile != noone
-		{
-			if tile.empty
-			{
-				audio_play_sound(snWalk,0,false);
-				x += global.tileRate;
-				if tile.revealed instance_create_layer(x+32,y+32,"VFX",oVFX_arrowRight);
-				alarm[0] = global.waitTimer;
-				isFighting = false;
-			}
-			else checkTile = irandom_range(0,3);
-		}
+		var dmgENEMY = (thisATK + irandom_range(-3,3)) - lordRight.thisLord_DEF;
+		if dmgENEMY < 0 dmgENEMY = 0;
+		global.dmgENEMY = string(dmgENEMY);
+
+		audio_play_sound(snAttack,0,false);
+		if dmgENEMY > 0 instance_create_layer(lordRight.x+32,lordRight.y+32,"VFX",oVFX_attack);
+		instance_create_layer(lordRight.x+irandom_range(8,56),lordRight.y+irandom_range(8,56),"VFX",oGUI_printDMGenemy);
+		alarm[0] = global.waitTimer;
+		isFighting = false;
+		
+		lordRight.thisLord_LIF -= dmgENEMY;
 	}
-	else if checkTile = 2
+	else if lordDown != noone
 	{
-		var tile = collision_point(x+32,y+96,oMap_0parent,false,true);
-		if tile != noone
-		{
-			if tile.empty
-			{
-				audio_play_sound(snWalk,0,false);
-				y += global.tileRate;
-				if tile.revealed instance_create_layer(x+32,y+32,"VFX",oVFX_arrowDown);
-				alarm[0] = global.waitTimer;
-				isFighting = false;
-			}
-			else checkTile = irandom_range(0,3);
-		}
+		var dmgENEMY = (thisATK + irandom_range(-3,3)) - lordDown.thisLord_DEF;
+		if dmgENEMY < 0 dmgENEMY = 0;
+		global.dmgENEMY = string(dmgENEMY);
+
+		audio_play_sound(snAttack,0,false);
+		if dmgENEMY > 0 instance_create_layer(lordDown.x+32,lordDown.y+32,"VFX",oVFX_attack);
+		instance_create_layer(lordDown.x+irandom_range(8,56),lordDown.y+irandom_range(8,56),"VFX",oGUI_printDMGenemy);
+		alarm[0] = global.waitTimer;
+		isFighting = false;
+		
+		lordDown.thisLord_LIF -= dmgENEMY;
 	}
-	else if checkTile = 3
+	else if lordLeft != noone
 	{
-		var tile = collision_point(x-32,y+32,oMap_0parent,false,true);
-		if tile != noone
+		var dmgENEMY = (thisATK + irandom_range(-3,3)) - lordLeft.thisLord_DEF;
+		if dmgENEMY < 0 dmgENEMY = 0;
+		global.dmgENEMY = string(dmgENEMY);
+
+		audio_play_sound(snAttack,0,false);
+		if dmgENEMY > 0 instance_create_layer(lordLeft.x+32,lordLeft.y+32,"VFX",oVFX_attack);
+		instance_create_layer(lordLeft.x+irandom_range(8,56),lordLeft.y+irandom_range(8,56),"VFX",oGUI_printDMGenemy);
+		alarm[0] = global.waitTimer;
+		isFighting = false;
+		
+		lordLeft.thisLord_LIF -= dmgENEMY;
+	}
+	else if lordTop = noone && lordRight = noone && lordDown = noone && lordLeft = noone
+	{
+		var checkTile = irandom_range(0,3);
+
+		if checkTile = 0
 		{
-			if tile.empty
+			var tile = collision_point(x+32,y-32,oMap_0parent,false,true);
+			if tile != noone
 			{
-				audio_play_sound(snWalk,0,false);
-				x -= global.tileRate;
-				if tile.revealed instance_create_layer(x+32,y+32,"VFX",oVFX_arrowLeft);
-				alarm[0] = global.waitTimer;
-				isFighting = false;
+				if tile.empty
+				{
+					audio_play_sound(snWalk,0,false);
+					y -= global.tileRate;
+					if tile.revealed instance_create_layer(x+32,y+32,"VFX",oVFX_arrowUp);
+					alarm[0] = global.waitTimer;
+					isFighting = false;
+				}
+				else checkTile = irandom_range(0,3);
 			}
-			else checkTile = irandom_range(0,3);
 		}
+		else if checkTile = 1
+			{
+				var tile = collision_point(x+96,y+32,oMap_0parent,false,true);
+				if tile != noone
+				{
+					if tile.empty
+					{
+						audio_play_sound(snWalk,0,false);
+						x += global.tileRate;
+						if tile.revealed instance_create_layer(x+32,y+32,"VFX",oVFX_arrowRight);
+						alarm[0] = global.waitTimer;
+						isFighting = false;
+					}
+					else checkTile = irandom_range(0,3);
+				}
+			}
+		else if checkTile = 2
+			{
+				var tile = collision_point(x+32,y+96,oMap_0parent,false,true);
+				if tile != noone
+				{
+					if tile.empty
+					{
+						audio_play_sound(snWalk,0,false);
+						y += global.tileRate;
+						if tile.revealed instance_create_layer(x+32,y+32,"VFX",oVFX_arrowDown);
+						alarm[0] = global.waitTimer;
+						isFighting = false;
+					}
+					else checkTile = irandom_range(0,3);
+				}
+			}
+		else if checkTile = 3
+			{
+				var tile = collision_point(x-32,y+32,oMap_0parent,false,true);
+				if tile != noone
+				{
+					if tile.empty
+					{
+						audio_play_sound(snWalk,0,false);
+						x -= global.tileRate;
+						if tile.revealed instance_create_layer(x+32,y+32,"VFX",oVFX_arrowLeft);
+						alarm[0] = global.waitTimer;
+						isFighting = false;
+					}
+					else checkTile = irandom_range(0,3);
+				}
+			}
 	}
 }

@@ -154,6 +154,7 @@
     {"id":{"name":"oLord0SkillParent","path":"objects/oLord0SkillParent/oLord0SkillParent.yy",},"order":5,},
     {"id":{"name":"oGUI_ACTpoints2","path":"objects/oGUI_ACTpoints2/oGUI_ACTpoints2.yy",},"order":8,},
     {"id":{"name":"oGUI_gemsMAG","path":"objects/oGUI_gemsMAG/oGUI_gemsMAG.yy",},"order":47,},
+    {"id":{"name":"oLord0FrameParent","path":"objects/oLord0FrameParent/oLord0FrameParent.yy",},"order":6,},
     {"id":{"name":"sCollect_GemATK","path":"sprites/sCollect_GemATK/sCollect_GemATK.yy",},"order":14,},
     {"id":{"name":"sStatUp_LIF","path":"sprites/sStatUp_LIF/sStatUp_LIF.yy",},"order":5,},
     {"id":{"name":"sBG_home","path":"sprites/sBG_home/sBG_home.yy",},"order":10,},

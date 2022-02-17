@@ -47,16 +47,17 @@ else if global.ACT > 14 && global.ACT < 20 colorACT = colorSup2;
 else if global.ACT > 19 colorACT = colorSup3;
 #endregion
 
+#region draw sheit dawg
 draw_text(x,y-34,"Lord #" + string(global.lordNumber));
-draw_sprite(sGUI_iconStats,0,x-48,y);
-draw_text_color(x,y,   "LIF " + string(global.LIF),	colorLIF,colorLIF,colorLIF,colorLIF,1);
-draw_sprite(sGUI_iconStats,1,x-48,y+32);
-draw_text_color(x,y+34,"ATK " + string(global.ATK), colorATK,colorATK,colorATK,colorATK,1);
-draw_sprite(sGUI_iconStats,2,x-48,y+64);
-draw_text_color(x,y+68,"DEF " + string(global.DEF), colorDEF,colorDEF,colorDEF,colorDEF,1);
-draw_sprite(sGUI_iconStats,3,x-48,y+96);
-draw_text_color(x,y+102,"MAG " + string(global.MAG), colorMAG,colorMAG,colorMAG,colorMAG,1);
-draw_sprite(sGUI_iconStats,4,x-48,y+126);
-draw_text_color(x,y+136,"ACT " + string(global.ACT), colorACT,colorACT,colorACT,colorACT,1);
-
+draw_sprite(sGUI_iconStats,0,x,y);
+draw_text_color(x+34,y, /*"LIF " +*/ string(global.LIF),	colorLIF,colorLIF,colorLIF,colorLIF,1);
+draw_sprite(sGUI_iconStats,1,x,y+34);
+draw_text_color(x+34,y+34, /*"ATK " +*/ string(global.ATK), colorATK,colorATK,colorATK,colorATK,1);
+draw_sprite(sGUI_iconStats,2,x,y+68);
+draw_text_color(x+34,y+68, /*"DEF " +*/ string(global.DEF), colorDEF,colorDEF,colorDEF,colorDEF,1);
+draw_sprite(sGUI_iconStats,3,x,y+102);
+draw_text_color(x+34,y+102, /*"MAG " +*/ string(global.MAG), colorMAG,colorMAG,colorMAG,colorMAG,1);
+draw_sprite(sGUI_iconStats,4,x,y+136);
+draw_text_color(x+34,y+136, /*"ACT "*/ + string(global.ACT), colorACT,colorACT,colorACT,colorACT,1);
 draw_text(x,y+172,"TOT " + string(global.TOT));
+#endregion

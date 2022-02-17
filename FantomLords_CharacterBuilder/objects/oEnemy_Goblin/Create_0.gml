@@ -23,3 +23,8 @@ thisMAGmax = thisMAG;
 scoreAdd = 5;
 isFighting = false;
 turnComplete = false;
+
+lordTop = "none";
+lordRight = "none";
+lordDown = "none";
+lordLeft = "none";
