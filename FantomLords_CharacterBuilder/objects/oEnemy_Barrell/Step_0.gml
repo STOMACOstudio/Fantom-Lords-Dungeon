@@ -16,6 +16,8 @@ if isSelected && revealed
 if isFighting && !turnComplete
 {
 	oManagerCombat.fightStart ++;
-	alarm[0] = 1;
+	oManagerCombat.fightEnd ++;
+	turnCompelete = true;
 	isFighting = false;
+	oManagerCombat.combatPhase = 1;
 }

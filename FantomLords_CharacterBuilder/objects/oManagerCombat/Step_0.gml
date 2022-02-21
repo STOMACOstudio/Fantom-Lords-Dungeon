@@ -6,7 +6,7 @@
 
 if combatPhase = 1
 {
-	if i >= (instance_number(oEnemy0_Father) - 1) //se tutti i nemici sono stati iterati
+	if i >= instance_number(oEnemy0_Father) //se tutti i nemici sono stati iterati
 	{
 		with (oEnemy0_Father) //resetta le variabili di tutti i nemici
 		{
@@ -34,12 +34,12 @@ if combatPhase = 1
 		if enemy[i].revealed && !enemy[i].isFighting && !enemy[i].turnComplete //check se il nemico è rivelatot sula mappa, non sta né combattendo né ha combattuto
 		{
 			enemy[i].isFighting = true; //inizializza le azioni del nemico scelto
-			if i < (instance_number(oEnemy0_Father) - 1) i++; //aggiorna la i
+			if i < instance_number(oEnemy0_Father) i++; //aggiorna la i
 			combatPhase = 2; //break del ciclo (vedi in cima combatPhase = 1)
 		}
 		else //se il nemico non è rivelato o ha già attaccato...
 		{
-			if i < (instance_number(oEnemy0_Father) - 1) i++; //...check il nemico successivo
+			if i < instance_number(oEnemy0_Father) i++; //...check il nemico successivo
 		}
 	}
 }

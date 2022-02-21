@@ -32,7 +32,9 @@ if isFighting && !turnComplete
 		audio_play_sound(snAttack,0,false);
 		if dmgENEMY > 0 instance_create_layer(lordTop.x+32,lordTop.y+32,"VFX",oVFX_attack);
 		instance_create_layer(lordTop.x+irandom_range(8,56),lordTop.y+irandom_range(8,56),"VFX",oGUI_printDMGenemy);
-		alarm[0] = global.waitTimer;
+		oManagerCombat.fightEnd ++;
+		turnCompelete = true;
+		oManagerCombat.combatPhase = 1;
 		isFighting = false;
 	
 		lordTop.thisLord_LIF -= dmgENEMY;
@@ -46,7 +48,9 @@ if isFighting && !turnComplete
 		audio_play_sound(snAttack,0,false);
 		if dmgENEMY > 0 instance_create_layer(lordRight.x+32,lordRight.y+32,"VFX",oVFX_attack);
 		instance_create_layer(lordRight.x+irandom_range(8,56),lordRight.y+irandom_range(8,56),"VFX",oGUI_printDMGenemy);
-		alarm[0] = global.waitTimer;
+		oManagerCombat.fightEnd ++;
+		turnCompelete = true;
+		oManagerCombat.combatPhase = 1;
 		isFighting = false;
 		
 		lordRight.thisLord_LIF -= dmgENEMY;
@@ -60,7 +64,9 @@ if isFighting && !turnComplete
 		audio_play_sound(snAttack,0,false);
 		if dmgENEMY > 0 instance_create_layer(lordDown.x+32,lordDown.y+32,"VFX",oVFX_attack);
 		instance_create_layer(lordDown.x+irandom_range(8,56),lordDown.y+irandom_range(8,56),"VFX",oGUI_printDMGenemy);
-		alarm[0] = global.waitTimer;
+		oManagerCombat.fightEnd ++;
+		turnCompelete = true;
+		oManagerCombat.combatPhase = 1;
 		isFighting = false;
 		
 		lordDown.thisLord_LIF -= dmgENEMY;
@@ -74,7 +80,9 @@ if isFighting && !turnComplete
 		audio_play_sound(snAttack,0,false);
 		if dmgENEMY > 0 instance_create_layer(lordLeft.x+32,lordLeft.y+32,"VFX",oVFX_attack);
 		instance_create_layer(lordLeft.x+irandom_range(8,56),lordLeft.y+irandom_range(8,56),"VFX",oGUI_printDMGenemy);
-		alarm[0] = global.waitTimer;
+		oManagerCombat.fightEnd ++;
+		turnCompelete = true;
+		oManagerCombat.combatPhase = 1;
 		isFighting = false;
 		
 		lordLeft.thisLord_LIF -= dmgENEMY;
@@ -93,7 +101,9 @@ if isFighting && !turnComplete
 					audio_play_sound(snWalk,0,false);
 					y -= global.tileRate;
 					if tile.revealed instance_create_layer(x+32,y+32,"VFX",oVFX_arrowUp);
-					alarm[0] = global.waitTimer;
+					oManagerCombat.fightEnd ++;
+					turnCompelete = true;
+					oManagerCombat.combatPhase = 1;
 					isFighting = false;
 				}
 				else checkTile = irandom_range(0,3);
@@ -109,7 +119,9 @@ if isFighting && !turnComplete
 						audio_play_sound(snWalk,0,false);
 						x += global.tileRate;
 						if tile.revealed instance_create_layer(x+32,y+32,"VFX",oVFX_arrowRight);
-						alarm[0] = global.waitTimer;
+						oManagerCombat.fightEnd ++;
+						turnCompelete = true;
+						oManagerCombat.combatPhase = 1;
 						isFighting = false;
 					}
 					else checkTile = irandom_range(0,3);
@@ -125,7 +137,9 @@ if isFighting && !turnComplete
 						audio_play_sound(snWalk,0,false);
 						y += global.tileRate;
 						if tile.revealed instance_create_layer(x+32,y+32,"VFX",oVFX_arrowDown);
-						alarm[0] = global.waitTimer;
+						oManagerCombat.fightEnd ++;
+						turnCompelete = true;
+						oManagerCombat.combatPhase = 1;
 						isFighting = false;
 					}
 					else checkTile = irandom_range(0,3);
@@ -141,7 +155,9 @@ if isFighting && !turnComplete
 						audio_play_sound(snWalk,0,false);
 						x -= global.tileRate;
 						if tile.revealed instance_create_layer(x+32,y+32,"VFX",oVFX_arrowLeft);
-						alarm[0] = global.waitTimer;
+						oManagerCombat.fightEnd ++;
+						turnCompelete = true;
+						oManagerCombat.combatPhase = 1;
 						isFighting = false;
 					}
 					else checkTile = irandom_range(0,3);
