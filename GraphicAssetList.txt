@@ -57,19 +57,17 @@
 
 ### ICONS
 
-[ ] STATS ICONS 64x64 full
+[ ] STATS ICONS 32x32 full
     [ ] - LIFE
     [ ] - ATTACK
     [ ] - DEFENSE
     [ ] - MAGIC
     [ ] - ACTION
-
 [X] KEYS 16 no background
     [X] - Bronze Key
     [X] - Silver Key
     [X] - Gold Key
     [X] - Skull Key
-
 [ ] COLLECTIBLES ??x?? no background
     [X] - Potion 16x16
     [ ] - Money 32x32
@@ -79,16 +77,13 @@
     [X] - MAGIC Gem 16x16
     [X] - ACTION Gem 16x16
     [X] - RAINBOW Gem 16x16
-
 [ ] ENEMIES BASIC 64x64
     [ ] - FLAN /MAG color (blue)
     [ ] - SKELETON
     [ ] - MIMIC
-
 [ ] BOSS BASIC 64x64
     [ ] - UNDERGROUND NECROMANCER /MAG color (blue)
     [ ] - FLAN LORD
-
 [ ] OTHERS 64x64 no background
     [X] - Trap
         [X] - Spike

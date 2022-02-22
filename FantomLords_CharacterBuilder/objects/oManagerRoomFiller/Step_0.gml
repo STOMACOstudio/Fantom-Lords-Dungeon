@@ -12,7 +12,7 @@ if !isDoorMade
 }
 else
 {
-	global.roomCondition = choose( "NO CONDITION" , "FIND THE KEY" , "KILL ALL ENEMIES" , "EXPLORATION" , "REMOVE GARBAGE" , "PAY WITH GOLD" );
-
+	//global.roomCondition = choose( "NO CONDITION" , "FIND THE KEY" , "KILL ALL ENEMIES" , "EXPLORATION" , "REMOVE GARBAGE" , "PAY WITH GOLD" );
+	global.roomCondition = "PAY WITH GOLD";
 	instance_destroy();
 }

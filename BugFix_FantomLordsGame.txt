@@ -1,8 +1,6 @@
 TODO
 
-[ ] - Condition to complete every room pt 2
-    [ ] - Find the key;
-    [ ] - Pay with Gold;
+[ ] - Condition to complete room before boss room;
 [ ] - Lord level counter;
 [ ] - Room counter;
 [ ] - Boss and boss room;
@@ -12,13 +10,11 @@ TODO
 [ ] - Use of skills pt 2;
 [ ] - Procedural room generation pt 1;
 [ ] - Full keyboard control;
-[ ] - End turn fix;
 [ ] - Treasure chest
     [X] - Bronze;
     [ ] - Silver;
     [ ] - Gold;
     [ ] - Skull;
-[ ] - Regular magic attack damage LordMAG - EnemyMAG;
 [ ] - Achievement gamification;
 [ ] - Cursore Negativo;
 [ ] - Merchant;
@@ -48,9 +44,12 @@ DONE
 [X] - Randomize attack damage;
 [X] - Select GUI to select Lord;
 [X] - Regular attack for spell-based weapons, based on MAG;
-[X] - Condition to complete every room pt 1
+[X] - Condition to complete every room
     [x] - No condition;
     [X] - Kill all enemies;
     [X] - Exploration;
     [X] - Remove Garbage;
+    [X] - Pay with Gold;
 [X] - Enemies actions;
+[X] - Regular magic attack damage LordMAG - EnemyMAG;
+[X] - End turn fix;

@@ -26,6 +26,7 @@
     {"id":{"name":"oVFX_SpellCastSparkle","path":"objects/oVFX_SpellCastSparkle/oVFX_SpellCastSparkle.yy",},"order":81,},
     {"id":{"name":"sGUI_GemCollector","path":"sprites/sGUI_GemCollector/sGUI_GemCollector.yy",},"order":46,},
     {"id":{"name":"oBuilderPlayerSkill","path":"objects/oBuilderPlayerSkill/oBuilderPlayerSkill.yy",},"order":19,},
+    {"id":{"name":"oGUI_printScoreSubtract","path":"objects/oGUI_printScoreSubtract/oGUI_printScoreSubtract.yy",},"order":96,},
     {"id":{"name":"sGUI_deathLord","path":"sprites/sGUI_deathLord/sGUI_deathLord.yy",},"order":35,},
     {"id":{"name":"oBuilderClassArmor_ArrowUp","path":"objects/oBuilderClassArmor_ArrowUp/oBuilderClassArmor_ArrowUp.yy",},"order":3,},
     {"id":{"name":"oGUI_lordBlock4","path":"objects/oGUI_lordBlock4/oGUI_lordBlock4.yy",},"order":26,},

@@ -12,3 +12,5 @@ lord4 = 0;
 nextRoom = 1;
 
 open = false;
+
+printScore = 0;
