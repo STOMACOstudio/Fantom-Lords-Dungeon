@@ -1,28 +1,62 @@
 TODO
 
-[ ] - Condition to complete room before boss room;
-[ ] - Lord level counter;
-[ ] - Room counter;
-[ ] - Boss and boss room;
-[ ] - Type of room (background);
-[ ] - Highscore save;
-[ ] - Game Over fix;
-[ ] - Use of skills pt 2;
-[ ] - Procedural room generation pt 1;
-[ ] - Full keyboard control;
-[ ] - Treasure chest
-    [X] - Bronze;
-    [ ] - Silver;
-    [ ] - Gold;
-    [ ] - Skull;
-[ ] - Achievement gamification;
-[ ] - Cursore Negativo;
-[ ] - Merchant;
-    [ ] - Gold;
-    [ ] - Sacrifice;
-[ ] - Fix exploration condition (instance_number(oMapTile)<=12) find a way to change 12 to 0;
-[ ] - Dialogue box mock-up;
-[ ] - Dadi;
+    CLOSED ALPHA
+    [ ] [3] - Movimento infinito quando non si è in combattimento;
+    [ ] [3] - Nemici che inseguono con raggio;
+    [ ] [3] - Riduzione dello spawn dei forzieri;
+    [ ] [3] - Room counter;
+    [ ] [3] - Boss and boss room;
+    [ ] [3] - Vita approssimata;
+        [ ] - Lord togliere numero;
+        [ ] - Lord togliere barra e insanguinare sprite;
+        [ ] - Nemici insanguinare sprite e togliere barra in UI;
+    [ ] [3] - Treasure chest
+        [X] - 0 Bronze;
+        [ ] - 0 Silver;
+        [ ] - 0 Gold;
+        [ ] - 3 Skull;
+    [ ] [3] - Fix exploration condition (instance_number(oMapTile)<=12) find a way to change 12 to 0;
+    [ ] [3] - Condition to complete every room
+        [x] - No condition;
+        [X] - Kill all enemies;
+        [X] - Exploration;
+        [X] - Remove Garbage;
+        [X] - Pay with Gold;
+        [ ] - 3 Key;
+    [ ] [3] - Game Over fix;
+    [ ] [3] - Transizioni e delay;
+    [ ] [3] - Door "PAY" bugfix;
+
+    AFTER ALPHA
+    [ ] [2] - Next room fix;
+        [ ] - Lords tutti vicini;
+        [ ] - Pop-up "vuoi passare alla stanza successiva?";
+        [ ] - Basta un solo lord per cambiare stanza;
+        [ ] || Puoi tirare fuori i Lord;
+    [ ] [2] - Type of room;
+        [ ] - Background;
+        [ ] - Spawn rate;
+    [ ] [2] - UI Lords layer priority;
+    [ ] [2] - Dialogue box mock-up;
+    [ ] [2] - Procedural room generation pt 1;
+
+    BETA
+    [ ] [1] - Nemico che si gira;
+    [ ] [1] - Stealth attack (attacco alle spalle);
+    [ ] [1] - Lord level/power counter;
+    [ ] [1] - Highscore save;
+    [ ] [1] - Use of skills pt 2;
+    [ ] [1] - Full keyboard control;
+    [ ] [1] - Cursore Guantlet dinamico;
+    [ ] [1] - Sistema dialogo/storytelling/interazione;
+        [ ] - Mercante;
+        [ ] - Nemici;
+        [ ] - Lord;
+    [ ] [1] - Dadi;
+
+    [ ] [0] - Flanking per Lords e Nemici;
+    [ ] [0] - Full mouse contro;
+    [ ] [0] - Achievement gamification;
 
 DONE
 
@@ -44,12 +78,6 @@ DONE
 [X] - Randomize attack damage;
 [X] - Select GUI to select Lord;
 [X] - Regular attack for spell-based weapons, based on MAG;
-[X] - Condition to complete every room
-    [x] - No condition;
-    [X] - Kill all enemies;
-    [X] - Exploration;
-    [X] - Remove Garbage;
-    [X] - Pay with Gold;
 [X] - Enemies actions;
 [X] - Regular magic attack damage LordMAG - EnemyMAG;
 [X] - End turn fix;
