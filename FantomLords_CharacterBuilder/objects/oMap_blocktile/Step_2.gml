@@ -6,7 +6,9 @@ if !filled && empty
 	var filling = irandom_range(0,10);
 	if filling >= 8
 	{
-		instance_create_layer(x,y,"Instances",choose(oEnemy_Goblin,oEnemy_Barrell,oTreasureChest_Bronze,oTrapSpike));
+		var chest = irandom_range(0,9);
+		if chest = 9 instance_create_layer(x,y,"Instances",oTreasureChest_Bronze);
+		else instance_create_layer(x,y,"Instances",choose(oEnemy_Goblin,oEnemy_Eye,oEnemy_Barrell,oTrapSpike));
 	}
 	filled = true;
 }

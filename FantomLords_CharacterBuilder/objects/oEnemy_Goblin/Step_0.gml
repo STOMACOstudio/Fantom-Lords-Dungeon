@@ -1,6 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+#region bloodshed
+var currentLIF = 0;
+
+if thisLIF = thisLIFmax currentLIF = 0;
+else if thisLIF >= thisLIFmax/2 && thisLIF < thisLIFmax currentLIF = 1;
+else if thisLIF > thisLIFmax/4 && thisLIF < thisLIFmax/2 currentLIF = 2;
+else if thisLIF > thisLIFmax/6 && thisLIF < thisLIFmax/4 currentLIF = 3;
+else if thisLIF > thisLIFmax/8 && thisLIF < thisLIFmax/6 currentLIF = 4;
+else if thisLIF <= thisLIFmax/8 currentLIF = 5;
+
+image_index = currentLIF;
+#endregion
+
 if revealed
 {
 	lordTop = collision_point(x+32,y-32,oLord0Parent,false,true);

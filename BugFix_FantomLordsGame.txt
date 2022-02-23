@@ -1,62 +1,71 @@
 TODO
 
-    CLOSED ALPHA
-    [ ] [3] - Movimento infinito quando non si è in combattimento;
-    [ ] [3] - Nemici che inseguono con raggio;
-    [ ] [3] - Riduzione dello spawn dei forzieri;
-    [ ] [3] - Room counter;
-    [ ] [3] - Boss and boss room;
-    [ ] [3] - Vita approssimata;
-        [ ] - Lord togliere numero;
-        [ ] - Lord togliere barra e insanguinare sprite;
-        [ ] - Nemici insanguinare sprite e togliere barra in UI;
-    [ ] [3] - Treasure chest
-        [X] - 0 Bronze;
-        [ ] - 0 Silver;
-        [ ] - 0 Gold;
-        [ ] - 3 Skull;
-    [ ] [3] - Fix exploration condition (instance_number(oMapTile)<=12) find a way to change 12 to 0;
-    [ ] [3] - Condition to complete every room
-        [x] - No condition;
-        [X] - Kill all enemies;
-        [X] - Exploration;
-        [X] - Remove Garbage;
-        [X] - Pay with Gold;
-        [ ] - 3 Key;
-    [ ] [3] - Game Over fix;
-    [ ] [3] - Transizioni e delay;
-    [ ] [3] - Door "PAY" bugfix;
+    [ ] CLOSED ALPHA
+        [ ] [3] - Movimento infinito quando non si è in combattimento;
+        [ ] [3] - Nemici che inseguono con raggio;
+        [ ] [3] - Room counter;
+        [ ] [3] - Boss and boss room;
+            [ ] - Boss pre-room;
+            [ ] - Boss room;
+            [ ] - Physical Boss;
+            [ ] - Magical Boss;
+        [ ] [3] - Vita approssimata;
+            [X] - Lord togliere numero;
+            [ ] - Insanguinare sprite;
+            [X] - Nemici insanguinare sprite;
+        [ ] [3] - Treasure chest
+            [X] - 0 Bronze;
+            [ ] - 0 Silver;
+            [ ] - 0 Gold;
+            [ ] - 3 Skull;
+            [ ] - 3 Spawn more items;
+        [ ] [3] - Fix exploration condition (instance_number(oMapTile)<=12) find a way to change 12 to 0;
+        [ ] [3] - Condition to complete every room
+            [X] - 0 No condition;
+            [X] - 0 Kill all enemies;
+            [X] - 0 Exploration;
+            [X] - 0 Remove Garbage;
+            [X] - 0 Pay with Gold;
+            [ ] - 3 Key;
+        [ ] [3] - Game Over fix;
+        [ ] [3] - Transizioni e delay;
+        [X] [3] - Enemies:
+            [X] - Physical;
+            [X] - Magical;
+        [X] [3] - Riduzione dello spawn dei forzieri;
+        [X] [3] - Door "PAY" bugfix;
 
-    AFTER ALPHA
-    [ ] [2] - Next room fix;
-        [ ] - Lords tutti vicini;
-        [ ] - Pop-up "vuoi passare alla stanza successiva?";
-        [ ] - Basta un solo lord per cambiare stanza;
-        [ ] || Puoi tirare fuori i Lord;
-    [ ] [2] - Type of room;
-        [ ] - Background;
-        [ ] - Spawn rate;
-    [ ] [2] - UI Lords layer priority;
-    [ ] [2] - Dialogue box mock-up;
-    [ ] [2] - Procedural room generation pt 1;
+    [ ] ALPHA
+        [ ] [2] - Next room fix;
+            [ ] - Lords tutti vicini;
+            [ ] - Pop-up "vuoi passare alla stanza successiva?";
+            [ ] - Basta un solo lord per cambiare stanza;
+            [ ] || Puoi tirare fuori i Lord;
+        [ ] [2] - Type of room;
+            [ ] - Background;
+            [ ] - Spawn rate;
+        [ ] [2] - UI Lords layer priority;
+        [ ] [2] - Dialogue box mock-up;
+        [ ] [2] - Procedural room generation pt 1;
 
-    BETA
-    [ ] [1] - Nemico che si gira;
-    [ ] [1] - Stealth attack (attacco alle spalle);
-    [ ] [1] - Lord level/power counter;
-    [ ] [1] - Highscore save;
-    [ ] [1] - Use of skills pt 2;
-    [ ] [1] - Full keyboard control;
-    [ ] [1] - Cursore Guantlet dinamico;
-    [ ] [1] - Sistema dialogo/storytelling/interazione;
-        [ ] - Mercante;
-        [ ] - Nemici;
-        [ ] - Lord;
-    [ ] [1] - Dadi;
+    [ ] BETA
+        [ ] [1] - Integrazione blockchain;
+        [ ] [1] - Nemico che si gira;
+        [ ] [1] - Stealth attack (attacco alle spalle);
+        [ ] [1] - Lord level/power counter;
+        [ ] [1] - Highscore save;
+        [ ] [1] - Use of skills pt 2;
+        [ ] [1] - Full keyboard control;
+        [ ] [1] - Cursore Guantlet dinamico;
+        [ ] [1] - Sistema dialogo/storytelling/interazione;
+            [ ] - Mercante;
+            [ ] - Nemici;
+            [ ] - Lord;
+        [ ] [1] - Dadi;
 
-    [ ] [0] - Flanking per Lords e Nemici;
-    [ ] [0] - Full mouse contro;
-    [ ] [0] - Achievement gamification;
+        [ ] [0] - Flanking per Lords e Nemici;
+        [ ] [0] - Full mouse contro;
+        [ ] [0] - Achievement gamification;
 
 DONE
 
