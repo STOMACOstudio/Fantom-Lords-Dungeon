@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTreasureChestBronze",
-    "path": "sprites/sTreasureChestBronze/sTreasureChestBronze.yy",
+    "name": "sTreasureChestBone",
+    "path": "sprites/sTreasureChestBone/sTreasureChestBone.yy",
   },
   "solid": false,
   "visible": true,
@@ -35,7 +35,7 @@
     "path": "folders/Objects/Collectibles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTreasureChest_Bronze",
+  "name": "oTreasureChest_Skull",
   "tags": [],
   "resourceType": "GMObject",
 }

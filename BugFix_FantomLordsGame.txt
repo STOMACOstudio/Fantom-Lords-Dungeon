@@ -8,12 +8,14 @@ TODO
             [ ] - Boss room;
             [ ] - Physical Boss;
             [ ] - Magical Boss;
+        [ ] [3] - Remove printed LIF for enemies;
         [ ] [3] - Fix exploration condition (instance_number(oMapTile)<=12) find a way to change 12 to 0;
         [ ] [3] - Game Over fix;
         [ ] [3] - Transizioni e delay;
             [ ] - Combat delay;
             [ ] - Next room delay;
             [ ] - Game Over Delay;
+        [ ] [3] - Small position randomizer for dropped items;
         [X] [3] - Enemies:
             [X] - Physical;
             [X] - Magical;

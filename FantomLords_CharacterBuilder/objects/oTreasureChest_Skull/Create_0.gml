@@ -8,4 +8,4 @@ target = false;
 
 isSelected = false;
 
-thisName = "Bronze Chest";
+thisName = "Bone Chest";
