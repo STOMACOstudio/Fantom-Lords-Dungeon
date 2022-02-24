@@ -48,3 +48,5 @@ global.tileNumber = 0;
 global.waitTimer = 50;
 
 score = 0;
+
+global.roomCounter = 1;

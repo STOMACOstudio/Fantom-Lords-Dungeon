@@ -13,4 +13,4 @@ nextRoom = 1;
 
 open = false;
 
-printScore = 0;
+global.tileNumber = instance_number(oMap_blocktile);

@@ -15,7 +15,7 @@ if nextRoom <= 0
 	if instance_exists(oLord3) oLord3.thisLord_ACTpoints = oLord3.thisLord_ACTpointsMAX;
 	if instance_exists(oLord4) oLord4.thisLord_ACTpoints = oLord4.thisLord_ACTpointsMAX;
 	
-	global.tileNumber = instance_number(oMap_blocktile);
+	global.roomCounter ++;
 	
 	room_restart();
 }

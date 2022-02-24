@@ -28,4 +28,4 @@ else if global.roomCondition = "EXPLORATION"  && !open
 {
 	if global.tileNumber <= 12 open = true;
 }
-else if global.roomCondition = "FIND THE KEY" && !open open = true;
+//else if global.roomCondition = "FIND THE KEY" && !open open = true;

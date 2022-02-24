@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if oManagerCombat.combatPhase = 0
-{
+/*if oManagerCombat.combatPhase = 0
+{*/
 	with (oLord0Parent) thisLocked = false;
 	with (oLord0Parent) image_blend = c_white;
 	with (oLord0FrameParent) thisLocked = false;
@@ -20,4 +20,4 @@ if oManagerCombat.combatPhase = 0
 	oManagerCombat.combatPhase = 1;
 	
 	audio_play_sound(snRandomize,0,false);
-}
+//}

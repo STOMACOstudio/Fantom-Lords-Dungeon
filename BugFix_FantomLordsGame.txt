@@ -3,37 +3,40 @@ TODO
     [ ] CLOSED ALPHA
         [ ] [3] - Movimento infinito quando non si è in combattimento;
         [ ] [3] - Nemici che inseguono con raggio;
-        [ ] [3] - Room counter;
         [ ] [3] - Boss and boss room;
             [ ] - Boss pre-room;
             [ ] - Boss room;
             [ ] - Physical Boss;
             [ ] - Magical Boss;
-        [ ] [3] - Vita approssimata;
-            [X] - Lord togliere numero;
-            [ ] - Insanguinare sprite;
-            [X] - Nemici insanguinare sprite;
-        [ ] [3] - Treasure chest
-            [X] - 0 Bronze;
-            [ ] - 0 Silver;
-            [ ] - 0 Gold;
-            [ ] - 3 Skull;
-            [ ] - 3 Spawn more items;
         [ ] [3] - Fix exploration condition (instance_number(oMapTile)<=12) find a way to change 12 to 0;
-        [ ] [3] - Condition to complete every room
-            [X] - 0 No condition;
-            [X] - 0 Kill all enemies;
-            [X] - 0 Exploration;
-            [X] - 0 Remove Garbage;
-            [X] - 0 Pay with Gold;
-            [ ] - 3 Key;
         [ ] [3] - Game Over fix;
         [ ] [3] - Transizioni e delay;
+            [ ] - Combat delay;
+            [ ] - Next room delay;
+            [ ] - Game Over Delay;
         [X] [3] - Enemies:
             [X] - Physical;
             [X] - Magical;
         [X] [3] - Riduzione dello spawn dei forzieri;
         [X] [3] - Door "PAY" bugfix;
+        [X] [3] - Room counter;
+        [X] [3] - Vita approssimata;
+            [X] - Lord togliere numero;
+            [X] - Insanguinare sprite;
+            [X] - Nemici insanguinare sprite;
+        [X] [3] - Condition to complete every room
+            [X] - 0 No condition;
+            [X] - 0 Kill all enemies;
+            [X] - 0 Exploration;
+            [X] - 0 Remove Garbage;
+            [X] - 0 Pay with Gold;
+            [X] - 3 Key;
+        [ ] [3] - Treasure chest
+            [X] - 0 Bronze;
+            [ ] - 0 Silver;
+            [ ] - 0 Gold;
+            [X] - 3 Skull;
+            [X] - 3 Spawn more items;
 
     [ ] ALPHA
         [ ] [2] - Next room fix;

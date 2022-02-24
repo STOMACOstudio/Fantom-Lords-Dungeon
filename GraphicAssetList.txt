@@ -53,7 +53,7 @@
 [X] SKULL
     [X] Light #e3dac9 [BONE]
     [X] Middle #c2ae88
-    [X] Dark
+    [X] Dark #928366
 
 ### ICONS
 
