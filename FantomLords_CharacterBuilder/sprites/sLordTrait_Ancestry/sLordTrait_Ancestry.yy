@@ -115,7 +115,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sLordTrait_Ancestry",
     "tags": [],
     "resourceType": "GMSequence",

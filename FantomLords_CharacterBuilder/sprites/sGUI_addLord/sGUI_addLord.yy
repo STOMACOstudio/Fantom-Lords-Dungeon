@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUI_addLord","path":"sprites/sGUI_addLord/sGUI_addLord.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUI_addLord",
     "tags": [],
     "resourceType": "GMSequence",

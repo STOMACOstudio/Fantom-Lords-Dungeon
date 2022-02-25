@@ -50,3 +50,6 @@ global.waitTimer = 50;
 score = 0;
 
 global.roomCounter = 1;
+
+global.gameOver = false;
+//global.nextRoom = false;

@@ -123,7 +123,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sLordTrait_Headgear","path":"sprites/sLordTrait_Headgear/sLordTrait_Headgear.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sLordTrait_Headgear",
     "tags": [],
     "resourceType": "GMSequence",

@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sTreasureChestBone","path":"sprites/sTreasureChestBone/sTreasureChestBone.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sTreasureChestBone",
     "tags": [],
     "resourceType": "GMSequence",

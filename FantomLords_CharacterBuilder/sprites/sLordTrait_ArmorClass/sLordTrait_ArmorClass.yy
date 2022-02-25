@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sLordTrait_ArmorClass","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sLordTrait_ArmorClass",
     "tags": [],
     "resourceType": "GMSequence",

@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sEnemy_Barrell","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sEnemy_Barrell",
     "tags": [],
     "resourceType": "GMSequence",

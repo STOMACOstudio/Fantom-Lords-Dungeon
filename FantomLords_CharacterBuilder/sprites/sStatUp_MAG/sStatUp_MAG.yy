@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sStatUp_MAG","path":"sprites/sStatUp_MAG/sStatUp_MAG.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sStatUp_MAG",
     "tags": [],
     "resourceType": "GMSequence",

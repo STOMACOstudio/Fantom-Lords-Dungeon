@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUI_BloodShed","path":"sprites/sGUI_BloodShed/sGUI_BloodShed.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUI_BloodShed",
     "tags": [],
     "resourceType": "GMSequence",

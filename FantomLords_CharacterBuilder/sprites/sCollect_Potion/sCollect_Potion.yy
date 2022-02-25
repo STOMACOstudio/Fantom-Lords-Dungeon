@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCollect_Potion","path":"sprites/sCollect_Potion/sCollect_Potion.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sCollect_Potion",
     "tags": [],
     "resourceType": "GMSequence",

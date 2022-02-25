@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"7d44114a-998b-46d5-a57c-d43b36c933a1","path":"sprites/sVFX_PowerUpLIF/sVFX_PowerUpLIF.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7d44114a-998b-46d5-a57c-d43b36c933a1","path":"sprites/sVFX_PowerUpLIF/sVFX_PowerUpLIF.yy",},"LayerId":{"name":"4417ad64-fa87-4b28-b324-d857adf83825","path":"sprites/sVFX_PowerUpLIF/sVFX_PowerUpLIF.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"7d44114a-998b-46d5-a57c-d43b36c933a1","path":"sprites/sVFX_PowerUpLIF/sVFX_PowerUpLIF.yy",},"LayerId":{"name":"2df28f34-cdd6-4cd5-84a9-fbe76ed688d2","path":"sprites/sVFX_PowerUpLIF/sVFX_PowerUpLIF.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"7d44114a-998b-46d5-a57c-d43b36c933a1","path":"sprites/sVFX_PowerUpLIF/sVFX_PowerUpLIF.yy",},"LayerId":{"name":"4417ad64-fa87-4b28-b324-d857adf83825","path":"sprites/sVFX_PowerUpLIF/sVFX_PowerUpLIF.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sVFX_PowerUpLIF","path":"sprites/sVFX_PowerUpLIF/sVFX_PowerUpLIF.yy",},"resourceVersion":"1.0","name":"7d44114a-998b-46d5-a57c-d43b36c933a1","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"c6806870-43ec-454a-9ab2-1231662f744a","path":"sprites/sVFX_PowerUpLIF/sVFX_PowerUpLIF.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"c6806870-43ec-454a-9ab2-1231662f744a","path":"sprites/sVFX_PowerUpLIF/sVFX_PowerUpLIF.yy",},"LayerId":{"name":"2df28f34-cdd6-4cd5-84a9-fbe76ed688d2","path":"sprites/sVFX_PowerUpLIF/sVFX_PowerUpLIF.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -65,7 +65,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sVFX_PowerUpLIF","path":"sprites/sVFX_PowerUpLIF/sVFX_PowerUpLIF.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sVFX_PowerUpLIF",
     "tags": [],
     "resourceType": "GMSequence",

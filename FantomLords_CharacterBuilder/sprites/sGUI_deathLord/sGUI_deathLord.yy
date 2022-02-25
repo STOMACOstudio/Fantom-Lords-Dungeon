@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUI_deathLord","path":"sprites/sGUI_deathLord/sGUI_deathLord.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUI_deathLord",
     "tags": [],
     "resourceType": "GMSequence",

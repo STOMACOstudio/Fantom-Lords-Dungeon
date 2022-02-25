@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUIlifeBarBack","path":"sprites/sGUIlifeBarBack/sGUIlifeBarBack.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUIlifeBarBack",
     "tags": [],
     "resourceType": "GMSequence",

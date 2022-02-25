@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sStatUp_DEF","path":"sprites/sStatUp_DEF/sStatUp_DEF.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sStatUp_DEF",
     "tags": [],
     "resourceType": "GMSequence",

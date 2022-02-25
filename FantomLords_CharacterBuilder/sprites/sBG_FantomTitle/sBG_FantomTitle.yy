@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBG_FantomTitle","path":"sprites/sBG_FantomTitle/sBG_FantomTitle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBG_FantomTitle",
     "tags": [],
     "resourceType": "GMSequence",

@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUI_skillClassArmor","path":"sprites/sGUI_skillClassArmor/sGUI_skillClassArmor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUI_skillClassArmor",
     "tags": [],
     "resourceType": "GMSequence",

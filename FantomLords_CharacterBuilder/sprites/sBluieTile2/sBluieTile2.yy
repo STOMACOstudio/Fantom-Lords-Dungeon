@@ -138,7 +138,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBluieTile2","path":"sprites/sBluieTile2/sBluieTile2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBluieTile2",
     "tags": [],
     "resourceType": "GMSequence",

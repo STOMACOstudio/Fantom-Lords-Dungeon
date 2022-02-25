@@ -28,3 +28,5 @@ lordTop = "none";
 lordRight = "none";
 lordDown = "none";
 lordLeft = "none";
+
+alarmCounter = 50;

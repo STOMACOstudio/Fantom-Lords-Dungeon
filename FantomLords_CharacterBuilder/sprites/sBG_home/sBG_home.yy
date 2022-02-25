@@ -151,7 +151,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBG_home","path":"sprites/sBG_home/sBG_home.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBG_home",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sVFX_spellCast","path":"sprites/sVFX_spellCast/sVFX_spellCast.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sVFX_spellCast",
     "tags": [],
     "resourceType": "GMSequence",

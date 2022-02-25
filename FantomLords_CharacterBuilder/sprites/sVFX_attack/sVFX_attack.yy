@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sVFX_attack","path":"sprites/sVFX_attack/sVFX_attack.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sVFX_attack",
     "tags": [],
     "resourceType": "GMSequence",

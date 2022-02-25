@@ -119,7 +119,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCollect_GemMAG","path":"sprites/sCollect_GemMAG/sCollect_GemMAG.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sCollect_GemMAG",
     "tags": [],
     "resourceType": "GMSequence",

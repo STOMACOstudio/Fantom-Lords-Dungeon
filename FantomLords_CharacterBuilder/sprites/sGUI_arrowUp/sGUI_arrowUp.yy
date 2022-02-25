@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUI_arrowUp","path":"sprites/sGUI_arrowUp/sGUI_arrowUp.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUI_arrowUp",
     "tags": [],
     "resourceType": "GMSequence",

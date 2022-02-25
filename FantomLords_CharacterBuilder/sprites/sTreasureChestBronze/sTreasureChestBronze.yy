@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sTreasureChestBronze","path":"sprites/sTreasureChestBronze/sTreasureChestBronze.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sTreasureChestBronze",
     "tags": [],
     "resourceType": "GMSequence",

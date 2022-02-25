@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sLordTrait_Background","path":"sprites/sLordTrait_Background/sLordTrait_Background.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sLordTrait_Background",
     "tags": [],
     "resourceType": "GMSequence",

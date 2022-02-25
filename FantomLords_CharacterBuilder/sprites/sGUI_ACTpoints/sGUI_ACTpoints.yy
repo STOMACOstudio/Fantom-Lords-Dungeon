@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUI_ACTpoints","path":"sprites/sGUI_ACTpoints/sGUI_ACTpoints.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUI_ACTpoints",
     "tags": [],
     "resourceType": "GMSequence",

@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//draw_text(128,128,string(global.tileNumber));
+if image_alpha > 0 image_alpha -= 0.05;
+else if image_alpha <= 0 instance_destroy();

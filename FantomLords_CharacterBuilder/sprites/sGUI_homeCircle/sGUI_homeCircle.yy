@@ -147,7 +147,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUI_homeCircle","path":"sprites/sGUI_homeCircle/sGUI_homeCircle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUI_homeCircle",
     "tags": [],
     "resourceType": "GMSequence",

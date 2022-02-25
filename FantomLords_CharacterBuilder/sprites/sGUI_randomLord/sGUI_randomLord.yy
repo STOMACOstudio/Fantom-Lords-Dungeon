@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"36426b11-2735-4408-b473-71905d799f55","path":"sprites/sGUI_randomLord/sGUI_randomLord.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"36426b11-2735-4408-b473-71905d799f55","path":"sprites/sGUI_randomLord/sGUI_randomLord.yy",},"LayerId":{"name":"0dc90b73-aa1a-42e2-846e-be5feb3f4a46","path":"sprites/sGUI_randomLord/sGUI_randomLord.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"36426b11-2735-4408-b473-71905d799f55","path":"sprites/sGUI_randomLord/sGUI_randomLord.yy",},"LayerId":{"name":"47c171ca-9655-4beb-874f-d138923a6fb6","path":"sprites/sGUI_randomLord/sGUI_randomLord.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"36426b11-2735-4408-b473-71905d799f55","path":"sprites/sGUI_randomLord/sGUI_randomLord.yy",},"LayerId":{"name":"0dc90b73-aa1a-42e2-846e-be5feb3f4a46","path":"sprites/sGUI_randomLord/sGUI_randomLord.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGUI_randomLord","path":"sprites/sGUI_randomLord/sGUI_randomLord.yy",},"resourceVersion":"1.0","name":"36426b11-2735-4408-b473-71905d799f55","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUI_randomLord","path":"sprites/sGUI_randomLord/sGUI_randomLord.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUI_randomLord",
     "tags": [],
     "resourceType": "GMSequence",

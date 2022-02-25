@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBlockTile","path":"sprites/sBlockTile/sBlockTile.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBlockTile",
     "tags": [],
     "resourceType": "GMSequence",

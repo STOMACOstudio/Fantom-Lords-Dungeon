@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sVFX_spellCastEnd","path":"sprites/sVFX_spellCastEnd/sVFX_spellCastEnd.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sVFX_spellCastEnd",
     "tags": [],
     "resourceType": "GMSequence",

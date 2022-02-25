@@ -119,7 +119,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCollect_GemRNB","path":"sprites/sCollect_GemRNB/sCollect_GemRNB.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sCollect_GemRNB",
     "tags": [],
     "resourceType": "GMSequence",

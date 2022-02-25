@@ -65,7 +65,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sVFX_PowerUpATK","path":"sprites/sVFX_PowerUpATK/sVFX_PowerUpATK.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sVFX_PowerUpATK",
     "tags": [],
     "resourceType": "GMSequence",

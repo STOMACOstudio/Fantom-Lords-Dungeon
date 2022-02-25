@@ -65,7 +65,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sVFX_PowerUpALL","path":"sprites/sVFX_PowerUpALL/sVFX_PowerUpALL.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sVFX_PowerUpALL",
     "tags": [],
     "resourceType": "GMSequence",

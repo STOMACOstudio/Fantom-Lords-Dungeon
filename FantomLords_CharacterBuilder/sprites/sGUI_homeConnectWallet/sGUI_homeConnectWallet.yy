@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUI_homeConnectWallet","path":"sprites/sGUI_homeConnectWallet/sGUI_homeConnectWallet.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUI_homeConnectWallet",
     "tags": [],
     "resourceType": "GMSequence",

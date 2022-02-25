@@ -119,7 +119,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCollect_GemLIF","path":"sprites/sCollect_GemLIF/sCollect_GemLIF.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sCollect_GemLIF",
     "tags": [],
     "resourceType": "GMSequence",

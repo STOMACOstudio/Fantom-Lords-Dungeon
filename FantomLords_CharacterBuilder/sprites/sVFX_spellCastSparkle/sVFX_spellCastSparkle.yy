@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sVFX_spellCastSparkle","path":"sprites/sVFX_spellCastSparkle/sVFX_spellCastSparkle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sVFX_spellCastSparkle",
     "tags": [],
     "resourceType": "GMSequence",

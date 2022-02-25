@@ -119,7 +119,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCollect_GemACT","path":"sprites/sCollect_GemACT/sCollect_GemACT.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sCollect_GemACT",
     "tags": [],
     "resourceType": "GMSequence",

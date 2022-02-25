@@ -147,7 +147,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sVFX_attackMag","path":"sprites/sVFX_attackMag/sVFX_attackMag.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sVFX_attackMag",
     "tags": [],
     "resourceType": "GMSequence",

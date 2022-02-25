@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sStatUp_ACT","path":"sprites/sStatUp_ACT/sStatUp_ACT.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sStatUp_ACT",
     "tags": [],
     "resourceType": "GMSequence",

@@ -119,7 +119,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCollect_GemDEF","path":"sprites/sCollect_GemDEF/sCollect_GemDEF.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sCollect_GemDEF",
     "tags": [],
     "resourceType": "GMSequence",

@@ -123,7 +123,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUI_skillWeapon","path":"sprites/sGUI_skillWeapon/sGUI_skillWeapon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUI_skillWeapon",
     "tags": [],
     "resourceType": "GMSequence",

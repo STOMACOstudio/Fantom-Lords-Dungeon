@@ -107,7 +107,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sLordTrait_Relic","path":"sprites/sLordTrait_Relic/sLordTrait_Relic.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sLordTrait_Relic",
     "tags": [],
     "resourceType": "GMSequence",

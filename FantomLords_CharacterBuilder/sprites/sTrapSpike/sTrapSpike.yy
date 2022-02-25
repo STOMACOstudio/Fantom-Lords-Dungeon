@@ -91,7 +91,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sTrapSpike","path":"sprites/sTrapSpike/sTrapSpike.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sTrapSpike",
     "tags": [],
     "resourceType": "GMSequence",

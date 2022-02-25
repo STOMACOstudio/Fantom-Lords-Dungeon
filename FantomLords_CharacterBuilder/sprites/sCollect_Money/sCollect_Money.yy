@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCollect_Money","path":"sprites/sCollect_Money/sCollect_Money.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sCollect_Money",
     "tags": [],
     "resourceType": "GMSequence",

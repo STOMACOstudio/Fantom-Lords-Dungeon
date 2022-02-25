@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUI_GemCollector","path":"sprites/sGUI_GemCollector/sGUI_GemCollector.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUI_GemCollector",
     "tags": [],
     "resourceType": "GMSequence",

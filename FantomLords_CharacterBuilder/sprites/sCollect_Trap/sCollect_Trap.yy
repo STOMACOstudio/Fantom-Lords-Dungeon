@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCollect_Trap","path":"sprites/sCollect_Trap/sCollect_Trap.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sCollect_Trap",
     "tags": [],
     "resourceType": "GMSequence",

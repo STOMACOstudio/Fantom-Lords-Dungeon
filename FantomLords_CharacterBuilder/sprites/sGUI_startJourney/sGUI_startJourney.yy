@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUI_startJourney","path":"sprites/sGUI_startJourney/sGUI_startJourney.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUI_startJourney",
     "tags": [],
     "resourceType": "GMSequence",

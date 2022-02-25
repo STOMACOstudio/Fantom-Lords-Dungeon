@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBluieTile","path":"sprites/sBluieTile/sBluieTile.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBluieTile",
     "tags": [],
     "resourceType": "GMSequence",

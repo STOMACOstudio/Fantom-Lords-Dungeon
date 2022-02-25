@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUI_iconStats","path":"sprites/sGUI_iconStats/sGUI_iconStats.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUI_iconStats",
     "tags": [],
     "resourceType": "GMSequence",

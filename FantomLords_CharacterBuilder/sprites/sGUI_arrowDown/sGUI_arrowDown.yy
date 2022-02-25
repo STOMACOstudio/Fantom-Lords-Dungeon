@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUI_arrowDown","path":"sprites/sGUI_arrowDown/sGUI_arrowDown.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUI_arrowDown",
     "tags": [],
     "resourceType": "GMSequence",

@@ -90,7 +90,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCollect_Gem","path":"sprites/sCollect_Gem/sCollect_Gem.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sCollect_Gem",
     "tags": [],
     "resourceType": "GMSequence",

@@ -29,8 +29,8 @@
         {"FrameId":{"name":"f462d428-b222-4c9f-8cd4-04b7d2f5d2a0","path":"sprites/sGUI_gameOver/sGUI_gameOver.yy",},"LayerId":{"name":"a1228d10-a493-4205-81d5-fad5f10b5e73","path":"sprites/sGUI_gameOver/sGUI_gameOver.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGUI_gameOver","path":"sprites/sGUI_gameOver/sGUI_gameOver.yy",},"resourceVersion":"1.0","name":"f462d428-b222-4c9f-8cd4-04b7d2f5d2a0","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"f02dfc2f-5288-44c7-b6ce-9df2a2f544f5","path":"sprites/sGUI_gameOver/sGUI_gameOver.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f02dfc2f-5288-44c7-b6ce-9df2a2f544f5","path":"sprites/sGUI_gameOver/sGUI_gameOver.yy",},"LayerId":{"name":"a1228d10-a493-4205-81d5-fad5f10b5e73","path":"sprites/sGUI_gameOver/sGUI_gameOver.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"f02dfc2f-5288-44c7-b6ce-9df2a2f544f5","path":"sprites/sGUI_gameOver/sGUI_gameOver.yy",},"LayerId":{"name":"ff32366c-a8f7-4832-ae48-3f5802be0105","path":"sprites/sGUI_gameOver/sGUI_gameOver.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f02dfc2f-5288-44c7-b6ce-9df2a2f544f5","path":"sprites/sGUI_gameOver/sGUI_gameOver.yy",},"LayerId":{"name":"a1228d10-a493-4205-81d5-fad5f10b5e73","path":"sprites/sGUI_gameOver/sGUI_gameOver.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGUI_gameOver","path":"sprites/sGUI_gameOver/sGUI_gameOver.yy",},"resourceVersion":"1.0","name":"f02dfc2f-5288-44c7-b6ce-9df2a2f544f5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -65,7 +65,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUI_gameOver","path":"sprites/sGUI_gameOver/sGUI_gameOver.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUI_gameOver",
     "tags": [],
     "resourceType": "GMSequence",

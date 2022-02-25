@@ -123,7 +123,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sLordTrait_Weapon","path":"sprites/sLordTrait_Weapon/sLordTrait_Weapon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sLordTrait_Weapon",
     "tags": [],
     "resourceType": "GMSequence",

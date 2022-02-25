@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sStatUp_LIF","path":"sprites/sStatUp_LIF/sStatUp_LIF.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sStatUp_LIF",
     "tags": [],
     "resourceType": "GMSequence",

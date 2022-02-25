@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sLordFramePlayer","path":"sprites/sLordFramePlayer/sLordFramePlayer.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sLordFramePlayer",
     "tags": [],
     "resourceType": "GMSequence",

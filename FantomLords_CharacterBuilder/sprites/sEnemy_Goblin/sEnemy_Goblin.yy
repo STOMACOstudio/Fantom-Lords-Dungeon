@@ -25,28 +25,28 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"782a7a66-8f70-4d83-b9c3-386743cd095b","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"782a7a66-8f70-4d83-b9c3-386743cd095b","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"12ecf115-ec58-4e53-9b65-d4ac5f55cc75","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"782a7a66-8f70-4d83-b9c3-386743cd095b","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"71fd2db0-c97c-4951-a903-3aab1c732fa2","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"782a7a66-8f70-4d83-b9c3-386743cd095b","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"12ecf115-ec58-4e53-9b65-d4ac5f55cc75","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sEnemy_Goblin","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"782a7a66-8f70-4d83-b9c3-386743cd095b","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"3250ce01-a0e9-4f85-aea7-3556a6e96de9","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3250ce01-a0e9-4f85-aea7-3556a6e96de9","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"12ecf115-ec58-4e53-9b65-d4ac5f55cc75","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"3250ce01-a0e9-4f85-aea7-3556a6e96de9","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"71fd2db0-c97c-4951-a903-3aab1c732fa2","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"3250ce01-a0e9-4f85-aea7-3556a6e96de9","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"12ecf115-ec58-4e53-9b65-d4ac5f55cc75","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sEnemy_Goblin","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"3250ce01-a0e9-4f85-aea7-3556a6e96de9","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"fd440246-198e-46b0-99a1-b58c5146c6a0","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fd440246-198e-46b0-99a1-b58c5146c6a0","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"12ecf115-ec58-4e53-9b65-d4ac5f55cc75","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"fd440246-198e-46b0-99a1-b58c5146c6a0","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"71fd2db0-c97c-4951-a903-3aab1c732fa2","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"fd440246-198e-46b0-99a1-b58c5146c6a0","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"12ecf115-ec58-4e53-9b65-d4ac5f55cc75","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sEnemy_Goblin","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"fd440246-198e-46b0-99a1-b58c5146c6a0","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"fd1303a3-6724-4597-9d44-6fe6623bda1f","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fd1303a3-6724-4597-9d44-6fe6623bda1f","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"12ecf115-ec58-4e53-9b65-d4ac5f55cc75","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"fd1303a3-6724-4597-9d44-6fe6623bda1f","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"71fd2db0-c97c-4951-a903-3aab1c732fa2","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"fd1303a3-6724-4597-9d44-6fe6623bda1f","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"12ecf115-ec58-4e53-9b65-d4ac5f55cc75","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sEnemy_Goblin","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"fd1303a3-6724-4597-9d44-6fe6623bda1f","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"6abadd97-95bf-4b4d-887b-9def9a233c2d","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6abadd97-95bf-4b4d-887b-9def9a233c2d","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"12ecf115-ec58-4e53-9b65-d4ac5f55cc75","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"6abadd97-95bf-4b4d-887b-9def9a233c2d","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"71fd2db0-c97c-4951-a903-3aab1c732fa2","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"6abadd97-95bf-4b4d-887b-9def9a233c2d","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"12ecf115-ec58-4e53-9b65-d4ac5f55cc75","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sEnemy_Goblin","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"6abadd97-95bf-4b4d-887b-9def9a233c2d","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"91ae0cb4-8389-44f9-93d8-10d087575790","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"91ae0cb4-8389-44f9-93d8-10d087575790","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"12ecf115-ec58-4e53-9b65-d4ac5f55cc75","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"91ae0cb4-8389-44f9-93d8-10d087575790","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"71fd2db0-c97c-4951-a903-3aab1c732fa2","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"91ae0cb4-8389-44f9-93d8-10d087575790","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"LayerId":{"name":"12ecf115-ec58-4e53-9b65-d4ac5f55cc75","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sEnemy_Goblin","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},"resourceVersion":"1.0","name":"91ae0cb4-8389-44f9-93d8-10d087575790","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -85,7 +85,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sEnemy_Goblin","path":"sprites/sEnemy_Goblin/sEnemy_Goblin.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sEnemy_Goblin",
     "tags": [],
     "resourceType": "GMSequence",

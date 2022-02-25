@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCollect_Door","path":"sprites/sCollect_Door/sCollect_Door.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sCollect_Door",
     "tags": [],
     "resourceType": "GMSequence",

@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGUI_arrowRight","path":"sprites/sGUI_arrowRight/sGUI_arrowRight.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGUI_arrowRight",
     "tags": [],
     "resourceType": "GMSequence",
