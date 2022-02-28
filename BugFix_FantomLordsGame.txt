@@ -4,9 +4,9 @@ TODO
         [ ] [3] - Movimento infinito quando non si è in combattimento;
         [ ] [3] - Nemici che inseguono con raggio;
         [ ] [3] - Boss and boss room;
-            [ ] - Boss pre-room;
-            [ ] - Boss room;
-            [ ] - Physical Boss;
+            [X] - Boss pre-room;
+            [X] - Boss room;
+            [X] - Physical Boss;
             [ ] - Magical Boss;
         [ ] [3] - Fix exploration condition (instance_number(oMapTile)<=12) find a way to change 12 to 0;
         [X] [3] - Transizioni e delay;

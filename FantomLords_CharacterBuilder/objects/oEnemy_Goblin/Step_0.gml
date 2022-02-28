@@ -122,9 +122,7 @@ if isFighting && !turnComplete
 						audio_play_sound(snWalk,0,false);
 						x += global.tileRate;
 						if tile.revealed instance_create_layer(x+32,y+32,"VFX",oVFX_arrowRight);
-						oManagerCombat.fightEnd ++;
-						turnCompelete = true;
-						oManagerCombat.combatPhase = 1;
+						alarm[0] = alarmCounter;
 						isFighting = false;
 					}
 					else checkTile = irandom_range(0,3);

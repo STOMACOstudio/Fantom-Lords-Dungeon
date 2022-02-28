@@ -52,4 +52,5 @@ score = 0;
 global.roomCounter = 1;
 
 global.gameOver = false;
+global.bossBattle = 1;
 //global.nextRoom = false;

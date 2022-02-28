@@ -20,5 +20,6 @@ if image_alpha >= 1
 	global.roomCounter ++;
 	
 	with oTrap0Father instance_destroy();
-	room_restart();
+	if global.roomCounter != 2*global.bossBattle room_goto(Room3_Dungeon);
+	else room_goto(Room4_Boss);
 }
