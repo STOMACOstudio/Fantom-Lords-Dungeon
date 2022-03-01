@@ -4,42 +4,48 @@ TODO
         [ ] [3] - Movimento infinito quando non si è in combattimento;
         [ ] [3] - Nemici che inseguono con raggio;
         [ ] [3] - Fix exploration condition (instance_number(oMapTile)<=12) find a way to change 12 to 0;
-        [X] [3] - Boss and boss room;
-            [X] - Boss pre-room;
-            [X] - Boss room;
-            [X] - Physical Boss;
-            [ ] - Magical Boss;
-        [X] [3] - Transizioni e delay;
-            [X] - Combat delay;
-            [X] - Next room delay;
-            [X] - Game Over Delay;
-        [X] [3] - Game Over fix;
-        [X] [3] - Remove printed LIF for enemies;
-        [X] [3] - Enemies:
-            [X] - Physical;
-            [X] - Magical;
-        [X] [3] - Riduzione dello spawn dei forzieri;
-        [X] [3] - Door "PAY" bugfix;
-        [X] [3] - Room counter;
-        [X] [3] - Vita approssimata;
-            [X] - Lord togliere numero;
-            [X] - Insanguinare sprite;
-            [X] - Nemici insanguinare sprite;
-        [X] [3] - Condition to complete every room
-            [X] - 0 No condition;
-            [X] - 0 Kill all enemies;
-            [X] - 0 Exploration;
-            [X] - 0 Remove Garbage;
-            [X] - 0 Pay with Gold;
-            [X] - 3 Key;
-        [ ] [3] - Treasure chest
-            [X] - 0 Bronze;
-            [ ] - 0 Silver;
-            [ ] - 0 Gold;
-            [X] - 3 Skull;
-            [X] - 3 Spawn more items;
+        [ ] [3] - Melee attacco a croce, magia 1 tile, ranged 2 tile;
+        [ ] [3] - Attiva/Disattiva UI nemici;
+        [ ] [3] - Bugfix spazio/fine turno;
+        DONE
+            [X] [3] - Boss and boss room;
+                [X] - Boss pre-room;
+                [X] - Boss room;
+                [X] - Physical Boss;
+                [X] - Magical Boss;
+            [X] [3] - Transizioni e delay;
+                [X] - Combat delay;
+                [X] - Next room delay;
+                [X] - Game Over Delay;
+            [X] [3] - Game Over fix;
+            [X] [3] - Remove printed LIF for enemies;
+            [X] [3] - Enemies:
+                [X] - Physical;
+                [X] - Magical;
+            [X] [3] - Riduzione dello spawn dei forzieri;
+            [X] [3] - Door "PAY" bugfix;
+            [X] [3] - Room counter;
+            [X] [3] - Vita approssimata;
+                [X] - Lord togliere numero;
+                [X] - Insanguinare sprite;
+                [X] - Nemici insanguinare sprite;
+            [X] [3] - Condition to complete every room
+                [X] - 0 No condition;
+                [X] - 0 Kill all enemies;
+                [X] - 0 Exploration;
+                [X] - 0 Remove Garbage;
+                [X] - 0 Pay with Gold;
+                [X] - 3 Key;
+            [ ] [3] - Treasure chest
+                [X] - 0 Bronze;
+                [ ] - 0 Silver;
+                [ ] - 0 Gold;
+                [X] - 3 Skull;
+                [X] - 3 Spawn more items;
 
     [ ] ALPHA
+        [ ] [2] - Pozione punti azione
+        [ ] [2] - 1 punto azione = azioni
         [ ] [2] - Next room fix;
             [ ] - Lords tutti vicini;
             [ ] - Pop-up "vuoi passare alla stanza successiva?";
