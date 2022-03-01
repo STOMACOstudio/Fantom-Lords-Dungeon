@@ -20,6 +20,8 @@ thisDEFmax = thisDEF;
 thisMAG = 0;
 thisMAGmax = thisMAG;
 scoreAdd = 1;
+actionsMax = 0;
+actions = 0;
 
 isFighting = false;
 turnComplete = false;

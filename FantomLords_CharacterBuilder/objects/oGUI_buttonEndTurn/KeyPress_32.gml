@@ -9,6 +9,7 @@
 	with (oVFX_spellCast0father) instance_destroy();
 	with (oEnemy0_Father) turnCompelete = false;
 	with (oEnemy0_Father) isFighting = false;
+	with (oEnemy0_Father) actions = actionsMax;
 	global.isLocked = false;
 	global.isLockedSkill = false;
 	

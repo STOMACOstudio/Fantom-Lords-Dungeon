@@ -32,7 +32,7 @@ if isSelected && revealed
 	global.currentSelectedSprite = sprite_index;
 	global.currentSelectedLIF = thisLIF;
 	global.currentSelectedLIFmax = thisLIFmax;
-	global.currentSelectedATK = thisATK;
+	global.currentSelectedATK = thisMAG;
 	global.currentSelectedDEF = thisDEF;
 	global.currentSelectedMAG = thisMAG;
 }
@@ -42,7 +42,7 @@ if isFighting && !turnComplete && actions > 0
 	
 	if lordTop1 != noone
 	{
-		var dmgENEMY = (thisATK + irandom_range(-3,3)) - lordTop1.thisLord_DEF;
+		var dmgENEMY = (thisMAG + irandom_range(-3,3)) - lordTop1.thisLord_MAG;
 		if dmgENEMY < 0 dmgENEMY = 0;
 		global.dmgENEMY = string(dmgENEMY);
 	
@@ -56,7 +56,7 @@ if isFighting && !turnComplete && actions > 0
 	}
 	else if lordTop2 != noone
 	{
-		var dmgENEMY = (thisATK + irandom_range(-3,3)) - lordTop2.thisLord_DEF;
+		var dmgENEMY = (thisMAG + irandom_range(-3,3)) - lordTop2.thisLord_MAG;
 		if dmgENEMY < 0 dmgENEMY = 0;
 		global.dmgENEMY = string(dmgENEMY);
 	
@@ -70,7 +70,7 @@ if isFighting && !turnComplete && actions > 0
 	}
 	else if lordRight1 != noone
 	{
-		var dmgENEMY = (thisATK + irandom_range(-3,3)) - lordRight1.thisLord_DEF;
+		var dmgENEMY = (thisMAG + irandom_range(-3,3)) - lordRight1.thisLord_MAG;
 		if dmgENEMY < 0 dmgENEMY = 0;
 		global.dmgENEMY = string(dmgENEMY);
 
@@ -84,7 +84,7 @@ if isFighting && !turnComplete && actions > 0
 	}
 	else if lordRight2 != noone
 	{
-		var dmgENEMY = (thisATK + irandom_range(-3,3)) - lordRight2.thisLord_DEF;
+		var dmgENEMY = (thisMAG + irandom_range(-3,3)) - lordRight2.thisLord_MAG;
 		if dmgENEMY < 0 dmgENEMY = 0;
 		global.dmgENEMY = string(dmgENEMY);
 
@@ -98,7 +98,7 @@ if isFighting && !turnComplete && actions > 0
 	}
 	else if lordDown1 != noone
 	{
-		var dmgENEMY = (thisATK + irandom_range(-3,3)) - lordDown1.thisLord_DEF;
+		var dmgENEMY = (thisMAG + irandom_range(-3,3)) - lordDown1.thisLord_MAG;
 		if dmgENEMY < 0 dmgENEMY = 0;
 		global.dmgENEMY = string(dmgENEMY);
 
@@ -112,7 +112,7 @@ if isFighting && !turnComplete && actions > 0
 	}
 	else if lordDown2 != noone
 	{
-		var dmgENEMY = (thisATK + irandom_range(-3,3)) - lordDown2.thisLord_DEF;
+		var dmgENEMY = (thisMAG + irandom_range(-3,3)) - lordDown2.thisLord_MAG;
 		if dmgENEMY < 0 dmgENEMY = 0;
 		global.dmgENEMY = string(dmgENEMY);
 
@@ -126,7 +126,7 @@ if isFighting && !turnComplete && actions > 0
 	}
 	else if lordLeft1 != noone
 	{
-		var dmgENEMY = (thisATK + irandom_range(-3,3)) - lordLeft1.thisLord_DEF;
+		var dmgENEMY = (thisMAG + irandom_range(-3,3)) - lordLeft1.thisLord_MAG;
 		if dmgENEMY < 0 dmgENEMY = 0;
 		global.dmgENEMY = string(dmgENEMY);
 
@@ -140,7 +140,7 @@ if isFighting && !turnComplete && actions > 0
 	}
 	else if lordLeft2 != noone
 	{
-		var dmgENEMY = (thisATK + irandom_range(-3,3)) - lordLeft2.thisLord_DEF;
+		var dmgENEMY = (thisMAG + irandom_range(-3,3)) - lordLeft2.thisLord_MAG;
 		if dmgENEMY < 0 dmgENEMY = 0;
 		global.dmgENEMY = string(dmgENEMY);
 

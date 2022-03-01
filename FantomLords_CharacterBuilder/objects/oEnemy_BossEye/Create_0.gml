@@ -1,29 +1,29 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-image_alpha = 0;
-revealed = false;
+image_alpha = 1;
+revealed = true;
 
 target = false;
 
-image_xscale /= 5;
-image_yscale /= 5;
+image_xscale /= 2.5;
+image_yscale /= 2.5;
 
 isSelected = false;
 
-thisName = "Evil Eye";
-thisLIF = 15 + irandom_range(-3,3);
+thisName = "Eye King";
+thisLIF = 40 + irandom_range(-3,3);
 thisLIFmax = thisLIF;
-thisATK = 3 + irandom_range(-2,5);
+thisATK = 10 + irandom_range(-2,5);
 thisATKmax = thisATK;
-thisDEF = 50 + irandom_range(-10,10);
+thisDEF = 100 + irandom_range(-2,5);
 thisDEFmax = thisDEF;
-thisMAG = 13 + irandom_range(-1,2);
+thisMAG = 5;//24 + irandom_range(-4,6);
 thisMAGmax = thisMAG;
-scoreAdd = 5;
+scoreAdd = 50;
 isFighting = false;
 turnComplete = false;
-actionsMax = 1;
+actionsMax = 2;
 actions = actionsMax;
 
 lordTop = "none";
