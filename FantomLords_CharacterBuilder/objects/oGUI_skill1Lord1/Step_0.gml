@@ -9,7 +9,39 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 
 if casting
 {
-	if oLord1.thisLord_typeAttack == "MELEE" || oLord1.thisLord_typeAttack == "MAGIC"
+	if oLord1.thisLord_typeAttack == "MELEE"
+	{
+		var _list = ds_list_create();
+		var _num = collision_rectangle_list(oLord1.x-32,oLord1.y-32,oLord1.x+96,oLord1.y+96,oEnemy0_Father,false,true,_list,true);
+		if _num > 0
+		{
+			for (var i = 0; i < _num; ++i;)
+				{
+					if collision_point(oLord1.x+32,oLord1.y-32,_list[| i],false,true)
+					{
+						_list[| i].image_blend = c_yellow;
+						_list[| i].target = true;
+					}
+					else if collision_point(oLord1.x+96,oLord1.y+32,_list[| i],false,true)
+					{
+						_list[| i].image_blend = c_yellow;
+						_list[| i].target = true;
+					}
+					else if collision_point(oLord1.x+32,oLord1.y-96,_list[| i],false,true)
+					{
+						_list[| i].image_blend = c_yellow;
+						_list[| i].target = true;
+					}
+					else if collision_point(oLord1.x-32,oLord1.y+32,_list[| i],false,true)
+					{
+						_list[| i].image_blend = c_yellow;
+						_list[| i].target = true;
+					}
+				}
+		}
+		ds_list_destroy(_list);
+	}
+	else if oLord1.thisLord_typeAttack == "MAGIC"
 	{
 		var _list = ds_list_create();
 		var _num = collision_rectangle_list(oLord1.x-32,oLord1.y-32,oLord1.x+96,oLord1.y+96,oEnemy0_Father,false,true,_list,true);
