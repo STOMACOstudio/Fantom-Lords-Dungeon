@@ -1,9 +1,9 @@
 TODO
 
     [ ] CLOSED ALPHA
-        [ ] [3] - Movimento infinito quando non si è in combattimento;
         [ ] [3] - Nemici che inseguono con raggio;
-        [ ] [3] - Fix exploration condition (instance_number(oMapTile)<=12) find a way to change 12 to 0;
+        [X] [3] - Movimento infinito quando non si è in combattimento;
+        [X] [3] - Fix exploration condition (instance_number(oMapTile)<=12) find a way to change 12 to 0;
         [X] [3] - Melee attacco a croce, magia 1 tile, ranged 2 tile;
         [X] [3] - Attiva/Disattiva UI nemici;
         [X] [3] - Bugfix spazio/fine turno;

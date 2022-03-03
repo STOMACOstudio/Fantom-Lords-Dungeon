@@ -27,7 +27,7 @@ if casting
 						_list[| i].image_blend = c_yellow;
 						_list[| i].target = true;
 					}
-					else if collision_point(oLord4.x+32,oLord4.y-96,_list[| i],false,true)
+					else if collision_point(oLord4.x+32,oLord4.y+96,_list[| i],false,true)
 					{
 						_list[| i].image_blend = c_yellow;
 						_list[| i].target = true;

@@ -1,11 +1,32 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-//if combatPhase = 0 turno del giocatore
+if i2 < instance_number(oEnemy0_Father) //check for revealed enemies
+{
+	enemy2[i2] = instance_find(oEnemy0_Father,i2); //array con gli id di ogni nemico
+	if enemy2[i2].revealed
+	{
+		if global.fightMode = false
+		{
+			instance_create_layer(512,224,"VFX",oVFX_Combat);
+			global.fightMode = true;
+		}
+	}
+	else //se il nemico non è rivelato
+	{
+		i2++;
+	}
+}
+else
+{
+	global.fightMode = false;
+	i2 = 0;
+}
 
 if combatPhase = 1
 {
+	i2 = 0;
+	global.fightMode = true;
 	if i >= instance_number(oEnemy0_Father) //se tutti i nemici sono stati iterati
 	{
 		with (oEnemy0_Father) //resetta le variabili di tutti i nemici

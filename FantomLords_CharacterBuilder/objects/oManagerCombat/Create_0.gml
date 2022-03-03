@@ -3,6 +3,8 @@
 
 combatPhase = 0;
 enemy = array_create(instance_number(oEnemy0_Father));
+i2 = 0;
+enemy2 = array_create(instance_number(oEnemy0_Father));
 
 fightStart = 0;
 fightEnd = 0;

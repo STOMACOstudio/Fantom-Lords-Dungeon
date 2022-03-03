@@ -28,7 +28,7 @@ if room != Room4_Boss
 	}
 	else if global.roomCondition = "EXPLORATION"  && !open
 	{
-		if global.tileNumber <= 12 open = true;
+		if global.tileNumber <= 0 open = true;
 	}
 }
 else open = true;

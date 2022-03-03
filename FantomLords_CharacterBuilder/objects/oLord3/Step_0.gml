@@ -151,3 +151,5 @@ if thisLord_LIF <= 0
 	global.isLocked = false;
 	instance_destroy();
 }
+
+if !global.fightMode thisLord_ACTpoints = thisLord_ACTpointsMAX;
