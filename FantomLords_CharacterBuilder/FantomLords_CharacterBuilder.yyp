@@ -66,6 +66,7 @@
     {"id":{"name":"sn0_MainThemeLoop","path":"sounds/sn0_MainThemeLoop/sn0_MainThemeLoop.yy",},"order":1,},
     {"id":{"name":"oLord1","path":"objects/oLord1/oLord1.yy",},"order":7,},
     {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},"order":70,},
+    {"id":{"name":"scrEnemyAI","path":"scripts/scrEnemyAI/scrEnemyAI.yy",},"order":4,},
     {"id":{"name":"snGameOver","path":"sounds/snGameOver/snGameOver.yy",},"order":16,},
     {"id":{"name":"oVFX_attackMag","path":"objects/oVFX_attackMag/oVFX_attackMag.yy",},"order":95,},
     {"id":{"name":"sEnemyBoss_Imp","path":"sprites/sEnemyBoss_Imp/sEnemyBoss_Imp.yy",},"order":61,},

@@ -2,11 +2,6 @@ TODO
 
     [ ] CLOSED ALPHA
         [ ] [3] - Nemici che inseguono con raggio;
-        [X] [3] - Movimento infinito quando non si è in combattimento;
-        [X] [3] - Fix exploration condition (instance_number(oMapTile)<=12) find a way to change 12 to 0;
-        [X] [3] - Melee attacco a croce, magia 1 tile, ranged 2 tile;
-        [X] [3] - Attiva/Disattiva UI nemici;
-        [X] [3] - Bugfix spazio/fine turno;
         DONE
             [X] [3] - Boss and boss room;
                 [X] - Boss pre-room;
@@ -42,10 +37,15 @@ TODO
                 [ ] - 0 Gold;
                 [X] - 3 Skull;
                 [X] - 3 Spawn more items;
+                        [X] [3] - Movimento infinito quando non si è in combattimento;
+                [X] [3] - Fix exploration condition (instance_number(oMapTile)<=12) find a way to change 12 to 0;
+                [X] [3] - Melee attacco a croce, magia 1 tile, ranged 2 tile;
+                [X] [3] - Attiva/Disattiva UI nemici;
+                [X] [3] - Bugfix spazio/fine turno;
 
     [ ] ALPHA
         [ ] [2] - Pozione punti azione
-        [ ] [2] - 1 punto azione = azioni
+        [ ] [2] - 1 punto azione =  più azioni
         [ ] [2] - Next room fix;
             [ ] - Lords tutti vicini;
             [ ] - Pop-up "vuoi passare alla stanza successiva?";
@@ -59,6 +59,7 @@ TODO
         [ ] [2] - Procedural room generation pt 1;
 
     [ ] BETA
+        [ ] [1] - Full mouse contrl;
         [ ] [1] - Integrazione blockchain;
         [ ] [1] - Nemico che si gira;
         [ ] [1] - Stealth attack (attacco alle spalle);
@@ -74,7 +75,6 @@ TODO
         [ ] [1] - Dadi;
 
         [ ] [0] - Flanking per Lords e Nemici;
-        [ ] [0] - Full mouse contro;
         [ ] [0] - Achievement gamification;
 
 DONE
