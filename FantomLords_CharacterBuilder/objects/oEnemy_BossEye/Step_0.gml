@@ -154,9 +154,12 @@ if isFighting && !turnComplete && actions > 0
 	}
 	else if lordTop1 = noone && lordRight1 = noone && lordDown1 = noone && lordLeft1 = noone && lordTop2 = noone && lordRight2 = noone && lordDown2 = noone && lordLeft2 = noone
 	{
-		var checkTile = irandom_range(0,3);
-
-		if checkTile = 0
+		var lordTopLeft = collision_point(x-32,y-32,oLord0Parent,false,true);
+		var lordTopRight = collision_point(x+160,y-32,oLord0Parent,false,true);
+		var lordBottomRight = collision_point(x+160,y+160,oLord0Parent,false,true);
+		var lordBottomLeft = collision_point(x-32,y+160,oLord0Parent,false,true);
+		
+		if lordTopLeft != noone
 		{
 			var tile1 = collision_point(x+32,y-32,oMap_0parent,false,true);
 			var tile2 = collision_point(x+96,y-32,oMap_0parent,false,true);
@@ -170,50 +173,11 @@ if isFighting && !turnComplete && actions > 0
 					alarm[0] = alarmCounter;
 					isFighting = false;
 				}
-				else checkTile = irandom_range(0,3);
-			}
-		}
-		else if checkTile = 1
-			{
-				var tile1 = collision_point(x+160,y+32,oMap_0parent,false,true);
-				var tile2 = collision_point(x+160,y+96,oMap_0parent,false,true);
-				if tile1 != noone && tile2 != noone
+				else if !tile1.empty || !tile2.empty
 				{
-					if tile1.empty && tile2.empty
-					{
-						audio_play_sound(snWalk,0,false);
-						x += global.tileRate;
-						if tile1.revealed || tile2.revealed instance_create_layer(x+64,y+64,"VFX",oVFX_arrowRight);
-						alarm[0] = alarmCounter;
-						isFighting = false;
-					}
-					else checkTile = irandom_range(0,3);
-				}
-			}
-		else if checkTile = 2
-			{
-				var tile1 = collision_point(x+32,y+160,oMap_0parent,false,true);
-				var tile2 = collision_point(x+96,y+160,oMap_0parent,false,true);
-				if tile1 != noone && tile2 != noone
-				{
-					if tile1.empty && tile2.empty
-					{
-						audio_play_sound(snWalk,0,false);
-						y += global.tileRate;
-						if tile1.revealed && tile2.revealed instance_create_layer(x+64,y+64,"VFX",oVFX_arrowDown);
-						alarm[0] = alarmCounter;
-						isFighting = false;
-					}
-					else checkTile = irandom_range(0,3);
-				}
-			}
-		else if checkTile = 3
-			{
-				var tile1 = collision_point(x-32,y+32,oMap_0parent,false,true);
-				var tile2 = collision_point(x-32,y+96,oMap_0parent,false,true);
-				if tile1 != noone && tile2 != noone
-				{
-					if tile1.empty && tile2.empty
+					var tile3 = collision_point(x-32,y+32,oMap_0parent,false,true);
+					var tile4 = collision_point(x-32,y+96,oMap_0parent,false,true);
+					if tile3.empty && tile4.empty
 					{
 						audio_play_sound(snWalk,0,false);
 						x -= global.tileRate;
@@ -221,8 +185,164 @@ if isFighting && !turnComplete && actions > 0
 						alarm[0] = alarmCounter;
 						isFighting = false;
 					}
-					else checkTile = irandom_range(0,3);
+					else
+					{
+						alarm[0] = alarmCounter;
+						isFighting = false;
+					}
 				}
 			}
+		}
+		else if lordTopRight != noone
+		{
+			var tile1 = collision_point(x+32,y-32,oMap_0parent,false,true);
+			var tile2 = collision_point(x+96,y-32,oMap_0parent,false,true);
+			if tile1 != noone && tile2 != noone
+			{
+				if tile1.empty && tile2.empty
+				{
+					audio_play_sound(snWalk,0,false);
+					y -= global.tileRate;
+					if tile1.revealed || tile2.revealed instance_create_layer(x+64,y+64,"VFX",oVFX_arrowUp);
+					alarm[0] = alarmCounter;
+					isFighting = false;
+				}
+				else if !tile1.empty || !tile2.empty
+				{
+					var tile3 = collision_point(x+160,y+32,oMap_0parent,false,true);
+					var tile4 = collision_point(x+160,y+96,oMap_0parent,false,true);
+					if tile3.empty && tile4.empty
+					{
+						audio_play_sound(snWalk,0,false);
+						x += global.tileRate;
+						if tile1.revealed || tile2.revealed instance_create_layer(x+64,y+64,"VFX",oVFX_arrowLeft);
+						alarm[0] = alarmCounter;
+						isFighting = false;
+					}
+					else
+					{
+						alarm[0] = alarmCounter;
+						isFighting = false;
+					}
+				}
+			}
+		}
+		else if lordBottomRight != noone
+		{
+			var tile1 = collision_point(x+160,y+32,oMap_0parent,false,true);
+			var tile2 = collision_point(x+160,y+96,oMap_0parent,false,true);
+			if tile1 != noone && tile2 != noone
+			{
+				if tile1.empty && tile2.empty
+				{
+					audio_play_sound(snWalk,0,false);
+					x += global.tileRate;
+					if tile1.revealed || tile2.revealed instance_create_layer(x+64,y+64,"VFX",oVFX_arrowUp);
+					alarm[0] = alarmCounter;
+					isFighting = false;
+				}
+				else if !tile1.empty || !tile2.empty
+				{
+					var tile3 = collision_point(x+32,y+160,oMap_0parent,false,true);
+					var tile4 = collision_point(x+96,y+160,oMap_0parent,false,true);
+					if tile3.empty && tile4.empty
+					{
+						audio_play_sound(snWalk,0,false);
+						y += global.tileRate;
+						if tile1.revealed || tile2.revealed instance_create_layer(x+64,y+64,"VFX",oVFX_arrowLeft);
+						alarm[0] = alarmCounter;
+						isFighting = false;
+					}
+					else
+					{
+						alarm[0] = alarmCounter;
+						isFighting = false;
+					}
+				}
+			}
+		}
+		else if lordBottomLeft != noone
+		{
+			var tile1 = collision_point(x+32,y+160,oMap_0parent,false,true);
+			var tile2 = collision_point(x+96,y+160,oMap_0parent,false,true);
+			if tile1 != noone && tile2 != noone
+			{
+				if tile1.empty && tile2.empty
+				{
+					audio_play_sound(snWalk,0,false);
+					y += global.tileRate;
+					if tile1.revealed || tile2.revealed instance_create_layer(x+64,y+64,"VFX",oVFX_arrowUp);
+					alarm[0] = alarmCounter;
+					isFighting = false;
+				}
+				else if !tile1.empty || !tile2.empty
+				{
+					var tile3 = collision_point(x-32,y+32,oMap_0parent,false,true);
+					var tile4 = collision_point(x-32,y+96,oMap_0parent,false,true);
+					if tile3.empty && tile4.empty
+					{
+						audio_play_sound(snWalk,0,false);
+						x -= global.tileRate;
+						if tile1.revealed || tile2.revealed instance_create_layer(x+64,y+64,"VFX",oVFX_arrowLeft);
+						alarm[0] = alarmCounter;
+						isFighting = false;
+					}
+					else
+					{
+						alarm[0] = alarmCounter;
+						isFighting = false;
+					}
+				}
+			}
+		}
+		else if lordTopLeft = noone && lordTopRight = noone && lordBottomRight = noone && lordBottomLeft = noone
+		{
+			var tile1 = collision_point(x+32,y-32,oMap_0parent,false,true);
+			var tile2 = collision_point(x+96,y-32,oMap_0parent,false,true);
+			var tile3 = collision_point(x+160,y+32,oMap_0parent,false,true);
+			var tile4 = collision_point(x+160,y+96,oMap_0parent,false,true);
+			var tile5 = collision_point(x+32,y-160,oMap_0parent,false,true);
+			var tile6 = collision_point(x+96,y-160,oMap_0parent,false,true);
+			var tile7 = collision_point(x-32,y+32,oMap_0parent,false,true);
+			var tile8 = collision_point(x-32,y+96,oMap_0parent,false,true);
+			
+			if tile1 != noone && tile2 != noone && tile1.empty && tile2.empty
+			{
+				audio_play_sound(snWalk,0,false);
+				y -= global.tileRate;
+				if tile1.revealed || tile2.revealed instance_create_layer(x+64,y+64,"VFX",oVFX_arrowUp);
+				alarm[0] = alarmCounter;
+				isFighting = false;
+			}
+			else if tile3 != noone && tile4 != noone && tile3.empty && tile4.empty
+			{
+				audio_play_sound(snWalk,0,false);
+				x += global.tileRate;
+				if tile1.revealed || tile2.revealed instance_create_layer(x+64,y+64,"VFX",oVFX_arrowRight);
+				alarm[0] = alarmCounter;
+				isFighting = false;
+			}
+			else if tile5 != noone && tile6 != noone && tile5.empty && tile6.empty
+			{
+				audio_play_sound(snWalk,0,false);
+				y += global.tileRate;
+				if tile1.revealed && tile2.revealed instance_create_layer(x+64,y+64,"VFX",oVFX_arrowDown);
+				alarm[0] = alarmCounter;
+				isFighting = false;
+			}
+			else if tile7 != noone && tile8 != noone && tile7.empty && tile8.empty
+			{
+				audio_play_sound(snWalk,0,false);
+				x -= global.tileRate;
+				if tile1.revealed && tile2.revealed instance_create_layer(x+64,y+64,"VFX",oVFX_arrowDown);
+				alarm[0] = alarmCounter;
+				isFighting = false;
+			}
+			else
+			{
+				alarm[0] = alarmCounter;
+				isFighting = false;
+			}
+		}
 	}
 }
