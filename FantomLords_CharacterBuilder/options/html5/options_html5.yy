@@ -1,7 +1,7 @@
 {
-  "option_html5_browser_title": "Created with GameMaker Studio 2",
+  "option_html5_browser_title": "Fantom Lords Game",
   "option_html5_version": "1.0.0.0",
-  "option_html5_foldername": "html5game",
+  "option_html5_foldername": "FantomLordsGame",
   "option_html5_outputname": "index.html",
   "option_html5_splash_png": "${base_options_dir}/html5/splash.png",
   "option_html5_usesplash": false,
@@ -13,7 +13,7 @@
   "option_html5_jsprepend": "",
   "option_html5_icon": "${base_options_dir}/html5/fav.ico",
   "option_html5_allow_fullscreen": true,
-  "option_html5_interpolate_pixels": true,
+  "option_html5_interpolate_pixels": false,
   "option_html5_centregame": true,
   "option_html5_usebuiltinparticles": true,
   "option_html5_usebuiltinfont": true,

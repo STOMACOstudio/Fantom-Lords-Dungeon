@@ -7,7 +7,6 @@ TODO
             [ ] - Lords tutti vicini;
             [ ] - Pop-up "vuoi passare alla stanza successiva?";
             [ ] - Basta un solo lord per cambiare stanza;
-            [ ] || Puoi tirare fuori i Lord;
         [ ] [2] - Type of room;
             [ ] - Background;
             [ ] - Spawn rate;
@@ -18,6 +17,7 @@ TODO
             [ ] - Silver;
             [ ] - Gold;
         [ ] [2] - Power progression of enemies tied with room number;
+        [ ] [1] - Use of skills pt 2;
 
     [ ] BETA
         [ ] [1] - Full mouse contrl;
@@ -26,7 +26,6 @@ TODO
         [ ] [1] - Stealth attack (attacco alle spalle);
         [ ] [1] - Lord level/power counter;
         [ ] [1] - Highscore save;
-        [ ] [1] - Use of skills pt 2;
         [ ] [1] - Full keyboard control;
         [ ] [1] - Cursore Guantlet dinamico;
         [ ] [1] - Sistema dialogo/storytelling/interazione;

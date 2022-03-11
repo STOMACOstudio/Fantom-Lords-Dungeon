@@ -101,7 +101,8 @@ colorDEF = colorNeutral;
 colorMAG = colorNeutral;
 colorACT = colorNeutral;
 #endregion
-#region json builder
+
+/*#region json builder
 json_mods = "";
 file = file_text_open_read("mods_1.json");
 json_mods += file_text_read_string(file);
@@ -114,3 +115,4 @@ json_mods_2 += file_text_read_string(file_2);
 global.structMods2 = json_parse(json_mods_2);
 file_text_close(file);
 #endregion
+madeMods = true;

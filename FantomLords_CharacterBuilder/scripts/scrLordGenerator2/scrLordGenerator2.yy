@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "scrLordGenerator",
+    "path": "folders/Scripts/scrLordGenerator.yy",
   },
   "resourceVersion": "1.0",
   "name": "scrLordGenerator2",
