@@ -24,7 +24,6 @@
     {"id":{"name":"oVFX_arrowLeft","path":"objects/oVFX_arrowLeft/oVFX_arrowLeft.yy",},"order":94,},
     {"id":{"name":"oGUI_potionLIF","path":"objects/oGUI_potionLIF/oGUI_potionLIF.yy",},"order":72,},
     {"id":{"name":"snWalk","path":"sounds/snWalk/snWalk.yy",},"order":5,},
-    {"id":{"name":"scrLordCheckMapTile","path":"scripts/scrLordCheckMapTile/scrLordCheckMapTile.yy",},"order":3,},
     {"id":{"name":"oVFX_spellCastEnd","path":"objects/oVFX_spellCastEnd/oVFX_spellCastEnd.yy",},"order":79,},
     {"id":{"name":"sGUI_arrowLeft","path":"sprites/sGUI_arrowLeft/sGUI_arrowLeft.yy",},"order":51,},
     {"id":{"name":"oLordTrait_Background","path":"objects/oLordTrait_Background/oLordTrait_Background.yy",},"order":9,},
