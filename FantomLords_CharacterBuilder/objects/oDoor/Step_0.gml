@@ -17,7 +17,7 @@ if room != Room4_Boss
 	if global.roomCondition = "NO CONDITION" && !open open = true;
 	else if global.roomCondition = "KILL ALL ENEMIES" && !open
 	{
-		var enemies = instance_number(oEnemy_Goblin);
+		var enemies = instance_number(oEnemy_Goblin) + instance_number(oEnemy_Eye);
 		if enemies = 0 open = true;
 	}
 	else if global.roomCondition = "REMOVE GARBAGE"  && !open
