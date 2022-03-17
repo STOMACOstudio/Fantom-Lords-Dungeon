@@ -28,7 +28,7 @@ if room != Room4_Boss
 	}
 	else if global.roomCondition = "EXPLORATION"  && !open
 	{
-		if global.tileNumber <= 0 open = true;
+		if global.tileNumber <= instance_number(oMap_blocktileBlocked) open = true;
 	}
 }
 else open = true;
