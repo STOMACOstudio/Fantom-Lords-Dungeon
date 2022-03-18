@@ -111,6 +111,15 @@ if !instance_exists(oVFX_spellCast0father) //move the lord
 		thisLord_ACTpoints --;
 		}	
 	}
+	else if mouse_check_button_pressed(mb_right) && thisLocked
+	{
+		if instTop != noone && instTop.empty && thisLord_ACTpoints > 0 && mouse_x > instTop.x && mouse_x < instTop.x+64 && mouse_y > instTop.y && mouse_y < instTop.y+64
+		{
+		audio_play_sound(snWalk,0,false);
+		y -= global.tileRate;
+		thisLord_ACTpoints --;
+		}	
+	}
 	if keyboard_check_pressed(ord("A")) && thisLocked
 	{
 		if  instLeft != noone && instLeft.empty && thisLord_ACTpoints > 0
@@ -119,6 +128,15 @@ if !instance_exists(oVFX_spellCast0father) //move the lord
 			x -= global.tileRate;
 			thisLord_ACTpoints --;
 		}
+	}
+	else if mouse_check_button_pressed(mb_right) && thisLocked
+	{
+		if instLeft != noone && instLeft.empty && thisLord_ACTpoints > 0 && mouse_x > instLeft.x && mouse_x < instLeft.x+64 && mouse_y > instLeft.y && mouse_y < instLeft.y+64
+		{
+		audio_play_sound(snWalk,0,false);
+		x -= global.tileRate;
+		thisLord_ACTpoints --;
+		}	
 	}
 	if keyboard_check_pressed(ord("D")) && thisLocked
 	{
@@ -129,6 +147,15 @@ if !instance_exists(oVFX_spellCast0father) //move the lord
 			thisLord_ACTpoints --;
 		}
 	}
+	else if mouse_check_button_pressed(mb_right) && thisLocked
+	{
+		if instRight != noone && instRight.empty && thisLord_ACTpoints > 0 && mouse_x > instRight.x && mouse_x < instRight.x+64 && mouse_y > instRight.y && mouse_y < instRight.y+64
+		{
+		audio_play_sound(snWalk,0,false);
+		x += global.tileRate;
+		thisLord_ACTpoints --;
+		}	
+	}
 	if keyboard_check_pressed(ord("S")) && thisLocked
 	{
 		if instDown != noone && instDown.empty && thisLord_ACTpoints > 0
@@ -137,6 +164,15 @@ if !instance_exists(oVFX_spellCast0father) //move the lord
 			y += global.tileRate;
 			thisLord_ACTpoints --;
 		}
+	}
+	else if mouse_check_button_pressed(mb_right) && thisLocked
+	{
+		if instDown != noone && instDown.empty && thisLord_ACTpoints > 0 && mouse_x > instDown.x && mouse_x < instDown.x+64 && mouse_y > instDown.y && mouse_y < instDown.y+64
+		{
+		audio_play_sound(snWalk,0,false);
+		y += global.tileRate;
+		thisLord_ACTpoints --;
+		}	
 	}
 }
 

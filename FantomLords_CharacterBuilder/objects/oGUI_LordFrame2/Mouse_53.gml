@@ -1,19 +1,29 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if mouse_x > x && mouse_x < x+128 && mouse_y > y && mouse_y < y+128 && instance_exists(oLord2)
+if mouse_x > x && mouse_x < x+128 && mouse_y > y && mouse_y < y+128 && instance_exists(oLord1)
 {
-	if !global.isLocked && !thisLocked
+	if !thisLocked
 	{
-		global.isLocked = true;
-		thisLocked = true;
+		with (oLord0FrameParent)
+		{
+			thisLocked = false;
+			image_blend = c_white;
+		}
+		with (oLord0Parent)
+		{
+			thisLocked = false;
+			image_blend = c_white;
+		}
+
+		if instance_exists(oVFX_spellCast0father) instance_destroy(oVFX_spellCast0father);
 		oLord2.image_blend = c_yellow;
 		oLord2.thisLocked = true;
+		thisLocked = true;
 		audio_play_sound(snAddLord,0,false);
 	}
-	else if global.isLocked && thisLocked
+	else
 	{
-		global.isLocked = false;
 		thisLocked = false;
 		oLord2.image_blend = c_white;
 		oLord2.thisLocked = false;

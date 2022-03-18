@@ -77,6 +77,7 @@
     {"id":{"name":"sEnemyBoss_Imp","path":"sprites/sEnemyBoss_Imp/sEnemyBoss_Imp.yy",},"order":61,},
     {"id":{"name":"oVFX_spellCast4","path":"objects/oVFX_spellCast4/oVFX_spellCast4.yy",},"order":84,},
     {"id":{"name":"sGUI_arrowRight","path":"sprites/sGUI_arrowRight/sGUI_arrowRight.yy",},"order":49,},
+    {"id":{"name":"sGUI_ACTpointsON","path":"sprites/sGUI_ACTpointsON/sGUI_ACTpointsON.yy",},"order":67,},
     {"id":{"name":"sCollect_GemDrop","path":"sprites/sCollect_GemDrop/sCollect_GemDrop.yy",},"order":11,},
     {"id":{"name":"oGUI_KeyBronze","path":"objects/oGUI_KeyBronze/oGUI_KeyBronze.yy",},"order":50,},
     {"id":{"name":"sn0_MainThemeIntro","path":"sounds/sn0_MainThemeIntro/sn0_MainThemeIntro.yy",},"order":0,},

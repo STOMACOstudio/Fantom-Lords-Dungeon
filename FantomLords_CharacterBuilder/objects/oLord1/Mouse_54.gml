@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if global.isLocked && thisLocked
+/*if global.isLocked && thisLocked
 {
 	global.isLocked = false;
 	thisLocked = false;
