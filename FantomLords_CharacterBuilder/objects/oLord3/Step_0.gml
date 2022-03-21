@@ -1,180 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-#region check map tile
-
-var instTopLeft;
-instTopLeft = collision_point(x-32,y-32,oMap_0parent,false,true)
-if instTopLeft != noone
-{
-	if !instTopLeft.revealed
-	{
-		instTopLeft.image_alpha = 0.4;
-		instTopLeft.revealed = true;
-		global.tileNumber --;
-	}
-}
-
-var instTop;
-instTop = collision_point(x+32,y-32,oMap_0parent,false,true)
-if instTop != noone
-{
-	if !instTop.revealed
-	{
-		instTop.image_alpha = 0.4;
-		instTop.revealed = true;
-		global.tileNumber --;
-	}
-}
-
-var instTopRight;
-instTopRight = collision_point(x+96,y-32,oMap_0parent,false,true)
-if instTopRight != noone
-{
-	if !instTopRight.revealed
-	{
-		instTopRight.image_alpha = 0.4;
-		instTopRight.revealed = true;
-		global.tileNumber --;
-	}
-}
-
-var instRight;
-instRight = collision_point(x+96,y+32,oMap_0parent,false,true)
-if instRight != noone
-{
-	if !instRight.revealed
-	{
-		instRight.image_alpha = 0.4;
-		instRight.revealed = true;
-		global.tileNumber --;
-	}
-}
-
-var instDownRight;
-instDownRight = collision_point(x+96,y+96,oMap_0parent,false,true)
-if instDownRight != noone
-{
-	if !instDownRight.revealed
-	{
-		instDownRight.image_alpha = 0.4;
-		instDownRight.revealed = true;
-		global.tileNumber --;
-	}
-}
-
-var instDown;
-instDown = collision_point(x+32,y+96,oMap_0parent,false,true)
-if instDown != noone
-{
-	if !instDown.revealed
-	{
-		instDown.image_alpha = 0.4;
-		instDown.revealed = true;
-		global.tileNumber --;
-	}
-}
-
-var instDownLeft;
-instDownLeft = collision_point(x-32,y+96,oMap_0parent,false,true)
-if instDownLeft != noone
-{
-	if !instDownLeft.revealed
-	{
-		instDownLeft.image_alpha = 0.4;
-		instDownLeft.revealed = true;
-		global.tileNumber --;
-	}
-}
-
-var instLeft;
-instLeft = collision_point(x-32,y+32,oMap_0parent,false,true)
-if instLeft != noone
-{
-	if !instLeft.revealed
-	{
-		instLeft.image_alpha = 0.4;
-		instLeft.revealed = true;
-		global.tileNumber --;
-	}
-}
-#endregion
-
-if !instance_exists(oVFX_spellCast0father) //move the lord
-{
-	if keyboard_check_pressed(ord("W")) && thisLocked
-	{
-		if instTop != noone && instTop.empty && thisLord_ACTpoints > 0
-		{
-		audio_play_sound(snWalk,0,false);
-		y -= global.tileRate;
-		thisLord_ACTpoints --;
-		}	
-	}
-	else if mouse_check_button_pressed(mb_right) && thisLocked
-	{
-		if instTop != noone && instTop.empty && thisLord_ACTpoints > 0 && mouse_x > instTop.x && mouse_x < instTop.x+64 && mouse_y > instTop.y && mouse_y < instTop.y+64
-		{
-		audio_play_sound(snWalk,0,false);
-		y -= global.tileRate;
-		thisLord_ACTpoints --;
-		}	
-	}
-	if keyboard_check_pressed(ord("A")) && thisLocked
-	{
-		if  instLeft != noone && instLeft.empty && thisLord_ACTpoints > 0
-		{
-			audio_play_sound(snWalk,0,false);
-			x -= global.tileRate;
-			thisLord_ACTpoints --;
-		}
-	}
-	else if mouse_check_button_pressed(mb_right) && thisLocked
-	{
-		if instLeft != noone && instLeft.empty && thisLord_ACTpoints > 0 && mouse_x > instLeft.x && mouse_x < instLeft.x+64 && mouse_y > instLeft.y && mouse_y < instLeft.y+64
-		{
-		audio_play_sound(snWalk,0,false);
-		x -= global.tileRate;
-		thisLord_ACTpoints --;
-		}	
-	}
-	if keyboard_check_pressed(ord("D")) && thisLocked
-	{
-		if instRight != noone && instRight.empty && thisLord_ACTpoints > 0
-		{
-			audio_play_sound(snWalk,0,false);
-			x += global.tileRate;
-			thisLord_ACTpoints --;
-		}
-	}
-	else if mouse_check_button_pressed(mb_right) && thisLocked
-	{
-		if instRight != noone && instRight.empty && thisLord_ACTpoints > 0 && mouse_x > instRight.x && mouse_x < instRight.x+64 && mouse_y > instRight.y && mouse_y < instRight.y+64
-		{
-		audio_play_sound(snWalk,0,false);
-		x += global.tileRate;
-		thisLord_ACTpoints --;
-		}	
-	}
-	if keyboard_check_pressed(ord("S")) && thisLocked
-	{
-		if instDown != noone && instDown.empty && thisLord_ACTpoints > 0
-		{
-			audio_play_sound(snWalk,0,false);
-			y += global.tileRate;
-			thisLord_ACTpoints --;
-		}
-	}
-	else if mouse_check_button_pressed(mb_right) && thisLocked
-	{
-		if instDown != noone && instDown.empty && thisLord_ACTpoints > 0 && mouse_x > instDown.x && mouse_x < instDown.x+64 && mouse_y > instDown.y && mouse_y < instDown.y+64
-		{
-		audio_play_sound(snWalk,0,false);
-		y += global.tileRate;
-		thisLord_ACTpoints --;
-		}	
-	}
-}
+scrLordMovement();
 
 if thisLord_LIF <= 0
 {
@@ -189,3 +16,76 @@ if thisLord_LIF <= 0
 }
 
 if !global.fightMode thisLord_ACTpoints = thisLord_ACTpointsMAX;
+
+if thisLord_typeAttack == "MELEE"
+{
+	var _list = ds_list_create();
+	var _num = collision_rectangle_list(x-32,y-32,x+96,y+96,oEnemy0_Father,false,true,_list,true);
+	if _num > 0
+	{
+		for (var i = 0; i < _num; ++i;)
+			{
+				if collision_point(x+32,y-32,_list[| i],false,true)
+				{
+					//_list[| i].image_blend = c_yellow;
+					_list[| i].target = true;
+				}
+				else if collision_point(x+96,y+32,_list[| i],false,true)
+				{
+					//_list[| i].image_blend = c_yellow;
+					_list[| i].target = true;
+				}
+				else if collision_point(x+32,y+96,_list[| i],false,true)
+				{
+					//_list[| i].image_blend = c_yellow;
+					_list[| i].target = true;
+				}
+				else if collision_point(x-32,y+32,_list[| i],false,true)
+				{
+					//_list[| i].image_blend = c_yellow;
+					_list[| i].target = true;
+				}
+			}
+	}
+	ds_list_destroy(_list);
+}
+else if thisLord_typeAttack == "MAGIC"
+{
+	var _list = ds_list_create();
+	var _num = collision_rectangle_list(x-32,y-32,x+96,y+96,oEnemy0_Father,false,true,_list,true);
+	if _num > 0
+	{
+		for (var i = 0; i < _num; ++i;)
+			{
+				//_list[| i].image_blend = c_yellow;
+				_list[| i].target = true;
+			}
+	}
+	ds_list_destroy(_list);
+}
+else if thisLord_typeAttack == "RANGED"
+{
+	var _list = ds_list_create();
+	var _num = collision_rectangle_list(x-32,y-32,x+96,y+96,oEnemy0_Father,false,true,_list,true);
+	if _num > 0
+	{
+		for (var i = 0; i < _num; ++i;)
+			{
+				//_list[| i].image_blend = c_yellow;
+				_list[| i].target = true;
+			}
+	}
+	ds_list_destroy(_list);
+
+	var _list2 = ds_list_create();
+	var _num2 = collision_rectangle_list(x-96,y-96,x+160,y+160,oEnemy0_Father,false,true,_list2,true);
+	if _num2 > 0
+	{
+		for (var i = 0; i < _num2; ++i;)
+			{
+				//_list2[| i].image_blend = c_yellow;
+				_list2[| i].target = true;
+			}
+	}
+	ds_list_destroy(_list2);
+}

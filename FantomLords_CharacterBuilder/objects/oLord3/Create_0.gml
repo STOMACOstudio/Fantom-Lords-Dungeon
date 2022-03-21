@@ -25,5 +25,16 @@ if oLordStats.lord3active
 	sprite_index = oLordStats.lord3sprite;
 	image_xscale /= 5;
 	image_yscale /= 5;
+	dmgLORD = 0;
+	enemy = noone;
+	instTopLeft = noone;
+	instTop = noone;
+	instTopRight = noone;
+	instRight = noone;
+	instDownRight = noone;
+	instDown = noone;
+	instDownLeft = noone;
+	instLeft = noone;
+	
 }
 else instance_destroy();
