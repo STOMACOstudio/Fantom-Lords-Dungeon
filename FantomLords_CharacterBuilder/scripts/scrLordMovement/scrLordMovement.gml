@@ -2,14 +2,14 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scrLordMovement(){
 	
-	instTopLeft = collision_point(x-32,y-32,oMap_0parent,false,true)
-	instTop = collision_point(x+32,y-32,oMap_0parent,false,true)
-	instTopRight = collision_point(x+96,y-32,oMap_0parent,false,true)
-	instRight = collision_point(x+96,y+32,oMap_0parent,false,true)
-	instDownRight = collision_point(x+96,y+96,oMap_0parent,false,true)
-	instDown = collision_point(x+32,y+96,oMap_0parent,false,true)
-	instDownLeft = collision_point(x-32,y+96,oMap_0parent,false,true)
-	instLeft = collision_point(x-32,y+32,oMap_0parent,false,true)
+	instTopLeft = collision_point(x-32,y-32,oMap_0parent,false,true);
+	instTop = collision_point(x+32,y-32,oMap_0parent,false,true);
+	instTopRight = collision_point(x+96,y-32,oMap_0parent,false,true);
+	instRight = collision_point(x+96,y+32,oMap_0parent,false,true);
+	instDownRight = collision_point(x+96,y+96,oMap_0parent,false,true);
+	instDown = collision_point(x+32,y+96,oMap_0parent,false,true);
+	instDownLeft = collision_point(x-32,y+96,oMap_0parent,false,true);
+	instLeft = collision_point(x-32,y+32,oMap_0parent,false,true);
 
 	if instTopLeft != noone
 	{

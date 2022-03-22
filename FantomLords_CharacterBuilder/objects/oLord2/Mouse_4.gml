@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+with oEnemy0_Father target = false;
+
 if !thisLocked
 {
 	with (oLord0FrameParent)

@@ -35,5 +35,17 @@ if oLordStats.lord2active
 	instDown = noone;
 	instDownLeft = noone;
 	instLeft = noone;
+	enemyTopTop = noone;
+	enemyRightRight = noone;
+	enemyDownDown = noone;
+	enemyLeftLeft = noone;
+	enemyTopLeft = noone;
+	enemyTop = noone;
+	enemyTopRight = noone;
+	enemyRight = noone;
+	enemyDownRight = noone;
+	enemyDown = noone;
+	enemyDownLeft = noone;
+	enemyLeft = noone;
 }
 else instance_destroy();

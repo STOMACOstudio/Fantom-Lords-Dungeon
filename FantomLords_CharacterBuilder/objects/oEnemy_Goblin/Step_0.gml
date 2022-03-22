@@ -325,7 +325,7 @@ if isFighting && !turnComplete && actions > 0
 			if lordTop != noone
 			{
 				var dmgENEMY = (thisATK + irandom_range(-3,3)) - lordTop.thisLord_DEF;
-				if dmgENEMY < 0 dmgENEMY = 0;
+				if dmgENEMY <= 0 dmgENEMY = 1;
 				global.dmgENEMY = string(dmgENEMY);
 	
 				audio_play_sound(snAttack,0,false);
@@ -343,7 +343,7 @@ if isFighting && !turnComplete && actions > 0
 			if lordRight != noone
 			{
 				var dmgENEMY = (thisATK + irandom_range(-3,3)) - lordRight.thisLord_DEF;
-				if dmgENEMY < 0 dmgENEMY = 0;
+				if dmgENEMY <= 0 dmgENEMY = 1;
 				global.dmgENEMY = string(dmgENEMY);
 
 				audio_play_sound(snAttack,0,false);
@@ -361,7 +361,7 @@ if isFighting && !turnComplete && actions > 0
 			if lordDown != noone
 			{
 				var dmgENEMY = (thisATK + irandom_range(-3,3)) - lordDown.thisLord_DEF;
-				if dmgENEMY < 0 dmgENEMY = 0;
+				if dmgENEMY <= 0 dmgENEMY = 1;
 				global.dmgENEMY = string(dmgENEMY);
 
 				audio_play_sound(snAttack,0,false);
@@ -379,7 +379,7 @@ if isFighting && !turnComplete && actions > 0
 			if lordLeft != noone
 			{
 				var dmgENEMY = (thisATK + irandom_range(-3,3)) - lordLeft.thisLord_DEF;
-				if dmgENEMY < 0 dmgENEMY = 0;
+				if dmgENEMY <= 0 dmgENEMY = 1;
 				global.dmgENEMY = string(dmgENEMY);
 
 				audio_play_sound(snAttack,0,false);

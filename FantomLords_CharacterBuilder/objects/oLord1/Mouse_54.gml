@@ -12,6 +12,11 @@
 	if instance_exists(oVFX_spellCast0father) instance_destroy(oVFX_spellCast0father);
 }*/
 
-enemy = collision_point(mouse_x,mouse_y,oEnemy0_Father,false,true);
+if thisLocked
+{
+	with oEnemy0_Father target = false;
 
-scrLordAttack();
+	enemy = collision_point(mouse_x,mouse_y,oEnemy0_Father,false,true);
+
+	if enemy != noone && enemy.target = true scrLordAttack();
+}

@@ -95,6 +95,7 @@
     {"id":{"name":"scrLordMovement","path":"scripts/scrLordMovement/scrLordMovement.yy",},"order":17,},
     {"id":{"name":"oGUI_skill2Lord3","path":"objects/oGUI_skill2Lord3/oGUI_skill2Lord3.yy",},"order":10,},
     {"id":{"name":"oGUI_lordHealthBack2","path":"objects/oGUI_lordHealthBack2/oGUI_lordHealthBack2.yy",},"order":1,},
+    {"id":{"name":"scrLordCheckTarget","path":"scripts/scrLordCheckTarget/scrLordCheckTarget.yy",},"order":18,},
     {"id":{"name":"oBG_homePage","path":"objects/oBG_homePage/oBG_homePage.yy",},"order":0,},
     {"id":{"name":"oGUI_printScoreAdd","path":"objects/oGUI_printScoreAdd/oGUI_printScoreAdd.yy",},"order":43,},
     {"id":{"name":"sGUI_skillAttack","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"order":38,},
