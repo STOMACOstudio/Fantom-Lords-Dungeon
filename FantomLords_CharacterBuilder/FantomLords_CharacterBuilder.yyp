@@ -187,6 +187,7 @@
     {"id":{"name":"sTreasureChestBone","path":"sprites/sTreasureChestBone/sTreasureChestBone.yy",},"order":58,},
     {"id":{"name":"sBG_home","path":"sprites/sBG_home/sBG_home.yy",},"order":10,},
     {"id":{"name":"oGUI_gemsACT","path":"objects/oGUI_gemsACT/oGUI_gemsACT.yy",},"order":48,},
+    {"id":{"name":"oGUI_chestPrint","path":"objects/oGUI_chestPrint/oGUI_chestPrint.yy",},"order":8,},
     {"id":{"name":"oBuilderAncestry_ArrowDown","path":"objects/oBuilderAncestry_ArrowDown/oBuilderAncestry_ArrowDown.yy",},"order":0,},
     {"id":{"name":"sBlockTile","path":"sprites/sBlockTile/sBlockTile.yy",},"order":6,},
     {"id":{"name":"sGUI_BloodShed","path":"sprites/sGUI_BloodShed/sGUI_BloodShed.yy",},"order":54,},

@@ -5,7 +5,7 @@ var treasure = collision_rectangle(mouse_x-16,mouse_y-16,mouse_x+16,mouse_y+16,o
 
 if mouse_check_button_released(mb_left)
 {
-	if treasure != noone
+	if treasure != noone && collision_point(x,y,oEnemy0_Father,false,true) = noone
 	{
 		instance_destroy(treasure);
 		audio_play_sound(snOpenChest,0,false);

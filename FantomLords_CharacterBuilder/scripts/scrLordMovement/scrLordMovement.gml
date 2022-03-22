@@ -140,7 +140,7 @@ function scrLordMovement(){
 		}
 		if keyboard_check_pressed(ord("D")) && thisLocked
 		{
-			if instRight != noone && instRight.empty && thisLord_ACTpoints > 0
+			if instRight != noone && thisLord_ACTpoints > 0
 			{
 				if instRight.empty
 				{

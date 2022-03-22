@@ -24,6 +24,9 @@ global.currentSelectedDEF = 0;
 global.currentSelectedDEFmax = 0;
 global.currentSelectedMAG = 0;
 global.currentSelectedMAGmax = 0;
+global.currentSelectedDescription1 = 0;
+global.currentSelectedDescription2 = 0;
+global.currentSelectedDescription3 = 0;
 
 global.dmgLORD = 0;
 global.dmgENEMY = 0;

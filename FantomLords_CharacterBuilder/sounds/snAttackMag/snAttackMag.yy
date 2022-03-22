@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snAttackMag.mp3",
-  "duration": 1.016,
+  "soundFile": "snAttackMag.wav",
+  "duration": 0.727959,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
