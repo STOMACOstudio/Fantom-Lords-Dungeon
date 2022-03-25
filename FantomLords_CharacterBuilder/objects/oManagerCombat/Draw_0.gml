@@ -5,4 +5,4 @@
 draw_text(x,y+36,"Fight Start: " + string(fightStart));
 draw_text(x,y+72,"Fight End: " + string(fightEnd));
 draw_text(x,y+108,"Who is fighting: " + string(whosfighting));
-draw_text(x,y+144,"i: " + string(draw_i));
+draw_text(x,y+144,"i: " + string(i));

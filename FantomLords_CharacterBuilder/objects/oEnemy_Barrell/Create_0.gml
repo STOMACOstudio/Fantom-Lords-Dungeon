@@ -25,3 +25,5 @@ actions = 0;
 
 isFighting = false;
 turnComplete = false;
+
+obstacle = true;

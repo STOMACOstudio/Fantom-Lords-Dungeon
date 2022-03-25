@@ -4,7 +4,7 @@
 if i2 < instance_number(oEnemy0_Father) //check for revealed enemies
 {
 	enemy2[i2] = instance_find(oEnemy0_Father,i2); //array con gli id di ogni nemico
-	if enemy2[i2].revealed
+	if enemy2[i2].revealed && !enemy2[i2].obstacle
 	{
 		if global.fightMode = false
 		{
@@ -44,15 +44,13 @@ if combatPhase = 1
 		fightStart = 0; //contatore di debug
 		fightEnd = 0; //contatore di debug
 		i  = 0; //reset del contatore dei nemici
-		draw_i = i; //variabile di debug per vedere "i" a schermo
 		combatPhase = 0; //turno del giocatore
 	}
 	else //se non tutti i nemici sono stati iterati
 	{
 		enemy[i] = instance_find(oEnemy0_Father,i); //array con gli id di ogni nemico
 		whosfighting = string(enemy[i]); //variabile di debug
-		draw_i = i; //funzione di debug
-		if enemy[i].revealed && !enemy[i].isFighting && !enemy[i].turnComplete //check se il nemico è rivelatot sula mappa, non sta né combattendo né ha combattuto
+		if enemy[i].revealed && !enemy[i].obstacle && !enemy[i].isFighting && !enemy[i].turnComplete //check se il nemico è rivelatot sula mappa, non sta né combattendo né ha combattuto
 		{
 			enemy[i].isFighting = true; //inizializza le azioni del nemico scelto
 			if i < instance_number(oEnemy0_Father) i++; //aggiorna la i

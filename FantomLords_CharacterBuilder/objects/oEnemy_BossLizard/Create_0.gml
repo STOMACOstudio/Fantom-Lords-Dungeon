@@ -32,3 +32,5 @@ lordDown = "none";
 lordLeft = "none";
 
 alarmCounter = 50;
+
+obstacle = false;

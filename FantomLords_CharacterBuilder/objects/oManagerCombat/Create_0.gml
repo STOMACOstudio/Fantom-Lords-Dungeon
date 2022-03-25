@@ -11,4 +11,3 @@ fightEnd = 0;
 i  = 0;
 
 whosfighting = "none";
-draw_i = "none";

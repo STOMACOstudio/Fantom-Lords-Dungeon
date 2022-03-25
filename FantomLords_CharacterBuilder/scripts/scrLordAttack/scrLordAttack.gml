@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scrLordAttack(){
 
-	if enemy != noone && enemy.target = true && thisLocked && thisLord_ACTpoints > 0
+	if enemy != noone && enemy.target = true && thisLocked && thisLord_ACTpoints >= 2
 	{
 		if thisLord_typeAttack = "MELEE"
 		{
@@ -32,7 +32,7 @@ function scrLordAttack(){
 		instance_create_layer(enemy.x+irandom_range(8,56),enemy.y+irandom_range(8,56),"VFX",oGUI_printDMGlord);
 	
 		enemy.thisLIF -= dmgLORD;
-		thisLord_ACTpoints --;
+		thisLord_ACTpoints -= 2;
 	}
 	
 }

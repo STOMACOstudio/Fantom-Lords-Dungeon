@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if instance_exists(oLord2) && oLordStats.lord1active
+if instance_exists(oLord2) && oLordStats.lord2active
 {
 
 	#region left side
