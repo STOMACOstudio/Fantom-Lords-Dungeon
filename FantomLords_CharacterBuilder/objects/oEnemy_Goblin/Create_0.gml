@@ -12,18 +12,18 @@ image_yscale /= 5;
 isSelected = false;
 
 thisName = "Goblin";
-thisLIF = 20 + irandom_range(-3,3);
+thisLIF = 30 + irandom_range(-3,3);
 thisLIFmax = thisLIF;
-thisATK = 10 + irandom_range(-2,5);
+thisATK = 7 + irandom_range(-2,5);
 thisATKmax = thisATK;
-thisDEF = 10 + irandom_range(-2,5);
+thisDEF = 5 + irandom_range(-2,5);
 thisDEFmax = thisDEF;
 thisMAG = 2 + irandom_range(-1,2);
 thisMAGmax = thisMAG;
 scoreAdd = 5;
 isFighting = false;
 turnComplete = false;
-actionsMax = 1;
+actionsMax = 2;
 actions = actionsMax;
 
 lordTop = "none";

@@ -15,9 +15,9 @@ if oLordStats.lord3active
 	thisLord_MAGmax = oLordStats.lord3MAGmax;
 	thisLord_ACT = oLordStats.lord3ACT;
 	thisLord_ACTmax = oLordStats.lord3ACTmax;
-	thisLord_ACTpoints = round((thisLord_ACT)/10);
+	thisLord_ACTpoints = round((thisLord_ACT)/5);
 	if thisLord_ACTpoints < 1 thisLord_ACTpoints = 1;
-	thisLord_ACTpointsMAX = round((thisLord_ACT)/10);
+	thisLord_ACTpointsMAX = round((thisLord_ACT)/5);
 	if thisLord_ACTpointsMAX < 1 thisLord_ACTpointsMAX = 1;
 	thisLord_typeAttack = oLordStats.lord3typeAttack;
 	thisLord_skillClassArmor = oLordStats.lord3skillClassArmor;

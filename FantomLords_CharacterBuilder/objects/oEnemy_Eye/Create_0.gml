@@ -12,18 +12,18 @@ image_yscale /= 5;
 isSelected = false;
 
 thisName = "Evil Eye";
-thisLIF = 15 + irandom_range(-3,3);
+thisLIF = 25 + irandom_range(-3,3);
 thisLIFmax = thisLIF;
 thisATK = 3 + irandom_range(-2,5);
 thisATKmax = thisATK;
-thisDEF = 50 + irandom_range(-10,10);
+thisDEF = 30 + irandom_range(-10,10);
 thisDEFmax = thisDEF;
-thisMAG = 13 + irandom_range(-1,2);
+thisMAG = 10 + irandom_range(-1,2);
 thisMAGmax = thisMAG;
 scoreAdd = 5;
 isFighting = false;
 turnComplete = false;
-actionsMax = 1;
+actionsMax = 2;
 actions = actionsMax;
 
 lordTop = "none";

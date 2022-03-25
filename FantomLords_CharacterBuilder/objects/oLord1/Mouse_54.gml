@@ -14,8 +14,6 @@
 
 if thisLocked
 {
-	with oEnemy0_Father target = false;
-
 	enemy = collision_point(mouse_x,mouse_y,oEnemy0_Father,false,true);
 
 	if enemy != noone && enemy.target = true scrLordAttack();
