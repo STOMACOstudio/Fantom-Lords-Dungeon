@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oVFX_SolidBlackFadein",
+  "name": "oVFX_SolidBlackFadeinDungeon",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+oManagerCombat.combatPhase = 0;
+
 global.scoreAdd = string(scoreAdd);
 score += scoreAdd;
 
@@ -20,3 +22,5 @@ if isSelected
 	global.currentSelectedDEF = 0;
 	global.currentSelectedMAG = 0;
 }
+
+global.bossBattle ++;

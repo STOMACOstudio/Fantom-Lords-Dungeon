@@ -12,13 +12,13 @@ image_yscale /= 5;
 isSelected = false;
 
 thisName = "Goblin";
-thisLIF = 40 + irandom_range(-3,3);
+thisLIF = 30 + (10*global.roomCounter) + irandom_range(-3,3);
 thisLIFmax = thisLIF;
-thisATK = 7 + irandom_range(-2,5);
+thisATK = 5 + (2*global.roomCounter) + irandom_range(-2,5);
 thisATKmax = thisATK;
-thisDEF = 5 + irandom_range(-2,5);
+thisDEF = 5 + (2*global.roomCounter) + irandom_range(-2,5);
 thisDEFmax = thisDEF;
-thisMAG = 2 + irandom_range(-1,2);
+thisMAG = 2 + (2*global.roomCounter) + irandom_range(-1,2);
 thisMAGmax = thisMAG;
 scoreAdd = 5;
 isFighting = false;

@@ -12,13 +12,13 @@ image_yscale /= 2.5;
 isSelected = false;
 
 thisName = "Lizard King";
-thisLIF = 50 + irandom_range(-3,3);
+thisLIF = 40 + (10*global.roomCounter) + irandom_range(-5,5);
 thisLIFmax = thisLIF;
-thisATK = 15 + irandom_range(-2,5);
+thisATK = 14 + (2*global.roomCounter) + irandom_range(-2,5);
 thisATKmax = thisATK;
-thisDEF = 20 + irandom_range(-2,5);
+thisDEF = 20 + (2*global.roomCounter) + irandom_range(-3,3);
 thisDEFmax = thisDEF;
-thisMAG = 10 + irandom_range(-1,2);
+thisMAG = 10 + (2*global.roomCounter) + irandom_range(-3,3);
 thisMAGmax = thisMAG;
 scoreAdd = 50;
 isFighting = false;

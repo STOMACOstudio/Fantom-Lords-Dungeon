@@ -12,13 +12,13 @@ image_yscale /= 2.5;
 isSelected = false;
 
 thisName = "Eye King";
-thisLIF = 40 + irandom_range(-3,3);
+thisLIF = 40 + (5*global.roomCounter) + irandom_range(-8,8);
 thisLIFmax = thisLIF;
 thisATK = 10 + irandom_range(-2,5);
 thisATKmax = thisATK;
-thisDEF = 100 + irandom_range(-2,5);
+thisDEF = (80 + global.roomCounter) + irandom_range(-10,10);
 thisDEFmax = thisDEF;
-thisMAG = 24 + irandom_range(-4,6);
+thisMAG = 24 + (2*global.roomCounter) + irandom_range(-4,6);
 thisMAGmax = thisMAG;
 scoreAdd = 50;
 isFighting = false;

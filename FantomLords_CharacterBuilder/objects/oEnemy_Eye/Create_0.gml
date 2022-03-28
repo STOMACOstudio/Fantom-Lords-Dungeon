@@ -12,13 +12,13 @@ image_yscale /= 5;
 isSelected = false;
 
 thisName = "Evil Eye";
-thisLIF = 35 + irandom_range(-3,3);
+thisLIF = 30 + (3*global.roomCounter) + irandom_range(-3,3);
 thisLIFmax = thisLIF;
 thisATK = 3 + irandom_range(-2,5);
 thisATKmax = thisATK;
-thisDEF = 30 + irandom_range(-10,10);
+thisDEF = 30 + (3*global.roomCounter) + irandom_range(-10,10);
 thisDEFmax = thisDEF;
-thisMAG = 10 + irandom_range(-1,2);
+thisMAG = 8 + (2*global.roomCounter) + irandom_range(-1,2);
 thisMAGmax = thisMAG;
 scoreAdd = 5;
 isFighting = false;

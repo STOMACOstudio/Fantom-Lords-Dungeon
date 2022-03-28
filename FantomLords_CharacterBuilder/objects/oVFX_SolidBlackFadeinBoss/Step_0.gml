@@ -17,9 +17,6 @@ if image_alpha >= 1
 	if instance_exists(oLord3) oLord3.thisLord_ACTpoints = oLord3.thisLord_ACTpointsMAX;
 	if instance_exists(oLord4) oLord4.thisLord_ACTpoints = oLord4.thisLord_ACTpointsMAX;
 	
-	global.roomCounter ++;
-	
 	with oTrap0Father instance_destroy();
-	if global.roomCounter != 2*global.bossBattle room_goto(Room3_Dungeon);
-	else room_goto(Room4_Boss);
+	room_goto(Room4_Boss);
 }
