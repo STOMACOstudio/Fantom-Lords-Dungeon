@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if global.roomCondition = "PAY WITH GOLD" && !open
+/*if global.roomCondition = "PAY WITH GOLD" && !open
 {
 	audio_play_sound(snDoor,0,false);
 	printScore = round(score/2);

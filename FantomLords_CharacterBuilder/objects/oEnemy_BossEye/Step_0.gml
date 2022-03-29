@@ -203,7 +203,7 @@ if isFighting && !turnComplete && actions > 0
 				{
 					audio_play_sound(snWalk,0,false);
 					y -= global.tileRate;
-					if tile1.revealed || tile2.revealed instance_create_layer(x+64,y+64,"VFX",oVFX_arrowUp);
+					instance_create_layer(x+64,y+64,"VFX",oVFX_arrowUp);
 					alarm[0] = alarmCounter;
 					isFighting = false;
 				}
@@ -338,7 +338,7 @@ if isFighting && !turnComplete && actions > 0
 				alarm[0] = alarmCounter;
 				isFighting = false;
 			}
-			else
+			else if tile1 = noone && tile2 = noone && tile3 = noone && tile4 = noone && tile5 = noone && tile6 = noone && tile7= noone && tile8 = noone
 			{
 				alarm[0] = alarmCounter;
 				isFighting = false;
