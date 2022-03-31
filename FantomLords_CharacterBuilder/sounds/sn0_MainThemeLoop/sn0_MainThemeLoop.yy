@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sn0_MainThemeLoop.mp3",
-  "duration": 93.83713,
+  "soundFile": "sn0_MainThemeLoop.wav",
+  "duration": 70.0,
   "parent": {
     "name": "OST",
     "path": "folders/Sounds/OST.yy",

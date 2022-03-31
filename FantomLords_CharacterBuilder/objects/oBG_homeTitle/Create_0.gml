@@ -3,4 +3,4 @@
 
 image_alpha = 0;
 
-alarm[0] = 500;
+alarm[0] = 200;

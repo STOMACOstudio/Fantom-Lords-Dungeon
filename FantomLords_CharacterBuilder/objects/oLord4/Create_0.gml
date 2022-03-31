@@ -16,9 +16,9 @@ if oLordStats.lord4active
 	thisLord_ACT = oLordStats.lord4ACT;
 	thisLord_ACTmax = oLordStats.lord4ACTmax;
 	thisLord_ACTpoints = round((thisLord_ACT)/5);
-	if thisLord_ACTpoints < 1 thisLord_ACTpoints = 1;
+	if thisLord_ACTpoints < 2 thisLord_ACTpoints = 2;
 	thisLord_ACTpointsMAX = round((thisLord_ACT)/5);
-	if thisLord_ACTpointsMAX < 1 thisLord_ACTpointsMAX = 1;
+	if thisLord_ACTpointsMAX < 2 thisLord_ACTpointsMAX = 2;
 	thisLord_typeAttack = oLordStats.lord4typeAttack;
 	thisLord_skillClassArmor = oLordStats.lord4skillClassArmor;
 	thisLord_skillWeapon = oLordStats.lord4skillWeapon;
