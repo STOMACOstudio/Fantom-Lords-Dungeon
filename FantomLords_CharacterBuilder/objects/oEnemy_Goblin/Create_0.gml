@@ -25,13 +25,53 @@ isFighting = false;
 turnComplete = false;
 actionsMax = 3;
 actions = actionsMax;
-actionsRate = 0;
-
-lordTop = "none";
-lordRight = "none";
-lordDown = "none";
-lordLeft = "none";
 
 alarmCounter = 50;
 
 obstacle = false;
+
+#region combat vars
+
+lordTop = noone;
+lordTopLeft = noone;
+lordTopRight = noone;
+lordRight = noone;
+lordDown = noone;
+lordDownLeft = noone;
+lordDownRight = noone;
+lordLeft = noone;
+lordTarget = noone;
+
+actionsRate = 0;
+
+tile1 = noone;
+tile2 = noone;
+tile3 = noone;
+tile4 = noone;
+tile5 = noone;
+tile6 = noone;
+tile7 = noone;
+tile8 = noone;
+tile9 = noone;
+tile10 = noone;
+tile11 = noone;
+tile12 = noone;
+tile13 = noone;
+tile14 = noone;
+tile15 = noone;
+tile16 = noone;
+tile17 = noone;
+tile18 = noone;
+tile19 = noone;
+tile20 = noone;
+
+chance = 0;
+
+chooseTarget = 0;
+chooseMove = 0;
+canMove = false;
+
+dmgENEMY = 0;
+dmgTYPE = 0;
+
+#endregion
