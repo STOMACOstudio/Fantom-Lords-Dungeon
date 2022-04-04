@@ -3,6 +3,7 @@
 function scrEnemyForceEndTurn(){
 	
 	actions = 0;
+	//isFighting = false;
 	oManagerCombat.fightEnd ++;
 	turnCompelete = true;
 	oManagerCombat.combatPhase = 1;

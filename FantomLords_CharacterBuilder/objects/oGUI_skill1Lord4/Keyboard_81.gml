@@ -5,8 +5,7 @@ if !instance_exists(oVFX_spellCast0father) && instance_exists(oLord4) && oLord4.
 {
 	instance_create_layer(mouse_x,mouse_y,"VFX",oVFX_spellCast4);
 	
-	if oLord4.thisLord_typeAttack = "MAGIC" global.dmgLORD = oLord4.thisLord_MAG;
-	else global.dmgLORD = oLord4.thisLord_ATK;
+	global.dmgLORD = 1000;
 	
 	casting = true;
 }

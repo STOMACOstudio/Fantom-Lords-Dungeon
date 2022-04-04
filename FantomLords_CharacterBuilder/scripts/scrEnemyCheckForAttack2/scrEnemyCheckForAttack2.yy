@@ -6,7 +6,7 @@
     "path": "folders/Scripts/scrEnemyBehavior.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scrEnemyWalkDown",
+  "name": "scrEnemyCheckForAttack2",
   "tags": [],
   "resourceType": "GMScript",
 }

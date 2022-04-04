@@ -34,11 +34,15 @@ if isFighting && !turnComplete && actions > 0
 		}
 		else
 		{
-			if lordTopLeft != noone || lordTopRight != noone || lordDownRight != noone || lordDownLeft != noone scrEnemyCheckForAttack();
+			actionsRate = 1;
+			scrEnemyMoveChoice(); //if lord is near, move closer; else move random
 		}
 	}
 	else
 	{
-		if lordTopLeft != noone || lordTopRight != noone || lordDownRight != noone || lordDownLeft != noone scrEnemyCheckForAttack();
+		actionsRate = 1;
+		
+		if lordTop != noone || lordRight != noone || lordDown != noone || lordLeft != noone scrEnemyForceEndTurn();
+		else scrEnemyMoveChoice();
 	}
 }

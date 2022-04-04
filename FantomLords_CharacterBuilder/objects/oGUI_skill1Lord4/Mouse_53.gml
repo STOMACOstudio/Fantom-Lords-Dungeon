@@ -5,8 +5,7 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 {
 	instance_create_layer(mouse_x,mouse_y,"VFX",oVFX_spellCast4);
 	
-	if oLord4.thisLord_typeAttack = "MAGIC" global.dmgLORD = oLord4.thisLord_MAG;
-	else global.dmgLORD = oLord4.thisLord_ATK;
+	global.dmgLORD = 1000;
 	
 	casting = true;
 }

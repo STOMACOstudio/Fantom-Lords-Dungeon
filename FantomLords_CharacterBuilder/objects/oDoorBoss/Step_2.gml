@@ -5,7 +5,7 @@ if nextRoom <= 0 && !global.gameOver
 {
 	if !instance_exists(oVFX_SolidBlackFadeinBoss)
 	{
-		global.roomCounter ++;
+		//global.roomCounter ++;
 		instance_create_layer(0,0,"VFX",oVFX_SolidBlackFadeinBoss);
 	}
 }

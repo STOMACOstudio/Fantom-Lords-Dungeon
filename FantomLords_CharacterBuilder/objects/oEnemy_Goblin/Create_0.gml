@@ -40,6 +40,22 @@ lordDown = noone;
 lordDownLeft = noone;
 lordDownRight = noone;
 lordLeft = noone;
+lordTopTop = noone;
+lordRightRight = noone;
+lordDownDown = noone;
+lordLeftLeft = noone;
+lordDownDownRight = noone;
+lordDownDownLeft = noone;
+lordRightRightTop = noone;
+lordRightRightDown = noone;
+lordTopTopLeft = noone;
+lordTopTopRight = noone;
+lordLeftLeftTop = noone;
+lordLeftLeftDown = noone;
+lordTopTopTop = noone;
+lordRightRightRight = noone;
+lordDownDownDown = noone;
+lordLeftLeftLeft = noone;
 lordTarget = noone;
 
 actionsRate = 0;
@@ -64,8 +80,6 @@ tile17 = noone;
 tile18 = noone;
 tile19 = noone;
 tile20 = noone;
-
-chance = 0;
 
 chooseTarget = 0;
 chooseMove = 0;
