@@ -6,7 +6,7 @@
     "path": "folders/Scripts/scrEnemyBehavior.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scrEnemyCheckForAttack",
+  "name": "scrBossCheckForAttack2",
   "tags": [],
   "resourceType": "GMScript",
 }

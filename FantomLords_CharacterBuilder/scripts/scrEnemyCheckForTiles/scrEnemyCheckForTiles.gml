@@ -31,9 +31,19 @@ function scrEnemyCheckForTiles(){
 	lordDownDownDown = collision_point(x+32,y+224,oLord0Parent,false,true);
 	lordLeftLeftLeft = collision_point(x-160,y+32,oLord0Parent,false,true);
 	
+	lordRightRightDownDown = collision_point(x+160,y-160,oLord0Parent,false,true);
+	lordRightRightRightDown = collision_point(x+224,y+96,oLord0Parent,false,true);
+	lordDownDownDownRight = collision_point(x+96,y+224,oLord0Parent,false,true);
+	
 	tile1 = collision_point(x+32,y-32,oMap_0parent,false,true);
 	tile2 = collision_point(x+96,y+32,oMap_0parent,false,true);
 	tile3 = collision_point(x+32,y+96,oMap_0parent,false,true);
 	tile4 = collision_point(x-32,y+32,oMap_0parent,false,true);
+	tile6 = collision_point(x+96,y-32,oMap_0parent,false,true);
+	tile8 = collision_point(x-32,y+96,oMap_0parent,false,true);
+	tile10 = collision_point(x+160,y+32,oMap_0parent,false,true);
+	tile11 = collision_point(x+32,y+160,oMap_0parent,false,true);
+	tile16 = collision_point(x+160,y+96,oMap_0parent,false,true);
+	tile17 = collision_point(x+96,y+160,oMap_0parent,false,true);
 
 }

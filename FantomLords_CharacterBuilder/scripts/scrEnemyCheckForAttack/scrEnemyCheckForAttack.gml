@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scrEnemyCheckForAttack(){
 
-	if !tile1.empty && !tile2.empty && !tile3.empty && !tile4.empty && !tile5.empty && !tile6.empty && !tile7.empty && !tile8.empty scrEnemyForceEndTurn(); //if can't move, turn pass
+	if !tile1.empty && !tile2.empty && !tile3.empty && !tile4.empty scrEnemyForceEndTurn(); //if can't move, turn pass
 	else
 	{
 		actionsRate = 1;
