@@ -12,7 +12,7 @@ function scrBossCheckForAttack(){
 			if tile1.empty && tile6.empty if lordTopLeft != noone || lordRightRightTop != noone canMove = true;			
 			if tile10.empty && tile16.empty if lordRightRightTop != noone || lordRightRightDownDown != noone canMove = true;
 			if tile11.empty && tile17.empty if lordRightRightDownDown != noone || lordDownDownLeft != noone canMove = true;
-			if tile14.empty && tile8.empty if lordDownDownLeft != noone || lordTopLeft != noone canMove = true;
+			if tile4.empty && tile8.empty if lordDownDownLeft != noone || lordTopLeft != noone canMove = true;
 			
 			if canMove
 			{
@@ -104,5 +104,6 @@ function scrBossCheckForAttack(){
 				}
 			}
 			else scrEnemyForceEndTurn();
+		}
 	}
 }

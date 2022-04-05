@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scrEnemyCheckForTiles(){
 	
+	#region enemy
 	lordTop = collision_point(x+32,y-32,oLord0Parent,false,true);
 	lordRight = collision_point(x+96,y+32,oLord0Parent,false,true);
 	lordDown = collision_point(x+32,y+96,oLord0Parent,false,true);
@@ -30,10 +31,25 @@ function scrEnemyCheckForTiles(){
 	lordRightRightRight = collision_point(x+224,y+32,oLord0Parent,false,true);
 	lordDownDownDown = collision_point(x+32,y+224,oLord0Parent,false,true);
 	lordLeftLeftLeft = collision_point(x-160,y+32,oLord0Parent,false,true);
+	#endregion
 	
+	#region boss
 	lordRightRightDownDown = collision_point(x+160,y-160,oLord0Parent,false,true);
 	lordRightRightRightDown = collision_point(x+224,y+96,oLord0Parent,false,true);
 	lordDownDownDownRight = collision_point(x+96,y+224,oLord0Parent,false,true);
+	lordTopTopRightRight = collision_point(x+160,y-96,oLord0Parent,false,true);
+	lordRightRightRightTop = collision_point(x+224,y-32,oLord0Parent,false,true);
+	lordRightRightRightDownDown = collision_point(x+224,y+160,oLord0Parent,false,true);
+	lordDownDownDownRightRight = collision_point(x+160,y+224,oLord0Parent,false,true);
+	lordDownDownDownLeft = collision_point(x-32,y+224,oLord0Parent,false,true);
+	lordLeftLeftDownDown = collision_point(x-96,y+160,oLord0Parent,false,true);
+	lordTopTopTopRight = collision_point(x+96,y-160,oLord0Parent,false,true);
+	lordRightRightRightRight = collision_point(x+288,y+32,oLord0Parent,false,true);
+	lordRightRightRightRightDown = collision_point(x+288,y+32,oLord0Parent,false,true);
+	lordDownDownDownDown = collision_point(x+32,y+288,oLord0Parent,false,true);
+	lordDownDownDownDownRight = collision_point(x+96,y+288,oLord0Parent,false,true);
+	lordLeftLeftLeftDown = collision_point(x-160,y+96,oLord0Parent,false,true);
+	#endregion
 	
 	tile1 = collision_point(x+32,y-32,oMap_0parent,false,true);
 	tile2 = collision_point(x+96,y+32,oMap_0parent,false,true);

@@ -23,14 +23,11 @@ thisMAGmax = thisMAG;
 scoreAdd = 50;
 isFighting = false;
 turnComplete = false;
-actionsMax = 2;
+actionsMax = 4;
 actions = actionsMax;
-
-lordTop = "none";
-lordRight = "none";
-lordDown = "none";
-lordLeft = "none";
 
 alarmCounter = 50;
 
 obstacle = false;
+
+scrEnemyCombatVars();

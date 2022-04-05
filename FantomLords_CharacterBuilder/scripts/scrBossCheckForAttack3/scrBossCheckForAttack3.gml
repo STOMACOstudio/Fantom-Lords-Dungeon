@@ -2,49 +2,95 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scrBossCheckForAttack3(){
 
-	if tile1.empty || tile2.empty || tile3.empty || tile4.empty
+	if (tile1.empty && tile6.empty) || (tile10.empty && tile16.empty) || (tile11.empty && tile17.empty) || (tile4.empty && tile8.empty)
 	{
 		
-		if lordTopTopLeft != noone || lordLeftLeftTop != noone if tile1.empty || tile4.empty canMove = true;
-		if lordTopTopRight != noone || lordRightRightTop != noone if tile1.empty || tile2.empty canMove = true;
-		if lordRightRightDown != noone || lordDownDownRight != noone if tile2.empty || tile3.empty canMove = true;
-		if lordDownDownLeft != noone || lordLeftLeftDown != noone if tile3.empty || tile4.empty canMove = true;
+		#region check canMove
+		if lordTopTopLeft != noone if (tile1.empty && tile6.empty) || (tile4.empty && tile8.empty) canMove = true;
+		if lordTopTopRightRight != noone if (tile1.empty && tile6.empty) || (tile10.empty && tile16.empty) canMove = true;
+		if lordRightRightRightTop != noone if (tile1.empty && tile6.empty) || (tile10.empty && tile16.empty) canMove = true;
+		if lordRightRightRightDownDown != noone if (tile11.empty && tile17.empty) || (tile10.empty && tile16.empty) canMove = true;
+		if lordDownDownDownRightRight != noone if (tile11.empty && tile17.empty) || (tile10.empty && tile16.empty) canMove = true;
+		if lordDownDownDownLeft != noone if (tile11.empty && tile17.empty) || (tile4.empty && tile8.empty) canMove = true;
+		if lordLeftLeftTop != noone if (tile1.empty && tile6.empty) || (tile4.empty && tile8.empty) canMove = true;
+		if lordLeftLeftDownDown != noone if (tile11.empty && tile17.empty) || (tile4.empty && tile8.empty) canMove = true;
+		#endregion
 		
 		if canMove
 		{
 			chooseTarget = irandom_range(0,3);
-
+			
 			if chooseTarget = 0
 			{
-				if lordTopTopLeft != noone || lordTopTopRight != noone || lordLeftLeftTop != noone || lordRightRightTop != noone
+				if lordTopTopLeft != noone || lordLeftLeftTop != noone
 				{
-					if tile1.empty scrEnemyWalkUp();
-					else chooseTarget = choose(1,2,3);
+					chooseMove = irandom_range(0,1);
+					if chooseMove = 0
+					{
+						if tile1.empty && tile6.empty scrEnemyWalkUp();
+						else chooseMove = 1;
+					}
+					else if chooseMove = 1
+					{
+						if tile4.empty && tile8.empty scrEnemyWalkLeft();
+						else chooseMove = 0;
+					}
 				}
+				else chooseTarget = choose(1,2,3);
 			}
 			else if chooseTarget = 1
 			{
-				if lordTopTopRight != noone || lordRightRightTop != noone || lordRightRightDown != noone || lordDownDownRight != noone
+				if lordTopTopRightRight != noone || lordRightRightRightTop != noone
 				{
-					if tile2.empty scrEnemyWalkRight();
-					else chooseTarget = choose(0,2,3);
+					chooseMove = irandom_range(0,1);
+					if chooseMove = 0
+					{
+						if tile1.empty && tile6.empty scrEnemyWalkUp();
+						else chooseMove = 1;
+					}
+					else if chooseMove = 1
+					{
+						if tile10.empty && tile16.empty scrEnemyWalkRight();
+						else chooseMove = 0;
+					}
 				}
+				else chooseTarget = choose(0,2,3);
 			}
 			else if chooseTarget = 2
 			{
-				if lordRightRightDown != noone || lordDownDownRight != noone || lordDownDownLeft != noone || lordLeftLeftDown != noone
+				if lordRightRightRightDownDown != noone || lordDownDownDownRightRight != noone
 				{
-					if tile3.empty scrEnemyWalkDown();
-					else chooseTarget = choose(0,1,3);
+					chooseMove = irandom_range(0,1);
+					if chooseMove = 0
+					{
+						if tile11.empty && tile17.empty scrEnemyWalkDown();
+						else chooseMove = 1;
+					}
+					else if chooseMove = 1
+					{
+						if tile10.empty && tile16.empty scrEnemyWalkRight();
+						else chooseMove = 0;
+					}
 				}
+				else chooseTarget = choose(0,1,3);
 			}
 			else if chooseTarget = 3
 			{
-				if lordDownDownLeft != noone || lordLeftLeftDown != noone || lordLeftLeftTop != noone || lordTopTopLeft != noone
+				if lordDownDownDownLeft != noone || lordLeftLeftDownDown != noone
 				{
-					if tile4.empty scrEnemyWalkLeft();
-					else chooseTarget = choose(0,1,2);
+					chooseMove = irandom_range(0,1);
+					if chooseMove = 0
+					{
+						if tile11.empty && tile17.empty scrEnemyWalkDown();
+						else chooseMove = 1;
+					}
+					else if chooseMove = 1
+					{
+						if tile8.empty && tile4.empty scrEnemyWalkLeft();
+						else chooseMove = 0;
+					}
 				}
+				else chooseTarget = choose(0,1,3);
 			}
 		}
 		else scrEnemyForceEndTurn();

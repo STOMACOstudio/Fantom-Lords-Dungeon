@@ -32,7 +32,7 @@ if isFighting && !turnComplete && actions > 0
 	
 	if actions >= 2
 	{
-		if lordTop != noone || lordRight != noone || lordDown != noone || lordLeft != noone
+		if lordTop != noone || lordTopRight != noone || lordRightRight != noone || lordRightRightDown != noone || lordDownDownRight != noone || lordDownDown != noone || lordLeft != noone || lordDownLeft != noone
 		{
 			actionsRate = 2;
 			dmgTYPE = thisATK;
@@ -48,7 +48,7 @@ if isFighting && !turnComplete && actions > 0
 	{
 		actionsRate = 1;
 		
-		if lordTop != noone || lordRight != noone || lordDown != noone || lordLeft != noone scrEnemyForceEndTurn();
+		if lordTop != noone || lordTopRight != noone || lordRightRight != noone || lordRightRightDown != noone || lordDownDownRight != noone || lordDownDown != noone || lordLeft != noone || lordDownLeft != noone scrEnemyForceEndTurn();
 		else scrBossMoveChoice();
 	}
 }

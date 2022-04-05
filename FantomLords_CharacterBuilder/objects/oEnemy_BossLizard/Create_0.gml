@@ -12,25 +12,22 @@ image_yscale /= 2.5;
 isSelected = false;
 
 thisName = "Lizard King";
-thisLIF = 40 + (10*global.roomCounter) + irandom_range(-5,5);
+thisLIF = (10 + (10*global.roomCounter)) + irandom_range(-5,5);
 thisLIFmax = thisLIF;
-thisATK = 10 + (2*global.roomCounter) + irandom_range(-2,5);
+thisATK = (5 + (2*global.roomCounter)) + irandom_range(-2,5);
 thisATKmax = thisATK;
-thisDEF = 20 + (2*global.roomCounter) + irandom_range(-3,3);
+thisDEF = (5 + (2*global.roomCounter)) + irandom_range(-3,3);
 thisDEFmax = thisDEF;
-thisMAG = 10 + (2*global.roomCounter) + irandom_range(-3,3);
+thisMAG = (5 + (2*global.roomCounter)) + irandom_range(-3,3);
 thisMAGmax = thisMAG;
 scoreAdd = 50;
 isFighting = false;
 turnComplete = false;
-actionsMax = 2;
+actionsMax = 4;
 actions = actionsMax;
-
-lordTop = "none";
-lordRight = "none";
-lordDown = "none";
-lordLeft = "none";
 
 alarmCounter = 50;
 
 obstacle = false;
+
+scrEnemyCombatVars();
