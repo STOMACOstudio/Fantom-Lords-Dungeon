@@ -14,3 +14,4 @@ if revealed
 		stepped = false;
 	}
 }
+

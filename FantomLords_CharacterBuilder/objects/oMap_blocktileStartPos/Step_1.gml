@@ -6,7 +6,7 @@ empty = false;
 else if !collision_point(x+32,y+32,oLord0Parent,false,true) && !collision_point(x+32,y+32,oEnemy0_Father,false,true)
 empty = true;
 
-if collision_point(x+32,y+32,oLord0Parent,false,true) && !stepped
+/*if collision_point(x+32,y+32,oLord0Parent,false,true) && !stepped
 {
 	image_index = 1;
 	stepped = true;

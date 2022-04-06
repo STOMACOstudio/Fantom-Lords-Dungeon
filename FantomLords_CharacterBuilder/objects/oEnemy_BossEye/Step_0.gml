@@ -14,18 +14,6 @@ else if thisLIF <= thisLIFmax/8 currentLIF = 5;
 image_index = currentLIF;
 #endregion
 
-if revealed
-{
-	lordTop1 = collision_point(x+32,y-32,oLord0Parent,false,true);
-	lordTop2 = collision_point(x+96,y-32,oLord0Parent,false,true);
-	lordRight1 = collision_point(x+160,y+32,oLord0Parent,false,true);
-	lordRight2 = collision_point(x+160,y+96,oLord0Parent,false,true);
-	lordDown1 = collision_point(x+32,y+160,oLord0Parent,false,true);
-	lordDown2 = collision_point(x+96,y+160,oLord0Parent,false,true);
-	lordLeft1 = collision_point(x-32,y+32,oLord0Parent,false,true);
-	lordLeft2 = collision_point(x-32,y+96,oLord0Parent,false,true);
-}
-
 if isSelected && revealed
 {
 	global.currentSelectedName = thisName;
