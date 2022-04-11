@@ -5,6 +5,8 @@ var collisionLord = collision_point(x,y,oLord0Parent,false,true);
 
 if collisionLord != noone
 {
+	depth = 0
+	
 	if !damage
 	{
 		var trapDamage = round((collisionLord.thisLord_LIF)/2);
@@ -20,6 +22,7 @@ if collisionLord != noone
 }
 else
 {
+	depth = startDepth
 	if !audio_is_playing(snTrapUnload) && image_alpha > 0 && image_index = 8 audio_play_sound(snTrapUnload,0,false);
 	image_speed = -1;
 	damage = false;
