@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if isSelected && revealed && collision_point(x,y,oEnemy0_Father,false,true) = noone
+if isSelected && revealed && collision_point(x,y,oEnemy0_Father,false,true) = noone && revealed
 {
 	global.currentSelectedSprite = sprite_index;
 	global.currentSelectedImageIndex = image_index;

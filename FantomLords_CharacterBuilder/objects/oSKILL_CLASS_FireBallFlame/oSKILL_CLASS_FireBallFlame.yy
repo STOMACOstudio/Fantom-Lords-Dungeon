@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sVFX_SKILL_Fireball",
-    "path": "sprites/sVFX_SKILL_Fireball/sVFX_SKILL_Fireball.yy",
+    "name": "sVFX_SKILL_FireballFlame",
+    "path": "sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Skills.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_SKILL_CLASS_FireBallFlame",
+  "name": "oSKILL_CLASS_FireBallFlame",
   "tags": [],
   "resourceType": "GMObject",
 }

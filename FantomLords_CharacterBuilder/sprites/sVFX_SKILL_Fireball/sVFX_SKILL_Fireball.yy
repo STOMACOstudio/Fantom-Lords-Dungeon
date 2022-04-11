@@ -68,7 +68,7 @@
     "spriteId": {"name":"sVFX_SKILL_Fireball","path":"sprites/sVFX_SKILL_Fireball/sVFX_SKILL_Fireball.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 12.0,
+    "playbackSpeed": 24.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

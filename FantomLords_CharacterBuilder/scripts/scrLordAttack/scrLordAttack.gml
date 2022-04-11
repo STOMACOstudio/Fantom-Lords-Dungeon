@@ -33,6 +33,7 @@ function scrLordAttack(){
 	
 		enemy.thisLIF -= dmgLORD;
 		thisLord_ACTpoints -= 2;
+		enemy.target = false;
 	}
 	
 }
