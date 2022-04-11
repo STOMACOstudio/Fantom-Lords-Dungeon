@@ -2,6 +2,9 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scrLordMovement(){
 	
+	lastX = x;
+	lastY = y;
+	
 	instTopLeft = collision_point(x-32,y-32,oMap_0parent,false,true);
 	instTop = collision_point(x+32,y-32,oMap_0parent,false,true);
 	instTopRight = collision_point(x+96,y-32,oMap_0parent,false,true);

@@ -45,3 +45,5 @@ enemyDownRight = noone;
 enemyDown = noone;
 enemyDownLeft = noone;
 enemyLeft = noone;
+lastX = 0;
+lastY = 0;

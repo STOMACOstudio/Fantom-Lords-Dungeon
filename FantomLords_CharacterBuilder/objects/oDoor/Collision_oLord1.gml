@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if open
+/*if open
 {
 	audio_play_sound(snDoor,0,false);
 

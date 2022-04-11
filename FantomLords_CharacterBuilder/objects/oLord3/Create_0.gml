@@ -47,5 +47,7 @@ if oLordStats.lord3active
 	enemyDown = noone;
 	enemyDownLeft = noone;
 	enemyLeft = noone;
+	lastX = 0;
+	lastY = 0;
 }
 else instance_destroy();
