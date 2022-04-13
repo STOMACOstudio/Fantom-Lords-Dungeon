@@ -1,7 +1,20 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var enemy = collision_point(x,y,oEnemy0_Father,false,false)
+if oLord1.spellCast = 0
+{
+	if tile != noone && tile.stepped
+	{
+		oLord1.spellCast = noone;
+		oLord1.thisLord_ACTpoints -= 2;
+		global.dmgLORD = oLord1.thisLord_MAG + irandom_range(-3,6);
+		if global.dmgLORD <= 0 global.dmgLORD = 1;
+		instance_create_layer(tile.x+32,tile.y+32,"VFX",oSKILL_CLASS_FireBall);
+		instance_destroy();
+	}
+}
+
+/*var enemy = collision_point(x,y,oEnemy0_Father,false,false)
 if enemy != noone && enemy.target = true
 {
 	if oLord1.thisLord_typeAttack = "MELEE"
@@ -40,4 +53,4 @@ if enemy != noone && enemy.target = true
 	oLord1.thisLord_ACTpoints --;
 }
 	
-instance_destroy();
+instance_destroy();*/

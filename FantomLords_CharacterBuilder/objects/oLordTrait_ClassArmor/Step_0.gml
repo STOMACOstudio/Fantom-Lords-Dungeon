@@ -29,7 +29,6 @@ else if global.classArmor = 1 //assassin
 	global.modMAGarmor = AssaMAGmod;
 	global.modACTarmor = AssaACTmod;
 	global.classArmorSkill = "Shadow";
-	
 }
 else if global.classArmor = 2 //druid
 {

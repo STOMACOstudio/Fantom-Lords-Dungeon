@@ -4,3 +4,4 @@
 image_alpha = 0;
 revealed = false;
 empty = false;
+stepped = false;

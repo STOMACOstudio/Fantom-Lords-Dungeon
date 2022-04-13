@@ -19,5 +19,5 @@ if !global.fightMode thisLord_ACTpoints = thisLord_ACTpointsMAX;
 
 if thisLocked
 {
-	scrLordCheckTarget();
+	if !instance_exists(oVFX_spellCast1) scrLordCheckTarget();
 }
