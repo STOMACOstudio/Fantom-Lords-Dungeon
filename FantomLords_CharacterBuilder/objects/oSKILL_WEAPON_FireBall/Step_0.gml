@@ -3,7 +3,7 @@
 
 var makeFlame = irandom_range(0,10);
 
-if makeFlame >= 5 instance_create_layer(x+irandom_range(-64,64),y+irandom_range(-64,64),"VFX",oSKILL_CLASS_FireBallFlame);
+if makeFlame >= 5 instance_create_layer(x+irandom_range(-64,64),y+irandom_range(-64,64),"VFX",oSKILL_WEAPON_FireBallFlame);
 
 if done = true
 {

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sVFX_SKILL_FireballFlame",
-    "path": "sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",
+    "name": "sVFX_SKILL_Longsword",
+    "path": "sprites/sVFX_SKILL_Longsword/sVFX_SKILL_Longsword.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +32,7 @@
     "path": "folders/Objects/Skills.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSKILL_CLASS_FireBallFlame",
+  "name": "oSKILL_WEAPON_Longsword",
   "tags": [],
   "resourceType": "GMObject",
 }
