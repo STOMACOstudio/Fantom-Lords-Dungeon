@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if global.BRONZEkey > 0 && collision_point(x,y,oLord0Parent,false,true) = noone && collision_point(x,y,oEnemy0_Father,true,false) = noone
+if global.BRONZEkey > 0 && collision_point(x,y,oLord0Parent,false,true) = noone && collision_point(x,y,oEnemy0_Father,true,false) = noone && revealed
 {
 	if !oLord0Parent.thisLocked
 	{

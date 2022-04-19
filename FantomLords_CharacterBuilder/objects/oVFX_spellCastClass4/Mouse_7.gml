@@ -1,14 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if oLord3.spellCast = 0
+if oLord4.spellCast = 0
 {
 	if trap != noone
 	{
-		if (trap.x = oLord3.x && trap.y = oLord3.y-64) || (trap.x = oLord3.x+64 && trap.y = oLord3.y) || (trap.x = oLord3.x && trap.y = oLord3.y+64) || (trap.x = oLord3.x-64 && trap.y = oLord3.y)
+		if (trap.x = oLord4.x && trap.y = oLord4.y-64) || (trap.x = oLord4.x+64 && trap.y = oLord4.y) || (trap.x = oLord4.x && trap.y = oLord4.y+64) || (trap.x = oLord4.x-64 && trap.y = oLord4.y)
 		{
-			oLord3.spellCast = noone;
-			oLord3.thisLord_ACTpoints -= 2;
+			oLord4.spellCast = noone;
+			oLord4.thisLord_ACTpoints -= 2;
 			instance_create_layer(trap.x,trap.y,"VFX",oSKILL_CLASS_Ranger);
 			instance_destroy();
 		}

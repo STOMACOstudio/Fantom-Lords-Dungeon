@@ -101,6 +101,8 @@ if !instance_exists(oVFX_SolidBlackFadeinDungeon)
 	
 	global.roomCounter ++;
 	
-	instance_create_layer(0,0,"VFX",oVFX_SolidBlackFadeinDungeon);
+	if global.roomCounter = 3*global.bossBattle instance_create_layer(0,0,"VFX",oVFX_SolidBlackFadeinBoss)
+	else instance_create_layer(0,0,"VFX",oVFX_SolidBlackFadeinDungeon);
+	
 	instance_destroy();
 }
