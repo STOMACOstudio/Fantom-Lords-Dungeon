@@ -3,7 +3,7 @@
 
 with oEnemy0_Father target = false;
 
-if !thisLocked
+if !thisLocked && !instance_exists(oVFX_spellCast0father)
 {
 	with (oLord0FrameParent)
 	{
