@@ -1,7 +1,20 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if oLord1.spellCast = 3
+if oLord1.spellCast = 0
+{
+	if trap != noone
+	{
+		if (trap.x = oLord1.x && trap.y = oLord1.y-64) || (trap.x = oLord1.x+64 && trap.y = oLord1.y) || (trap.x = oLord1.x && trap.y = oLord1.y+64) || (trap.x = oLord1.x-64 && trap.y = oLord1.y)
+		{
+			oLord1.spellCast = noone;
+			oLord1.thisLord_ACTpoints -= 2;
+			instance_create_layer(trap.x,trap.y,"VFX",oSKILL_CLASS_Ranger);
+			instance_destroy();
+		}
+	}
+}
+else if oLord1.spellCast = 3
 {
 	if lord != noone && lord != oLord1
 	{

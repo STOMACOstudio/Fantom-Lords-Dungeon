@@ -4,3 +4,4 @@
 enemy = noone;
 tile = noone;
 lord = noone;
+trap = noone;
