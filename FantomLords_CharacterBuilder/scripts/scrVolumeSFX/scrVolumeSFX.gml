@@ -22,5 +22,6 @@ function scrVolumeSFX(){
 	audio_sound_gain(sn_SKILL_Longsword,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Suture,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Ranger,global.volumeSFX,0);
-	
+	audio_sound_gain(snTrapRevealed,global.volumeSFX,0);
+	audio_sound_gain(snWalk,global.volumeSFX,0);
 }

@@ -6,7 +6,7 @@ if room != Room4_Boss
 	if !filled && empty
 	{
 		var filling = irandom_range(0,10);
-		if filling >= 8
+		if filling >= 6
 		{
 			var chest = irandom_range(0,9);
 			if chest = 9 instance_create_layer(x,y,"Traps",oTreasureChest_Bronze);
