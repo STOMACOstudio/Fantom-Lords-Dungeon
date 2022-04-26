@@ -365,6 +365,7 @@
     {"id":{"name":"scrEnemyWalkRight","path":"scripts/scrEnemyWalkRight/scrEnemyWalkRight.yy",},"order":5,},
     {"id":{"name":"snAttack","path":"sounds/snAttack/snAttack.yy",},"order":6,},
     {"id":{"name":"oVFX_powerUpATK","path":"objects/oVFX_powerUpATK/oVFX_powerUpATK.yy",},"order":63,},
+    {"id":{"name":"oVFX_spellCastAttack","path":"objects/oVFX_spellCastAttack/oVFX_spellCastAttack.yy",},"order":133,},
     {"id":{"name":"oPrintHTTP","path":"objects/oPrintHTTP/oPrintHTTP.yy",},"order":21,},
     {"id":{"name":"oGUI_printLordStats2","path":"objects/oGUI_printLordStats2/oGUI_printLordStats2.yy",},"order":5,},
     {"id":{"name":"oGUI_gemsATKdrop","path":"objects/oGUI_gemsATKdrop/oGUI_gemsATKdrop.yy",},"order":55,},

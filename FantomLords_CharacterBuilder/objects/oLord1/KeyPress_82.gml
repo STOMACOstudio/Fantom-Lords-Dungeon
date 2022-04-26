@@ -3,10 +3,10 @@
 
 if thisLocked && thisLord_ACTpoints >= 2
 {
-	if instance_exists(oVFX_spellCast1)
+	if instance_exists(oVFX_spellCast0father)
 	{
 		spellCast = -1;
-		instance_destroy(oVFX_spellCast1);
+		instance_destroy(oVFX_spellCast0father);
 	}
 	else
 	{

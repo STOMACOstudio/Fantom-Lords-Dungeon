@@ -10,8 +10,7 @@ if thisLocked && thisLord_ACTpoints >= 2
 	}
 	else
 	{
-		spellCast = thisLord_skillClassArmor;
-		if !instance_exists(oVFX_spellCastClass1) instance_create_layer(mouse_x,mouse_y,"VFX",oVFX_spellCastClass1);
-		else instance_destroy(oVFX_spellCastClass1);
+		if !instance_exists(oVFX_spellCastAttack) instance_create_layer(mouse_x,mouse_y,"VFX",oVFX_spellCastAttack);
+		else instance_destroy(oVFX_spellCastAttack);
 	}
 }

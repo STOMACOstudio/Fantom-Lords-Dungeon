@@ -38,7 +38,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oVFX_spellCastClass3",
+  "name": "oVFX_spellCastAttack",
   "tags": [],
   "resourceType": "GMObject",
 }
