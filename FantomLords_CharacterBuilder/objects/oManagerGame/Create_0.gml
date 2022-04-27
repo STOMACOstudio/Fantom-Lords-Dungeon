@@ -44,6 +44,7 @@ global.SILVERkey = 0;
 global.GOLDkey = 0;
 global.SKULLkey = 0;
 global.potionLIF = 0;
+global.potionACT = 0;
 
 global.roomCondition = "none";
 global.tileNumber = 0;

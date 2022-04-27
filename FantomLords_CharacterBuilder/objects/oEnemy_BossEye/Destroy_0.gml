@@ -8,9 +8,9 @@ score += scoreAdd;
 
 instance_create_layer(oGUI_score.x+112,oGUI_score.y,"Instances",oGUI_printScoreAdd);
 instance_create_layer(x,y,"Instances",oDoor);
-instance_create_layer(x+64,y,"Instances",choose(oCollectible_StatGem,oCollectible_Potion,oCollectible_GoldS,oCollectible_KeyBronze));
-instance_create_layer(x,y+64,"Instances",choose(oCollectible_StatGem,oCollectible_Potion,oCollectible_GoldS,oCollectible_KeyBronze));
-instance_create_layer(x+64,y+64,"Instances",choose(oCollectible_StatGem,oCollectible_Potion,oCollectible_GoldS,oCollectible_KeyBronze));
+instance_create_layer(x+64,y,"Instances",choose(oCollectible_StatGem,oCollectible_PotionACT,oCollectible_Potion,oCollectible_GoldS,oCollectible_KeyBronze));
+instance_create_layer(x,y+64,"Instances",choose(oCollectible_StatGem,oCollectible_PotionACT,oCollectible_Potion,oCollectible_GoldS,oCollectible_KeyBronze));
+instance_create_layer(x+64,y+64,"Instances",choose(oCollectible_StatGem,oCollectible_PotionACT,oCollectible_Potion,oCollectible_GoldS,oCollectible_KeyBronze));
 
 if isSelected
 {

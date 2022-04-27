@@ -49,5 +49,6 @@ if oLordStats.lord2active
 	enemyLeft = noone;
 	lastX = 0;
 	lastY = 0;
+	spellCast = -1;
 }
 else instance_destroy();
