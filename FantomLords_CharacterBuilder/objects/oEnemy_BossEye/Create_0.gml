@@ -25,6 +25,7 @@ isFighting = false;
 turnComplete = false;
 actionsMax = 4;
 actions = actionsMax;
+bashed = false;
 
 alarmCounter = 50;
 

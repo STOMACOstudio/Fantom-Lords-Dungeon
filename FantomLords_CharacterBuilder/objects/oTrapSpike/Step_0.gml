@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 var collisionLord = collision_point(x,y,oLord0Parent,false,true);
+var collisionEnemy = collision_point(x,y,oEnemy0_Father,false,true);
 
 if collisionLord != noone
 {
@@ -20,9 +21,26 @@ if collisionLord != noone
 		damage = true;
 	}
 }
+else if collisionEnemy != noone && collisionEnemy.bashed
+{
+	depth = collisionEnemy.depth-1;
+	
+	if !damage
+	{
+		var trapDamage = round((collisionEnemy.thisLIF)/2);
+		global.dmgLORD = trapDamage;
+		collisionEnemy.thisLIF -= trapDamage;
+		instance_create_layer(collisionEnemy.x+32,collisionEnemy.y+32,"VFX",oGUI_printDMGlord)
+		image_alpha = 1;
+		image_speed = 0;
+		image_index = 8;
+		audio_play_sound(snAttack,0,false);
+		damage = true;
+		collisionEnemy.bashed = false;
+	}
+}
 else
 {
-	depth = startDepth
 	if !audio_is_playing(snTrapUnload) && image_alpha > 0 && image_index = 8 audio_play_sound(snTrapUnload,0,false);
 	image_speed = -1;
 	damage = false;

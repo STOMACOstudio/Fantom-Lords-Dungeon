@@ -3,5 +3,6 @@
 
 image_alpha = 0;
 damage = false;
+enemyBash = false;
 
 startDepth = depth

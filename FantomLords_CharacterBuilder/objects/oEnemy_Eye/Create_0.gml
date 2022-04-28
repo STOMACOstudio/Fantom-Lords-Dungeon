@@ -26,6 +26,7 @@ turnComplete = false;
 actionsMax = 3;
 actions = actionsMax;
 actionsRate = 0;
+bashed = false;
 
 alarmCounter = 50;
 
