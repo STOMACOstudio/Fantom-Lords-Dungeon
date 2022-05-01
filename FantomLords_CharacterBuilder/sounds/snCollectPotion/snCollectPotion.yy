@@ -14,8 +14,8 @@
   "soundFile": "snCollectPotion.wav",
   "duration": 0.316689,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "OTHERS",
+    "path": "folders/Sounds/OTHERS.yy",
   },
   "resourceVersion": "1.0",
   "name": "snCollectPotion",

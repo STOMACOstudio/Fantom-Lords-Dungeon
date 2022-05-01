@@ -14,8 +14,8 @@
   "soundFile": "snOpenChest.wav",
   "duration": 0.266553,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "OTHERS",
+    "path": "folders/Sounds/OTHERS.yy",
   },
   "resourceVersion": "1.0",
   "name": "snOpenChest",

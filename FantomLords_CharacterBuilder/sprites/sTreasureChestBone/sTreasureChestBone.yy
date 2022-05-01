@@ -113,8 +113,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Collect",
+    "path": "folders/Sprites/Collect.yy",
   },
   "resourceVersion": "1.0",
   "name": "sTreasureChestBone",

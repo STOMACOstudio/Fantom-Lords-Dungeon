@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if thisLocked && thisLord_ACTpoints >= 2
+if thisLocked && thisLord_ACTpoints >= 2 && global.hasControl
 {
 	if instance_exists(oVFX_spellCast2)
 	{

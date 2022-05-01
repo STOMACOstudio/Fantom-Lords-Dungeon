@@ -14,8 +14,8 @@
   "soundFile": "snTrapRevealed.wav",
   "duration": 1.892222,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "OTHERS",
+    "path": "folders/Sounds/OTHERS.yy",
   },
   "resourceVersion": "1.0",
   "name": "snTrapRevealed",

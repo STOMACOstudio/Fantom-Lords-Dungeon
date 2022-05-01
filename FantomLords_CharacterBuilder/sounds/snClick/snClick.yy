@@ -14,8 +14,8 @@
   "soundFile": "snClick.wav",
   "duration": 0.137075,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "OTHERS",
+    "path": "folders/Sounds/OTHERS.yy",
   },
   "resourceVersion": "1.0",
   "name": "snClick",

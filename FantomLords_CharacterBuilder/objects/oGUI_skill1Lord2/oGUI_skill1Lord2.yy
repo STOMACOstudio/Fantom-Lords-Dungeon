@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Lord2",
-    "path": "folders/Objects/oGUI_Lords/Lord2.yy",
+    "path": "folders/Objects/Lords/Lord2.yy",
   },
   "resourceVersion": "1.0",
   "name": "oGUI_skill1Lord2",

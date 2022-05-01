@@ -34,8 +34,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "VFX",
+    "path": "folders/Objects/VFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "oVFX_spellCast3",

@@ -130,7 +130,7 @@
   "nineSlice": null,
   "parent": {
     "name": "VFX Skill",
-    "path": "folders/Sprites/VFX Skill.yy",
+    "path": "folders/Sprites/VFX/VFX Skill.yy",
   },
   "resourceVersion": "1.0",
   "name": "sSKILL_CLASS_Suture",

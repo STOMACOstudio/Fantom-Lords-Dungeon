@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Lords",
+    "path": "folders/Objects/Lords.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBuilderPlayerStats",

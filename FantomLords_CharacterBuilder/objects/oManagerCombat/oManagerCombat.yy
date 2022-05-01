@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Manager",
+    "path": "folders/Objects/Manager.yy",
   },
   "resourceVersion": "1.0",
   "name": "oManagerCombat",

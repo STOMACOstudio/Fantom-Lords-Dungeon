@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Lord3",
-    "path": "folders/Objects/oGUI_Lords/Lord3.yy",
+    "path": "folders/Objects/Lords/Lord3.yy",
   },
   "resourceVersion": "1.0",
   "name": "oGUI_lordHealthFront3",

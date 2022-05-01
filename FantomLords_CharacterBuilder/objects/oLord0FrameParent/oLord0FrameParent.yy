@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "oGUI_Lords",
-    "path": "folders/Objects/oGUI_Lords.yy",
+    "name": "Lords",
+    "path": "folders/Objects/Lords.yy",
   },
   "resourceVersion": "1.0",
   "name": "oLord0FrameParent",

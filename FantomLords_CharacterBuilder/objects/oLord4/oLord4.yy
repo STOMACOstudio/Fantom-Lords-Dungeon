@@ -40,7 +40,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Lord4",
-    "path": "folders/Objects/oGUI_Lords/Lord4.yy",
+    "path": "folders/Objects/Lords/Lord4.yy",
   },
   "resourceVersion": "1.0",
   "name": "oLord4",

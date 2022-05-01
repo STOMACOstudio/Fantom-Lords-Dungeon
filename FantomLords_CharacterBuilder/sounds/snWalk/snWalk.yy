@@ -14,8 +14,8 @@
   "soundFile": "snWalk.wav",
   "duration": 0.115011,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "OTHERS",
+    "path": "folders/Sounds/OTHERS.yy",
   },
   "resourceVersion": "1.0",
   "name": "snWalk",

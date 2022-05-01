@@ -2,8 +2,6 @@
 // You can write your code in this editor
 if !instance_exists(oVFX_SolidBlackFadeinDungeon)
 {
-	instance_activate_all();
-	
 	if oLordStats.lord1active
 		{	
 			oLordStats.lord1LIF = oLord1.thisLord_LIF;
@@ -103,6 +101,6 @@ if !instance_exists(oVFX_SolidBlackFadeinDungeon)
 	
 	if global.roomCounter = 3*global.bossBattle instance_create_layer(0,0,"VFX",oVFX_SolidBlackFadeinBoss)
 	else instance_create_layer(0,0,"VFX",oVFX_SolidBlackFadeinDungeon);
-	
+	global.hasControl = true;
 	instance_destroy();
 }

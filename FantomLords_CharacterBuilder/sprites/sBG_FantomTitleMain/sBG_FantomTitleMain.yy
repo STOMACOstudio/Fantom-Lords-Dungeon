@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"287f5a5f-4aef-4e70-911d-8578bd8a5a94","path":"sprites/sBG_FantomTitleMain/sBG_FantomTitleMain.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"287f5a5f-4aef-4e70-911d-8578bd8a5a94","path":"sprites/sBG_FantomTitleMain/sBG_FantomTitleMain.yy",},"LayerId":{"name":"670ec1da-5396-40f8-8567-5b3fafc9594c","path":"sprites/sBG_FantomTitleMain/sBG_FantomTitleMain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"287f5a5f-4aef-4e70-911d-8578bd8a5a94","path":"sprites/sBG_FantomTitleMain/sBG_FantomTitleMain.yy",},"LayerId":{"name":"2c23be79-d81e-4771-a87b-f2670b84de0c","path":"sprites/sBG_FantomTitleMain/sBG_FantomTitleMain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"287f5a5f-4aef-4e70-911d-8578bd8a5a94","path":"sprites/sBG_FantomTitleMain/sBG_FantomTitleMain.yy",},"LayerId":{"name":"670ec1da-5396-40f8-8567-5b3fafc9594c","path":"sprites/sBG_FantomTitleMain/sBG_FantomTitleMain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sBG_FantomTitleMain","path":"sprites/sBG_FantomTitleMain/sBG_FantomTitleMain.yy",},"resourceVersion":"1.0","name":"287f5a5f-4aef-4e70-911d-8578bd8a5a94","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"29360593-bce3-4dc8-a00b-69e06a27191f","path":"sprites/sBG_FantomTitleMain/sBG_FantomTitleMain.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"29360593-bce3-4dc8-a00b-69e06a27191f","path":"sprites/sBG_FantomTitleMain/sBG_FantomTitleMain.yy",},"LayerId":{"name":"2c23be79-d81e-4771-a87b-f2670b84de0c","path":"sprites/sBG_FantomTitleMain/sBG_FantomTitleMain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -76,8 +76,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "GUI",
+    "path": "folders/Sprites/GUI.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBG_FantomTitleMain",

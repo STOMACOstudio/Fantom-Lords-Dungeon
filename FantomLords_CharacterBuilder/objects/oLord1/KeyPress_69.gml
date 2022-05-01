@@ -1,17 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-if thisLocked && thisLord_ACTpoints >= 2
+if global.hasControl
 {
-	if instance_exists(oVFX_spellCast0father)
+	if thisLocked && thisLord_ACTpoints >= 2
 	{
-		spellCast = -1;
-		instance_destroy(oVFX_spellCast0father);
-	}
-	else
-	{
-		spellCast = thisLord_skillClassArmor;
-		if !instance_exists(oVFX_spellCastClass1) instance_create_layer(mouse_x,mouse_y,"VFX",oVFX_spellCastClass1);
-		else instance_destroy(oVFX_spellCastClass1);
+		if instance_exists(oVFX_spellCast0father)
+		{
+			spellCast = -1;
+			instance_destroy(oVFX_spellCast0father);
+		}
+		else
+		{
+			spellCast = thisLord_skillClassArmor;
+			if !instance_exists(oVFX_spellCastClass1) instance_create_layer(mouse_x,mouse_y,"VFX",oVFX_spellCastClass1);
+			else instance_destroy(oVFX_spellCastClass1);
+		}
 	}
 }

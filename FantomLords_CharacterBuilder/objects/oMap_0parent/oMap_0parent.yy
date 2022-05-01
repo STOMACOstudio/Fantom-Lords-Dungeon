@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Map",
+    "path": "folders/Objects/Map.yy",
   },
   "resourceVersion": "1.0",
   "name": "oMap_0parent",

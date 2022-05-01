@@ -14,8 +14,8 @@
   "soundFile": "snSpellCast.wav",
   "duration": 0.601474,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "OTHERS",
+    "path": "folders/Sounds/OTHERS.yy",
   },
   "resourceVersion": "1.0",
   "name": "snSpellCast",

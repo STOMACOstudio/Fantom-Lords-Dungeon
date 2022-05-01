@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Lords",
+    "path": "folders/Sprites/Lords.yy",
   },
   "resourceVersion": "1.0",
   "name": "sLordFramePlayer",

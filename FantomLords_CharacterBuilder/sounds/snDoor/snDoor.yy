@@ -14,8 +14,8 @@
   "soundFile": "snDoor.wav",
   "duration": 0.356304,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "OTHERS",
+    "path": "folders/Sounds/OTHERS.yy",
   },
   "resourceVersion": "1.0",
   "name": "snDoor",

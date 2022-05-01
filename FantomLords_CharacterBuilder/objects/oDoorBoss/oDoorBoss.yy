@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Collectibles",
+    "path": "folders/Objects/Collectibles.yy",
   },
   "resourceVersion": "1.0",
   "name": "oDoorBoss",
