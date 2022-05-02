@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTileCross",
-    "path": "sprites/sTileCross/sTileCross.yy",
+    "name": "sBlockWall",
+    "path": "sprites/sBlockWall/sBlockWall.yy",
   },
   "solid": false,
   "visible": true,

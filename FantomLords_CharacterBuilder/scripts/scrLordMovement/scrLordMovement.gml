@@ -18,7 +18,7 @@ function scrLordMovement(){
 	{
 		if !instTopLeft.revealed
 		{
-			instTopLeft.image_alpha = 0.4;
+			instTopLeft.image_alpha = 0.8;
 			instTopLeft.revealed = true;
 			global.tileNumber --;
 		}
@@ -27,7 +27,7 @@ function scrLordMovement(){
 	{
 		if !instTop.revealed
 		{
-			instTop.image_alpha = 0.4;
+			instTop.image_alpha = 0.8;
 			instTop.revealed = true;
 			global.tileNumber --;
 		}
@@ -36,7 +36,7 @@ function scrLordMovement(){
 	{
 		if !instTopRight.revealed
 		{
-			instTopRight.image_alpha = 0.4;
+			instTopRight.image_alpha = 0.8;
 			instTopRight.revealed = true;
 			global.tileNumber --;
 		}
@@ -45,7 +45,7 @@ function scrLordMovement(){
 	{
 		if !instRight.revealed
 		{
-			instRight.image_alpha = 0.4;
+			instRight.image_alpha = 0.8;
 			instRight.revealed = true;
 			global.tileNumber --;
 		}
@@ -54,7 +54,7 @@ function scrLordMovement(){
 	{
 		if !instDownRight.revealed
 		{
-			instDownRight.image_alpha = 0.4;
+			instDownRight.image_alpha = 0.8;
 			instDownRight.revealed = true;
 			global.tileNumber --;
 		}
@@ -63,7 +63,7 @@ function scrLordMovement(){
 	{
 		if !instDown.revealed
 		{
-			instDown.image_alpha = 0.4;
+			instDown.image_alpha = 0.8;
 			instDown.revealed = true;
 			global.tileNumber --;
 		}
@@ -72,7 +72,7 @@ function scrLordMovement(){
 	{
 		if !instDownLeft.revealed
 		{
-			instDownLeft.image_alpha = 0.4;
+			instDownLeft.image_alpha = 0.8;
 			instDownLeft.revealed = true;
 			global.tileNumber --;
 		}
@@ -81,7 +81,7 @@ function scrLordMovement(){
 	{
 		if !instLeft.revealed
 		{
-			instLeft.image_alpha = 0.4;
+			instLeft.image_alpha = 0.8;
 			instLeft.revealed = true;
 			global.tileNumber --;
 		}

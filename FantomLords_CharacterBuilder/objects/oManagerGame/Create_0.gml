@@ -63,3 +63,5 @@ global.bossBattle = 1;
 
 global.hideEnemy = 0;
 global.fightMode = false;
+
+global.roomColor = c_white;

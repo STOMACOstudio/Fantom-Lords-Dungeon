@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+tile = collision_point(mouse_x,mouse_y,oMap_0parent,false,true);
+enemy = collision_point(mouse_x,mouse_y,oEnemy0_Father,false,true);
+
 if oLord3.spellCast = 0
 {
 	if tile != noone && tile.stepped
@@ -22,26 +25,28 @@ else if oLord3.spellCast = 9
 		global.dmgLORD = round((oLord3.thisLord_ATK + irandom_range(-3,6))/2);
 		if global.dmgLORD <= 0 global.dmgLORD = 1;
 		instance_create_layer(enemy.x+32,enemy.y+32,"VFX",oSKILL_WEAPON_Longsword);
-		if enemy.x = oLord3.x && enemy.y < oLord3.y if collision_point(enemy.x,enemy.y-64,oMap_0parent,false,true).empty
+		
+		if enemy.x = oLord3.x && enemy.y < oLord3.y && collision_point(enemy.x+16,enemy.y-32,oMap_0parent,false,true).empty
 		{
 			enemy.y -= global.tileRate;
 			enemy.bashed = true;
 		}
-		if enemy.x > oLord3.x && enemy.y = oLord3.y if collision_point(enemy.x+64,enemy.y,oMap_0parent,false,true).empty
+		else if enemy.x > oLord3.x && enemy.y = oLord3.y && collision_point(enemy.x+96,enemy.y+16,oMap_0parent,false,true).empty
 		{
 			enemy.x += global.tileRate;
 			enemy.bashed = true;
 		}
-		if enemy.x = oLord3.x && enemy.y > oLord3.y if collision_point(enemy.x,enemy.y+64,oMap_0parent,false,true).empty
+		else if enemy.x = oLord3.x && enemy.y > oLord3.y && collision_point(enemy.x+16,enemy.y+96,oMap_0parent,false,true).empty
 		{
 			enemy.y += global.tileRate;
 			enemy.bashed = true;
 		}
-		if enemy.x < oLord3.x && enemy.y = oLord3.y if collision_point(enemy.x-64,enemy.y,oMap_0parent,false,true).empty
+		else if enemy.x < oLord3.x && enemy.y = oLord3.y && collision_point(enemy.x-32,enemy.y+16,oMap_0parent,false,true).empty
 		{
 			enemy.x -= global.tileRate;
 			enemy.bashed = true;
 		}
+		
 		instance_destroy();
 	}
 }
