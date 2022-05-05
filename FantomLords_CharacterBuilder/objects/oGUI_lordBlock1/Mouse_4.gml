@@ -24,7 +24,7 @@ if empty
 	image_xscale /= 5;
 	image_yscale /= 5;
 	
-	oLordStats.lord1name = global.lordNumber;
+	oLordStats.lord1name = global.lordName;
 	oLordStats.lord1sprite = sLord1;
 	oLordStats.lord1LIF = global.LIF;
 	oLordStats.lord1LIFmax = global.LIF;

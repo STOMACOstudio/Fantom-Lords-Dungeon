@@ -24,7 +24,7 @@ if empty && !oGUI_lordBlock1.empty
 	image_xscale /= 5;
 	image_yscale /= 5;
 	
-	oLordStats.lord2name = global.lordNumber;
+	oLordStats.lord2name = global.lordName;
 	oLordStats.lord2sprite = sLord2;
 	oLordStats.lord2LIF = global.LIF;
 	oLordStats.lord2LIFmax = global.LIF;

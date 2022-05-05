@@ -41,26 +41,26 @@ function scrLordCheckTarget(){
 		enemyDownDown = collision_point(x+32,y+128,oEnemy0_Father,false,true);
 		enemyLeftLeft = collision_point(x-96,y+32,oEnemy0_Father,false,true);
 		enemyTopLeft = collision_point(x-32,y-32,oEnemy0_Father,false,true);
-		enemyTop = collision_point(x+32,y-32,oEnemy0_Father,false,true);
+		//enemyTop = collision_point(x+32,y-32,oEnemy0_Father,false,true);
 		enemyTopRight = collision_point(x+96,y-32,oEnemy0_Father,false,true);
-		enemyRight = collision_point(x+96,y+32,oEnemy0_Father,false,true);
+		//enemyRight = collision_point(x+96,y+32,oEnemy0_Father,false,true);
 		enemyDownRight = collision_point(x+96,y+96,oEnemy0_Father,false,true);
-		enemyDown = collision_point(x+32,y+96,oEnemy0_Father,false,true);
+		//enemyDown = collision_point(x+32,y+96,oEnemy0_Father,false,true);
 		enemyDownLeft = collision_point(x-32,y+96,oEnemy0_Father,false,true);
-		enemyLeft = collision_point(x-32,y+32,oEnemy0_Father,false,true);
+		//enemyLeft = collision_point(x-32,y+32,oEnemy0_Father,false,true);
 		
 		if enemyTopTop != noone enemyTopTop.target = true;
 		if enemyRightRight != noone enemyRightRight.target = true;
 		if enemyDownDown != noone enemyDownDown.target = true;
 		if enemyLeftLeft != noone enemyLeftLeft.target = true;
 		if enemyTopLeft != noone enemyTopLeft.target = true;
-		if enemyTop != noone enemyTop.target = true;
+		//if enemyTop != noone enemyTop.target = true;
 		if enemyTopRight != noone enemyTopRight.target = true;
-		if enemyRight != noone enemyRight.target = true;
+		//if enemyRight != noone enemyRight.target = true;
 		if enemyDownRight != noone enemyDownRight.target = true;
-		if enemyDown != noone enemyDown.target = true;
+		//if enemyDown != noone enemyDown.target = true;
 		if enemyDownLeft != noone enemyDownLeft.target = true;
-		if enemyLeft != noone enemyLeft.target = true;
+		//if enemyLeft != noone enemyLeft.target = true;
 	}
 
 }

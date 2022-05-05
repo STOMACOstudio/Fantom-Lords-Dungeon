@@ -41,6 +41,7 @@ if combatPhase = 1
 		if instance_exists(oLord2) oLord2.thisLord_ACTpoints = oLord2.thisLord_ACTpointsMAX;
 		if instance_exists(oLord3) oLord3.thisLord_ACTpoints = oLord3.thisLord_ACTpointsMAX;
 		if instance_exists(oLord4) oLord4.thisLord_ACTpoints = oLord4.thisLord_ACTpointsMAX;
+		instance_create_layer(512,224,"VFX",oVFX_YourTurn);
 		
 		fightStart = 0; //contatore di debug
 		fightEnd = 0; //contatore di debug

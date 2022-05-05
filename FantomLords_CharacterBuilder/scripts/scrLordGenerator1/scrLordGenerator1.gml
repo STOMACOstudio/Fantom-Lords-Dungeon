@@ -5,26 +5,57 @@ function scrLordGenerator1(){
 	
 	if global.lordNumber = 1
 	{
-		return;
+		global.lordName = "Eric";
+		//global.setLordSprite = global.lordNumber -1;
+		global.weapon = 9;
+		global.background = 0;
+		global.ancestry = 1;
+		global.classArmor = 10;
+		global.headgear = 4;
+		global.relic = 0;
 	}
 	else if global.lordNumber = 2
 	{
-		return;
+		global.lordName = "Roman";
+		//global.setLordSprite = global.lordNumber -1;
+		global.weapon = 0;
+		global.background = 0;
+		global.ancestry = 6;
+		global.classArmor = 2;
+		global.headgear = 3;
+		global.relic = 0;
 	}
 	else if global.lordNumber = 3
 	{
-		return;
+		global.lordName = "Junior";
+		//global.setLordSprite = global.lordNumber -1;
+		global.weapon = 8;
+		global.background = 0;
+		global.ancestry = 3;
+		global.classArmor = 0;
+		global.headgear = 7;
+		global.relic = 0;
 	}
 	else if global.lordNumber = 4
 	{
-		global.lordName = global.lordNumber;
+		
+		global.lordName = "Sebastian";
+		//global.setLordSprite = global.lordNumber -1;
+		global.weapon = 13;
+		global.background = 0;
+		global.ancestry = 0;
+		global.classArmor = 3;
+		global.headgear = 13;
+		global.relic = 0;
+		
+		/*global.lordName = global.lordNumber;
 		//global.setLordSprite = global.lordNumber -1;
 		global.weapon = 5;
 		global.background = 0;
 		global.ancestry = 3;
 		global.classArmor = 3;
 		global.headgear = 6;
-		global.relic = 7;
+		global.relic = 7;*/
 	}
 	else if global.lordNumber = 5
 	{
