@@ -11,7 +11,7 @@ image_yscale /= 5;
 
 isSelected = false;
 
-thisName = "Goblin";
+thisName = "Bat";
 thisLIF = 30 + (10*global.roomCounter) + irandom_range(-3,3);
 thisLIFmax = thisLIF;
 thisATK = 5 + (2*global.roomCounter) + irandom_range(-2,5);

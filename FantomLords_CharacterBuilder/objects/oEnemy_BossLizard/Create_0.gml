@@ -11,7 +11,7 @@ image_yscale /= 2.5;
 
 isSelected = false;
 
-thisName = "Lizard King";
+thisName = "Bat King";
 thisLIF = (10 + (10*global.roomCounter)) + irandom_range(-5,5);
 thisLIFmax = thisLIF;
 thisATK = (5 + (2*global.roomCounter)) + irandom_range(-2,5);

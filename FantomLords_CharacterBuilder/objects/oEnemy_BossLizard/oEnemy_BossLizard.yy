@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sEnemyBoss_Lizard",
-    "path": "sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",
+    "name": "sEnemyBoss_Imp",
+    "path": "sprites/sEnemyBoss_Imp/sEnemyBoss_Imp.yy",
   },
   "solid": false,
   "visible": true,

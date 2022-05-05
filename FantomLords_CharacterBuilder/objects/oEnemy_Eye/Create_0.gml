@@ -11,7 +11,7 @@ image_yscale /= 5;
 
 isSelected = false;
 
-thisName = "Evil Eye";
+thisName = "Flan";
 thisLIF = 30 + (3*global.roomCounter) + irandom_range(-3,3);
 thisLIFmax = thisLIF;
 thisATK = 3 + irandom_range(-2,5);

@@ -11,7 +11,7 @@ image_yscale /= 2.5;
 
 isSelected = false;
 
-thisName = "Eye King";
+thisName = "Flan King";
 thisLIF = 40 + (5*global.roomCounter) + irandom_range(-8,8);
 thisLIFmax = thisLIF;
 thisATK = 10 + irandom_range(-2,5);

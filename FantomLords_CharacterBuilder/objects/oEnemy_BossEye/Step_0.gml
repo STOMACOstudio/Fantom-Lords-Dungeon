@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-#region bloodshed
+/*#region bloodshed
 var currentLIF = 0;
 
 if thisLIF = thisLIFmax currentLIF = 0;
@@ -12,7 +12,7 @@ else if thisLIF > thisLIFmax/8 && thisLIF < thisLIFmax/6 currentLIF = 4;
 else if thisLIF <= thisLIFmax/8 currentLIF = 5;
 
 image_index = currentLIF;
-#endregion
+#endregion*/
 
 if isSelected && revealed
 {

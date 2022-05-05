@@ -4,6 +4,7 @@ function scrEnemyPrintStats(){
 	
 	global.currentSelectedName = thisName;
 	global.currentSelectedSprite = sprite_index;
+	global.currentSelectedImageIndex = image_index;
 	global.currentSelectedLIF = thisLIF;
 	global.currentSelectedLIFmax = thisLIFmax;
 	global.currentSelectedATK = thisATK;
