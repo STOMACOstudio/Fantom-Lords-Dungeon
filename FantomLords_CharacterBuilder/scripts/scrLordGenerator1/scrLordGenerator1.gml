@@ -5,7 +5,7 @@ function scrLordGenerator1(){
 	
 	if global.lordNumber = 1
 	{
-		global.lordName = "Eric";
+		global.lordName = "Henry";
 		//global.setLordSprite = global.lordNumber -1;
 		global.weapon = 9;
 		global.background = 0;
@@ -16,7 +16,7 @@ function scrLordGenerator1(){
 	}
 	else if global.lordNumber = 2
 	{
-		global.lordName = "Roman";
+		global.lordName = "Francis";
 		//global.setLordSprite = global.lordNumber -1;
 		global.weapon = 0;
 		global.background = 0;
@@ -27,7 +27,7 @@ function scrLordGenerator1(){
 	}
 	else if global.lordNumber = 3
 	{
-		global.lordName = "Junior";
+		global.lordName = "Zane";
 		//global.setLordSprite = global.lordNumber -1;
 		global.weapon = 8;
 		global.background = 0;
@@ -39,7 +39,7 @@ function scrLordGenerator1(){
 	else if global.lordNumber = 4
 	{
 		
-		global.lordName = "Sebastian";
+		global.lordName = "Carl";
 		//global.setLordSprite = global.lordNumber -1;
 		global.weapon = 13;
 		global.background = 0;
