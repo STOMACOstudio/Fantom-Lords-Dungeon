@@ -12,3 +12,6 @@ global.currentSelectedLIFmax = 0;
 global.currentSelectedATK = 0;
 global.currentSelectedDEF = 0;
 global.currentSelectedMAG = 0;
+global.currentSelectedDescription1 = "";
+global.currentSelectedDescription2 = "";
+global.currentSelectedDescription3 = "";

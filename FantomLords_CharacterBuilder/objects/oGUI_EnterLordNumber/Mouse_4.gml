@@ -1,4 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if mouse_on room_goto(Room2_wallet);
+if active active = false;
+else
+{
+	input = "";
+	active = true;
+}
