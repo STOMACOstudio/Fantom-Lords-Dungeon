@@ -4,7 +4,7 @@
 tile = collision_point(mouse_x,mouse_y,oMap_0parent,false,true);
 enemy = collision_point(x,y,oEnemy0_Father,false,true);
 
-if oLord1.spellCast = 0
+if oLord1.spellCast = 0 //FIREBALL
 {
 	if tile != noone && tile.stepped
 	{
@@ -16,7 +16,7 @@ if oLord1.spellCast = 0
 		instance_destroy();
 	}
 }
-else if oLord1.spellCast = 9
+else if oLord1.spellCast = 9 //BASH
 {
 	if enemy != noone && enemy.target
 	{

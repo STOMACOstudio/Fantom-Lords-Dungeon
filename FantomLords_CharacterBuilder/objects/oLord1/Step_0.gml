@@ -9,7 +9,7 @@ else scrLordMovementFree();
 
 if thisLord_LIF <= 0
 {
-	instance_create_layer(oGUI_LordFrame1.x,oGUI_LordFrame1.y,"bG",oGUI_deathLord);
+	instance_create_layer(oGUI_LordFrame1.x,oGUI_LordFrame1.y,"BG",oGUI_deathLord);
 	instance_destroy(oGUI_ACTpoints1);
 	instance_destroy(oGUI_LordFrame1);
 	instance_destroy(oGUI_lordHealthFront1);

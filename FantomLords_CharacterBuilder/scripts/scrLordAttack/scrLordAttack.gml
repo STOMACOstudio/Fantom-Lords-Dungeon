@@ -13,7 +13,7 @@ function scrLordAttack(){
 		}
 		else if thisLord_typeAttack = "RANGED"
 		{
-			dmgLORD = round(thisLord_ATK + irandom_range(-3,3)) - enemy.thisDEF;
+			dmgLORD = round(thisLord_ATK + irandom_range(-5,3)) - enemy.thisDEF;
 			if dmgLORD <= 0 dmgLORD = 1;
 			audio_play_sound(snAttack,0,false);
 			instance_create_layer(enemy.x+32,enemy.y+32,"VFX",oVFX_attack);

@@ -18,10 +18,14 @@ function scrVolumeSFX(){
 	audio_sound_gain(snRemoveLord,global.volumeSFX,0);
 	audio_sound_gain(snSpellCast,global.volumeSFX,0);
 	audio_sound_gain(snTrapUnload,global.volumeSFX,0);
+	audio_sound_gain(snTrapRevealed,global.volumeSFX,0);
+	audio_sound_gain(snWalk,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_FireBall,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Longsword,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Suture,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Ranger,global.volumeSFX,0);
-	audio_sound_gain(snTrapRevealed,global.volumeSFX,0);
-	audio_sound_gain(snWalk,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Battlecry,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Sunbathe,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_DrainSlash,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_CloseShot,global.volumeSFX,0);
 }
