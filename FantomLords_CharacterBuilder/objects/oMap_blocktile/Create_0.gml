@@ -6,3 +6,7 @@ revealed = false;
 stepped = false;
 empty = true;
 filled = false;
+
+makeChest = irandom_range(0,10);
+
+
