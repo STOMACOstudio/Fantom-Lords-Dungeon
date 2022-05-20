@@ -50,6 +50,19 @@ else if oLord2.spellCast = 9
 		instance_destroy();
 	}
 }
+else if oLord2.spellCast = 13 //DRAIN SLASH
+{
+		if enemy != noone && enemy.target
+		{
+			global.castLord = oLord2;
+			oLord2.spellCast = noone;
+			oLord2.thisLord_ACTpoints -= 2;
+			global.dmgLORD = oLord2.thisLord_ATK + irandom_range(-3,1)
+			if global.dmgLORD <= 0 global.dmgLORD = 1;
+			instance_create_layer(enemy.x+32,enemy.y+32,"VFX",oSKILL_WEAPON_DrainSlash);
+			instance_destroy();
+		}
+}
 
 /*var enemy = collision_point(x,y,oEnemy0_Father,false,false)
 if enemy != noone && enemy.target = true

@@ -9,7 +9,7 @@ if done = true
 	{
 		targetLord.thisLord_LIF += dmg;
 		if targetLord.thisLord_LIF > targetLord.thisLord_LIFmax targetLord.thisLord_LIF = targetLord.thisLord_LIFmax
-		instance_create_layer(targetLord.x,targetLord.y,"VFX",oGUI_printDMGlord);
+		instance_create_layer(targetLord.x,targetLord.y,"VFX",oGUI_printHEAL);
 	}
 	
 	instance_destroy();
