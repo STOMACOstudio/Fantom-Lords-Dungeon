@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sn_SKILL_DrainSlash.wav",
-  "duration": 0.409365,
+  "duration": 0.72619,
   "parent": {
     "name": "SKILL SFX",
     "path": "folders/Sounds/SKILL SFX.yy",

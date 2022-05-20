@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sn_SKILL_Sunbathe.wav",
-  "duration": 0.782154,
+  "duration": 0.409365,
   "parent": {
     "name": "SKILL SFX",
     "path": "folders/Sounds/SKILL SFX.yy",
