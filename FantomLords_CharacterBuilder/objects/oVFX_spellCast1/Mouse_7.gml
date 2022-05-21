@@ -16,6 +16,27 @@ if oLord1.spellCast = 0 //FIREBALL
 		instance_destroy();
 	}
 }
+else if oLord1.spellCast = 8 //CLOSE SHOT
+{
+	if enemy != noone
+	{
+		if enemy.x = oLord1.x && enemy.y = oLord1.y-64 enemy.target = true;
+		else if enemy.x = oLord1.x+64 && enemy.y = oLord1.y enemy.target = true;
+		else if enemy.x = oLord1.x && enemy.y = oLord1.y+64 enemy.target = true;
+		else if enemy.x = oLord1.x-64 && enemy.y = oLord1.y enemy.target = true;
+		else enemy.target = false;
+		
+		if enemy.target = true
+		{
+			oLord1.spellCast = noone;
+			oLord1.thisLord_ACTpoints -= 2;
+			global.dmgLORD = round((oLord1.thisLord_ATK + irandom_range(-3,6))/2);
+			if global.dmgLORD <= 0 global.dmgLORD = 1;
+			instance_create_layer(enemy.x+32,enemy.y+32,"VFX",oSKILL_WEAPON_Closeshot);
+			instance_destroy();
+		}
+	}
+}
 else if oLord1.spellCast = 9 //BASH
 {
 	if enemy != noone && enemy.target

@@ -16,6 +16,27 @@ if oLord3.spellCast = 0
 		instance_destroy();
 	}
 }
+else if oLord3.spellCast = 8 //CLOSE SHOT
+{
+	if enemy != noone
+	{
+		if enemy.x = oLord3.x && enemy.y = oLord3.y-64 enemy.target = true;
+		else if enemy.x = oLord3.x+64 && enemy.y = oLord3.y enemy.target = true;
+		else if enemy.x = oLord3.x && enemy.y = oLord3.y+64 enemy.target = true;
+		else if enemy.x = oLord3.x-64 && enemy.y = oLord3.y enemy.target = true;
+		else enemy.target = false;
+		
+		if enemy.target = true
+		{
+			oLord3.spellCast = noone;
+			oLord3.thisLord_ACTpoints -= 2;
+			global.dmgLORD = round((oLord3.thisLord_ATK + irandom_range(-3,6))/2);
+			if global.dmgLORD <= 0 global.dmgLORD = 1;
+			instance_create_layer(enemy.x+32,enemy.y+32,"VFX",oSKILL_WEAPON_Closeshot);
+			instance_destroy();
+		}
+	}
+}
 else if oLord3.spellCast = 9
 {
 	if enemy != noone && enemy.target

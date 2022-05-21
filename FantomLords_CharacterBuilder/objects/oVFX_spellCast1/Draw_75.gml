@@ -15,7 +15,17 @@ if oLord1.spellCast = 0 //Fire Ball
 		}
 	}
 }
-else if oLord1.spellCast = 9 ^^ oLord1.spellCast = 13 //BASH //DRAINSLASH
+else if oLord1.spellCast = 8 //CLOSESHOT
+{
+	with oEnemy0_Father
+	{
+			 if x = oLord1.x && y = oLord1.y-64 draw_rectangle_color(x+1,y+1,x+62,y+62,c_yellow,c_yellow,c_yellow,c_yellow,true);
+		else if x = oLord1.x+64 && y = oLord1.y draw_rectangle_color(x+1,y+1,x+62,y+62,c_yellow,c_yellow,c_yellow,c_yellow,true);
+		else if x = oLord1.x && y = oLord1.y+64 draw_rectangle_color(x+1,y+1,x+62,y+62,c_yellow,c_yellow,c_yellow,c_yellow,true);
+		else if x = oLord1.x-64 && y = oLord1.y draw_rectangle_color(x+1,y+1,x+62,y+62,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	}
+}
+else if oLord1.spellCast = 9 ^^ oLord1.spellCast = 13//BASH //DRAINSLASH
 {
 	with oEnemy0_Father if target draw_rectangle_color(x+1,y+1,x+62,y+62,c_yellow,c_yellow,c_yellow,c_yellow,true);
 }

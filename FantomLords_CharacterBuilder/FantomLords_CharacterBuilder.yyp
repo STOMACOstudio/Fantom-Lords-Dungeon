@@ -203,6 +203,7 @@
     {"id":{"name":"oGUI_lordHealthBack3","path":"objects/oGUI_lordHealthBack3/oGUI_lordHealthBack3.yy",},"order":1,},
     {"id":{"name":"scrEnemyMoveRandom","path":"scripts/scrEnemyMoveRandom/scrEnemyMoveRandom.yy",},"order":8,},
     {"id":{"name":"oVFX_spellCast0father","path":"objects/oVFX_spellCast0father/oVFX_spellCast0father.yy",},"order":19,},
+    {"id":{"name":"oSKILL_WEAPON_Closeshot","path":"objects/oSKILL_WEAPON_Closeshot/oSKILL_WEAPON_Closeshot.yy",},"order":6,},
     {"id":{"name":"oManagerOptions","path":"objects/oManagerOptions/oManagerOptions.yy",},"order":3,},
     {"id":{"name":"oBlueTileDown","path":"objects/oBlueTileDown/oBlueTileDown.yy",},"order":67,},
     {"id":{"name":"oDoorBoss","path":"objects/oDoorBoss/oDoorBoss.yy",},"order":11,},
