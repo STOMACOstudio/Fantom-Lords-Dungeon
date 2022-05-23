@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if global.hasControl
+if global.hasControl && !collision_point(mouse_x,mouse_y,oVFX_spellCast0father,false,true)
 {
 	with oEnemy0_Father target = false;
 

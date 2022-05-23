@@ -14,6 +14,18 @@ if oLord1.spellCast = 0
 		}
 	}
 }
+else if oLord1.spellCast = 2
+{
+	if collision_point(x,y,oLord1,0,false)
+	{
+		oLord1.spellCast = noone;
+		oLord1.thisLord_ACTpoints -= 2;
+		global.dmgLORD = oLord1.thisLord_MAG + irandom_range(-3,6);
+		if global.dmgLORD <= 0 global.dmgLORD = 1;
+		instance_create_layer(lord.x,lord.y,"VFX",oSKILL_CLASS_Sunbathe);
+		instance_destroy();
+	}
+}
 else if oLord1.spellCast = 3
 {
 	if lord != noone && lord != oLord1
@@ -45,44 +57,13 @@ else if oLord1.spellCast = 9
 		instance_destroy();
 	}
 }
-
-/*var enemy = collision_point(x,y,oEnemy0_Father,false,false)
-if enemy != noone && enemy.target = true
+else if oLord1.spellCast = 10
 {
-	if oLord1.thisLord_typeAttack = "MELEE"
+	if collision_point(x,y,oLord1,0,false)
 	{
-		var dmgLORD = (global.dmgLORD + irandom_range(-3,3)) - enemy.thisDEF;
+		oLord1.spellCast = noone;
+		oLord1.thisLord_ACTpoints -= 2;
+		instance_create_layer(lord.x,lord.y,"VFX",oSKILL_CLASS_Battlecry);
+		instance_destroy();
 	}
-	else if oLord1.thisLord_typeAttack = "RANGED"
-	{
-		var dmgLORD = (round(global.dmgLORD/2) + irandom_range(-3,3)) - enemy.thisDEF;
-	}
-	else if oLord1.thisLord_typeAttack = "MAGIC"
-	{
-		var dmgLORD = (global.dmgLORD + irandom_range(-3,3)) - enemy.thisMAG;
-	}
-	
-	if dmgLORD < 0 dmgLORD = 0;
-	global.dmgLORD = string(dmgLORD);
-	
-	if dmgLORD > 0
-	{
-		if oLord1.thisLord_typeAttack = "MELEE" || oLord1.thisLord_typeAttack = "RANGED"
-		{
-			audio_play_sound(snAttack,0,false);
-			instance_create_layer(enemy.x+32,enemy.y+32,"VFX",oVFX_attack);
-		}
-		else if oLord1.thisLord_typeAttack = "MAGIC"
-		{
-			audio_play_sound(snAttackMag,0,false);
-			instance_create_layer(enemy.x+32,enemy.y+32,"VFX",oVFX_attackMag);
-		}
-	}
-	
-	instance_create_layer(enemy.x+irandom_range(8,56),enemy.y+irandom_range(8,56),"VFX",oGUI_printDMGlord);
-	
-	enemy.thisLIF -= dmgLORD;
-	oLord1.thisLord_ACTpoints --;
 }
-	
-instance_destroy();*/

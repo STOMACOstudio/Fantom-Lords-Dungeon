@@ -7,6 +7,10 @@ if oLord2.spellCast = 0 //TRAP
 {
 	if trap != noone with trap draw_rectangle_color(x+1,y+1,x+62,y+62,c_yellow,c_yellow,c_yellow,c_yellow,true);
 }
+else if oLord2.spellCast = 2 //SUNBATHE
+{
+	draw_rectangle_color(oLord2.x+1,oLord2.y+1,oLord2.x+62,oLord2.y+62,c_lime,c_lime,c_lime,c_lime,true);
+}
 else if oLord2.spellCast = 3 //SUTURE
 {
 	if lord != noone

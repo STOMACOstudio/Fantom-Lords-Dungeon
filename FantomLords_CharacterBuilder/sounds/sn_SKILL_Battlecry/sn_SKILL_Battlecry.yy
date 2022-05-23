@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sn_SKILL_Battlecry",
-  "duration": 0.0,
+  "soundFile": "sn_SKILL_Battlecry.wav",
+  "duration": 0.782154,
   "parent": {
     "name": "SKILL SFX",
     "path": "folders/Sounds/SKILL SFX.yy",
