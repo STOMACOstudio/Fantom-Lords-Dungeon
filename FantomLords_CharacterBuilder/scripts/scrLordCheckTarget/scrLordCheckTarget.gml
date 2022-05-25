@@ -37,8 +37,8 @@ function scrLordCheckTarget(){
 	else if thisLord_typeAttack == "RANGED"
 	{
 		enemyTopTop = collision_point(x+32,y-96,oEnemy0_Father,false,true);
-		enemyRightRight = collision_point(x+128,y+32,oEnemy0_Father,false,true);
-		enemyDownDown = collision_point(x+32,y+128,oEnemy0_Father,false,true);
+		enemyRightRight = collision_point(x+160,y+32,oEnemy0_Father,false,true);
+		enemyDownDown = collision_point(x+32,y+160,oEnemy0_Father,false,true);
 		enemyLeftLeft = collision_point(x-96,y+32,oEnemy0_Father,false,true);
 		enemyTopLeft = collision_point(x-32,y-32,oEnemy0_Father,false,true);
 		enemyTop = collision_point(x+32,y-32,oEnemy0_Father,false,true);

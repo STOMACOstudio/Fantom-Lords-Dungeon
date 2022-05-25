@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 319,
-  "bbox_top": 0,
-  "bbox_bottom": 319,
+  "bbox_left": 4,
+  "bbox_right": 316,
+  "bbox_top": 4,
+  "bbox_bottom": 316,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -122,7 +122,7 @@
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6f22acd0-e5b3-4506-9a30-ed1132e4b0b3","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"e693876b-fe39-4a54-adfa-c120abdfd726","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"e693876b-fe39-4a54-adfa-c120abdfd726","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

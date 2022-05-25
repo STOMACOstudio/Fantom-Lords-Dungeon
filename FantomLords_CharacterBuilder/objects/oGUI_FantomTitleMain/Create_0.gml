@@ -2,6 +2,6 @@
 // You can write your code in this editor
 
 fading = false;
-canstart = false;
+canStart = true;
 image_speed = 0;
 image_index = 1;
