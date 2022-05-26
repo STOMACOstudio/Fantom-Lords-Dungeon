@@ -26,6 +26,8 @@ turnComplete = false;
 actionsMax = 4;
 actions = actionsMax;
 bashed = false;
+attackSprite = oVFX_BossFlanAttack;
+attackSound = snFlanAttack;
 
 alarmCounter = 50;
 

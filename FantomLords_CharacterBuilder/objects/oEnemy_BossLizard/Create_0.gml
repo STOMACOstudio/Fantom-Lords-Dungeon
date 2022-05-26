@@ -4,6 +4,9 @@
 image_alpha = 1;
 revealed = true;
 
+image_xscale /= 2.5;
+image_yscale /= 2.5;
+
 target = false;
 
 isSelected = false;
@@ -23,6 +26,8 @@ turnComplete = false;
 actionsMax = 4;
 actions = actionsMax;
 bashed = false;
+attackSprite = oVFX_EnemyBatAttack;
+attackSound = snAttack;
 
 alarmCounter = 50;
 

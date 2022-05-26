@@ -27,6 +27,8 @@ actionsMax = 3;
 actions = actionsMax;
 actionsRate = 0;
 bashed = false;
+attackSprite = oVFX_EnemyFlanAttack;
+attackSound = snFlanAttack;
 
 alarmCounter = 50;
 

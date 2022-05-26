@@ -26,6 +26,8 @@ turnComplete = false;
 actionsMax = 3;
 actions = actionsMax;
 bashed = false;
+attackSprite = oVFX_EnemyBatAttack;
+attackSound = snAttack;
 
 alarmCounter = 50;
 
