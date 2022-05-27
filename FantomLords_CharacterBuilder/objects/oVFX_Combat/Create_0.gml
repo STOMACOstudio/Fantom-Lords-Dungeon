@@ -6,3 +6,5 @@ global.hasControl = false;
 global.fightMode = true;
 hspeed -= 1;
 alarm[0] = 50;
+
+global.combatActive = true;

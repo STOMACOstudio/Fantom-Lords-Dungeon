@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-show_debug_message(string(global.fightMode));
+show_debug_message(string(global.revealdEnemies));
 
 if i2 < instance_number(oEnemy0_Father) //check for revealed enemies
 {
@@ -10,7 +10,7 @@ if i2 < instance_number(oEnemy0_Father) //check for revealed enemies
 	{
 		if global.fightMode = false
 		{
-			instance_create_layer(512,224,"VFX",oVFX_Combat);
+			with oEnemy0_Father if !revealed && !instance_exists(oVFX_Combat) instance_create_layer(512,224,"VFX",oVFX_Combat);
 		}
 	}
 	else //se il nemico non è rivelato

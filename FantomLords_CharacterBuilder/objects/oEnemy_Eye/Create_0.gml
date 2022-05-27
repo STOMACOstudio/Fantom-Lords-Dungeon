@@ -20,6 +20,7 @@ thisDEF = 30 + (3*global.roomCounter) + irandom_range(-10,10);
 thisDEFmax = thisDEF;
 thisMAG = 5 + (2*global.roomCounter) + irandom_range(-1,2);
 thisMAGmax = thisMAG;
+thisRevealed = false;
 scoreAdd = 5;
 isFighting = false;
 turnComplete = false;

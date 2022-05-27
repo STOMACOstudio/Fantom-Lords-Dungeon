@@ -49,6 +49,9 @@ global.SKULLkey = 0;
 global.potionLIF = 0;
 global.potionACT = 0;
 
+global.combatActive = false;
+global.revealdEnemies = 0;
+
 global.roomCondition = "none";
 global.tileNumber = 0;
 

@@ -17,3 +17,5 @@ if isSelected
 	global.currentSelectedDEF = 0;
 	global.currentSelectedMAG = 0;
 }
+
+if revealed global.revealdEnemies --;

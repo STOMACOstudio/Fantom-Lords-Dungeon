@@ -18,8 +18,6 @@ if isSelected && revealed
 
 if isFighting && !turnComplete
 {
-	oManagerCombat.fightStart ++;
-	oManagerCombat.fightEnd ++;
 	turnCompelete = true;
 	isFighting = false;
 	oManagerCombat.combatPhase = 1;
