@@ -6,8 +6,6 @@ if oLordStats.lord1active
 	draw_sprite_stretched(oLordStats.lord1sprite,0,x,y,128,128);
 	if instance_exists(oLord1)
 	{
-		var currentLIF = 0;
-
 		if oLord1.thisLord_LIF = oLord1.thisLord_LIFmax currentLIF = 0;
 		else if oLord1.thisLord_LIF >= oLord1.thisLord_LIFmax/2 && oLord1.thisLord_LIF < oLord1.thisLord_LIFmax currentLIF = 1;
 		else if oLord1.thisLord_LIF > oLord1.thisLord_LIFmax/4 && oLord1.thisLord_LIF < oLord1.thisLord_LIFmax/2 currentLIF = 2;

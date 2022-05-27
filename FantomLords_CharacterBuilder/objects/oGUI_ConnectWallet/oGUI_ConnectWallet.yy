@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sGUI_homeConnectWallet",
-    "path": "sprites/sGUI_homeConnectWallet/sGUI_homeConnectWallet.yy",
+    "name": "sGUI_homePlayOpenAlpha",
+    "path": "sprites/sGUI_homePlayOpenAlpha/sGUI_homePlayOpenAlpha.yy",
   },
   "solid": false,
   "visible": true,

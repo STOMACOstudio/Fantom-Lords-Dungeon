@@ -3,3 +3,4 @@
 
 thisLocked = false;
 mouse_on = false;
+currentLIF = 0;

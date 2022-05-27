@@ -48,7 +48,7 @@ else if global.ACT > 19 colorACT = colorSup3;
 #endregion
 
 #region draw sheit dawg
-draw_text(x,y-34,"Lord " + string(global.lordName));
+draw_text(x-392,y-92,"Lord " + string(global.lordName));
 draw_sprite(sGUI_iconStats,0,x,y);
 draw_text_color(x+34,y, /*"LIF " +*/ string(global.LIF),	colorLIF,colorLIF,colorLIF,colorLIF,1);
 draw_sprite(sGUI_iconStats,1,x,y+34);

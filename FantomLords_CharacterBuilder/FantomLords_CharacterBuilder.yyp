@@ -308,6 +308,7 @@
     {"id":{"name":"snRemoveLord","path":"sounds/snRemoveLord/snRemoveLord.yy",},"order":13,},
     {"id":{"name":"oBlueTileRight","path":"objects/oBlueTileRight/oBlueTileRight.yy",},"order":68,},
     {"id":{"name":"sVFX_SKILL_Longsword","path":"sprites/sVFX_SKILL_Longsword/sVFX_SKILL_Longsword.yy",},"order":2,},
+    {"id":{"name":"sGUI_homePlayOpenAlpha","path":"sprites/sGUI_homePlayOpenAlpha/sGUI_homePlayOpenAlpha.yy",},"order":49,},
     {"id":{"name":"oGUI_LordFrame3","path":"objects/oGUI_LordFrame3/oGUI_LordFrame3.yy",},"order":0,},
     {"id":{"name":"sVFX_spellCastSparkle","path":"sprites/sVFX_spellCastSparkle/sVFX_spellCastSparkle.yy",},"order":12,},
     {"id":{"name":"sn_SKILL_CloseShot","path":"sounds/sn_SKILL_CloseShot/sn_SKILL_CloseShot.yy",},"order":7,},
