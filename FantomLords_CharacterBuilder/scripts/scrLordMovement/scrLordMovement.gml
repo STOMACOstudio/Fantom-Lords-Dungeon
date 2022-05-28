@@ -105,6 +105,7 @@ function scrLordMovement(){
 					if enemy != noone scrLordAttack();
 				}
 			}
+			else instance_create_layer(other.x+32,other.y+2,"VFX",oLord_Baloon2);
 		}
 		else if mouse_check_button_pressed(mb_right) && thisLocked
 		{
@@ -131,6 +132,7 @@ function scrLordMovement(){
 					if enemy != noone scrLordAttack();
 				}
 			}
+			else instance_create_layer(other.x+32,other.y+2,"VFX",oLord_Baloon2);
 		}
 		else if mouse_check_button_pressed(mb_right) && thisLocked
 		{
@@ -157,6 +159,7 @@ function scrLordMovement(){
 					if enemy != noone scrLordAttack();
 				}
 			}
+			else instance_create_layer(other.x+32,other.y+2,"VFX",oLord_Baloon2);
 		}
 		else if mouse_check_button_pressed(mb_right) && thisLocked
 		{
@@ -183,6 +186,8 @@ function scrLordMovement(){
 					if enemy != noone scrLordAttack();
 				}
 			}
+			else instance_create_layer(other.x+32,other.y+2,"VFX",oLord_Baloon2);
+	
 		}
 		else if mouse_check_button_pressed(mb_right) && thisLocked
 		{

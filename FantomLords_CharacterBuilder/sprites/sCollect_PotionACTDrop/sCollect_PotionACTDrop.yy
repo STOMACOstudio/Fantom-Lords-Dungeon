@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"3ba5d5fe-08de-40a8-a8b9-c6b8ce21f358","path":"sprites/sCollect_PotionACTDrop/sCollect_PotionACTDrop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3ba5d5fe-08de-40a8-a8b9-c6b8ce21f358","path":"sprites/sCollect_PotionACTDrop/sCollect_PotionACTDrop.yy",},"LayerId":{"name":"ffbf1159-acac-49b1-b4c1-2bb9dfdefc9a","path":"sprites/sCollect_PotionACTDrop/sCollect_PotionACTDrop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"3ba5d5fe-08de-40a8-a8b9-c6b8ce21f358","path":"sprites/sCollect_PotionACTDrop/sCollect_PotionACTDrop.yy",},"LayerId":{"name":"8c8b8e94-96f4-4fda-bd3f-4bca85010857","path":"sprites/sCollect_PotionACTDrop/sCollect_PotionACTDrop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"3ba5d5fe-08de-40a8-a8b9-c6b8ce21f358","path":"sprites/sCollect_PotionACTDrop/sCollect_PotionACTDrop.yy",},"LayerId":{"name":"ffbf1159-acac-49b1-b4c1-2bb9dfdefc9a","path":"sprites/sCollect_PotionACTDrop/sCollect_PotionACTDrop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sCollect_PotionACTDrop","path":"sprites/sCollect_PotionACTDrop/sCollect_PotionACTDrop.yy",},"resourceVersion":"1.0","name":"3ba5d5fe-08de-40a8-a8b9-c6b8ce21f358","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

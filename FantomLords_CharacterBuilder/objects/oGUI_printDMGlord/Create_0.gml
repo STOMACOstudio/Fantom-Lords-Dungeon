@@ -3,4 +3,4 @@
 
 alarm[0] = 50;
 
-damage = string(global.dmgLORD);
+damage = global.dmgLORD*12;

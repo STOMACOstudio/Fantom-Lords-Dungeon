@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 if global.fightMode
 {
 	scrLordMovement();
@@ -20,5 +21,5 @@ if thisLord_LIF <= 0
 
 if thisLocked
 {
-	scrLordCheckTarget();
+	if !instance_exists(oVFX_spellCast1) scrLordCheckTarget();
 }

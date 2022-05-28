@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sn3_GameOver.mp3",
-  "duration": 134.426117,
+  "duration": 134.42612,
   "parent": {
     "name": "OST",
     "path": "folders/Sounds/OST.yy",

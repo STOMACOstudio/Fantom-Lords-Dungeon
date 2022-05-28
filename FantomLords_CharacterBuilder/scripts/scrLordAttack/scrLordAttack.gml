@@ -27,7 +27,7 @@ function scrLordAttack(){
 		}
 		
 		if dmgLORD <= 0 dmgLORD = 1;
-		global.dmgLORD = string(dmgLORD);
+		global.dmgLORD = dmgLORD;
 	
 		instance_create_layer(enemy.x+irandom_range(8,56),enemy.y+irandom_range(8,56),"VFX",oGUI_printDMGlord);
 	
@@ -35,5 +35,6 @@ function scrLordAttack(){
 		thisLord_ACTpoints -= 2;
 		enemy.target = false;
 	}
+	else instance_create_layer(other.x+32,other.y+2,"VFX",oLord_Baloon2);
 	
 }

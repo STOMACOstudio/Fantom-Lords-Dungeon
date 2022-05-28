@@ -21,5 +21,5 @@ if thisLord_LIF <= 0
 
 if thisLocked
 {
-	scrLordCheckTarget();
+	if !instance_exists(oVFX_spellCast1) scrLordCheckTarget();
 }

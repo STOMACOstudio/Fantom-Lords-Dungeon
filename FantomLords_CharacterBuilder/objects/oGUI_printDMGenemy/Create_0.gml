@@ -3,4 +3,4 @@
 
 alarm[0] = 50;
 
-drawDMG = global.dmgENEMY;
+drawDMG = global.dmgENEMY*12;

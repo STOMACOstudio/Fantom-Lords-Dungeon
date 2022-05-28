@@ -49,7 +49,7 @@
   "androidactivityinject": "",
   "gradleinject": "",
   "androidcodeinjection": "",
-  "hasConvertedCodeInjection": false,
+  "hasConvertedCodeInjection": true,
   "ioscodeinjection": "",
   "tvoscodeinjection": "",
   "iosSystemFrameworkEntries": [],
