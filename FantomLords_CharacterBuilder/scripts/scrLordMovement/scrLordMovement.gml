@@ -105,7 +105,13 @@ function scrLordMovement(){
 					if enemy != noone scrLordAttack();
 				}
 			}
-			else instance_create_layer(other.x+32,other.y+2,"VFX",oLord_Baloon2);
+			else
+			{
+				if		collision_point(x,y,oLord1,false,false) instance_create_layer(oGUI_LordFrame1.x+64,oGUI_LordFrame1.y+16,"VFX",oLord_Baloon2);
+				else if collision_point(x,y,oLord2,false,false) instance_create_layer(oGUI_LordFrame2.x+64,oGUI_LordFrame2.y+16,"VFX",oLord_Baloon2);
+				else if collision_point(x,y,oLord3,false,false) instance_create_layer(oGUI_LordFrame3.x+64,oGUI_LordFrame3.y+16,"VFX",oLord_Baloon2);
+				else if collision_point(x,y,oLord4,false,false) instance_create_layer(oGUI_LordFrame4.x+64,oGUI_LordFrame4.y+16,"VFX",oLord_Baloon2);
+			}
 		}
 		else if mouse_check_button_pressed(mb_right) && thisLocked
 		{
@@ -132,7 +138,13 @@ function scrLordMovement(){
 					if enemy != noone scrLordAttack();
 				}
 			}
-			else instance_create_layer(other.x+32,other.y+2,"VFX",oLord_Baloon2);
+			else
+			{
+				if		collision_point(x,y,oLord1,false,false) instance_create_layer(oGUI_LordFrame1.x+64,oGUI_LordFrame1.y+16,"VFX",oLord_Baloon2);
+				else if collision_point(x,y,oLord2,false,false) instance_create_layer(oGUI_LordFrame2.x+64,oGUI_LordFrame2.y+16,"VFX",oLord_Baloon2);
+				else if collision_point(x,y,oLord3,false,false) instance_create_layer(oGUI_LordFrame3.x+64,oGUI_LordFrame3.y+16,"VFX",oLord_Baloon2);
+				else if collision_point(x,y,oLord4,false,false) instance_create_layer(oGUI_LordFrame4.x+64,oGUI_LordFrame4.y+16,"VFX",oLord_Baloon2);
+			}
 		}
 		else if mouse_check_button_pressed(mb_right) && thisLocked
 		{
@@ -159,7 +171,13 @@ function scrLordMovement(){
 					if enemy != noone scrLordAttack();
 				}
 			}
-			else instance_create_layer(other.x+32,other.y+2,"VFX",oLord_Baloon2);
+			else
+			{
+				if		collision_point(x,y,oLord1,false,false) instance_create_layer(oGUI_LordFrame1.x+64,oGUI_LordFrame1.y+16,"VFX",oLord_Baloon2);
+				else if collision_point(x,y,oLord2,false,false) instance_create_layer(oGUI_LordFrame2.x+64,oGUI_LordFrame2.y+16,"VFX",oLord_Baloon2);
+				else if collision_point(x,y,oLord3,false,false) instance_create_layer(oGUI_LordFrame3.x+64,oGUI_LordFrame3.y+16,"VFX",oLord_Baloon2);
+				else if collision_point(x,y,oLord4,false,false) instance_create_layer(oGUI_LordFrame4.x+64,oGUI_LordFrame4.y+16,"VFX",oLord_Baloon2);
+			}
 		}
 		else if mouse_check_button_pressed(mb_right) && thisLocked
 		{
@@ -186,7 +204,13 @@ function scrLordMovement(){
 					if enemy != noone scrLordAttack();
 				}
 			}
-			else instance_create_layer(other.x+32,other.y+2,"VFX",oLord_Baloon2);
+			else
+			{
+				if		collision_point(x,y,oLord1,false,false) instance_create_layer(oGUI_LordFrame1.x+64,oGUI_LordFrame1.y+16,"VFX",oLord_Baloon2);
+				else if collision_point(x,y,oLord2,false,false) instance_create_layer(oGUI_LordFrame2.x+64,oGUI_LordFrame2.y+16,"VFX",oLord_Baloon2);
+				else if collision_point(x,y,oLord3,false,false) instance_create_layer(oGUI_LordFrame3.x+64,oGUI_LordFrame3.y+16,"VFX",oLord_Baloon2);
+				else if collision_point(x,y,oLord4,false,false) instance_create_layer(oGUI_LordFrame4.x+64,oGUI_LordFrame4.y+16,"VFX",oLord_Baloon2);
+			}
 	
 		}
 		else if mouse_check_button_pressed(mb_right) && thisLocked
