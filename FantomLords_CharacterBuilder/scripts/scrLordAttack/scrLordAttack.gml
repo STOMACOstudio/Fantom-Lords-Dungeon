@@ -32,6 +32,30 @@ function scrLordAttack(){
 		instance_create_layer(enemy.x+irandom_range(8,56),enemy.y+irandom_range(8,56),"VFX",oGUI_printDMGlord);
 	
 		enemy.thisLIF -= dmgLORD;
+
+		if !collision_point(enemy.x,enemy.y,oEnemy_Barrell,false,true)
+		{
+			if enemy.thisLIF > 0
+			{
+				var talk = irandom_range(1,5);
+
+				if talk = 5
+				{
+					if		collision_point(x,y,oLord1,false,false) instance_create_layer(oGUI_LordFrame1.x+64,oGUI_LordFrame1.y+16,"VFX",oLord_Baloon4);
+					else if collision_point(x,y,oLord2,false,false) instance_create_layer(oGUI_LordFrame2.x+64,oGUI_LordFrame2.y+16,"VFX",oLord_Baloon4);
+					else if collision_point(x,y,oLord3,false,false) instance_create_layer(oGUI_LordFrame3.x+64,oGUI_LordFrame3.y+16,"VFX",oLord_Baloon4);
+					else if collision_point(x,y,oLord4,false,false) instance_create_layer(oGUI_LordFrame4.x+64,oGUI_LordFrame4.y+16,"VFX",oLord_Baloon4);
+				}
+			}
+			else
+			{
+				if		collision_point(x,y,oLord1,false,false) instance_create_layer(oGUI_LordFrame1.x+64,oGUI_LordFrame1.y+16,"VFX",oLord_Baloon5);
+				else if collision_point(x,y,oLord2,false,false) instance_create_layer(oGUI_LordFrame2.x+64,oGUI_LordFrame2.y+16,"VFX",oLord_Baloon5);
+				else if collision_point(x,y,oLord3,false,false) instance_create_layer(oGUI_LordFrame3.x+64,oGUI_LordFrame3.y+16,"VFX",oLord_Baloon5);
+				else if collision_point(x,y,oLord4,false,false) instance_create_layer(oGUI_LordFrame4.x+64,oGUI_LordFrame4.y+16,"VFX",oLord_Baloon5);
+			}
+		}
+
 		thisLord_ACTpoints -= 2;
 		enemy.target = false;
 	}
