@@ -1,9 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var thisTalk = irandom_range(1,5)
-if thisTalk = 5 instance_create_layer(oGUI_LordFrame1.x+64,oGUI_LordFrame1.y+16,"VFX",oLord_Baloon6);
-
 var chooseLord1 = irandom_range(1,5);
 var chooseLord2 = irandom_range(1,5);
 var chooseLord3 = irandom_range(1,5);

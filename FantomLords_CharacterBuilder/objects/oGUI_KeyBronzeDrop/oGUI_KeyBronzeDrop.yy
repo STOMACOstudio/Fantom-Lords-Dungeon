@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sCollect_KeyBronze",
+    "path": "sprites/sCollect_KeyBronze/sCollect_KeyBronze.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

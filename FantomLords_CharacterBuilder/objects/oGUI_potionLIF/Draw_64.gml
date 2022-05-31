@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if global.potionLIF > 0 draw_sprite(sCollect_Potion, 0, x-24,y-24);
-else draw_sprite(sCollect_Potion, 1, x-24,y-24);
+if global.potionLIF > 0 draw_self();
 
-draw_text_transformed(x,y-36,"x" + string(global.potionLIF),0.5,0.5,0);
+draw_text_transformed(x+28,y-12,"x" + string(global.potionLIF),0.5,0.5,0);

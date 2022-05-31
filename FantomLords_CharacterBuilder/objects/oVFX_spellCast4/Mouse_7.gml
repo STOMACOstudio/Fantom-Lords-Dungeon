@@ -2,9 +2,9 @@
 // You can write your code in this editor
 
 tile = collision_point(mouse_x,mouse_y,oMap_0parent,false,true);
-enemy = collision_point(mouse_x,mouse_y,oEnemy0_Father,false,true);
+enemy = collision_point(x,y,oEnemy0_Father,false,true);
 
-if oLord4.spellCast = 0
+if oLord4.spellCast = 0 //FIREBALL
 {
 	if tile != noone && tile.stepped
 	{
@@ -32,12 +32,12 @@ else if oLord4.spellCast = 8 //CLOSE SHOT
 			oLord4.thisLord_ACTpoints -= 2;
 			global.dmgLORD = round((oLord4.thisLord_ATK + irandom_range(-3,6))/2);
 			if global.dmgLORD <= 0 global.dmgLORD = 1;
-			instance_create_layer(enemy.x+32,enemy.y+32,"VFX",oSKILL_WEAPON_Closeshot);
+			instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_WEAPON_Closeshot);
 			instance_destroy();
 		}
 	}
 }
-else if oLord4.spellCast = 9
+else if oLord4.spellCast = 9 //BASH
 {
 	if enemy != noone && enemy.target
 	{
@@ -45,7 +45,7 @@ else if oLord4.spellCast = 9
 		oLord4.thisLord_ACTpoints -= 2;
 		global.dmgLORD = round((oLord4.thisLord_ATK + irandom_range(-3,6))/2);
 		if global.dmgLORD <= 0 global.dmgLORD = 1;
-		instance_create_layer(enemy.x+32,enemy.y+32,"VFX",oSKILL_WEAPON_Longsword);
+		instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_WEAPON_Longsword);
 		
 		if enemy.x = oLord4.x && enemy.y < oLord4.y && collision_point(enemy.x+16,enemy.y-32,oMap_0parent,false,true).empty
 		{
@@ -80,48 +80,7 @@ else if oLord4.spellCast = 13 //DRAIN SLASH
 			oLord4.thisLord_ACTpoints -= 2;
 			global.dmgLORD = oLord4.thisLord_ATK + irandom_range(-3,1)
 			if global.dmgLORD <= 0 global.dmgLORD = 1;
-			instance_create_layer(enemy.x+32,enemy.y+32,"VFX",oSKILL_WEAPON_DrainSlash);
+			instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_WEAPON_DrainSlash);
 			instance_destroy();
 		}
 }
-
-/*var enemy = collision_point(x,y,oEnemy0_Father,false,false)
-if enemy != noone && enemy.target = true
-{
-	if oLord4.thisLord_typeAttack = "MELEE"
-	{
-		var dmgLORD = (global.dmgLORD + irandom_range(-3,3)) - enemy.thisDEF;
-	}
-	else if oLord4.thisLord_typeAttack = "RANGED"
-	{
-		var dmgLORD = (round(global.dmgLORD/2) + irandom_range(-3,3)) - enemy.thisDEF;
-	}
-	else if oLord4.thisLord_typeAttack = "MAGIC"
-	{
-		var dmgLORD = (global.dmgLORD + irandom_range(-3,3)) - enemy.thisMAG;
-	}
-	
-	if dmgLORD < 0 dmgLORD = 0;
-	global.dmgLORD = string(dmgLORD);
-	
-	if dmgLORD > 0
-	{
-		if oLord4.thisLord_typeAttack = "MELEE" || oLord4.thisLord_typeAttack = "RANGED"
-		{
-			audio_play_sound(snAttack,0,false);
-			instance_create_layer(enemy.x+32,enemy.y+32,"VFX",oVFX_attack);
-		}
-		else if oLord4.thisLord_typeAttack = "MAGIC"
-		{
-			audio_play_sound(snAttackMag,0,false);
-			instance_create_layer(enemy.x+32,enemy.y+32,"VFX",oVFX_attackMag);
-		}
-	}
-	
-	instance_create_layer(enemy.x+irandom_range(8,56),enemy.y+irandom_range(8,56),"VFX",oGUI_printDMGlord);
-	
-	enemy.thisLIF -= dmgLORD;
-	oLord4.thisLord_ACTpoints --;
-}
-	
-instance_destroy();

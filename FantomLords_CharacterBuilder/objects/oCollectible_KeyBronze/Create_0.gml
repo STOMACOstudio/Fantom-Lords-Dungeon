@@ -1,11 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-/*0 = LIFE
-1 = ATTACK
-2 = DEFENSE
-3 = MAGIC
-4 = ACTIONS
-5 = RAINBOW*/
+revealed = false;
 
-image_index = 0;
+target = false;
+
+isSelected = false;
+
+thisName = "Bronze Key";

@@ -3,4 +3,4 @@
 
 alarm[0] = 50;
 
-drawDMG = global.dmgENEMY*12;
+drawDMG = global.dmgENEMY*irandom_range(9,12);

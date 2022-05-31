@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sCollect_Potion",
+    "path": "sprites/sCollect_Potion/sCollect_Potion.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

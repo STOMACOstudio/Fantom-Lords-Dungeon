@@ -3,4 +3,4 @@
 
 alarm[0] = 50;
 
-damage = global.dmgLORD*12;
+damage = global.dmgLORD*irandom_range(9,12);

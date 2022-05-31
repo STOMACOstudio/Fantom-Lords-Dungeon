@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sCollect_KeySkull",
+    "path": "sprites/sCollect_KeySkull/sCollect_KeySkull.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

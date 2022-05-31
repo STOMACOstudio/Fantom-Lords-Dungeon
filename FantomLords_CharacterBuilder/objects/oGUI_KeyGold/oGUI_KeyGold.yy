@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sCollect_KeyGold",
+    "path": "sprites/sCollect_KeyGold/sCollect_KeyGold.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -20,6 +23,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
