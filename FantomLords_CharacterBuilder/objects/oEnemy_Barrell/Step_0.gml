@@ -14,6 +14,9 @@ if isSelected && revealed
 	global.currentSelectedATK = thisATK;
 	global.currentSelectedDEF = thisDEF;
 	global.currentSelectedMAG = thisMAG;
+	global.currentSelectedDescription1 = "This thing";
+	global.currentSelectedDescription2 = "is blocking";
+	global.currentSelectedDescription3 = "the way!";
 }
 
 if isFighting && !turnComplete

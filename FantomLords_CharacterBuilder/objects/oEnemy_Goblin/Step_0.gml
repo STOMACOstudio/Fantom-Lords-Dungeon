@@ -4,20 +4,13 @@
 if revealed image_alpha = 1;
 else image_alpha = 0;
 
-/*#region bloodshed
-var currentLIF = 0;
-
-if thisLIF = thisLIFmax currentLIF = 0;
-else if thisLIF >= thisLIFmax/2 && thisLIF < thisLIFmax currentLIF = 1;
-else if thisLIF >= thisLIFmax/4 && thisLIF < thisLIFmax/2 currentLIF = 2;
-else if thisLIF >= thisLIFmax/6 && thisLIF < thisLIFmax/4 currentLIF = 3;
-else if thisLIF > thisLIFmax/8 && thisLIF < thisLIFmax/6 currentLIF = 4;
-else if thisLIF <= thisLIFmax/8 currentLIF = 5;
-
-image_index = currentLIF;
-#endregion*/
-
-if isSelected && revealed scrEnemyPrintStats();
+if isSelected && revealed
+{
+	scrEnemyPrintStats();
+	global.currentSelectedDescription1 = "Bats are weak";
+	global.currentSelectedDescription2 = "but comes in";
+	global.currentSelectedDescription3 = "numbers.";
+}
 
 if isFighting && !turnComplete && actions > 0
 {

@@ -32,7 +32,7 @@ else if oLord3.spellCast = 8 //CLOSE SHOT
 			oLord3.thisLord_ACTpoints -= 2;
 			global.dmgLORD = round((oLord3.thisLord_ATK + irandom_range(-3,6))/2);
 			if global.dmgLORD <= 0 global.dmgLORD = 1;
-			instance_create_layer(enemy.xenemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_WEAPON_Closeshot);
+			instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_WEAPON_Closeshot);
 			instance_destroy();
 		}
 	}

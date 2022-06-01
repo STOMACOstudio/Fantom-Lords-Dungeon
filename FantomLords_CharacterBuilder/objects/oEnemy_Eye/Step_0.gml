@@ -4,7 +4,13 @@
 if revealed image_alpha = 1;
 else image_alpha = 0;
 
-if isSelected && revealed scrEnemyPrintStats();
+if isSelected && revealed
+{
+	scrEnemyPrintStats();
+	global.currentSelectedDescription1 = "A flan made";
+	global.currentSelectedDescription2 = "of pure magic:";
+	global.currentSelectedDescription3 = "resists attacks.";
+}
 
 if isFighting && !turnComplete && actions > 0
 {
