@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sn_skill_fireball.wav",
-  "duration": 2.806961,
+  "soundFile": "sn_SKILL_FireBall.wav",
+  "duration": 1.68678,
   "parent": {
     "name": "SKILL SFX",
     "path": "folders/Sounds/SKILL SFX.yy",
