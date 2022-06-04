@@ -20,6 +20,7 @@ function scrVolumeSFX(){
 	audio_sound_gain(snTrapUnload,global.volumeSFX,0);
 	audio_sound_gain(snTrapRevealed,global.volumeSFX,0);
 	audio_sound_gain(snWalk,global.volumeSFX,0);
+	audio_sound_gain(snFlanAttack,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_FireBall,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Longsword,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Suture,global.volumeSFX,0);
@@ -28,4 +29,5 @@ function scrVolumeSFX(){
 	audio_sound_gain(sn_SKILL_Sunbathe,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_DrainSlash,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_CloseShot,global.volumeSFX,0);
+	
 }

@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snFlanAttack.wav",
-  "duration": 1.635896,
+  "soundFile": "snflanattack.wav",
+  "duration": 0.820975,
   "parent": {
     "name": "ENEMY SFX",
     "path": "folders/Sounds/ENEMY SFX.yy",
