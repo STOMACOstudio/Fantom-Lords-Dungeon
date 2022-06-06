@@ -1,13 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+instance_create_layer(x,y,"WarFog",oMap_blocktile_WarFog);
+
 image_alpha = 0;
 revealed = false;
 empty = false;
 stepped = false;
 
-
-if image_angle = 0
+/*if image_angle = 0
 {
     embellishment = irandom_range(0,10);
 

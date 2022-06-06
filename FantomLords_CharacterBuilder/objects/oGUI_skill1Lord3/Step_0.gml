@@ -7,7 +7,7 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 	instance_create_layer(mouse_x,mouse_y,"Instances",oGUI_printSkill);	
 }
 
-if casting
+/*if casting
 {
 	if oLord3.thisLord_typeAttack == "MELEE"
 	{

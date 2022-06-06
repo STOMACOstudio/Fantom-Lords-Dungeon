@@ -8,9 +8,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 30,
+  "bbox_right": 61,
   "bbox_top": 0,
-  "bbox_bottom": 30,
+  "bbox_bottom": 61,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -46,7 +46,7 @@
         {"FrameId":{"name":"61730842-087c-4eb1-97e9-400411a2608a","path":"sprites/sVFX_attackMag/sVFX_attackMag.yy",},"LayerId":{"name":"9d7980c0-ecb5-402a-ae2e-7d45c5a2499f","path":"sprites/sVFX_attackMag/sVFX_attackMag.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sVFX_attackMag","path":"sprites/sVFX_attackMag/sVFX_attackMag.yy",},"resourceVersion":"1.0","name":"61730842-087c-4eb1-97e9-400411a2608a","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"7703302c-df03-495b-837c-ded5aaafeac5","path":"sprites/sVFX_attackMag/sVFX_attackMag.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":null,"LayerId":{"name":"9d7980c0-ecb5-402a-ae2e-7d45c5a2499f","path":"sprites/sVFX_attackMag/sVFX_attackMag.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"7703302c-df03-495b-837c-ded5aaafeac5","path":"sprites/sVFX_attackMag/sVFX_attackMag.yy",},"LayerId":{"name":"9d7980c0-ecb5-402a-ae2e-7d45c5a2499f","path":"sprites/sVFX_attackMag/sVFX_attackMag.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sVFX_attackMag","path":"sprites/sVFX_attackMag/sVFX_attackMag.yy",},"resourceVersion":"1.0","name":"7703302c-df03-495b-837c-ded5aaafeac5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
