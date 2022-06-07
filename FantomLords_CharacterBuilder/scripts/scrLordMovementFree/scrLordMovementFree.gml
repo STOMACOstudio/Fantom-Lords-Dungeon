@@ -14,12 +14,22 @@ function scrLordMovementFree(){
 	instDownLeft = collision_point(x-32,y+96,oMap_0parent,false,true);
 	instLeft = collision_point(x-32,y+32,oMap_0parent,false,true);
 
+	WarFogTopLeft = collision_point(x-32,y-32,oMap_blocktile_WarFog,false,true);
+	WarFogTop = collision_point(x+32,y-32,oMap_blocktile_WarFog,false,true);
+	WarFogTopRight = collision_point(x+96,y-32,oMap_blocktile_WarFog,false,true);
+	WarFogRight = collision_point(x+96,y+32,oMap_blocktile_WarFog,false,true);
+	WarFogDownRight = collision_point(x+96,y+96,oMap_blocktile_WarFog,false,true);
+	WarFogDown = collision_point(x+32,y+96,oMap_blocktile_WarFog,false,true);
+	WarFogDownLeft = collision_point(x-32,y+96,oMap_blocktile_WarFog,false,true);
+	WarFogLeft = collision_point(x-32,y+32,oMap_blocktile_WarFog,false,true);
+
 	if instTopLeft != noone
 	{
 		if !instTopLeft.revealed
 		{
 			instTopLeft.image_alpha = 0.8;
 			instTopLeft.revealed = true;
+			if WarFogTopLeft != noone instance_destroy(WarFogTopLeft);
 			global.tileNumber --;
 		}
 	}
@@ -29,6 +39,7 @@ function scrLordMovementFree(){
 		{
 			instTop.image_alpha = 0.8;
 			instTop.revealed = true;
+			if WarFogTop != noone instance_destroy(WarFogTop);
 			global.tileNumber --;
 		}
 	}
@@ -38,6 +49,7 @@ function scrLordMovementFree(){
 		{
 			instTopRight.image_alpha = 0.8;
 			instTopRight.revealed = true;
+			if WarFogTopRight != noone instance_destroy(WarFogTopRight);
 			global.tileNumber --;
 		}
 	}
@@ -47,6 +59,7 @@ function scrLordMovementFree(){
 		{
 			instRight.image_alpha = 0.8;
 			instRight.revealed = true;
+			if WarFogTopRight != noone nstance_destroy(WarFogRight);
 			global.tileNumber --;
 		}
 	}
@@ -56,6 +69,7 @@ function scrLordMovementFree(){
 		{
 			instDownRight.image_alpha = 0.8;
 			instDownRight.revealed = true;
+			if WarFogDownRight != noone instance_destroy(WarFogDownRight);
 			global.tileNumber --;
 		}
 	}
@@ -65,6 +79,7 @@ function scrLordMovementFree(){
 		{
 			instDown.image_alpha = 0.8;
 			instDown.revealed = true;
+			if WarFogDown != noone instance_destroy(WarFogDown);
 			global.tileNumber --;
 		}
 	}
@@ -74,6 +89,7 @@ function scrLordMovementFree(){
 		{
 			instDownLeft.image_alpha = 0.8;
 			instDownLeft.revealed = true;
+			if WarFogDownLeft != noone instance_destroy(WarFogDownLeft);
 			global.tileNumber --;
 		}
 	}
@@ -83,6 +99,7 @@ function scrLordMovementFree(){
 		{
 			instLeft.image_alpha = 0.8;
 			instLeft.revealed = true;
+			if WarFogLeft != noone instance_destroy(WarFogLeft);
 			global.tileNumber --;
 		}
 	}
@@ -97,7 +114,7 @@ function scrLordMovementFree(){
 				{
 					audio_play_sound(snWalk,0,false);
 					y -= global.tileRate;
-					
+					if WarFogTop != noone instance_destroy(WarFogTop);
 				}
 				else
 				{
@@ -112,7 +129,7 @@ function scrLordMovementFree(){
 			{
 			audio_play_sound(snWalk,0,false);
 			y -= global.tileRate;
-			
+			if WarFogTop != noone instance_destroy(WarFogTop);
 			}	
 		}
 		if keyboard_check_pressed(ord("A")) && thisLocked
@@ -123,7 +140,7 @@ function scrLordMovementFree(){
 				{
 					audio_play_sound(snWalk,0,false);
 					x -= global.tileRate;
-					
+					if WarFogLeft != noone instance_destroy(WarFogLeft);
 				}
 				else
 				{
@@ -138,7 +155,7 @@ function scrLordMovementFree(){
 			{
 			audio_play_sound(snWalk,0,false);
 			x -= global.tileRate;
-			
+			if WarFogLeft != noone instance_destroy(WarFogLeft);
 			}	
 		}
 		if keyboard_check_pressed(ord("D")) && thisLocked
@@ -149,7 +166,7 @@ function scrLordMovementFree(){
 				{
 					audio_play_sound(snWalk,0,false);
 					x += global.tileRate;
-					
+					if WarFogRight != noone instance_destroy(WarFogRight);
 				}
 				else
 				{
@@ -164,7 +181,7 @@ function scrLordMovementFree(){
 			{
 			audio_play_sound(snWalk,0,false);
 			x += global.tileRate;
-			
+			if WarFogRight != noone instance_destroy(WarFogRight);
 			}	
 		}
 		if keyboard_check_pressed(ord("S")) && thisLocked
@@ -175,7 +192,7 @@ function scrLordMovementFree(){
 				{
 					audio_play_sound(snWalk,0,false);
 					y += global.tileRate;
-					
+					if WarFogDown != noone instance_destroy(WarFogDown);
 				}
 				else
 				{
@@ -190,9 +207,8 @@ function scrLordMovementFree(){
 			{
 			audio_play_sound(snWalk,0,false);
 			y += global.tileRate;
-			
+			if WarFogDown != noone instance_destroy(WarFogDown);
 			}	
 		}
 	}
-	
 }

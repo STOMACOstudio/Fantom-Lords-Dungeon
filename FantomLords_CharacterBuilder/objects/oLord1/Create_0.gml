@@ -24,6 +24,8 @@ sprite_index = oLordStats.lord1sprite;
 image_xscale /= 5;
 image_yscale /= 5;
 dmgLORD = 0;
+
+#region attack and movement
 enemy = noone;
 instTopLeft = noone;
 instTop = noone;
@@ -45,7 +47,16 @@ enemyDownRight = noone;
 enemyDown = noone;
 enemyDownLeft = noone;
 enemyLeft = noone;
+WarFogTopLeft = noone;
+WarFogTop = noone;
+WarFogTopRight = noone;
+WarFogRight = noone;
+WarFogDownRight = noone;
+WarFogDown = noone;
+WarFogDownLeft = noone;
+WarFogLeft = noone;
 lastX = 0;
 lastY = 0;
+#endregion
 
 spellCast = -1;

@@ -26,6 +26,8 @@ if oLordStats.lord3active
 	image_xscale /= 5;
 	image_yscale /= 5;
 	dmgLORD = 0;
+
+	#region attack and movement
 	enemy = noone;
 	instTopLeft = noone;
 	instTop = noone;
@@ -47,8 +49,18 @@ if oLordStats.lord3active
 	enemyDown = noone;
 	enemyDownLeft = noone;
 	enemyLeft = noone;
+	WarFogTopLeft = noone;
+	WarFogTop = noone;
+	WarFogTopRight = noone;
+	WarFogRight = noone;
+	WarFogDownRight = noone;
+	WarFogDown = noone;
+	WarFogDownLeft = noone;
+	WarFogLeft = noone;
 	lastX = 0;
 	lastY = 0;
+	#endregion
+
 	spellCast = -1;
 }
 else instance_destroy();

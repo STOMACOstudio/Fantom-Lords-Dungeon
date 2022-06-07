@@ -6,7 +6,7 @@ var collisionEnemy = collision_point(x,y,oEnemy0_Father,false,true);
 
 if collisionLord != noone
 {
-	depth = 0
+	depth = collisionLord.depth-1;
 	
 	if !damage
 	{
