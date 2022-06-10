@@ -18,9 +18,36 @@ if isFighting && !turnComplete && actions > 0
 	{
 		if lordTop != noone || lordTopRight != noone || lordRightRight != noone || lordRightRightDown != noone || lordDownDownRight != noone || lordDownDown != noone || lordLeft != noone || lordDownLeft != noone
 		{
-			actionsRate = 2;
-			dmgTYPE = thisMAG;
-			scrBossCheckForLords(); //choose a random lord to attack
+			var chooseAttack = irandom_range(0,3);
+			if chooseAttack = 3 && actions >=3
+			{
+				actionsRate = 3;
+				var struct = {dmg : thisMAG/2};
+				
+				if collision_point(x-64,y-64,oLord0Parent,false,true) instance_create_layer(x-64,y-64,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x,y-64,oLord0Parent,false,true) instance_create_layer(x,y-64,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x+64,y-64,oLord0Parent,false,true) instance_create_layer(x+64,y-64,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x+128,y-64,oLord0Parent,false,true) instance_create_layer(x+128,y-64,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x+128,y,oLord0Parent,false,true) instance_create_layer(x+128,y,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x+128,y+64,oLord0Parent,false,true) instance_create_layer(x+128,y+64,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x+128,y+128,oLord0Parent,false,true) instance_create_layer(x+128,y+128,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x+64,y+128,oLord0Parent,false,true) instance_create_layer(x+64,y+128,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x,y+128,oLord0Parent,false,true) instance_create_layer(x,y+128,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x-64,y+128,oLord0Parent,false,true) instance_create_layer(x-64,y+128,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x-64,y+64,oLord0Parent,false,true) instance_create_layer(x-64,y+64,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x-64,y,oLord0Parent,false,true) instance_create_layer(x-64,y,"VFX",oVFX_BossFlanSpell,struct);
+				
+				audio_play_sound(snBossFlanSpell,0,false);
+				isFighting = false;
+	
+				alarm[0] = alarmCounter+25;
+			}
+			else
+			{
+				actionsRate = 2;
+				dmgTYPE = thisMAG;
+				scrBossCheckForLords(); //choose a random lord to attack
+			}
 		}
 		else
 		{

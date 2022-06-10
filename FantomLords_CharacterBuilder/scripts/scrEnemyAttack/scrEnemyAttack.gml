@@ -3,7 +3,7 @@
 function scrEnemyAttack(){
 	
 	if dmgTYPE = thisATK dmgENEMY = (dmgTYPE + irandom_range(-3,3)) - lordTarget.thisLord_DEF;
-	else if thisATK = thisMAG dmgENEMY = (dmgTYPE + irandom_range(-3,3)) - lordTarget.thisLord_MAG;
+	else if dmgTYPE = thisMAG dmgENEMY = (dmgTYPE + irandom_range(-3,3)) - lordTarget.thisLord_MAG;
 	if dmgENEMY <= 0 dmgENEMY = 1;
 	global.dmgENEMY = dmgENEMY;
 	audio_play_sound(attackSound,0,false);

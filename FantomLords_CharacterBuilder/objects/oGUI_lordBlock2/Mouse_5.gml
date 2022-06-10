@@ -23,5 +23,6 @@ if !empty && oGUI_lordBlock3.empty && oGUI_lordBlock4.empty
 	oLordStats.lord2typeAttack = "none";
 	oLordStats.lord2skillClassArmor = 0;
 	oLordStats.lord2skillWeapon = 0;
+	oLordStats.lord2name = "Lord 2";
 	empty = true;
 }
