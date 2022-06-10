@@ -4,7 +4,7 @@
 if open && nextRoom <= 0 && !global.gameOver
 {	
 	
-	if !instance_exists(oGUI_NextRoom)	instance_create_layer(640,360,"VFX",oGUI_NextRoom);
+	if !instance_exists(oGUI_NextRoom)	instance_create_layer(512,192,"VFX",oGUI_NextRoom);
 }
 else
 {

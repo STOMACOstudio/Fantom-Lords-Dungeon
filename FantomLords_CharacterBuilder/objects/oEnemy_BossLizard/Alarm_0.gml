@@ -3,7 +3,7 @@
 
 if actions > 0
 {
-	actions --;
+	actions -= actionsRate;
 	isFighting = true;
 }
 if actions <= 0

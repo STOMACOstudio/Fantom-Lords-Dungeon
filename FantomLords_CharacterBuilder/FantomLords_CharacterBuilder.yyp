@@ -45,6 +45,7 @@
     {"id":{"name":"oLord_Baloon6","path":"objects/oLord_Baloon6/oLord_Baloon6.yy",},"order":26,},
     {"id":{"name":"oVFX_spellCastEnd","path":"objects/oVFX_spellCastEnd/oVFX_spellCastEnd.yy",},"order":29,},
     {"id":{"name":"oVFX_spellCastClass4","path":"objects/oVFX_spellCastClass4/oVFX_spellCastClass4.yy",},"order":28,},
+    {"id":{"name":"oVFX_BossBatSpell","path":"objects/oVFX_BossBatSpell/oVFX_BossBatSpell.yy",},"order":38,},
     {"id":{"name":"sGUI_arrowLeft","path":"sprites/sGUI_arrowLeft/sGUI_arrowLeft.yy",},"order":5,},
     {"id":{"name":"sGUIenterLordName","path":"sprites/sGUIenterLordName/sGUIenterLordName.yy",},"order":48,},
     {"id":{"name":"oLordTrait_Background","path":"objects/oLordTrait_Background/oLordTrait_Background.yy",},"order":9,},
