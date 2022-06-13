@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if oManagerCombat.combatPhase = 0 && !isNext
+if oManagerCombat.combatPhase = 0 && !isNext && global.fightMode
 {
 	with (oLord0Parent) thisLocked = false;
 	with (oLord0Parent) image_blend = c_white;
