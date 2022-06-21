@@ -4,6 +4,7 @@
 /// @description
 
 // Initialize app
+
 scr_ini()
 
 draw_set_font(foAlagard24);

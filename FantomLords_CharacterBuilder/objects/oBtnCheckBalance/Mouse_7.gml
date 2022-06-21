@@ -1,4 +1,5 @@
 /// @description 
+
 if (global.user_address!="0") {
 	
 	oController.state=2;

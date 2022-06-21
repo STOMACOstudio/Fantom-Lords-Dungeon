@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-show_debug_message(string(global.revealdEnemies));
-
 if i2 < instance_number(oEnemy0_Father) //check for revealed enemies
 {
 	enemy2[i2] = instance_find(oEnemy0_Father,i2); //array con gli id di ogni nemico
