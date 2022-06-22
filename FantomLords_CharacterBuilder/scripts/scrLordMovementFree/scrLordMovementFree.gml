@@ -59,7 +59,7 @@ function scrLordMovementFree(){
 		{
 			instRight.image_alpha = 0.8;
 			instRight.revealed = true;
-			if WarFogTopRight != noone nstance_destroy(WarFogRight);
+			if WarFogTopRight != noone instance_destroy(WarFogRight);
 			global.tileNumber --;
 		}
 	}

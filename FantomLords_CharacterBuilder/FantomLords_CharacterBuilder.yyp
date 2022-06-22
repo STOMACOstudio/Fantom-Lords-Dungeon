@@ -360,7 +360,6 @@
     {"id":{"name":"oMap_blocktileEmbellishment1","path":"objects/oMap_blocktileEmbellishment1/oMap_blocktileEmbellishment1.yy",},"order":4,},
     {"id":{"name":"oGUI_potionACTdrop","path":"objects/oGUI_potionACTdrop/oGUI_potionACTdrop.yy",},"order":48,},
     {"id":{"name":"sGUIlifeBarFront","path":"sprites/sGUIlifeBarFront/sGUIlifeBarFront.yy",},"order":40,},
-    {"id":{"name":"oManagerMusic","path":"objects/oManagerMusic/oManagerMusic.yy",},"order":2,},
     {"id":{"name":"ts_1_Sewer","path":"tilesets/ts_1_Sewer/ts_1_Sewer.yy",},"order":0,},
     {"id":{"name":"sLordBallon3d","path":"sprites/sLordBallon3d/sLordBallon3d.yy",},"order":7,},
     {"id":{"name":"snPowerUp","path":"sounds/snPowerUp/snPowerUp.yy",},"order":11,},

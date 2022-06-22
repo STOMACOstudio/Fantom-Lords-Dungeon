@@ -63,7 +63,6 @@ global.roomCounter = 1;
 
 global.gameOver = false;
 global.bossBattle = 1;
-//global.nextRoom = false;
 
 global.hideEnemy = 0;
 global.fightMode = false;

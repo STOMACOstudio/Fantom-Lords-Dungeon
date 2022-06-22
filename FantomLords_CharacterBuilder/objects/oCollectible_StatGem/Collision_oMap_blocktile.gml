@@ -7,5 +7,3 @@ if other.revealed
 	revealed = true;
 }
 else image_alpha = 0;
-
-depth = other.depth-1;
