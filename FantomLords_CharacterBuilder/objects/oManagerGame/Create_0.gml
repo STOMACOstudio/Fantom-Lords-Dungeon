@@ -68,3 +68,5 @@ global.hideEnemy = 0;
 global.fightMode = false;
 
 global.roomColor = c_white;
+
+global.enterPlaceSewer = false;

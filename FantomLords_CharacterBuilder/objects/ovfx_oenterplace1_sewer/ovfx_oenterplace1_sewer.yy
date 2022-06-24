@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sGUI_solidBlack",
-    "path": "sprites/sGUI_solidBlack/sGUI_solidBlack.yy",
+    "name": "sTitleRoom_1_Sewers",
+    "path": "sprites/sTitleRoom_1_Sewers/sTitleRoom_1_Sewers.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,8 +23,10 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":75,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +35,7 @@
     "path": "folders/Objects/VFX.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oVFX_SolidBlackFadeout",
+  "name": "oVFX_oEnterPlace1_Sewer",
   "tags": [],
   "resourceType": "GMObject",
 }

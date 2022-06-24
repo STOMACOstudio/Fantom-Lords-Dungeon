@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sGUI_solidBlack",
-    "path": "sprites/sGUI_solidBlack/sGUI_solidBlack.yy",
+    "name": "sGUI_solidBlackFULL",
+    "path": "sprites/sGUI_solidBlackFULL/sGUI_solidBlackFULL.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,7 +22,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":75,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
@@ -33,7 +32,7 @@
     "path": "folders/Objects/VFX.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oVFX_SolidBlackFadeout",
+  "name": "oVFX_SolidBlackFadeoutBIG",
   "tags": [],
   "resourceType": "GMObject",
 }

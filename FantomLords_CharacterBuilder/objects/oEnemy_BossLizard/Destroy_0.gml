@@ -3,6 +3,9 @@
 
 oManagerCombat.combatPhase = 0;
 
+audio_stop_sound(sn2_BossBattle1Loop);
+audio_play_sound(sn2_BossBattle1Victory,0,false);
+
 global.scoreAdd = string(scoreAdd);
 score += scoreAdd;
 
