@@ -22,8 +22,8 @@ if (my_id=="getTokenBalance") {
 	if (bal==-1) {
 		oPrintMessage.thisPrint = "Failed to get the balance";
 	} else {
-		oPrintMessage.thisPrint = "User has "+string(bal)+" Spooky LP";
+		oPrintMessage.thisPrint = "User has "+string(bal)+" XRLC";
 		if bal >= 50 oGUI_FantomTitleMain.canStart = true;
-		else oPrintMessage.thisPrint = "You need at least 50 spLP to play";
+		else oPrintMessage.thisPrint = "You need at least 50 XRLC to play";
 	}
 }

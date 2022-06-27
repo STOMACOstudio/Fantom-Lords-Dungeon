@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scrLordAttackRange(){
 	
-	if keyboard_check(vk_shift) && thisLocked
+	if global.showRange && thisLocked
 	{
 		if thisLord_typeAttack = "MELEE"
 		{
