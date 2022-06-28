@@ -21,5 +21,5 @@ if tile.stepped
 else
 {
 	image_alpha = 0;
-	revealed = true;
+	revealed = false;
 }

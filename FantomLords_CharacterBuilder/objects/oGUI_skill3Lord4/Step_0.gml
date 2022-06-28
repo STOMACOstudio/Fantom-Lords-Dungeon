@@ -22,8 +22,6 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 		else if oLord4.thisLord_skillWeapon = 14 global.printSkill = "STORM";
 		else if oLord4.thisLord_skillWeapon = 15 global.printSkill = "SCRY";
 		else if oLord4.thisLord_skillWeapon = 16 global.printSkill = "HUNT";
-	
-		instance_create_layer(mouse_x,mouse_y,"Instances",oGUI_printSkill);
 	}
 
 		if global.hasControl && instance_exists(oLord4) && mouse_check_button_pressed(mb_left)
@@ -46,3 +44,5 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 		}
 	}
 }
+
+image_index = oLord4.thisLord_skillWeapon;

@@ -18,7 +18,6 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 		else if oLord2.thisLord_skillClassArmor = 10 global.printSkill = "BATTLECRY";
 		else if oLord2.thisLord_skillClassArmor = 11 global.printSkill = "CRUSH";
 	
-		instance_create_layer(mouse_x,mouse_y,"Instances",oGUI_printSkill);
 	}
 
 	if global.hasControl && instance_exists(oLord2) && mouse_check_button_pressed(mb_left)
@@ -41,3 +40,5 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 		}
 	}
 }
+
+image_index = oLord2.thisLord_skillClassArmor;
