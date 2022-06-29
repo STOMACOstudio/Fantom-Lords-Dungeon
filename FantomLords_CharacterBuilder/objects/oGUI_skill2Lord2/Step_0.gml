@@ -41,4 +41,4 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 	}
 }
 
-image_index = oLord2.thisLord_skillClassArmor;
+if instance_exists(oLord2) image_index = oLord2.thisLord_skillClassArmor;

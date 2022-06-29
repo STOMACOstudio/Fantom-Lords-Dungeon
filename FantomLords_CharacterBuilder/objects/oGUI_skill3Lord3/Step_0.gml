@@ -45,4 +45,4 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 	}
 }
 
-image_index = oLord3.thisLord_skillWeapon;
+if instance_exists(oLord3) image_index = oLord3.thisLord_skillWeapon;
