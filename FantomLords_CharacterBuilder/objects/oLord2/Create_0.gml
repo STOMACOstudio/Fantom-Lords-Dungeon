@@ -62,5 +62,7 @@ if oLordStats.lord2active
 	#endregion
 
 	spellCast = -1;
+	
+	battlecry = 0;
 }
 else instance_destroy();

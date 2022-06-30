@@ -12,5 +12,6 @@ if done = true
 		instance_create_layer(targetLord.x,targetLord.y,"VFX",oGUI_printHEAL);
 	}
 	
+	global.hasControl = true;
 	instance_destroy();
 }

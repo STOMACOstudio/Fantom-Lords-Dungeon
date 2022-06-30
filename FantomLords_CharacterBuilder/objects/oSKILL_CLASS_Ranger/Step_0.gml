@@ -10,5 +10,6 @@ if done = true
 		instance_destroy(targetTrap);
 	}
 	
+	global.hasControl = true;
 	instance_destroy();
 }

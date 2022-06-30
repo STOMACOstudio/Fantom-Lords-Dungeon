@@ -15,6 +15,7 @@ if done = true
 	instance_create_layer(target0enemy.x,target0enemy.y,"VFX",oGUI_printDMGenemy);
 	instance_create_layer(global.castLord.x,global.castLord.y,"VFX",oGUI_printHEAL);
 	
+	global.hasControl = true;
 	instance_destroy();
 	global.castLord = noone;
 }

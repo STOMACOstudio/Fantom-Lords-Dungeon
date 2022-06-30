@@ -9,3 +9,5 @@ heal = 0;
 target0enemy = collision_point(x,y,oEnemy0_Father,false,true);
 
 done = false;
+
+global.hasControl = false;

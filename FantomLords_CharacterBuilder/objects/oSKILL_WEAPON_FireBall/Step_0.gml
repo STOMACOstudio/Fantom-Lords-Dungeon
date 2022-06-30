@@ -137,5 +137,6 @@ if done = true
 		instance_create_layer(target8lord.x,target8lord.y,"VFX",oGUI_printDMGlord);
 	}
 	
+	global.hasControl = true;
 	instance_destroy();
 }

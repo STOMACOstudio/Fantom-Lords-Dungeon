@@ -8,3 +8,5 @@ dmg = global.dmgLORD;
 targetLord = collision_point(x,y,oLord0Parent,false,true);
 
 done = false;
+
+global.hasControl = false;

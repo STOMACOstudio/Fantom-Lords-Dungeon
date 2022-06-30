@@ -60,3 +60,5 @@ lastY = 0;
 #endregion
 
 spellCast = -1;
+
+battlecry = 0;

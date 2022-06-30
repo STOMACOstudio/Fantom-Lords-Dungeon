@@ -25,3 +25,5 @@ target8enemy = collision_point(x-64,y,oEnemy0_Father,false,true);
 target8lord = collision_point(x-64,y,oLord0Parent,false,true);
 
 done = false;
+
+global.hasControl = false;

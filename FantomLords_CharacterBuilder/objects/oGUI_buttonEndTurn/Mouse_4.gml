@@ -5,6 +5,14 @@ if oManagerCombat.combatPhase = 0
 {
 	with (oLord0Parent) thisLocked = false;
 	with (oLord0Parent) image_blend = c_white;
+	with (oLord0Parent)
+	{
+		if battlecry > 0
+		{
+			battlecry --;
+			if battlecry = 0 thisLord_ATK = thisLord_ATKmax;
+		}
+	}
 	with (oLord0FrameParent) thisLocked = false;
 	with (oVFX_spellCast0father) instance_destroy();
 	with (oEnemy0_Father) turnCompelete = false;

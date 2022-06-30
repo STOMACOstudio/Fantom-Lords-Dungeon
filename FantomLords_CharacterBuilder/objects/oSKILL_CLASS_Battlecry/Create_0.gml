@@ -8,3 +8,5 @@ targetLord = collision_point(x,y,oLord0Parent,false,true);
 done = false;
 
 image_alpha = 0.8;
+
+global.hasControl = false;
