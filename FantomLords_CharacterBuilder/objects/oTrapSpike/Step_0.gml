@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var collisionLord = collision_point(x,y,oLord0Parent,false,true);
-var collisionEnemy = collision_point(x,y,oEnemy0_Father,false,true);
+var collisionLord = collision_point(x+32,y+32,oLord0Parent,false,true);
+var collisionEnemy = collision_point(x+32,y+32,oEnemy0_Father,false,true);
 
 if collisionLord != noone
 {

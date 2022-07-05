@@ -1,28 +1,30 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if i2 < instance_number(oEnemy0_Father) //check for revealed enemies
+if combatPhase = 0
 {
-	enemy2[i2] = instance_find(oEnemy0_Father,i2); //array con gli id di ogni nemico
-	if enemy2[i2].revealed && !enemy2[i2].obstacle
+	if i2 < instance_number(oEnemy0_Father) //check for revealed enemies
 	{
-		if global.fightMode = false
+		enemy2[i2] = instance_find(oEnemy0_Father,i2); //array con gli id di ogni nemico
+		if enemy2[i2].revealed && !enemy2[i2].obstacle
 		{
-			with oEnemy0_Father if !revealed && !instance_exists(oVFX_Combat) instance_create_layer(512,224,"VFX",oVFX_Combat);
+			if global.fightMode = false
+			{
+				with oEnemy0_Father if !revealed && !instance_exists(oVFX_Combat) instance_create_layer(512,224,"VFX",oVFX_Combat);
+			}
+		}
+		else //se il nemico non è rivelato
+		{
+			i2++;
 		}
 	}
-	else //se il nemico non è rivelato
+	else
 	{
-		i2++;
+		global.fightMode = false;
+		i2 = 0;
 	}
 }
-else
-{
-	global.fightMode = false;
-	i2 = 0;
-}
-
-if combatPhase = 1
+else if combatPhase = 1
 {
 	i2 = 0;
 	global.fightMode = true;
