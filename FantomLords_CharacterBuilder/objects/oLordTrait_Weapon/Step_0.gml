@@ -107,7 +107,7 @@ else if global.weapon = 10 //Moonlight
 	global.modDEFweapon = MoonGrDEFmod;
 	global.modMAGweapon = MoonGrMAGmod;
 	global.modACTweapon = MoonGrACTmod;
-	global.weaponSkill = "Moon Power";
+	global.weaponSkill = "Moon Blast";
 }
 else if global.weapon = 11 //Rapier and Harp
 {

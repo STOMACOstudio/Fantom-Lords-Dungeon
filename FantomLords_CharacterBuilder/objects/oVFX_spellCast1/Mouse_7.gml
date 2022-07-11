@@ -16,6 +16,20 @@ if oLord1.spellCast = 0 //FIREBALL
 		instance_destroy();
 	}
 }
+else if oLord1.spellCast = 3 //SOUL SYPHON
+{
+		if enemy != noone && enemy.target
+		{
+			var struct = {targetLord : oLord1};
+			global.castLord = oLord1;
+			oLord1.spellCast = noone;
+			oLord1.thisLord_ACTpoints -= 2;
+			global.dmgLORD = oLord1.thisLord_MAG + irandom_range(-3,1)
+			if global.dmgLORD <= 0 global.dmgLORD = 1;
+			instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_WEAPON_SoulSyphon,struct);
+			instance_destroy();
+		}
+}
 else if oLord1.spellCast = 8 //CLOSE SHOT
 {
 	if enemy != noone
@@ -28,11 +42,12 @@ else if oLord1.spellCast = 8 //CLOSE SHOT
 		
 		if enemy.target = true
 		{
+			var struct = { targetLord : oLord1};
 			oLord1.spellCast = noone;
 			oLord1.thisLord_ACTpoints -= 2;
 			global.dmgLORD = round((oLord1.thisLord_ATK + irandom_range(-3,6))/2);
 			if global.dmgLORD <= 0 global.dmgLORD = 1;
-			instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_WEAPON_Closeshot);
+			instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_WEAPON_Closeshot,struct);
 			instance_destroy();
 		}
 	}

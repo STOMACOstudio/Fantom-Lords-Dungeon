@@ -5,7 +5,7 @@ audio_play_sound(sn_SKILL_Sunbathe,0,false);
 
 dmg = global.dmgLORD;
 
-targetLord = collision_point(x,y,oLord0Parent,false,true);
+targetLord = collision_point(x+32,y+32,oLord0Parent,false,true);
 
 done = false;
 

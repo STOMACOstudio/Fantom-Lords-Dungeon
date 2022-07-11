@@ -24,18 +24,18 @@ if isFighting && !turnComplete && actions > 0
 				actionsRate = 3;
 				var struct = {dmg : thisMAG/2};
 				
-				if collision_point(x-64,y-64,oLord0Parent,false,true) instance_create_layer(x-64,y-64,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x,y-64,oLord0Parent,false,true) instance_create_layer(x,y-64,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x+64,y-64,oLord0Parent,false,true) instance_create_layer(x+64,y-64,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x+128,y-64,oLord0Parent,false,true) instance_create_layer(x+128,y-64,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x+128,y,oLord0Parent,false,true) instance_create_layer(x+128,y,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x+128,y+64,oLord0Parent,false,true) instance_create_layer(x+128,y+64,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x+128,y+128,oLord0Parent,false,true) instance_create_layer(x+128,y+128,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x+64,y+128,oLord0Parent,false,true) instance_create_layer(x+64,y+128,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x,y+128,oLord0Parent,false,true) instance_create_layer(x,y+128,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x-64,y+128,oLord0Parent,false,true) instance_create_layer(x-64,y+128,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x-64,y+64,oLord0Parent,false,true) instance_create_layer(x-64,y+64,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x-64,y,oLord0Parent,false,true) instance_create_layer(x-64,y,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x-32,y-32,oLord0Parent,false,true) instance_create_layer(x-64,y-64,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x+32,y-32,oLord0Parent,false,true) instance_create_layer(x,y-64,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x+96,y-32,oLord0Parent,false,true) instance_create_layer(x+64,y-64,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x+160,y-32,oLord0Parent,false,true) instance_create_layer(x+128,y-64,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x+160,y+32,oLord0Parent,false,true) instance_create_layer(x+128,y,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x+160,y+96,oLord0Parent,false,true) instance_create_layer(x+128,y+64,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x+160,y+160,oLord0Parent,false,true) instance_create_layer(x+128,y+128,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x+96,y+160,oLord0Parent,false,true) instance_create_layer(x+64,y+128,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x+32,y+160,oLord0Parent,false,true) instance_create_layer(x,y+128,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x-32,y+160,oLord0Parent,false,true) instance_create_layer(x-64,y+128,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x-32,y+96,oLord0Parent,false,true) instance_create_layer(x-64,y+64,"VFX",oVFX_BossFlanSpell,struct);
+				if collision_point(x-32,y+32,oLord0Parent,false,true) instance_create_layer(x-64,y,"VFX",oVFX_BossFlanSpell,struct);
 				
 				audio_play_sound(snBossFlanSpell,0,false);
 				isFighting = false;

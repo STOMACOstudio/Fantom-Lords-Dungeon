@@ -16,6 +16,20 @@ if oLord2.spellCast = 0 //FIREBALL
 		instance_destroy();
 	}
 }
+else if oLord2.spellCast = 3 //SOUL SYPHON
+{
+		if enemy != noone && enemy.target
+		{
+			var struct = {targetLord : oLord2};
+			global.castLord = oLord2;
+			oLord2.spellCast = noone;
+			oLord2.thisLord_ACTpoints -= 2;
+			global.dmgLORD = oLord2.thisLord_MAG + irandom_range(-3,1)
+			if global.dmgLORD <= 0 global.dmgLORD = 1;
+			instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_WEAPON_SoulSyphon,struct);
+			instance_destroy();
+		}
+}
 else if oLord2.spellCast = 8 //CLOSE SHOT
 {
 	if enemy != noone

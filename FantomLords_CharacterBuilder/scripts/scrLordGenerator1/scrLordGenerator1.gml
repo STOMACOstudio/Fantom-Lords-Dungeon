@@ -59,25 +59,43 @@ function scrLordGenerator1(){
 	}
 	else if global.lordNumber = 5
 	{
-		global.lordName = global.lordNumber;
+		global.lordName = "Shibazu";
+		//global.setLordSprite = global.lordNumber -1;
+		global.weapon = 10;
+		global.background = 0;
+		global.ancestry = 5;
+		global.classArmor = 5;
+		global.headgear = 9;
+		global.relic = 0;
+		
+		/*global.lordName = global.lordNumber;
 		//global.setLordSprite = global.lordNumber -1;
 		global.weapon = 7;
 		global.background = 1;
 		global.ancestry = 1;
 		global.classArmor = 1;
 		global.headgear = 14;
-		global.relic = 2;
+		global.relic = 2;*/
 	}
 	else if global.lordNumber = 6
 	{
-		global.lordName = global.lordNumber;
+		global.lordName = "Mordecai";
+		//global.setLordSprite = global.lordNumber -1;
+		global.weapon = 3;
+		global.background = 0;
+		global.ancestry = 13;
+		global.classArmor = 10;
+		global.headgear = 0;
+		global.relic = 0;
+		
+		/*global.lordName = global.lordNumber;
 		//global.setLordSprite = global.lordNumber -1;
 		global.weapon = 5;
 		global.background = 0;
 		global.ancestry = 9;
 		global.classArmor = 11;
 		global.headgear = 2;
-		global.relic = 0;
+		global.relic = 0;*/
 	}
 	else if global.lordNumber = 7
 	{
