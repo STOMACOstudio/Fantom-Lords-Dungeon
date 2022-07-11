@@ -1,0 +1,6 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+global.hasControl = true;
+instance_destroy();
+global.castLord = noone;

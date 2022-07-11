@@ -21,3 +21,14 @@ else if oLord1.spellCast = 3 //SUTURE
 		}
 	}
 }
+else if oLord1.spellCast = 5 //TELEPORT
+{
+	with oMap_0parent
+	{
+		if stepped
+		{
+			if empty draw_rectangle_color(x+1,y+1,x+62,y+62,c_lime,c_lime,c_lime,c_lime,true);
+			else draw_rectangle_color(x+1,y+1,x+62,y+62,c_red,c_red,c_red,c_red,true);
+		}
+	}
+}

@@ -41,6 +41,20 @@ else if oLord4.spellCast = 3
 		}
 	}
 }
+else if oLord4.spellCast = 5
+{
+	var tile = collision_point(x,y,oMap_0parent,false,true);
+	if tile != noone && tile.empty = true && tile.stepped
+	{
+		oLord4.spellCast = noone;
+		oLord4.thisLord_ACTpoints -= 2;
+		instance_create_depth(oLord4.x+32,oLord4.y+32,depth-1,oSKILL_CLASS_Wizard);
+		instance_create_depth(tile.x+32,tile.y+32,depth-1,oSKILL_CLASS_Wizard2);
+		oLord4.x = tile.x;
+		oLord4.y = tile.y;
+		instance_destroy();
+	}
+}
 else if oLord4.spellCast = 9
 {
 	if enemy != noone && enemy.target

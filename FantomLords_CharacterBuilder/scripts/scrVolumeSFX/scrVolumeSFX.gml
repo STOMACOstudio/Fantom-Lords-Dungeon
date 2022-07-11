@@ -31,5 +31,7 @@ function scrVolumeSFX(){
 	audio_sound_gain(sn_SKILL_DrainSlash,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_CloseShot,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_SoulSyphon,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Teleport,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Moonblast,global.volumeSFX,0);
 	
 }

@@ -28,6 +28,15 @@ else if oLord4.thisLord_skillClassArmor = 3
 	global.currentSelectedDescription2 = "ally using";
 	global.currentSelectedDescription3 = "MAG stat";
 }
+else if oLord4.thisLord_skillClassArmor = 5
+{
+	global.currentSelectedName = "Telport";
+	global.currentSelectedSprite = sprite_index;
+	global.currentSelectedImageIndex = image_index;
+	global.currentSelectedDescription1 = "Move the lord";
+	global.currentSelectedDescription2 = "instantly to an";
+	global.currentSelectedDescription3 = "empty tile";
+}
 else if oLord4.thisLord_skillClassArmor = 10
 {
 	global.currentSelectedName = "Battlecry";

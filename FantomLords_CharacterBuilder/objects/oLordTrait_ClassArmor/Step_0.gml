@@ -64,7 +64,7 @@ else if global.classArmor = 5 //sorcerer
 	global.modDEFarmor = SorcDEFmod;
 	global.modMAGarmor = SorcMAGmod;
 	global.modACTarmor = SorcACTmod;
-	global.classArmorSkill = "Blast";
+	global.classArmorSkill = "Teleport";
 }
 else if global.classArmor = 6 //bard
 {
