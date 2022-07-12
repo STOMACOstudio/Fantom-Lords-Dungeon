@@ -28,6 +28,15 @@ else if oLord1.thisLord_skillWeapon = 9
 	global.currentSelectedDescription2 = "that can push";
 	global.currentSelectedDescription3 = "enemy away";
 }
+else if oLord1.thisLord_skillWeapon = 10
+{
+	global.currentSelectedName = "Moon Blast";
+	global.currentSelectedSprite = sprite_index;
+	global.currentSelectedImageIndex = image_index;
+	global.currentSelectedDescription1 = "Wide attack";
+	global.currentSelectedDescription2 = "that uses";
+	global.currentSelectedDescription3 = "MAG stat";
+}
 else if oLord1.thisLord_skillWeapon = 13
 {
 	global.currentSelectedName = "Drain Slash";
