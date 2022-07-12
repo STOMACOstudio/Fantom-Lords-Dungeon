@@ -85,6 +85,51 @@ else if oLord3.spellCast = 9 //BASH
 		instance_destroy();
 	}
 }
+else if oLord3.spellCast = 10 //MOONBLAST
+{
+
+	if mouse_x < oLord3.x && mouse_y > oLord3.y && mouse_y < oLord3.y+64
+	{
+		global.dmgLORD = round(oLord3.thisLord_MAG + irandom_range(-3,6));
+		if global.dmgLORD <= 0 global.dmgLORD = 1;
+		oLord3.spellCast = noone;
+		oLord3.thisLord_ACTpoints -= 2;
+		var struct = {image_angle : 90, hspeed : -2, dir : 0, castLord : oLord3};
+		instance_create_depth(oLord3.x,oLord3.y+32,depth-1,oSKILL_WEAPON_Moonblast,struct);
+		instance_destroy();
+	}
+	else if mouse_x > oLord3.x && mouse_x < oLord3.x+64 && mouse_y < oLord3.y
+	{
+		global.dmgLORD = round(oLord3.thisLord_MAG + irandom_range(-3,6));
+		if global.dmgLORD <= 0 global.dmgLORD = 1;
+		oLord3.spellCast = noone;
+		oLord3.thisLord_ACTpoints -= 2;
+		var struct = {image_angle : 00, vspeed : -2, dir : 1, castLord : oLord3};
+		instance_create_depth(oLord3.x+32,oLord3.y,depth-1,oSKILL_WEAPON_Moonblast,struct);
+		instance_destroy();
+	}
+	else if mouse_x > oLord3.x && mouse_y > oLord3.y && mouse_y <oLord3.y+64
+	{
+		global.dmgLORD = round(oLord3.thisLord_MAG + irandom_range(-3,6));
+		if global.dmgLORD <= 0 global.dmgLORD = 1;
+		oLord3.spellCast = noone;
+		oLord3.thisLord_ACTpoints -= 2;
+		var struct = {image_angle : -90, hspeed : 2, dir : 2, castLord : oLord3};
+		instance_create_depth(oLord3.x+64,oLord3.y+32,depth-1,oSKILL_WEAPON_Moonblast,struct);
+		instance_destroy();
+	}
+	else if mouse_x > oLord3.x && mouse_x < oLord3.x+64 && mouse_y > oLord3.y+64
+	{
+		global.dmgLORD = round(oLord3.thisLord_MAG + irandom_range(-3,6));
+		if global.dmgLORD <= 0 global.dmgLORD = 1;
+		oLord3.spellCast = noone;
+		oLord3.thisLord_ACTpoints -= 2;
+		var struct = {image_angle : 180, vspeed : 2, dir : 3, castLord : oLord3};
+		instance_create_depth(oLord3.x+32,oLord3.y+64,depth-1,oSKILL_WEAPON_Moonblast,struct);
+		instance_destroy();
+	}
+	
+}
 else if oLord3.spellCast = 13 //DRAIN SLASH
 {
 		if enemy != noone && enemy.target

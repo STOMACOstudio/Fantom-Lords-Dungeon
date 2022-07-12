@@ -91,33 +91,41 @@ else if oLord1.spellCast = 10 //MOONBLAST
 
 	if mouse_x < oLord1.x && mouse_y > oLord1.y && mouse_y < oLord1.y+64
 	{
+		global.dmgLORD = round(oLord1.thisLord_MAG + irandom_range(-3,6));
+		if global.dmgLORD <= 0 global.dmgLORD = 1;
 		oLord1.spellCast = noone;
 		oLord1.thisLord_ACTpoints -= 2;
-		var struct = {image_angle : 90, hspeed : -3};
+		var struct = {image_angle : 90, hspeed : -2, dir : 0, castLord : oLord1};
 		instance_create_depth(oLord1.x,oLord1.y+32,depth-1,oSKILL_WEAPON_Moonblast,struct);
 		instance_destroy();
 	}
 	else if mouse_x > oLord1.x && mouse_x < oLord1.x+64 && mouse_y < oLord1.y
 	{
+		global.dmgLORD = round(oLord1.thisLord_MAG + irandom_range(-3,6));
+		if global.dmgLORD <= 0 global.dmgLORD = 1;
 		oLord1.spellCast = noone;
 		oLord1.thisLord_ACTpoints -= 2;
-		var struct = {image_angle : 00, vspeed : -3};
+		var struct = {image_angle : 00, vspeed : -2, dir : 1, castLord : oLord1};
 		instance_create_depth(oLord1.x+32,oLord1.y,depth-1,oSKILL_WEAPON_Moonblast,struct);
 		instance_destroy();
 	}
 	else if mouse_x > oLord1.x && mouse_y > oLord1.y && mouse_y <oLord1.y+64
 	{
+		global.dmgLORD = round(oLord1.thisLord_MAG + irandom_range(-3,6));
+		if global.dmgLORD <= 0 global.dmgLORD = 1;
 		oLord1.spellCast = noone;
 		oLord1.thisLord_ACTpoints -= 2;
-		var struct = {image_angle : -90, hspeed : 3};
+		var struct = {image_angle : -90, hspeed : 2, dir : 2, castLord : oLord1};
 		instance_create_depth(oLord1.x+64,oLord1.y+32,depth-1,oSKILL_WEAPON_Moonblast,struct);
 		instance_destroy();
 	}
 	else if mouse_x > oLord1.x && mouse_x < oLord1.x+64 && mouse_y > oLord1.y+64
 	{
+		global.dmgLORD = round(oLord1.thisLord_MAG + irandom_range(-3,6));
+		if global.dmgLORD <= 0 global.dmgLORD = 1;
 		oLord1.spellCast = noone;
 		oLord1.thisLord_ACTpoints -= 2;
-		var struct = {image_angle : 180, vspeed : 3};
+		var struct = {image_angle : 180, vspeed : 2, dir : 3, castLord : oLord1};
 		instance_create_depth(oLord1.x+32,oLord1.y+64,depth-1,oSKILL_WEAPON_Moonblast,struct);
 		instance_destroy();
 	}

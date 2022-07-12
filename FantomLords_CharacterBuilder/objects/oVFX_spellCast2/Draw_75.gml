@@ -37,6 +37,41 @@ else if oLord2.spellCast = 8 //CLOSESHOT
 		else if x = oLord2.x-64 && y = oLord2.y draw_rectangle_color(x+1,y+1,x+sprite_width-1,y+sprite_height-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
 	}
 }
+else if oLord2.spellCast = 10 //MOONBLAST
+{
+	//left
+	draw_rectangle_color(oLord2.x-63,oLord2.y+1,oLord2.x-1,oLord2.y+63,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	if mouse_x < oLord2.x && mouse_y > oLord2.y && mouse_y < oLord2.y+64
+	{
+		draw_rectangle_color(oLord2.x-127,oLord2.y+1,oLord2.x-65,oLord2.y+63,c_yellow,c_yellow,c_yellow,c_yellow,true);
+		draw_rectangle_color(oLord2.x-127,oLord2.y-63,oLord2.x-65,oLord2.y-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
+		draw_rectangle_color(oLord2.x-127,oLord2.y+65,oLord2.x-65,oLord2.y+127,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	}
+	//up
+	draw_rectangle_color(oLord2.x+1,oLord2.y-63,oLord2.x+64,oLord2.y-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	if mouse_y < oLord2.y && mouse_x > oLord2.x && mouse_x < oLord2.x+64
+	{
+		draw_rectangle_color(oLord2.x+1,oLord2.y-127,oLord2.x+64,oLord2.y-65,c_yellow,c_yellow,c_yellow,c_yellow,true);
+		draw_rectangle_color(oLord2.x-63,oLord2.y-127,oLord2.x-1,oLord2.y-65,c_yellow,c_yellow,c_yellow,c_yellow,true);
+		draw_rectangle_color(oLord2.x+127,oLord2.y-127,oLord2.x+65,oLord2.y-65,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	}
+	//right
+	draw_rectangle_color(oLord2.x+127,oLord2.y+1,oLord2.x+65,oLord2.y+63,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	if mouse_x > oLord2.x+64 && mouse_y > oLord2.y && mouse_y < oLord2.y+64
+	{
+		draw_rectangle_color(oLord2.x+191,oLord2.y+1,oLord2.x+127,oLord2.y+63,c_yellow,c_yellow,c_yellow,c_yellow,true);
+		draw_rectangle_color(oLord2.x+191,oLord2.y-63,oLord2.x+127,oLord2.y-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
+		draw_rectangle_color(oLord2.x+191,oLord2.y+65,oLord2.x+127,oLord2.y+127,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	}
+	//down
+	draw_rectangle_color(oLord2.x+1,oLord2.y+65,oLord2.x+63,oLord2.y+125,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	if mouse_y > oLord2.y+64 && mouse_x > oLord2.x && mouse_x < oLord2.x+64
+	{
+		draw_rectangle_color(oLord2.x+1,oLord2.y+127,oLord2.x+63,oLord2.y+190,c_yellow,c_yellow,c_yellow,c_yellow,true);
+		draw_rectangle_color(oLord2.x-63,oLord2.y+127,oLord2.x-1,oLord2.y+190,c_yellow,c_yellow,c_yellow,c_yellow,true);
+		draw_rectangle_color(oLord2.x+127,oLord2.y+127,oLord2.x+64,oLord2.y+190,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	}
+}
 else if oLord2.spellCast = 9 ^^ oLord2.spellCast = 13 //BASH //DRAINSLASH
 {
 	with oEnemy0_Father if target draw_rectangle_color(x+1,y+1,x+sprite_width-1,y+sprite_height-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
