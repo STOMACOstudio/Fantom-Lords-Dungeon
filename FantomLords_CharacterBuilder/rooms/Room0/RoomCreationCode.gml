@@ -1,1 +1,0 @@
-oGUI_FantomTitleMain.canStart = true;

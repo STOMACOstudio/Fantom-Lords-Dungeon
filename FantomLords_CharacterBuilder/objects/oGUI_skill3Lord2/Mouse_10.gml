@@ -10,6 +10,15 @@ if oLord2.thisLord_skillWeapon = 0
 	global.currentSelectedDescription2 = "area spell";
 	global.currentSelectedDescription3 = "using MAG";
 }
+else if oLord2.thisLord_skillWeapon = 3
+{
+	global.currentSelectedName = "Soul Syphon";
+	global.currentSelectedSprite = sprite_index;
+	global.currentSelectedImageIndex = image_index;
+	global.currentSelectedDescription1 = "MAG attack";
+	global.currentSelectedDescription2 = "if kills enemy";
+	global.currentSelectedDescription3 = "gives gemstone";
+}
 else if oLord2.thisLord_skillWeapon = 8
 {
 	global.currentSelectedName = "Close Shot";
