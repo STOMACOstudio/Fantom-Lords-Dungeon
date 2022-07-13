@@ -37,7 +37,7 @@ else if oLord4.thisLord_skillWeapon = 9
 	global.currentSelectedDescription2 = "that can push";
 	global.currentSelectedDescription3 = "enemy away";
 }
-else if oLord1.thisLord_skillWeapon = 10
+else if oLord4.thisLord_skillWeapon = 10
 {
 	global.currentSelectedName = "Moon Blast";
 	global.currentSelectedSprite = sprite_index;

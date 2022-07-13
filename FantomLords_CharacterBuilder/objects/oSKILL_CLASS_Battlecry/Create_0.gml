@@ -3,7 +3,7 @@
 
 audio_play_sound(sn_SKILL_Battlecry,0,false);
 
-targetLord = collision_point(x,y,oLord0Parent,false,true);
+targetLord = collision_point(x+32,y+32,oLord0Parent,false,true);
 
 done = false;
 
