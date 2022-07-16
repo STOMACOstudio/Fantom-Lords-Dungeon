@@ -32,6 +32,8 @@ global.currentSelectedMAGmax = 0;
 global.currentSelectedDescription1 = "none";
 global.currentSelectedDescription2 = "none";
 global.currentSelectedDescription3 = "none";
+global.currentSelectedStatus = "Uninjured";
+global.currentStatusColor = c_lime;
 
 global.dmgLORD = 0;
 global.dmgENEMY = 0;

@@ -145,6 +145,7 @@
     {"id":{"name":"sGUI_OptionsTextMusic","path":"sprites/sGUI_OptionsTextMusic/sGUI_OptionsTextMusic.yy",},"order":29,},
     {"id":{"name":"sprite_sewer34","path":"sprites/sprite_sewer34/sprite_sewer34.yy",},"order":34,},
     {"id":{"name":"sGUI_ACTpointsON","path":"sprites/sGUI_ACTpointsON/sGUI_ACTpointsON.yy",},"order":1,},
+    {"id":{"name":"scrEnemyLIFcounter","path":"scripts/scrEnemyLIFcounter/scrEnemyLIFcounter.yy",},"order":24,},
     {"id":{"name":"scrBossCheckForAttack3","path":"scripts/scrBossCheckForAttack3/scrBossCheckForAttack3.yy",},"order":15,},
     {"id":{"name":"oBuilderLordNumberAlpha_ArrowUp","path":"objects/oBuilderLordNumberAlpha_ArrowUp/oBuilderLordNumberAlpha_ArrowUp.yy",},"order":14,},
     {"id":{"name":"oBtnCheckBalance","path":"objects/oBtnCheckBalance/oBtnCheckBalance.yy",},"order":1,},

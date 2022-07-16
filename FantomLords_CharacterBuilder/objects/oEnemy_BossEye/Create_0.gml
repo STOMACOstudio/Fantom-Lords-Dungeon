@@ -28,6 +28,9 @@ actions = actionsMax;
 bashed = false;
 attackSprite = oVFX_BossFlanAttack;
 attackSound = snFlanAttack;
+status = "Uninjured";
+LIFpercentage = 100;
+statusColor = c_lime;
 
 alarmCounter = 50;
 

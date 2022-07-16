@@ -10,5 +10,6 @@ function scrEnemyPrintStats(){
 	global.currentSelectedATK = thisATK;
 	global.currentSelectedDEF = thisDEF;
 	global.currentSelectedMAG = thisATK;
+	global.currentSelectedStatus = status;
 
 }

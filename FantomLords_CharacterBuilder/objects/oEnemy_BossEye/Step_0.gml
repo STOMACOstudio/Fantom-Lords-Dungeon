@@ -1,12 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+scrEnemyLIFcounter();
+
 if isSelected && revealed
 {
 	scrEnemyPrintStats();
 	global.currentSelectedDescription1 = "Green and big,";
 	global.currentSelectedDescription2 = "comes with a";
 	global.currentSelectedDescription3 = "surprise.";
+	global.currentStatusColor = statusColor;
 }
 
 if isFighting && !turnComplete && actions > 0

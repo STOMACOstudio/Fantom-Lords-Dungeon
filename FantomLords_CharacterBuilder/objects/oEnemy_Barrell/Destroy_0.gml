@@ -19,6 +19,7 @@ if isSelected
 	global.currentSelectedATK = 0;
 	global.currentSelectedDEF = 0;
 	global.currentSelectedMAG = 0;
+	global.currentSelectedColor = c_white;
 }
 
 if revealed global.revealdEnemies --;

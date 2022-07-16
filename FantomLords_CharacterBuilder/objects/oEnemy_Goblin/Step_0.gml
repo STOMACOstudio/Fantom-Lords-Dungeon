@@ -4,12 +4,15 @@
 if revealed image_alpha = 1;
 else image_alpha = 0;
 
+scrEnemyLIFcounter();
+
 if isSelected && revealed
 {
 	scrEnemyPrintStats();
 	global.currentSelectedDescription1 = "Bats are weak";
 	global.currentSelectedDescription2 = "but comes in";
 	global.currentSelectedDescription3 = "numbers.";
+	global.currentStatusColor = statusColor;
 }
 
 if isFighting && !turnComplete && actions > 0

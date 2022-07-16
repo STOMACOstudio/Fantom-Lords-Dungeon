@@ -14,4 +14,5 @@ if isSelected
 	global.currentSelectedDescription1 = "";
 	global.currentSelectedDescription2 = "";
 	global.currentSelectedDescription3 = "";
+	global.currentSelectedColor = c_white;
 }

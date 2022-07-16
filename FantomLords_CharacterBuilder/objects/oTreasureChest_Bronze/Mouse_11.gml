@@ -15,3 +15,4 @@ global.currentSelectedMAG = 0;
 global.currentSelectedDescription1 = "none"
 global.currentSelectedDescription2 = "none";
 global.currentSelectedDescription3 = "none";
+global.currentSelectedColor = c_white;

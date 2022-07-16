@@ -25,6 +25,8 @@ if isSelected
 	global.currentSelectedATK = 0;
 	global.currentSelectedDEF = 0;
 	global.currentSelectedMAG = 0;
+	global.currentSelectedStatus = "none";
+	global.currentSelectedColor = c_white;
 }
 
 global.bossBattle ++;

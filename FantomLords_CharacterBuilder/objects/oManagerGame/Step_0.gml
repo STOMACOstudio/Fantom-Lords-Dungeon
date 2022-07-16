@@ -13,3 +13,5 @@ if global.revealdEnemies <= 0 global.combatActive = false;
 
 if keyboard_check_pressed(vk_shift) && !global.showRange global.showRange = true;
 else if keyboard_check_pressed(vk_shift) && global.showRange global.showRange = false;
+
+show_debug_message(string(global.currentStatusColor));

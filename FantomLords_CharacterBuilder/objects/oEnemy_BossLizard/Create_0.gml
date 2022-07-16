@@ -28,6 +28,9 @@ actions = actionsMax;
 bashed = false;
 attackSprite = oVFX_EnemyBatAttack;
 attackSound = snAttack;
+status = "Uninjured";
+LIFpercentage = 100;
+statusColor = c_lime;
 
 alarmCounter = 50;
 
