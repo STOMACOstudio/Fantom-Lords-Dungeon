@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sn1_StrongholdLoop.mp3",
-  "duration": 58.304,
+  "soundFile": "sn1_strongholdloop.mp3",
+  "duration": 66.5861,
   "parent": {
     "name": "OST",
     "path": "folders/Sounds/OST.yy",

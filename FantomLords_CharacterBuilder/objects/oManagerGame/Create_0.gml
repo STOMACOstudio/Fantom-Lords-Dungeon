@@ -74,3 +74,5 @@ global.fightMode = false;
 global.roomColor = c_white;
 
 global.enterPlaceSewer = false;
+
+global.fullScreen = false;

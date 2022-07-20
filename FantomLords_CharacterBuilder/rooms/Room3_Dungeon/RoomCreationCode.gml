@@ -10,4 +10,4 @@ if !global.enterPlaceSewer
 else instance_create_layer(0,0,"VFX",oVFX_SolidBlackFadeout);
 
 audio_stop_all();
-audio_play_sound(sn1_StrongholdLoop,0,true);
+audio_play_sound(sn1_Waterways,0,true);

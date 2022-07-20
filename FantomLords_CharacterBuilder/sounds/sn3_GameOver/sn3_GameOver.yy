@@ -11,7 +11,7 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sn3_GameOver.mp3",
+  "soundFile": "sn3_gameover.mp3",
   "duration": 134.42612,
   "parent": {
     "name": "OST",

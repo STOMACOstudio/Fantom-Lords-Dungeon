@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sn2_BossBattle1Loop.mp3",
-  "duration": 61.76,
+  "soundFile": "sn2_bossbattle1loop.mp3",
+  "duration": 101.69465,
   "parent": {
     "name": "OST",
     "path": "folders/Sounds/OST.yy",
