@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-draw_self();
+if oLordStats.lord1active && instance_exists(oLord1) draw_self();

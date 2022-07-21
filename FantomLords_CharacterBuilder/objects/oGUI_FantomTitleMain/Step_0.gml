@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if canStart
+if !canStart
 {
 	image_speed = 1;
 	

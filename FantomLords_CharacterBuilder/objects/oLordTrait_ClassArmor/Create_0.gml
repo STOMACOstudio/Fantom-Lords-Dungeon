@@ -9,89 +9,89 @@ ds_list_add(list_classArmor, "Ranger Leather Armor", "Assassin Nightly Garments"
 							 "Necromancer Bone Armor", "Eldritch Knight Mithral Chainmail",
 							 "Oathbreaker Cursed Armor");
 
-#region Ranger mods
-RangLIFmod = -2;
-RangATKmod = -2;
-RangDEFmod = -2;
-RangMAGmod = -2;
-RangACTmod = 8;
+#region Ranger mods +4
+RangLIFmod = 0;
+RangATKmod = 0;
+RangDEFmod = 0;
+RangMAGmod = 0;
+RangACTmod = 4;
 #endregion
-#region Assassin mods
-AssaLIFmod = -4;
-AssaATKmod = 4;
-AssaDEFmod = -4;
-AssaMAGmod = -4;
-AssaACTmod = 8;
+#region Assassin mods +4
+AssaLIFmod = 0;
+AssaATKmod = 2;
+AssaDEFmod = 0;
+AssaMAGmod = 0;
+AssaACTmod = 2;
 #endregion
-#region Druid mods
-DruiLIFmod = 0;
-DruiATKmod = -2;
+#region Druid mods +4
+DruiLIFmod = 2;
+DruiATKmod = 0;
 DruiDEFmod = 0;
 DruiMAGmod = 2;
 DruiACTmod = 0;
 #endregion
-#region Doctor mods
-DoctLIFmod = -2;
-DoctATKmod = -4;
-DoctDEFmod = -2;
-DoctMAGmod = 6;
+#region Doctor mods +6
+DoctLIFmod = 0;
+DoctATKmod = 0;
+DoctDEFmod = 0;
+DoctMAGmod = 4;
 DoctACTmod = 2;
 #endregion
-#region Warlock mods
-WarlLIFmod = -2;
-WarlATKmod = -4;
+#region Warlock mods +6
+WarlLIFmod = 2;
+WarlATKmod = 0;
 WarlDEFmod = 0;
-WarlMAGmod = 8;
-WarlACTmod = -2;
+WarlMAGmod = 4;
+WarlACTmod = 0;
 #endregion
-#region Sorcerer mods
-SorcLIFmod = -4;
-SorcATKmod = -6;
-SorcDEFmod = -4;
-SorcMAGmod = 16;
-SorcACTmod = -2;
+#region Sorcerer mods +8
+SorcLIFmod = 0;
+SorcATKmod = 0;
+SorcDEFmod = 0;
+SorcMAGmod = 8;
+SorcACTmod = 0;
 #endregion
-#region Bard mods
-BardLIFmod = -2;
-BardATKmod = -4;
-BardDEFmod = 0;
+#region Bard mods +6
+BardLIFmod = 1;
+BardATKmod = 1;
+BardDEFmod = 1;
 BardMAGmod = 2;
-BardACTmod = 4;
+BardACTmod = 1;
 #endregion
-#region Paladin mods
+#region Paladin mods +8
 PalaLIFmod = 4;
 PalaATKmod = 0;
 PalaDEFmod = 4;
-PalaMAGmod = -2;
-PalaACTmod = -6;
+PalaMAGmod = 0;
+PalaACTmod = 0;
 #endregion
-#region Pyromancer mods
-PyroLIFmod = -2;
-PyroATKmod = -6;
-PyroDEFmod = -2;
-PyroMAGmod = 12;
-PyroACTmod = -2;
+#region Pyromancer mods +8
+PyroLIFmod = 0;
+PyroATKmod = 0;
+PyroDEFmod = 0;
+PyroMAGmod = 6;
+PyroACTmod = 2;
 #endregion
-#region Necromancer mods
-NecrLIFmod = 0;
-NecrATKmod = -4;
+#region Necromancer mods +10
+NecrLIFmod = 4;
+NecrATKmod = 0;
 NecrDEFmod = 0;
 NecrMAGmod = 6;
-NecrACTmod = -2;
+NecrACTmod = 0;
 #endregion
-#region Knight mods
-KnigLIFmod = 2;
-KnigATKmod = 4;
-KnigDEFmod = 2;
-KnigMAGmod = -4;
-KnigACTmod = -4;
+#region Knight mods +10
+KnigLIFmod = 3;
+KnigATKmod = 3;
+KnigDEFmod = 3;
+KnigMAGmod = 1;
+KnigACTmod = 0;
 #endregion
-#region Oathbreaker mods
+#region Oathbreaker mods +10
 OathLIFmod = 0;
 OathATKmod = 10;
-OathDEFmod = -2;
-OathMAGmod = -4;
-OathACTmod = -4;
+OathDEFmod = 0;
+OathMAGmod = 0;
+OathACTmod = 0;
 #endregion
 
 #region edit

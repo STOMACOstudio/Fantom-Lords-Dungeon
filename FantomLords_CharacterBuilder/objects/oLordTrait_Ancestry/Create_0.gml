@@ -7,111 +7,111 @@ ds_list_add(list_ancestry, "Base Lord", "Conan", "Dark Elf", "Desert Lord", "Des
 							"Gatsu", "Geralt Lord", "High Elf", "Pale Cult Doge", "Pale Cultist", "Scarred Lord",
 							"Skeleton", "Zombie Lord");
 
-#region Base Lord
+#region Base Lord 0
 BaseLIFmod = 0;
 BaseATKmod = 0;
 BaseDEFmod = 0;
 BaseMAGmod = 0;
 BaseACTmod = 0;
 #endregion
-#region Conan
+#region Conan +1
 ConanLIFmod = 0;
 ConanATKmod = 1;
 ConanDEFmod = 0;
 ConanMAGmod = 0;
 ConanACTmod = 0;
 #endregion
-#region Dark
+#region Dark +3
 DarkLIFmod = 0;
 DarkATKmod = 0;
 DarkDEFmod = 0;
 DarkMAGmod = 0;
-DarkACTmod = 1;
+DarkACTmod = 3;
 #endregion
-#region Desert Lord
+#region Desert Lord +1
 DesLoLIFmod = 0;
 DesLoATKmod = 0;
 DesLoDEFmod = 1;
 DesLoMAGmod = 0;
 DesLoACTmod = 0;
 #endregion
-#region Desert Scarred
+#region Desert Scarred +2
 DesScLIFmod = -1;
 DesScATKmod = 0;
-DesScDEFmod = 2;
+DesScDEFmod = 3;
 DesScMAGmod = 0;
 DesScACTmod = 0;
 #endregion
-#region Doge
+#region Doge +4
 DogeLIFmod = 0;
 DogeATKmod = 0;
 DogeDEFmod = 0;
-DogeMAGmod = -1;
-DogeACTmod = 2;
+DogeMAGmod = 0;
+DogeACTmod = 4;
 #endregion
-#region Flayed
+#region Flayed +3
 FlayLIFmod = -2;
-FlayATKmod = 3;
+FlayATKmod = 5;
 FlayDEFmod = 0;
 FlayMAGmod = 0;
 FlayACTmod = 0;
 #endregion
-#region Gatsu
+#region Gatsu +3
 GatsuLIFmod = 1;
 GatsuATKmod = 1;
 GatsuDEFmod = 1;
-GatsuMAGmod = -2;
+GatsuMAGmod = 0;
 GatsuACTmod = 0;
 #endregion
-#region Geralt
+#region Geralt +3
 GeraltLIFmod = 1;
 GeraltATKmod = 2;
 GeraltDEFmod = 0;
-GeraltMAGmod = -1;
-GeraltACTmod = -1;
+GeraltMAGmod = 0;
+GeraltACTmod = 0;
 #endregion
-#region High
+#region High +2
 HighLIFmod = 0;
 HighATKmod = 0;
 HighDEFmod = 0;
-HighMAGmod = 1;
+HighMAGmod = 2;
 HighACTmod = 0;
 #endregion
-#region Pale Doge
+#region Pale Doge +4
 PaDoLIFmod = 0;
 PaDoATKmod = 0;
 PaDoDEFmod = 0;
-PaDoMAGmod = 2;
-PaDoACTmod = -1;
+PaDoMAGmod = 4;
+PaDoACTmod = 0;
 #endregion
-#region Pale Cultist
-PaCuLIFmod = 1;
+#region Pale Cultist +3
+PaCuLIFmod = 2;
 PaCuATKmod = 0;
 PaCuDEFmod = -1;
-PaCuMAGmod = 1;
+PaCuMAGmod = 2;
 PaCuACTmod = 0;
 #endregion
-#region Scarred Lord
+#region Scarred Lord +1
 ScaLoLIFmod = -1;
 ScaLoATKmod = 1;
 ScaLoDEFmod = 0;
 ScaLoMAGmod = 0;
 ScaLoACTmod = 1;
 #endregion
-#region Skeleton
-SkelLIFmod = 3;
-SkelATKmod = -1;
+#region Skeleton +2
+SkelLIFmod = 2;
+SkelATKmod = 0;
 SkelDEFmod = 0;
-SkelMAGmod = -1;
+SkelMAGmod = 0;
 SkelACTmod = 0;
 #endregion
-#region Zombie
-	ZombLIFmod = 3;
-	ZombATKmod = 0;
-	ZombDEFmod = 0;
-	ZombMAGmod = 0;
-	ZombACTmod = -2;
-	#endregion
+#region Zombie +3
+ZombLIFmod = 4;
+ZombATKmod = 0;
+ZombDEFmod = 0;
+ZombMAGmod = 0;
+ZombACTmod = -1;
+#endregion
 	
 #region edit
 /*

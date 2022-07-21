@@ -9,120 +9,120 @@ ds_list_add(list_weapon, "Charred Wand and Fireball", "Coral Staff and Hydrobolt
 						 "Rapier and Harp", "Scimitar and Magic Missile", "Sickle and Ankh", "Stormbringer",
 						 "Wand and Diviner Ball", "Wooden Staff and Sparrow");
 
-#region Charred Wand mods
+#region Charred Wand mods +8
 CharBellLIFmod = 0;
 CharBellATKmod = 0;
 CharBellDEFmod = 0;
-CharBellMAGmod = 5;
-CharBellACTmod = -1;
+CharBellMAGmod = 6;
+CharBellACTmod = 0;
 #endregion
-#region Coral Staff mods
+#region Coral Staff mods +6
 CoralHydroLIFmod = 1;
 CoralHydroATKmod = 0;
-CoralHydroDEFmod = 0;
+CoralHydroDEFmod = 1;
 CoralHydroMAGmod = 3;
-CoralHydroACTmod = 0;
+CoralHydroACTmod = 1;
 #endregion
-#region Crossbow mods
+#region Crossbow mods +4
 CrossbowLIFmod = 0;
 CrossbowATKmod = 2;
 CrossbowDEFmod = 0;
 CrossbowMAGmod = -1;
 CrossbowACTmod = 3;
 #endregion
-#region Death Schyte mods
-SchySouLIFmod = 2;
-SchySouATKmod = 0;
+#region Death Schyte mods +10
+SchySouLIFmod = 4;
+SchySouATKmod = 2;
 SchySouDEFmod = 0;
-SchySouMAGmod = 2;
+SchySouMAGmod = 4;
 SchySouACTmod = 0;
 #endregion
-#region Dragon Slayer mods
+#region Dragon Slayer mods +6
 DraSlaylLIFmod = 0;
-DraSlaylATKmod = 5;
+DraSlaylATKmod = 6;
 DraSlaylDEFmod = 0;
 DraSlaylMAGmod = 0;
-DraSlaylACTmod = -1;
+DraSlaylACTmod = 0;
 #endregion
-#region Elemental Staff mods
-EleStaLIFmod = 0;
-EleStaATKmod = -1;
-EleStaDEFmod = 0;
-EleStaMAGmod = 5;
+#region Elemental Staff mods +6
+EleStaLIFmod = 1;
+EleStaATKmod = 0;
+EleStaDEFmod = 1;
+EleStaMAGmod = 4;
 EleStaACTmod = 0;
 #endregion
-#region Holy Avenger mods
-HolyAvLIFmod = 1;
+#region Holy Avenger mods +8
+HolyAvLIFmod = 2;
 HolyAvATKmod = 2;
-HolyAvDEFmod = 1;
-HolyAvMAGmod = 1;
-HolyAvACTmod = -1;
+HolyAvDEFmod = 0;
+HolyAvMAGmod = 2;
+HolyAvACTmod = 2;
 #endregion
-#region Katars mods
+#region Katars mods +4
 KataLIFmod = 0;
 KataATKmod = 2;
 KataDEFmod = -1;
 KataMAGmod = 0;
 KataACTmod = 3;
 #endregion
-#region Longbow mods
+#region Longbow mods +4
 LongBoLIFmod = 0;
 LongBoATKmod = 2;
 LongBoDEFmod = 0;
 LongBoMAGmod = 0;
 LongBoACTmod = 2;
 #endregion
-#region Longsword mods
+#region Longsword mods +4
 LongSwLIFmod = 0;
 LongSwATKmod = 2;
 LongSwDEFmod = 2;
 LongSwMAGmod = 0;
 LongSwACTmod = 0;
 #endregion
-#region Moonlight mods
+#region Moonlight mods +10
 MoonGrLIFmod = 0;
-MoonGrATKmod = 3;
+MoonGrATKmod = 5;
 MoonGrDEFmod = 0;
-MoonGrMAGmod = 1;
+MoonGrMAGmod = 5;
 MoonGrACTmod = 0;
 #endregion
-#region Rapier and Harp mods
+#region Rapier and Harp mods +6
 RapHarLIFmod = 1;
 RapHarATKmod = 1;
-RapHarDEFmod = -1;
+RapHarDEFmod = 1;
 RapHarMAGmod = 1;
 RapHarACTmod = 2;
 #endregion
-#region Scimitar and Magic mods
+#region Scimitar and Magic mods +8
 SciMaLIFmod = 0;
-SciMaATKmod = 1;
+SciMaATKmod = 3;
 SciMaDEFmod = 0;
-SciMaMAGmod = 2;
-SciMaACTmod = 1;
+SciMaMAGmod = 3;
+SciMaACTmod = 2;
 #endregion
-#region Sickle and Ankh mods
+#region Sickle and Ankh mods +4
 SikAnLIFmod = 1;
 SikAnATKmod = 1;
 SikAnDEFmod = 0;
 SikAnMAGmod = 1;
 SikAnACTmod = 1;
 #endregion
-#region Stormbringer mods
-StormLIFmod = -1;
-StormATKmod = 3;
+#region Stormbringer mods +8
+StormLIFmod = 0;
+StormATKmod = 4;
 StormDEFmod = 0;
-StormMAGmod = 3;
-StormACTmod = -1;
+StormMAGmod = 4;
+StormACTmod = 0;
 #endregion
-#region Wand and Bell mods
+#region Wand and Ball mods +4
 WaBellLIFmod = 1;
-WaBellATKmod = 0;
+WaBellATKmod = -1;
 WaBellDEFmod = 0;
 WaBellMAGmod = 4;
-WaBellACTmod = -1;
+WaBellACTmod = 0;
 #endregion
-#region Wooden Staff mods
-WoodLIFmod = 0;
+#region Wooden Staff mods +6
+WoodLIFmod = 2;
 WoodATKmod = 0;
 WoodDEFmod = 0;
 WoodMAGmod = 2;

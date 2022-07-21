@@ -6,3 +6,4 @@ global.currentSelectedSprite = "none";
 global.currentSelectedDescription1 = "none"
 global.currentSelectedDescription2 = "none";
 global.currentSelectedDescription3 = "none";
+global.currentSelectedStatus = "none";
