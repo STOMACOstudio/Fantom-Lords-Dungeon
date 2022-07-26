@@ -12,13 +12,13 @@ image_yscale /= 5;
 isSelected = false;
 
 thisName = "Mimic";
-thisLIF = 50 + (3*global.roomCounter) + irandom_range(-3,3);
+thisLIF = 75 + (3*global.roomCounter) + irandom_range(-3,3);
 thisLIFmax = thisLIF;
-thisATK = 10 + irandom_range(-2,5);
+thisATK = 18 + irandom_range(-2,5);
 thisATKmax = thisATK;
-thisDEF =1;
+thisDEF = 1;
 thisDEFmax = thisDEF;
-thisMAG = 1;
+thisMAG = 8;
 thisMAGmax = thisMAG;
 thisRevealed = false;
 scoreAdd = 15;
@@ -30,6 +30,9 @@ actionsRate = 0;
 bashed = false;
 attackSprite = oVFX_EnemyBatAttack;
 attackSound = snAttack;
+status = "Uninjured";
+LIFpercentage = 100;
+statusColor = c_lime;
 
 value =
 {

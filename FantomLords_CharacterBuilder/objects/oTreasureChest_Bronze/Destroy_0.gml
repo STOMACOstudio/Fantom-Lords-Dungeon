@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if isMimic = 11 instance_create_depth(x,y,depth,oEnemy_Mimic);
+if isMimic != 10 instance_create_depth(x,y,depth,oEnemy_Mimic);
 else
 {
 	instance_create_layer(x,y,"Instances",choose(oCollectible_StatGem,oCollectible_Potion,oCollectible_GoldS,oCollectible_KeyBronze));

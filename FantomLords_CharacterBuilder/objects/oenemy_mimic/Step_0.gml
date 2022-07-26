@@ -4,12 +4,15 @@
 if revealed image_alpha = 1;
 else image_alpha = 0;
 
+scrEnemyLIFcounter();
+
 if isSelected && revealed
 {
 	scrEnemyPrintStats();
 	global.currentSelectedDescription1 = "A mimic was";
 	global.currentSelectedDescription2 = "disguised as a";
 	global.currentSelectedDescription3 = "bronze chest.";
+	global.currentStatusColor = statusColor;
 }
 
 if isFighting && !turnComplete && actions > 0

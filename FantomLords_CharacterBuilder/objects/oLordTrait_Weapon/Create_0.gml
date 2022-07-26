@@ -13,7 +13,7 @@ ds_list_add(list_weapon, "Charred Wand and Fireball", "Coral Staff and Hydrobolt
 CharBellLIFmod = 0;
 CharBellATKmod = 0;
 CharBellDEFmod = 0;
-CharBellMAGmod = 6;
+CharBellMAGmod = 8;
 CharBellACTmod = 0;
 #endregion
 #region Coral Staff mods +6
