@@ -77,7 +77,7 @@
     "spriteId": {"name":"sSKILL_CLASS_Necromancer","path":"sprites/sSKILL_CLASS_Necromancer/sSKILL_CLASS_Necromancer.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 12.0,
+    "playbackSpeed": 24.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

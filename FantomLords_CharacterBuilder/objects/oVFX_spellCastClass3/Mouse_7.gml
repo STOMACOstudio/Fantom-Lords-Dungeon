@@ -57,19 +57,29 @@ else if oLord3.spellCast = 5
 }
 else if oLord3.spellCast = 9
 {
-	if enemy != noone && enemy.target
+	var collision = collision_point(x,y,oGUI_deathLord,0,false);
+	var tile1 = collision_point(oLord3.x+32,oLord3.y-32,oMap_0parent,false,true);
+	var tile2 = collision_point(oLord3.x+96,oLord3.y+32,oMap_0parent,false,true);
+	var tile3 = collision_point(oLord3.x+32,oLord3.y+96,oMap_0parent,false,true);
+	var tile4 = collision_point(oLord3.x-32,oLord3.y+32,oMap_0parent,false,true);
+	
+	if collision != noone
 	{
-		oLord3.spellCast = noone;
-		oLord3.thisLord_ACTpoints -= 2;
-		global.dmgLORD = round((oLord3.thisLord_ATK + irandom_range(-3,6))/2);
-		if global.dmgLORD <= 0 global.dmgLORD = 1;
-		instance_create_layer(enemy.x+32,enemy.y+32,"VFX",oSKILL_WEAPON_Longsword);
-		if enemy.x = oLord3.x && enemy.y < oLord3.y if collision_point(enemy.x,enemy.y-64,oMap_0parent,false,true).empty enemy.y -= global.tileRate;
-		if enemy.x > oLord3.x && enemy.y = oLord3.y if collision_point(enemy.x+64,enemy.y,oMap_0parent,false,true).empty enemy.x += global.tileRate;
-		if enemy.x = oLord3.x && enemy.y > oLord3.y if collision_point(enemy.x,enemy.y+64,oMap_0parent,false,true).empty enemy.y += global.tileRate;
-		if enemy.x < oLord3.x && enemy.y = oLord3.y if collision_point(enemy.x-64,enemy.y,oMap_0parent,false,true).empty enemy.x -= global.tileRate;
-		instance_destroy();
-	}
+		if collision.posLord = 1 var struct = { makelord : 1 }
+		else if collision.posLord = 2 var struct = { makelord : 2 }
+		else if collision.posLord = 3 var struct = { makelord : 3 }
+		else if collision.posLord = 4 var struct = { makelord : 4 }
+		
+		if tile1.empty || tile2.empty || tile3.empty || tile4.empty
+		{
+			instance_destroy(collision);
+			if tile1.empty instance_create_layer(tile1.x,tile1.y,"VFX",oSKILL_CLASS_Revive,struct);
+			else if tile2.empty instance_create_layer(tile2.x,tile2.y,"VFX",oSKILL_CLASS_Revive,struct);
+			else if tile3.empty instance_create_layer(tile3.x,tile3.y,"VFX",oSKILL_CLASS_Revive,struct);
+			else if tile4.empty instance_create_layer(tile4.x,tile4.y,"VFX",oSKILL_CLASS_Revive,struct);
+			instance_destroy();
+		}
+	}			
 }
 else if oLord3.spellCast = 10
 {

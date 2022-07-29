@@ -209,6 +209,7 @@
     {"id":{"name":"sCollect_Gem","path":"sprites/sCollect_Gem/sCollect_Gem.yy",},"order":9,},
     {"id":{"name":"sBlockWallEmbellishment5","path":"sprites/sBlockWallEmbellishment5/sBlockWallEmbellishment5.yy",},"order":13,},
     {"id":{"name":"oUI_EnableOST","path":"objects/oUI_EnableOST/oUI_EnableOST.yy",},"order":69,},
+    {"id":{"name":"oSKILL_CLASS_Revive","path":"objects/oSKILL_CLASS_Revive/oSKILL_CLASS_Revive.yy",},"order":15,},
     {"id":{"name":"sEnemy_Eye","path":"sprites/sEnemy_Eye/sEnemy_Eye.yy",},"order":1,},
     {"id":{"name":"sprite_sewer06","path":"sprites/sprite_sewer06/sprite_sewer06.yy",},"order":6,},
     {"id":{"name":"oGUI_OptionsBarSFXfill","path":"objects/oGUI_OptionsBarSFXfill/oGUI_OptionsBarSFXfill.yy",},"order":33,},

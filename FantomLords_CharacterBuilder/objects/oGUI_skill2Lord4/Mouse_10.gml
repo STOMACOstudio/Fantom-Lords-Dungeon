@@ -42,6 +42,15 @@ if oLordStats.lord4active && instance_exists(oLord4)
 		global.currentSelectedDescription2 = "instantly to an";
 		global.currentSelectedDescription3 = "empty tile";
 	}
+	else if oLord4.thisLord_skillClassArmor = 9
+	{
+		global.currentSelectedName = "Revive";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Revives a Lord";
+		global.currentSelectedDescription2 = "as a weak";
+		global.currentSelectedDescription3 = "zombie";
+	}
 	else if oLord4.thisLord_skillClassArmor = 10
 	{
 		global.currentSelectedName = "Battlecry";
