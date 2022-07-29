@@ -5,5 +5,3 @@ enemy = noone;
 tile = noone;
 lord = noone;
 trap = noone;
-
-draw_square = false;

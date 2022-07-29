@@ -57,7 +57,50 @@ else if oLord1.spellCast = 5
 }
 else if oLord1.spellCast = 9
 {
-	if collision_point(x,y,oLord0FrameParent)
+	var collision = collision_point(x,y,oGUI_deathLord,false,true);
+	var tile1 = collision_point(oLord1.x+32,oLord1.y-32,oMap_0parent,false,true);
+	var tile2 = collision_point(oLord1.x+96,oLord1.y+32,oMap_0parent,false,true);
+	var tile3 = collision_point(oLord1.x+32,oLord1.y-96,oMap_0parent,false,true);
+	var tile4 = collision_point(oLord1.x-32,oLord1.y+32,oMap_0parent,false,true);
+	
+	if collision != noone
+	{
+		if collision.posLord = 2
+		{
+			
+			oLordStats.lord2LIF = 10;
+			oLordStats.lord2LIFmax = 10;
+			oLordStats.lord2ATK = 10;
+			oLordStats.lord2ATKmax = 10;
+			oLordStats.lord2DEF = 10;
+			oLordStats.lord2DEFmax = 10;
+			oLordStats.lord2MAG = 10;
+			oLordStats.lord2MAGmax = 10;
+			oLordStats.lord2ACT = 10;
+			oLordStats.lord2ACTmax = 10;
+			//thisLord_typeAttack = oLordStats.lord2typeAttack;
+			//thisLord_skillClassArmor = oLordStats.lord2skillClassArmor;
+			//thisLord_skillWeapon = oLordStats.lord2skillWeapon;
+			
+			if tile1.empty || tile2.empty || tile3.empty || tile4.empty
+			{
+				instance_destroy(collision);
+				
+				oLordStats.lord2active = true;
+				
+				instance_create_layer(340,512,"BG",oGUI_ACTpoints2);
+				instance_create_layer(208,504,"BG",oGUI_LordFrame2);
+				instance_create_layer(208,640,"BG",oGUI_lordHealthFront2);
+				instance_create_layer(240,634,"BG",oGUI_lordHealthPrint2);
+				
+				if tile1.empty instance_create_layer(tile1.x,tile1.y,"Instances",oLord2);
+				else if tile2.empty instance_create_layer(tile2.x,tile2.y,"Instances",oLord2);
+				else if tile3.empty instance_create_layer(tile3.x,tile3.y,"Instances",oLord2);
+				else if tile4.empty instance_create_layer(tile4.x,tile4.y,"Instances",oLord2);
+				
+			}
+		}			
+	}
 }
 else if oLord1.spellCast = 10
 {
