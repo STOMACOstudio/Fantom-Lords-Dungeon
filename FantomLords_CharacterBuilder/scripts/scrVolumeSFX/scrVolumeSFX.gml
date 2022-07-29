@@ -33,5 +33,6 @@ function scrVolumeSFX(){
 	audio_sound_gain(sn_SKILL_SoulSyphon,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Teleport,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Moonblast,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Necromancer,global.volumeSFX,0);
 	
 }

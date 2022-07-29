@@ -1,6 +1,6 @@
 {
   "option_html5_browser_title": "Fantom Lords Game",
-  "option_html5_version": "1.0.29.1",
+  "option_html5_version": "1.0.30.0",
   "option_html5_foldername": "FantomLordsGame",
   "option_html5_outputname": "index.html",
   "option_html5_splash_png": "${base_options_dir}/html5/splash.png",

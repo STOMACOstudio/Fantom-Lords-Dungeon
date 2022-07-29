@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sGUI_deathLord",
+    "path": "sprites/sGUI_deathLord/sGUI_deathLord.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

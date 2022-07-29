@@ -57,19 +57,7 @@ else if oLord1.spellCast = 5
 }
 else if oLord1.spellCast = 9
 {
-	if enemy != noone && enemy.target
-	{
-		oLord1.spellCast = noone;
-		oLord1.thisLord_ACTpoints -= 2;
-		global.dmgLORD = round((oLord1.thisLord_ATK + irandom_range(-3,6))/2);
-		if global.dmgLORD <= 0 global.dmgLORD = 1;
-		instance_create_layer(enemy.x+32,enemy.y+32,"VFX",oSKILL_WEAPON_Longsword);
-		if enemy.x = oLord1.x && enemy.y < oLord1.y if collision_point(enemy.x,enemy.y-64,oMap_0parent,false,true).empty enemy.y -= global.tileRate;
-		if enemy.x > oLord1.x && enemy.y = oLord1.y if collision_point(enemy.x+64,enemy.y,oMap_0parent,false,true).empty enemy.x += global.tileRate;
-		if enemy.x = oLord1.x && enemy.y > oLord1.y if collision_point(enemy.x,enemy.y+64,oMap_0parent,false,true).empty enemy.y += global.tileRate;
-		if enemy.x < oLord1.x && enemy.y = oLord1.y if collision_point(enemy.x-64,enemy.y,oMap_0parent,false,true).empty enemy.x -= global.tileRate;
-		instance_destroy();
-	}
+	if collision_point(x,y,oLord0FrameParent)
 }
 else if oLord1.spellCast = 10
 {
