@@ -88,10 +88,10 @@ if done = true
 		//thisLord_skillClassArmor = oLordStats.lord2skillClassArmor;
 		//thisLord_skillWeapon = oLordStats.lord2skillWeapon;
 		instance_create_layer(x,y,"Instances",oLord4);
-		instance_create_layer(340,504,"BG",oGUI_LordFrame4);
-		instance_create_layer(386,640,"BG",oGUI_lordHealthFront4);
-		instance_create_layer(416,634,"BG",oGUI_lordHealthPrint4);
-		instance_create_layer(516,512,"BG",oGUI_ACTpoints4);
+		instance_create_layer(560,504,"BG",oGUI_LordFrame4);
+		instance_create_layer(560,640,"BG",oGUI_lordHealthFront4);
+		instance_create_layer(592,634,"BG",oGUI_lordHealthPrint4);
+		instance_create_layer(692,512,"BG",oGUI_ACTpoints4);
 	}
 	
 	global.hasControl = true;
