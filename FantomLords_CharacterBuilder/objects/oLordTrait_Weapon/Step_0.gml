@@ -80,7 +80,7 @@ else if global.weapon = 7 //Katars
 	global.modDEFweapon = KataDEFmod;
 	global.modMAGweapon = KataMAGmod;
 	global.modACTweapon = KataACTmod;
-	global.weaponSkill = "Double Strike";
+	global.weaponSkill = "Blade Whirl";
 }
 else if global.weapon = 8 //Longbow
 {

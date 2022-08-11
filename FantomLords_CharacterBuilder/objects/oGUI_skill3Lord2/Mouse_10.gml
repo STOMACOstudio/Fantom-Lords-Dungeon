@@ -24,6 +24,15 @@ if oLordStats.lord2active && instance_exists(oLord2)
 		global.currentSelectedDescription2 = "if kills enemy";
 		global.currentSelectedDescription3 = "gives gemstone";
 	}
+	else if oLord2.thisLord_skillWeapon = 7
+	{
+		global.currentSelectedName = "Blade Whirl";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Deals damage";
+		global.currentSelectedDescription2 = "at everyone";
+		global.currentSelectedDescription3 = "around";
+	}
 	else if oLord2.thisLord_skillWeapon = 8
 	{
 		global.currentSelectedName = "Close Shot";

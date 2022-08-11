@@ -30,6 +30,20 @@ else if oLord3.spellCast = 3 //SOUL SYPHON
 			instance_destroy();
 		}
 }
+else if oLord3.spellCast = 7 //BLADE WHIRL
+{
+		if collision_point(x,y,oLord3,false,true)
+		{
+			var struct = {targetLord : oLord3};
+			global.castLord = oLord3;
+			oLord3.spellCast = noone;
+			oLord3.thisLord_ACTpoints -= 2;
+			global.dmgLORD = oLord3.thisLord_ATK + irandom_range(-3,1);
+			if global.dmgLORD <= 0 global.dmgLORD = 1;
+			instance_create_layer(oLord3.x+32,oLord3.y+32,"VFX",oSKILL_WEAPON_BladeWhirl,struct);
+			instance_destroy();
+		}
+}
 else if oLord3.spellCast = 8 //CLOSE SHOT
 {
 	if enemy != noone
