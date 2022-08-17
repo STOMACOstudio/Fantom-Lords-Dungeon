@@ -6,21 +6,24 @@ function scrLordAttack(){
 	{
 		if thisLord_typeAttack = "MELEE"
 		{
-			dmgLORD = (thisLord_ATK + irandom_range(-3,3)) - enemy.thisDEF;
+			if !shadow dmgLORD = (thisLord_ATK + irandom_range(-3,3)) - enemy.thisDEF;
+			else dmgLORD = (thisLord_ATK + irandom_range(-3,3))*2 - enemy.thisDEF;
 			if dmgLORD <= 0 dmgLORD = 1;
 			audio_play_sound(snAttack,0,false);
 			instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oVFX_attack);
 		}
 		else if thisLord_typeAttack = "RANGED"
 		{
-			dmgLORD = round(thisLord_ATK + irandom_range(-5,3)) - enemy.thisDEF;
+			if !shadow dmgLORD = round(thisLord_ATK + irandom_range(-5,3)) - enemy.thisDEF;
+			else dmgLORD = (thisLord_ATK + irandom_range(-5,3)) - enemy.thisDEF;
 			if dmgLORD <= 0 dmgLORD = 1;
 			audio_play_sound(snAttack,0,false);
 			instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oVFX_attack);
 		}
 		else if thisLord_typeAttack = "MAGIC"
 		{
-			dmgLORD = (thisLord_MAG + irandom_range(-3,3)) - enemy.thisMAG;
+			if !shadow dmgLORD = (thisLord_MAG + irandom_range(-3,3)) - enemy.thisMAG;
+			else dmgLORD = (thisLord_MAG + irandom_range(-3,3))*2 - enemy.thisMAG;
 			if dmgLORD <= 0 dmgLORD = 1;
 			audio_play_sound(snAttackMag,0,false);
 			instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oVFX_attackMag);
@@ -58,6 +61,7 @@ function scrLordAttack(){
 
 		thisLord_ACTpoints -= 2;
 		enemy.target = false;
+		if shadow > 0 shadow = 0;
 	}
 	else
 	{

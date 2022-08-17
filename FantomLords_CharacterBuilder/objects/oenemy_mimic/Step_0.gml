@@ -22,7 +22,7 @@ if isFighting && !turnComplete && actions > 0
 	
 	if actions >= 2
 	{
-		if lordTop != noone || lordRight != noone || lordDown != noone || lordLeft != noone
+		if (lordTop != noone && lordTop.shadow = 0) || (lordRight != noone && lordRight.shadow = 0) || (lordDown != noone && lordDown.shadow = 0) || (lordLeft != noone && lordLeft.shadow = 0)
 		{
 			actionsRate = 2;
 			dmgTYPE = thisATK;

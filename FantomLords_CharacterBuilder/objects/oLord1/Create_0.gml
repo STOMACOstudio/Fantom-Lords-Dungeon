@@ -62,3 +62,4 @@ lastY = 0;
 spellCast = -1;
 
 battlecry = 0;
+shadow = 0;

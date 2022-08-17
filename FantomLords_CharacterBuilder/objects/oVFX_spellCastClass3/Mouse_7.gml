@@ -14,6 +14,16 @@ if oLord3.spellCast = 0
 		}
 	}
 }
+else if oLord3.spellCast = 1
+{
+	if collision_point(x,y,oLord3,0,false)
+	{
+		oLord3.spellCast = noone;
+		oLord3.thisLord_ACTpoints -= 2;
+		instance_create_layer(lord.x,lord.y,"VFX",oSKILL_CLASS_Shadow);
+		instance_destroy();
+	}
+}
 else if oLord3.spellCast = 2
 {
 	if collision_point(x,y,oLord3,0,false)

@@ -19,7 +19,7 @@ if isFighting && !turnComplete && actions > 0
 	
 	if actions >= 2
 	{
-		if lordTop != noone || lordTopRight != noone || lordRightRight != noone || lordRightRightDown != noone || lordDownDownRight != noone || lordDownDown != noone || lordLeft != noone || lordDownLeft != noone
+		if (lordTop != noone && lordTop.shadow = 0) || (lordRight != noone && lordRight.shadow = 0) || (lordDown != noone && lordDown.shadow = 0) || (lordLeft != noone && lordLeft.shadow = 0)
 		{
 			var chooseAttack = irandom(3);
 			

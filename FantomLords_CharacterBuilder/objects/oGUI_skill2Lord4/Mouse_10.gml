@@ -15,6 +15,15 @@ if oLordStats.lord4active && instance_exists(oLord4)
 		global.currentSelectedDescription2 = "closer trap";
 		global.currentSelectedDescription3 = "";
 	}
+	else if oLord4.thisLord_skillClassArmor = 1
+	{
+		global.currentSelectedName = "Shadow";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Can't be";
+		global.currentSelectedDescription2 = "target for";
+		global.currentSelectedDescription3 = "three turns";
+	}
 	else if oLord4.thisLord_skillClassArmor = 2
 	{
 		global.currentSelectedName = "Sunbathe";
