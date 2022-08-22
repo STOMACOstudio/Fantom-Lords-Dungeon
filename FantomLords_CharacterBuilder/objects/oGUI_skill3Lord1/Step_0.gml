@@ -7,7 +7,7 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 	{
 		if oLord1.thisLord_skillWeapon = 0 global.printSkill = "FIREBALL";
 		else if oLord1.thisLord_skillWeapon = 1 global.printSkill = "HYDROBOLT";
-		else if oLord1.thisLord_skillWeapon = 2 global.printSkill = "POISON VIAL";
+		else if oLord1.thisLord_skillWeapon = 2 global.printSkill = "POISON";
 		else if oLord1.thisLord_skillWeapon = 3 global.printSkill = "SOUL SIPHON";
 		else if oLord1.thisLord_skillWeapon = 4 global.printSkill = "SLAY";
 		else if oLord1.thisLord_skillWeapon = 5 global.printSkill = "STONE SHIELD";

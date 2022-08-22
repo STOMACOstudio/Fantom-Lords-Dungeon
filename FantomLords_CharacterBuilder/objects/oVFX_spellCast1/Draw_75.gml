@@ -16,7 +16,7 @@ if oLord1.spellCast = 0 //Fire Ball
 		}
 	}
 }
-if oLord1.spellCast = 3 //Soul Syphon
+if oLord1.spellCast = 3 || oLord1.spellCast = 2 //Soul Syphon //poison
 {
 	with oEnemy0_Father
 	{

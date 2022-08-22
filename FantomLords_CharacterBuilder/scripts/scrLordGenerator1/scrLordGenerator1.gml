@@ -119,14 +119,23 @@ function scrLordGenerator1(){
 	}
 	else if global.lordNumber = 8
 	{
-		global.lordName = global.lordNumber;
+		global.lordName = "Franken";
+		//global.setLordSprite = global.lordNumber -1;
+		global.weapon = 2;
+		global.background = 0;
+		global.ancestry = 14;
+		global.classArmor = 3;
+		global.headgear = 0;
+		global.relic = 0;
+		
+		/*global.lordName = global.lordNumber;
 		//global.setLordSprite = global.lordNumber -1;
 		global.weapon = 9;
 		global.background = 3;
 		global.ancestry = 4;
 		global.classArmor = 3;
 		global.headgear = 4;
-		global.relic = 6;
+		global.relic = 6;*/
 	}
 	else if global.lordNumber = 9
 	{

@@ -15,6 +15,15 @@ if oLordStats.lord1active && instance_exists(oLord1)
 		global.currentSelectedDescription2 = "area spell";
 		global.currentSelectedDescription3 = "using MAG";
 	}
+	else if oLord1.thisLord_skillWeapon = 2
+	{
+		global.currentSelectedName = "Poison";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Inflict";
+		global.currentSelectedDescription2 = "POISON to";
+		global.currentSelectedDescription3 = "target";
+	}
 	else if oLord1.thisLord_skillWeapon = 3
 	{
 		global.currentSelectedName = "Soul Syphon";

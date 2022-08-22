@@ -36,5 +36,6 @@ function scrVolumeSFX(){
 	audio_sound_gain(sn_SKILL_Necromancer,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_BladeWhirl,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Shadow,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Poison,global.volumeSFX,0);
 	
 }

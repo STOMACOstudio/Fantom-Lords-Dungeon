@@ -3,3 +3,5 @@
 
 image_blend = c_yellow;
 isSelected = true;
+
+show_debug_message(string(poison));
