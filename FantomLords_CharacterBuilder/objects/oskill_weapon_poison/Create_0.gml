@@ -9,4 +9,4 @@ done = false;
 
 global.hasControl = false;
 
-alarm[0] = 25;
+alarm[0] = 30;

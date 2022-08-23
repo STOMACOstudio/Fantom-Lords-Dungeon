@@ -55,7 +55,7 @@ else if global.classArmor = 4 //warlock
 	global.modDEFarmor = WarlDEFmod;
 	global.modMAGarmor = WarlMAGmod;
 	global.modACTarmor = WarlACTmod;
-	global.classArmorSkill = "Lifesteal";
+	global.classArmorSkill = "Weaken";
 }
 else if global.classArmor = 5 //sorcerer
 {

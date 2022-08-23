@@ -124,7 +124,7 @@ function scrLordGenerator1(){
 		global.weapon = 2;
 		global.background = 0;
 		global.ancestry = 14;
-		global.classArmor = 3;
+		global.classArmor = 4;
 		global.headgear = 0;
 		global.relic = 0;
 		

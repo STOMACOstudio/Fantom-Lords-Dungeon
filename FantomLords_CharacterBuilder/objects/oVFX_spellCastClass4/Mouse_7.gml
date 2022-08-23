@@ -51,6 +51,25 @@ else if oLord4.spellCast = 3
 		}
 	}
 }
+else if oLord4.spellCast = 4
+{
+	if enemy != noone
+	{
+		if enemy.x = oLord4.x && enemy.y = oLord4.y-64 enemy.target = true;
+		else if enemy.x = oLord4.x+64 && enemy.y = oLord4.y enemy.target = true;
+		else if enemy.x = oLord4.x && enemy.y = oLord4.y+64 enemy.target = true;
+		else if enemy.x = oLord4.x-64 && enemy.y = oLord4.y enemy.target = true;
+		else enemy.target = false;
+		if enemy.target = true
+		{
+			var struct = { rate : round(oLord4.thisLord_MAG/3) }
+			oLord4.spellCast = noone;
+			oLord4.thisLord_ACTpoints -= 2;
+			instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_CLASS_Weaken, struct);
+			instance_destroy();
+		}
+	}
+}
 else if oLord4.spellCast = 5
 {
 	var tile = collision_point(x,y,oMap_0parent,false,true);

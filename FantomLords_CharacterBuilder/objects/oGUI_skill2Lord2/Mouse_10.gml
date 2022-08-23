@@ -42,6 +42,15 @@ if oLordStats.lord2active && instance_exists(oLord2)
 		global.currentSelectedDescription2 = "ally using";
 		global.currentSelectedDescription3 = "MAG stat";
 	}
+	else if oLord2.thisLord_skillClassArmor = 4
+	{
+		global.currentSelectedName = "Weaken";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Reduce enemy";
+		global.currentSelectedDescription2 = "ATK, DEF and";
+		global.currentSelectedDescription3 = "MAG stat";
+	}
 	else if oLord2.thisLord_skillClassArmor = 5
 	{
 		global.currentSelectedName = "Telport";

@@ -12,6 +12,17 @@ function scrEnemyForceEndTurn(){
 		instance_create_layer(x+irandom_range(8,56),y+irandom_range(8,56),"VFX",oGUI_printDMGenemy);
 		thisLIF -= round(thisLIFmax/10);
 	}
+	if weaken > 0
+	{
+		if weaken > 1 weaken --
+		else if weaken = 1
+		{
+			weaken --;
+			thisATK = thisATKmax;
+			thisDEF = thisDEFmax;
+			thisMAG = thisMAGmax;
+		}
+	}
 	turnCompelete = true;
 	oManagerCombat.combatPhase = 1;
 

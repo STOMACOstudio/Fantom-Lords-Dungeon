@@ -56,6 +56,7 @@ function scrEnemyCombatVars(){
 	chooseMove = 0;
 	canMove = false;
 	poison = false;
+	weaken = 0;
 
 	dmgENEMY = 0;
 	dmgTYPE = 0;

@@ -33,6 +33,15 @@ if oLordStats.lord3active && instance_exists(oLord3)
 		global.currentSelectedDescription2 = "if kills enemy";
 		global.currentSelectedDescription3 = "gives gemstone";
 	}
+	else if oLord3.thisLord_skillClassArmor = 4
+	{
+		global.currentSelectedName = "Weaken";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Reduce enemy";
+		global.currentSelectedDescription2 = "ATK, DEF and";
+		global.currentSelectedDescription3 = "MAG stat";
+	}
 	else if oLord3.thisLord_skillWeapon = 7
 	{
 		global.currentSelectedName = "Blade Whirl";
