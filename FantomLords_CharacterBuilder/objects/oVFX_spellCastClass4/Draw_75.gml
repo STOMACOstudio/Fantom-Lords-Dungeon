@@ -21,7 +21,7 @@ else if oLord4.spellCast = 1 ^^ oLord4.spellCast = 2 ^^ oLord4.spellCast = 10 //
 		}
 	}
 }
-if oLord4.spellCast = 4 //Weaken
+if oLord4.spellCast = 4 || oLord4.spellCast = 11 //Weaken //stun
 {
 	with oEnemy0_Father
 	{

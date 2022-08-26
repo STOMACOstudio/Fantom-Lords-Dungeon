@@ -17,28 +17,36 @@ if isSelected && revealed
 
 if isFighting && !turnComplete && actions > 0
 {
-	scrEnemyCheckForTiles(); //check all close lords and tiles
-	canMove = false;
-	
-	if actions >= 2
+	if !stun
 	{
-		if (lordTop != noone && lordTop.shadow = 0) || (lordRight != noone && lordRight.shadow = 0) || (lordDown != noone && lordDown.shadow = 0) || (lordLeft != noone && lordLeft.shadow = 0)
+		scrEnemyCheckForTiles(); //check all close lords and tiles
+		canMove = false;
+	
+		if actions >= 2
 		{
-			actionsRate = 2;
-			dmgTYPE = thisATK;
-			scrEnemyCheckForLords(); //choose a random lord to attack
+			if (lordTop != noone && lordTop.shadow = 0) || (lordRight != noone && lordRight.shadow = 0) || (lordDown != noone && lordDown.shadow = 0) || (lordLeft != noone && lordLeft.shadow = 0)
+			{
+				actionsRate = 2;
+				dmgTYPE = thisATK;
+				scrEnemyCheckForLords(); //choose a random lord to attack
+			}
+			else
+			{
+				actionsRate = 1;
+				scrEnemyMoveChoice(); //if lord is near, move closer; else move random
+			}
 		}
 		else
 		{
 			actionsRate = 1;
-			scrEnemyMoveChoice(); //if lord is near, move closer; else move random
+		
+			if lordTop != noone || lordRight != noone || lordDown != noone || lordLeft != noone scrEnemyForceEndTurn();
+			else scrEnemyMoveChoice();
 		}
 	}
 	else
 	{
-		actionsRate = 1;
-		
-		if lordTop != noone || lordRight != noone || lordDown != noone || lordLeft != noone scrEnemyForceEndTurn();
-		else scrEnemyMoveChoice();
+		stun = false
+		scrEnemyForceEndTurn();
 	}
 }

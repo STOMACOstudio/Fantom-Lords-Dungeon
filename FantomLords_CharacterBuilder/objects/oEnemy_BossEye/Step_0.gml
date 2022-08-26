@@ -14,55 +14,63 @@ if isSelected && revealed
 
 if isFighting && !turnComplete && actions > 0
 {
-	scrEnemyCheckForTiles(); //check all close lords and tiles
-	canMove = false;
-	
-	if actions >= 2
+	if !stun
 	{
-		if (lordTop != noone && lordTop.shadow = 0) || (lordRight != noone && lordRight.shadow = 0) || (lordDown != noone && lordDown.shadow = 0) || (lordLeft != noone && lordLeft.shadow = 0)
-		{
-			var chooseAttack = irandom_range(0,3);
-			if chooseAttack = 3 && actions >=3
-			{
-				actionsRate = 3;
-				var struct = {dmg : thisMAG/2};
-				
-				if collision_point(x-32,y-32,oLord0Parent,false,true) instance_create_layer(x-64,y-64,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x+32,y-32,oLord0Parent,false,true) instance_create_layer(x,y-64,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x+96,y-32,oLord0Parent,false,true) instance_create_layer(x+64,y-64,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x+160,y-32,oLord0Parent,false,true) instance_create_layer(x+128,y-64,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x+160,y+32,oLord0Parent,false,true) instance_create_layer(x+128,y,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x+160,y+96,oLord0Parent,false,true) instance_create_layer(x+128,y+64,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x+160,y+160,oLord0Parent,false,true) instance_create_layer(x+128,y+128,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x+96,y+160,oLord0Parent,false,true) instance_create_layer(x+64,y+128,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x+32,y+160,oLord0Parent,false,true) instance_create_layer(x,y+128,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x-32,y+160,oLord0Parent,false,true) instance_create_layer(x-64,y+128,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x-32,y+96,oLord0Parent,false,true) instance_create_layer(x-64,y+64,"VFX",oVFX_BossFlanSpell,struct);
-				if collision_point(x-32,y+32,oLord0Parent,false,true) instance_create_layer(x-64,y,"VFX",oVFX_BossFlanSpell,struct);
-				
-				audio_play_sound(snBossFlanSpell,0,false);
-				isFighting = false;
+		scrEnemyCheckForTiles(); //check all close lords and tiles
+		canMove = false;
 	
-				alarm[0] = alarmCounter+25;
+		if actions >= 2
+		{
+			if (lordTop != noone && lordTop.shadow = 0) || (lordRight != noone && lordRight.shadow = 0) || (lordDown != noone && lordDown.shadow = 0) || (lordLeft != noone && lordLeft.shadow = 0)
+			{
+				var chooseAttack = irandom_range(0,3);
+				if chooseAttack = 3 && actions >=3
+				{
+					actionsRate = 3;
+					var struct = {dmg : thisMAG/2};
+				
+					if collision_point(x-32,y-32,oLord0Parent,false,true) instance_create_layer(x-64,y-64,"VFX",oVFX_BossFlanSpell,struct);
+					if collision_point(x+32,y-32,oLord0Parent,false,true) instance_create_layer(x,y-64,"VFX",oVFX_BossFlanSpell,struct);
+					if collision_point(x+96,y-32,oLord0Parent,false,true) instance_create_layer(x+64,y-64,"VFX",oVFX_BossFlanSpell,struct);
+					if collision_point(x+160,y-32,oLord0Parent,false,true) instance_create_layer(x+128,y-64,"VFX",oVFX_BossFlanSpell,struct);
+					if collision_point(x+160,y+32,oLord0Parent,false,true) instance_create_layer(x+128,y,"VFX",oVFX_BossFlanSpell,struct);
+					if collision_point(x+160,y+96,oLord0Parent,false,true) instance_create_layer(x+128,y+64,"VFX",oVFX_BossFlanSpell,struct);
+					if collision_point(x+160,y+160,oLord0Parent,false,true) instance_create_layer(x+128,y+128,"VFX",oVFX_BossFlanSpell,struct);
+					if collision_point(x+96,y+160,oLord0Parent,false,true) instance_create_layer(x+64,y+128,"VFX",oVFX_BossFlanSpell,struct);
+					if collision_point(x+32,y+160,oLord0Parent,false,true) instance_create_layer(x,y+128,"VFX",oVFX_BossFlanSpell,struct);
+					if collision_point(x-32,y+160,oLord0Parent,false,true) instance_create_layer(x-64,y+128,"VFX",oVFX_BossFlanSpell,struct);
+					if collision_point(x-32,y+96,oLord0Parent,false,true) instance_create_layer(x-64,y+64,"VFX",oVFX_BossFlanSpell,struct);
+					if collision_point(x-32,y+32,oLord0Parent,false,true) instance_create_layer(x-64,y,"VFX",oVFX_BossFlanSpell,struct);
+				
+					audio_play_sound(snBossFlanSpell,0,false);
+					isFighting = false;
+	
+					alarm[0] = alarmCounter+25;
+				}
+				else
+				{
+					actionsRate = 2;
+					dmgTYPE = thisMAG;
+					scrBossCheckForLords(); //choose a random lord to attack
+				}
 			}
 			else
 			{
-				actionsRate = 2;
-				dmgTYPE = thisMAG;
-				scrBossCheckForLords(); //choose a random lord to attack
+				actionsRate = 1;
+				scrBossMoveChoice(); //if lord is near, move closer; else move random
 			}
 		}
 		else
 		{
 			actionsRate = 1;
-			scrBossMoveChoice(); //if lord is near, move closer; else move random
+		
+			if lordTop != noone || lordTopRight != noone || lordRightRight != noone || lordRightRightDown != noone || lordDownDownRight != noone || lordDownDown != noone || lordLeft != noone || lordDownLeft != noone scrEnemyForceEndTurn();
+			else scrBossMoveChoice();
 		}
 	}
 	else
 	{
-		actionsRate = 1;
-		
-		if lordTop != noone || lordTopRight != noone || lordRightRight != noone || lordRightRightDown != noone || lordDownDownRight != noone || lordDownDown != noone || lordLeft != noone || lordDownLeft != noone scrEnemyForceEndTurn();
-		else scrBossMoveChoice();
+		stun = false
+		scrEnemyForceEndTurn();
 	}
 }

@@ -14,6 +14,8 @@ if isSelected && revealed
 
 if isFighting && !turnComplete && actions > 0
 {
+	if !stun
+	{
 	scrEnemyCheckForTiles(); //check all close lords and tiles
 	canMove = false;
 	
@@ -249,13 +251,19 @@ if isFighting && !turnComplete && actions > 0
 		{
 			actionsRate = 1;
 			scrBossMoveChoice(); //if lord is near, move closer; else move random
+			}
+		}
+		else
+		{
+			actionsRate = 1;
+		
+			if lordTop != noone || lordTopRight != noone || lordRightRight != noone || lordRightRightDown != noone || lordDownDownRight != noone || lordDownDown != noone || lordLeft != noone || lordDownLeft != noone scrEnemyForceEndTurn();
+			else scrBossMoveChoice();
 		}
 	}
 	else
 	{
-		actionsRate = 1;
-		
-		if lordTop != noone || lordTopRight != noone || lordRightRight != noone || lordRightRightDown != noone || lordDownDownRight != noone || lordDownDown != noone || lordLeft != noone || lordDownLeft != noone scrEnemyForceEndTurn();
-		else scrBossMoveChoice();
+		stun = false
+		scrEnemyForceEndTurn();
 	}
 }

@@ -120,3 +120,23 @@ else if oLord1.spellCast = 10
 		instance_destroy();
 	}
 }
+else if oLord1.spellCast = 11
+{
+	if enemy != noone
+	{
+		if enemy.x = oLord1.x && enemy.y = oLord1.y-64 enemy.target = true;
+		else if enemy.x = oLord1.x+64 && enemy.y = oLord1.y enemy.target = true;
+		else if enemy.x = oLord1.x && enemy.y = oLord1.y+64 enemy.target = true;
+		else if enemy.x = oLord1.x-64 && enemy.y = oLord1.y enemy.target = true;
+		else enemy.target = false;
+		if enemy.target = true
+		{
+			global.dmgLORD = round(oLord1.thisLord_ATK/2)
+			if global.dmgLORD <= 0 global.dmgLORD = 1;
+			oLord1.spellCast = noone;
+			oLord1.thisLord_ACTpoints -= 2;
+			instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_CLASS_Stun);
+			instance_destroy();
+		}
+	}
+}

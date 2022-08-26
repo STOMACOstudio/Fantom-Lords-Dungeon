@@ -118,5 +118,5 @@ else if global.classArmor = 11 //oathbreaker
 	global.modDEFarmor = OathDEFmod;
 	global.modMAGarmor = OathMAGmod;
 	global.modACTarmor = OathACTmod;
-	global.classArmorSkill = "Crush";
+	global.classArmorSkill = "Stun";
 }

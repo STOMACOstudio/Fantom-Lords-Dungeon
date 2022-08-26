@@ -27,6 +27,16 @@ if oLord3.spellCast = 3 //Soul Syphon
 		
 	}
 }
+if oLord3.spellCast = 4 //Slay
+{
+	with oEnemy0_Father
+	{
+			 if x = oLord3.x && y = oLord3.y-64 && thisLIF = thisLIFmax draw_rectangle_color(x+1,y+1,x+sprite_width-1,y+sprite_height-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
+		else if x = oLord3.x+64 && y = oLord3.y && thisLIF = thisLIFmax draw_rectangle_color(x+1,y+1,x+sprite_width-1,y+sprite_height-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
+		else if x = oLord3.x && y = oLord3.y+64 && thisLIF = thisLIFmax draw_rectangle_color(x+1,y+1,x+sprite_width-1,y+sprite_height-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
+		else if x = oLord3.x-64 && y = oLord3.y && thisLIF = thisLIFmax draw_rectangle_color(x+1,y+1,x+sprite_width-1,y+sprite_height-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	}
+}
 if oLord3.spellCast = 7 //Blade Whirl
 {
 	with oEnemy0_Father

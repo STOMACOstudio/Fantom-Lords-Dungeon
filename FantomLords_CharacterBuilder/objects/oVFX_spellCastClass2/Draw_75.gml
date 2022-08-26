@@ -21,7 +21,7 @@ else if oLord2.spellCast = 3 //SUTURE
 		}
 	}
 }
-if oLord2.spellCast = 4 //Weaken
+if oLord2.spellCast = 4 || oLord2.spellCast = 11 //Weaken //stun
 {
 	with oEnemy0_Father
 	{

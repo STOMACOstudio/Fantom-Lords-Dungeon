@@ -38,5 +38,7 @@ function scrVolumeSFX(){
 	audio_sound_gain(sn_SKILL_Shadow,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Poison,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Weaken,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Slay,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Stun,global.volumeSFX,0);
 	
 }

@@ -78,4 +78,13 @@ if oLordStats.lord4active && instance_exists(oLord4)
 		global.currentSelectedDescription2 = "ATK stat";
 		global.currentSelectedDescription3 = "3 turns";
 	}
+	else if oLord4.thisLord_skillClassArmor = 11
+	{
+		global.currentSelectedName = "Stun";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Can stun";
+		global.currentSelectedDescription2 = "enemy for";
+		global.currentSelectedDescription3 = "one turn";
+	}
 }
