@@ -47,7 +47,7 @@ if oLordStats.lord1active && instance_exists(oLord1)
 		global.currentSelectedName = "Blade Whirl";
 		global.currentSelectedSprite = sprite_index;
 		global.currentSelectedImageIndex = image_index;
-		global.currentSelectedDescription1 = "Deals damage";
+		global.currentSelectedDescription1 = "Deals ATK damage";
 		global.currentSelectedDescription2 = "at everyone";
 		global.currentSelectedDescription3 = "around";
 	}

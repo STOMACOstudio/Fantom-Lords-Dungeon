@@ -60,6 +60,15 @@ if oLordStats.lord3active && instance_exists(oLord3)
 		global.currentSelectedDescription2 = "instantly to an";
 		global.currentSelectedDescription3 = "empty tile";
 	}
+	else if oLord3.thisLord_skillClassArmor = 8
+	{
+		global.currentSelectedName = "Burn";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Deals MAG";
+		global.currentSelectedDescription2 = "damage around";
+		global.currentSelectedDescription3 = "the lord";
+	}
 	else if oLord3.thisLord_skillClassArmor = 9
 	{
 		global.currentSelectedName = "Revive";

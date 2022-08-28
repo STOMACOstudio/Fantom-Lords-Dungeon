@@ -84,6 +84,20 @@ else if oLord3.spellCast = 5
 		instance_destroy();
 	}
 }
+else if oLord3.spellCast = 8
+{
+	if collision_point(x,y,oLord3,false,true)
+	{
+		var struct = {targetLord : oLord3};
+		global.castLord = oLord3;
+		oLord3.spellCast = noone;
+		oLord3.thisLord_ACTpoints -= 2;
+		global.dmgLORD = oLord3.thisLord_MAG + irandom_range(-3,1);
+		if global.dmgLORD <= 0 global.dmgLORD = 1;
+		instance_create_layer(oLord3.x+32,oLord3.y+32,"VFX",oSKILL_CLASS_Pyromancer,struct);
+		instance_destroy();
+	}
+}
 else if oLord3.spellCast = 9
 {
 	var collision = collision_point(x,y,oGUI_deathLord,0,false);
