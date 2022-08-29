@@ -87,4 +87,13 @@ if oLordStats.lord4active && instance_exists(oLord4)
 		global.currentSelectedDescription2 = "enemy and";
 		global.currentSelectedDescription3 = "steals LIF";
 	}
+	else if oLord1.thisLord_skillWeapon = 14
+	{
+		global.currentSelectedName = "Storm";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Randomly hits";
+		global.currentSelectedDescription2 = "all enemies";
+		global.currentSelectedDescription3 = "at once";
+	}
 }

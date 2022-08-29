@@ -187,3 +187,16 @@ else if oLord4.spellCast = 13 //DRAIN SLASH
 			instance_destroy();
 		}
 }
+else if oLord4.spellCast = 14 //STORM
+{
+		if collision_point(x,y,oLord4,false,true)
+		{
+			oLord4.spellCast = noone;
+			oLord4.thisLord_ACTpoints -= 2;
+			global.dmgLORD = oLord4.thisLord_MAG + irandom_range(-3,1);
+			if global.dmgLORD <= 0 global.dmgLORD = 1;
+			audio_play_sound(sn_SKILL_Storm,0,false);
+			with oEnemy0_Father if revealed instance_create_layer(x+32,y+32,"VFX",oSKILL_WEAPON_Storm);
+			instance_destroy();
+		}
+}
