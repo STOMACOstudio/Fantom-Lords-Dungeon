@@ -43,6 +43,10 @@ else if oLord1.spellCast = 5 //TELEPORT
 		}
 	}
 }
+if oLord1.spellCast = 6 //Lullaby
+{
+	with oEnemy0_Father if revealed && !obstacle draw_rectangle_color(x+1,y+1,x+sprite_width-1,y+sprite_height-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
+}
 if oLord1.spellCast = 8 //Burn
 {
 	with oEnemy0_Father

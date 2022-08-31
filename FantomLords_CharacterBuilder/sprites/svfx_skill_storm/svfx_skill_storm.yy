@@ -83,7 +83,7 @@
     "spriteId": {"name":"sVFX_SKILL_Storm","path":"sprites/sVFX_SKILL_Storm/sVFX_SKILL_Storm.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 12.0,
+    "playbackSpeed": 14.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

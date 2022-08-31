@@ -33,7 +33,7 @@ function scrLordAttack(){
 		global.dmgLORD = dmgLORD;
 	
 		instance_create_layer(enemy.x+irandom_range(8,56),enemy.y+irandom_range(8,56),"VFX",oGUI_printDMGlord);
-	
+		if enemy.sleep > 0 enemy.sleep = 0;
 		enemy.thisLIF -= dmgLORD;
 
 		if !collision_point(enemy.x,enemy.y,oEnemy_Barrell,false,true)

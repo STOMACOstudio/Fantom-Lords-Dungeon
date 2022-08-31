@@ -110,6 +110,10 @@ else if oLord3.spellCast = 9 ^^ oLord3.spellCast = 13 //BASH //DRAINSLASH
 {
 	with oEnemy0_Father if target draw_rectangle_color(x+1,y+1,x+sprite_width-1,y+sprite_height-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
 }
+else if oLord3.spellCast = 11 //HEAL SONG
+{
+	with oLord0Parent draw_rectangle_color(x+1,y+1,x+sprite_width-1,y+sprite_height-1,c_lime,c_lime,c_lime,c_lime,true);
+}
 if oLord3.spellCast = 14 //Storm
 {
 	with oEnemy0_Father if revealed draw_rectangle_color(x+1,y+1,x+sprite_width-1,y+sprite_height-1,c_yellow,c_yellow,c_yellow,c_yellow,true);

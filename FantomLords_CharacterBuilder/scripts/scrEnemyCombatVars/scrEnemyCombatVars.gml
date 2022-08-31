@@ -58,6 +58,7 @@ function scrEnemyCombatVars(){
 	poison = false;
 	stun = false;
 	weaken = 0;
+	sleep = 0;
 
 	dmgENEMY = 0;
 	dmgTYPE = 0;

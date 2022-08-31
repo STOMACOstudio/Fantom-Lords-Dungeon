@@ -62,7 +62,7 @@ else if oLord1.spellCast = 4
 		else enemy.target = false;
 		if enemy.target = true
 		{
-			var struct = { rate : round(oLord1.thisLord_MAG/3) }
+			var struct = { rate : round(oLord1.thisLord_MAG/3) };
 			oLord1.spellCast = noone;
 			oLord1.thisLord_ACTpoints -= 2;
 			instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_CLASS_Weaken, struct);
@@ -81,6 +81,19 @@ else if oLord1.spellCast = 5
 		instance_create_depth(tile.x+32,tile.y+32,depth-1,oSKILL_CLASS_Wizard2);
 		oLord1.x = tile.x;
 		oLord1.y = tile.y;
+		instance_destroy();
+	}
+}
+else if oLord1.spellCast = 6
+{
+	if collision_point(x,y,oLord1,false,true)
+	{
+		var struct = { noteColor : c_blue };
+		oLord1.spellCast = noone;
+		oLord1.thisLord_ACTpoints -= 2;
+		audio_play_sound(sn_SKILL_Lullaby,0,false);
+		with oEnemy0_Father if revealed && !obstacle instance_create_layer(x+32,y+32,"VFX",oSKILL_CLASS_Bard);
+		instance_create_layer(oLord1.x+32,oLord1.y+32,"VFX",oVFX_Notemaker, struct);
 		instance_destroy();
 	}
 }

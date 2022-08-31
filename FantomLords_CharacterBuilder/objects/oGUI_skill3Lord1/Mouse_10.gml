@@ -78,6 +78,15 @@ if oLordStats.lord1active && instance_exists(oLord1)
 		global.currentSelectedDescription2 = "that uses";
 		global.currentSelectedDescription3 = "MAG stat";
 	}
+	else if oLord1.thisLord_skillWeapon = 11
+	{
+		global.currentSelectedName = "Heal Song";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Heals all";
+		global.currentSelectedDescription2 = "lords by a";
+		global.currentSelectedDescription3 = "small amount";
+	}
 	else if oLord1.thisLord_skillWeapon = 13
 	{
 		global.currentSelectedName = "Drain Slash";

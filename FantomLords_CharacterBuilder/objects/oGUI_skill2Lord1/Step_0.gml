@@ -11,7 +11,7 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 		else if oLord1.thisLord_skillClassArmor = 3 global.printSkill = "SUTURE";
 		else if oLord1.thisLord_skillClassArmor = 4 global.printSkill = "LIFESTEAL";
 		else if oLord1.thisLord_skillClassArmor = 5 global.printSkill = "TELEPORT";
-		else if oLord1.thisLord_skillClassArmor = 6 global.printSkill = "SONG";
+		else if oLord1.thisLord_skillClassArmor = 6 global.printSkill = "LULLABY";
 		else if oLord1.thisLord_skillClassArmor = 7 global.printSkill = "BURDEN";
 		else if oLord1.thisLord_skillClassArmor = 8 global.printSkill = "BURN";
 		else if oLord1.thisLord_skillClassArmor = 9 global.printSkill = "REVIVE";

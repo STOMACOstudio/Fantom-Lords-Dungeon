@@ -16,7 +16,7 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 		else if oLord2.thisLord_skillWeapon = 8 global.printSkill = "CLOSE SHOT";
 		else if oLord2.thisLord_skillWeapon = 9 global.printSkill = "BASH";
 		else if oLord2.thisLord_skillWeapon = 10 global.printSkill = "MOON POWER";
-		else if oLord2.thisLord_skillWeapon = 11 global.printSkill = "HEALING SONG";
+		else if oLord2.thisLord_skillWeapon = 11 global.printSkill = "HEAL SONG";
 		else if oLord2.thisLord_skillWeapon = 12 global.printSkill = "MAGIC MISSILE";
 		else if oLord2.thisLord_skillWeapon = 13 global.printSkill = "DRAIN SLASH";
 		else if oLord2.thisLord_skillWeapon = 14 global.printSkill = "STORM";

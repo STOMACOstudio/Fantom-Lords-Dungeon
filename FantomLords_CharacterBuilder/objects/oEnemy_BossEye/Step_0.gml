@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if sleep > 0 image_speed = 0;
+else image_speed = 1;
+
 scrEnemyLIFcounter();
 
 if isSelected && revealed
@@ -14,7 +17,7 @@ if isSelected && revealed
 
 if isFighting && !turnComplete && actions > 0
 {
-	if !stun
+	if !stun && sleep = 0
 	{
 		scrEnemyCheckForTiles(); //check all close lords and tiles
 		canMove = false;
@@ -70,7 +73,8 @@ if isFighting && !turnComplete && actions > 0
 	}
 	else
 	{
-		stun = false
+		if stun stun = false
+		if sleep > 0 sleep --;
 		scrEnemyForceEndTurn();
 	}
 }

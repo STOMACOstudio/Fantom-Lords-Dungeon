@@ -174,6 +174,20 @@ else if oLord2.spellCast = 10 //MOONBLAST
 	}
 	
 }
+else if oLord2.spellCast = 11 //HEAL SONG
+{
+	if collision_point(x,y,oLord2,false,true)
+	{
+		global.dmgLORD = round(oLord2.thisLord_MAG/2);
+		var struct = { noteColor : c_lime};
+		oLord2.spellCast = noone;
+		oLord2.thisLord_ACTpoints -= 2;
+		audio_play_sound(sn_SKILL_HealSong,0,false);
+		with oLord0Parent instance_create_layer(x+32,y+32,"VFX",oSKILL_WEAPON_HealSong);
+		instance_create_layer(oLord2.x+32,oLord2.y+32,"VFX",oVFX_Notemaker, struct);
+		instance_destroy();
+	}
+}
 else if oLord2.spellCast = 13 //DRAIN SLASH
 {
 		if enemy != noone && enemy.target

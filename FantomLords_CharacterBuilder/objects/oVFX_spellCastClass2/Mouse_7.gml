@@ -84,6 +84,19 @@ else if oLord2.spellCast = 5
 		instance_destroy();
 	}
 }
+else if oLord2.spellCast = 6
+{
+	if collision_point(x,y,oLord2,false,true)
+	{
+		var struct = { noteColor : c_blue };
+		oLord2.spellCast = noone;
+		oLord2.thisLord_ACTpoints -= 2;
+		audio_play_sound(sn_SKILL_Lullaby,0,false);
+		with oEnemy0_Father if revealed && !obstacle instance_create_layer(x+32,y+32,"VFX",oSKILL_CLASS_Bard);
+		instance_create_layer(oLord2.x+32,oLord2.y+32,"VFX",oVFX_Notemaker, struct);
+		instance_destroy();
+	}
+}
 else if oLord2.spellCast = 8
 {
 	if collision_point(x,y,oLord2,false,true)
