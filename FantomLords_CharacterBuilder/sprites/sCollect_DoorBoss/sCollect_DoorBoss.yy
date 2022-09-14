@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sCollect_DoorBoss",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c2fb31b8-1a43-4553-ab7a-2b7c8dc9a03f","path":"sprites/sCollect_DoorBoss/sCollect_DoorBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c2fb31b8-1a43-4553-ab7a-2b7c8dc9a03f","path":"sprites/sCollect_DoorBoss/sCollect_DoorBoss.yy",},"LayerId":{"name":"52ab35f7-891d-4b8a-8ae5-b63375e405e0","path":"sprites/sCollect_DoorBoss/sCollect_DoorBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCollect_DoorBoss","path":"sprites/sCollect_DoorBoss/sCollect_DoorBoss.yy",},"resourceVersion":"1.0","name":"c2fb31b8-1a43-4553-ab7a-2b7c8dc9a03f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f7ea1ee5-110e-4ebb-a094-a76ec3ec9d0b","path":"sprites/sCollect_DoorBoss/sCollect_DoorBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f7ea1ee5-110e-4ebb-a094-a76ec3ec9d0b","path":"sprites/sCollect_DoorBoss/sCollect_DoorBoss.yy",},"LayerId":{"name":"52ab35f7-891d-4b8a-8ae5-b63375e405e0","path":"sprites/sCollect_DoorBoss/sCollect_DoorBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCollect_DoorBoss","path":"sprites/sCollect_DoorBoss/sCollect_DoorBoss.yy",},"resourceVersion":"1.0","name":"f7ea1ee5-110e-4ebb-a094-a76ec3ec9d0b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c2fb31b8-1a43-4553-ab7a-2b7c8dc9a03f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f7ea1ee5-110e-4ebb-a094-a76ec3ec9d0b",},
   ],
   "sequence": {
-    "spriteId": {"name":"sCollect_DoorBoss","path":"sprites/sCollect_DoorBoss/sCollect_DoorBoss.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sCollect_DoorBoss",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"74bc744f-7397-4309-bbe5-12f600074434","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c2fb31b8-1a43-4553-ab7a-2b7c8dc9a03f","path":"sprites/sCollect_DoorBoss/sCollect_DoorBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5bb63dc6-bbaa-4f02-8e97-98482941fec4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f7ea1ee5-110e-4ebb-a094-a76ec3ec9d0b","path":"sprites/sCollect_DoorBoss/sCollect_DoorBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sCollect_DoorBoss","path":"sprites/sCollect_DoorBoss/sCollect_DoorBoss.yy",},
-    "resourceVersion": "1.4",
-    "name": "sCollect_DoorBoss",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"52ab35f7-891d-4b8a-8ae5-b63375e405e0","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"52ab35f7-891d-4b8a-8ae5-b63375e405e0","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Collect",
     "path": "folders/Sprites/Collect.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sCollect_DoorBoss",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

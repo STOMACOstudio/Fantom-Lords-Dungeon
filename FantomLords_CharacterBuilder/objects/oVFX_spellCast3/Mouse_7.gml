@@ -60,6 +60,17 @@ else if oLord3.spellCast = 4 //Slay
 		instance_destroy();
 	}
 }
+else if oLord3.spellCast = 6 //Revenge
+{
+	if enemy != noone
+	{
+		global.dmgLORD = oLord3.thisLord_LIFmax - oLord3.thisLord_LIF;
+		oLord3.spellCast = noone;
+		oLord3.thisLord_ACTpoints -= 2;
+		instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_WEAPON_Revenge);
+		instance_destroy();
+	}
+}
 else if oLord3.spellCast = 7 //BLADE WHIRL
 {
 		if collision_point(x,y,oLord3,false,true)

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sVFX_SKILL_SOULSYPHON2",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"873f2063-f00e-4ab7-8020-066c9b4bcad1","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"873f2063-f00e-4ab7-8020-066c9b4bcad1","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"LayerId":{"name":"241de50b-191d-4c2b-898b-470bdbb09d0d","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_SKILL_SOULSYPHON2","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"resourceVersion":"1.0","name":"873f2063-f00e-4ab7-8020-066c9b4bcad1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5fd53386-5a18-43bd-93c6-1b374e6e24dc","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5fd53386-5a18-43bd-93c6-1b374e6e24dc","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"LayerId":{"name":"241de50b-191d-4c2b-898b-470bdbb09d0d","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_SKILL_SOULSYPHON2","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"resourceVersion":"1.0","name":"5fd53386-5a18-43bd-93c6-1b374e6e24dc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6d90569f-58f8-45b2-803f-1d17fdfa98bd","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6d90569f-58f8-45b2-803f-1d17fdfa98bd","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"LayerId":{"name":"241de50b-191d-4c2b-898b-470bdbb09d0d","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_SKILL_SOULSYPHON2","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"resourceVersion":"1.0","name":"6d90569f-58f8-45b2-803f-1d17fdfa98bd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"873f2063-f00e-4ab7-8020-066c9b4bcad1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5fd53386-5a18-43bd-93c6-1b374e6e24dc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6d90569f-58f8-45b2-803f-1d17fdfa98bd",},
   ],
   "sequence": {
-    "spriteId": {"name":"sVFX_SKILL_SOULSYPHON2","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sVFX_SKILL_SOULSYPHON2",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -43,14 +42,14 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 3.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7ce06509-115f-415e-84af-ab8b237585d2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"873f2063-f00e-4ab7-8020-066c9b4bcad1","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"ff416f8b-fd85-48e2-b4ba-7d51303d1b29","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5fd53386-5a18-43bd-93c6-1b374e6e24dc","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"3175fbca-a96e-40d2-b770-910e06c823ab","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6d90569f-58f8-45b2-803f-1d17fdfa98bd","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"7ce06509-115f-415e-84af-ab8b237585d2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"873f2063-f00e-4ab7-8020-066c9b4bcad1","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ff416f8b-fd85-48e2-b4ba-7d51303d1b29","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5fd53386-5a18-43bd-93c6-1b374e6e24dc","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3175fbca-a96e-40d2-b770-910e06c823ab","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6d90569f-58f8-45b2-803f-1d17fdfa98bd","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 12,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sVFX_SKILL_SOULSYPHON2","path":"sprites/sVFX_SKILL_SOULSYPHON2/sVFX_SKILL_SOULSYPHON2.yy",},
-    "resourceVersion": "1.4",
-    "name": "sVFX_SKILL_SOULSYPHON2",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"241de50b-191d-4c2b-898b-470bdbb09d0d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"241de50b-191d-4c2b-898b-470bdbb09d0d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "VFX Skill",
     "path": "folders/Sprites/VFX/VFX Skill.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sVFX_SKILL_SOULSYPHON2",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

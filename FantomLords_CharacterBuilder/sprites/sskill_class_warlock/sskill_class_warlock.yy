@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sSKILL_CLASS_Warlock",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,24 +27,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"709cabcd-892d-49a5-b76d-a25ca5bdcae0","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"709cabcd-892d-49a5-b76d-a25ca5bdcae0","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"LayerId":{"name":"633ed8aa-8a77-4f11-9351-33fdded18318","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sSKILL_CLASS_Warlock","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","name":"709cabcd-892d-49a5-b76d-a25ca5bdcae0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4b26d4d6-0b08-453c-a258-e17cffcd579c","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4b26d4d6-0b08-453c-a258-e17cffcd579c","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"LayerId":{"name":"633ed8aa-8a77-4f11-9351-33fdded18318","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sSKILL_CLASS_Warlock","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","name":"4b26d4d6-0b08-453c-a258-e17cffcd579c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9af04d8b-daad-4469-af3f-9afaf868917b","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9af04d8b-daad-4469-af3f-9afaf868917b","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"LayerId":{"name":"633ed8aa-8a77-4f11-9351-33fdded18318","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sSKILL_CLASS_Warlock","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","name":"9af04d8b-daad-4469-af3f-9afaf868917b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cd21245d-4b17-4abb-9fdf-e7b9cbfd0208","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cd21245d-4b17-4abb-9fdf-e7b9cbfd0208","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"LayerId":{"name":"633ed8aa-8a77-4f11-9351-33fdded18318","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sSKILL_CLASS_Warlock","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","name":"cd21245d-4b17-4abb-9fdf-e7b9cbfd0208","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dbcacec0-9491-4ec1-877e-6456c52a4af1","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dbcacec0-9491-4ec1-877e-6456c52a4af1","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"LayerId":{"name":"633ed8aa-8a77-4f11-9351-33fdded18318","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sSKILL_CLASS_Warlock","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","name":"dbcacec0-9491-4ec1-877e-6456c52a4af1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"709cabcd-892d-49a5-b76d-a25ca5bdcae0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4b26d4d6-0b08-453c-a258-e17cffcd579c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9af04d8b-daad-4469-af3f-9afaf868917b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cd21245d-4b17-4abb-9fdf-e7b9cbfd0208",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dbcacec0-9491-4ec1-877e-6456c52a4af1",},
   ],
   "sequence": {
-    "spriteId": {"name":"sSKILL_CLASS_Warlock","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sSKILL_CLASS_Warlock",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -49,16 +44,16 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 5.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e51c9564-2ed1-4a4c-b246-2fc18684c80b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"709cabcd-892d-49a5-b76d-a25ca5bdcae0","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"3ca46531-dc28-4c70-a828-489189321223","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4b26d4d6-0b08-453c-a258-e17cffcd579c","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"922c9c75-53fc-42af-beb0-8fc005c7d677","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9af04d8b-daad-4469-af3f-9afaf868917b","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"9d662f48-8de2-48e9-863d-9154c07b67bc","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd21245d-4b17-4abb-9fdf-e7b9cbfd0208","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"6ce254b2-4374-4233-97de-adf28bb8b212","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dbcacec0-9491-4ec1-877e-6456c52a4af1","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"e51c9564-2ed1-4a4c-b246-2fc18684c80b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"709cabcd-892d-49a5-b76d-a25ca5bdcae0","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3ca46531-dc28-4c70-a828-489189321223","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4b26d4d6-0b08-453c-a258-e17cffcd579c","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"922c9c75-53fc-42af-beb0-8fc005c7d677","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9af04d8b-daad-4469-af3f-9afaf868917b","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9d662f48-8de2-48e9-863d-9154c07b67bc","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd21245d-4b17-4abb-9fdf-e7b9cbfd0208","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6ce254b2-4374-4233-97de-adf28bb8b212","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dbcacec0-9491-4ec1-877e-6456c52a4af1","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,22 +69,13 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sSKILL_CLASS_Warlock","path":"sprites/sSKILL_CLASS_Warlock/sSKILL_CLASS_Warlock.yy",},
-    "resourceVersion": "1.4",
-    "name": "sSKILL_CLASS_Warlock",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"633ed8aa-8a77-4f11-9351-33fdded18318","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"633ed8aa-8a77-4f11-9351-33fdded18318","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "VFX Skill",
     "path": "folders/Sprites/VFX/VFX Skill.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sSKILL_CLASS_Warlock",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

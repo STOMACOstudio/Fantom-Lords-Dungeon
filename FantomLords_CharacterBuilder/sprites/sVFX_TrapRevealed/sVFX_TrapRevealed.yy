@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sVFX_TrapRevealed",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5a2c7912-1e8e-4213-9726-1da8c0a3f2fa","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5a2c7912-1e8e-4213-9726-1da8c0a3f2fa","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"LayerId":{"name":"a0ac01b3-a0ff-45f9-acd6-1b59373cc249","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_TrapRevealed","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"resourceVersion":"1.0","name":"5a2c7912-1e8e-4213-9726-1da8c0a3f2fa","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a536471b-aa97-4a94-a957-a49621376cf7","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a536471b-aa97-4a94-a957-a49621376cf7","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"LayerId":{"name":"a0ac01b3-a0ff-45f9-acd6-1b59373cc249","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_TrapRevealed","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"resourceVersion":"1.0","name":"a536471b-aa97-4a94-a957-a49621376cf7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"685978a1-f88f-464a-afe0-da8b43900eaf","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"685978a1-f88f-464a-afe0-da8b43900eaf","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"LayerId":{"name":"a0ac01b3-a0ff-45f9-acd6-1b59373cc249","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_TrapRevealed","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"resourceVersion":"1.0","name":"685978a1-f88f-464a-afe0-da8b43900eaf","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4be84db4-909a-4663-b6e3-423ed951f603","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4be84db4-909a-4663-b6e3-423ed951f603","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"LayerId":{"name":"a0ac01b3-a0ff-45f9-acd6-1b59373cc249","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_TrapRevealed","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"resourceVersion":"1.0","name":"4be84db4-909a-4663-b6e3-423ed951f603","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5a2c7912-1e8e-4213-9726-1da8c0a3f2fa",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a536471b-aa97-4a94-a957-a49621376cf7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"685978a1-f88f-464a-afe0-da8b43900eaf",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4be84db4-909a-4663-b6e3-423ed951f603",},
   ],
   "sequence": {
-    "spriteId": {"name":"sVFX_TrapRevealed","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sVFX_TrapRevealed",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 16.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"9bae812b-3ff1-4851-abf3-1b2fce37d060","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5a2c7912-1e8e-4213-9726-1da8c0a3f2fa","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"64983943-a70e-44e5-b439-3c0f72c63c92","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a536471b-aa97-4a94-a957-a49621376cf7","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8211fd12-4eff-4f33-af0f-0c7a180604ba","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"685978a1-f88f-464a-afe0-da8b43900eaf","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b156f212-5d17-40de-8eae-f9e66bb5018c","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4be84db4-909a-4663-b6e3-423ed951f603","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sVFX_TrapRevealed","path":"sprites/sVFX_TrapRevealed/sVFX_TrapRevealed.yy",},
-    "resourceVersion": "1.4",
-    "name": "sVFX_TrapRevealed",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a0ac01b3-a0ff-45f9-acd6-1b59373cc249","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a0ac01b3-a0ff-45f9-acd6-1b59373cc249","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "VFX",
     "path": "folders/Sprites/VFX.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sVFX_TrapRevealed",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sVFX_SKILL_FireballFlame",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,33 +27,19 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4a803fa9-dcdf-4d89-a768-47c1f9c5c751","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4a803fa9-dcdf-4d89-a768-47c1f9c5c751","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"LayerId":{"name":"cbf7802b-46a9-48a9-8767-b3e7790393e6","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_SKILL_FireballFlame","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","name":"4a803fa9-dcdf-4d89-a768-47c1f9c5c751","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3c69e73c-6029-4034-846d-42db8f298c63","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3c69e73c-6029-4034-846d-42db8f298c63","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"LayerId":{"name":"cbf7802b-46a9-48a9-8767-b3e7790393e6","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_SKILL_FireballFlame","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","name":"3c69e73c-6029-4034-846d-42db8f298c63","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"79d29607-b498-41e4-b5cb-22847122c0ce","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"79d29607-b498-41e4-b5cb-22847122c0ce","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"LayerId":{"name":"cbf7802b-46a9-48a9-8767-b3e7790393e6","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_SKILL_FireballFlame","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","name":"79d29607-b498-41e4-b5cb-22847122c0ce","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a5bb31e0-c96c-416f-9e2c-870141aef3b7","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a5bb31e0-c96c-416f-9e2c-870141aef3b7","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"LayerId":{"name":"cbf7802b-46a9-48a9-8767-b3e7790393e6","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_SKILL_FireballFlame","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","name":"a5bb31e0-c96c-416f-9e2c-870141aef3b7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8d426c60-6a23-460e-9e47-4af10487804b","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8d426c60-6a23-460e-9e47-4af10487804b","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"LayerId":{"name":"cbf7802b-46a9-48a9-8767-b3e7790393e6","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_SKILL_FireballFlame","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","name":"8d426c60-6a23-460e-9e47-4af10487804b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0c37ffcb-418a-41d7-a15a-9ca7498f504e","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0c37ffcb-418a-41d7-a15a-9ca7498f504e","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"LayerId":{"name":"cbf7802b-46a9-48a9-8767-b3e7790393e6","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_SKILL_FireballFlame","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","name":"0c37ffcb-418a-41d7-a15a-9ca7498f504e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"26e40611-3be9-4bea-a37f-cade4c37450b","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"26e40611-3be9-4bea-a37f-cade4c37450b","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"LayerId":{"name":"cbf7802b-46a9-48a9-8767-b3e7790393e6","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_SKILL_FireballFlame","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","name":"26e40611-3be9-4bea-a37f-cade4c37450b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4fcd9bd9-3803-4f57-9393-7891b3c04a3c","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4fcd9bd9-3803-4f57-9393-7891b3c04a3c","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"LayerId":{"name":"cbf7802b-46a9-48a9-8767-b3e7790393e6","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_SKILL_FireballFlame","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","name":"4fcd9bd9-3803-4f57-9393-7891b3c04a3c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4a803fa9-dcdf-4d89-a768-47c1f9c5c751",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3c69e73c-6029-4034-846d-42db8f298c63",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"79d29607-b498-41e4-b5cb-22847122c0ce",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a5bb31e0-c96c-416f-9e2c-870141aef3b7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8d426c60-6a23-460e-9e47-4af10487804b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0c37ffcb-418a-41d7-a15a-9ca7498f504e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"26e40611-3be9-4bea-a37f-cade4c37450b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4fcd9bd9-3803-4f57-9393-7891b3c04a3c",},
   ],
   "sequence": {
-    "spriteId": {"name":"sVFX_SKILL_FireballFlame","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sVFX_SKILL_FireballFlame",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -61,7 +50,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5376e89c-3947-4ea5-ba68-fb7e4be2ca18","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4a803fa9-dcdf-4d89-a768-47c1f9c5c751","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"27611d26-bb9e-40e8-b04a-46f6f589ff49","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3c69e73c-6029-4034-846d-42db8f298c63","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8901ba16-203b-4109-8f70-de1f6ce5157b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"79d29607-b498-41e4-b5cb-22847122c0ce","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -70,7 +59,7 @@
             {"id":"f5bba418-6134-45cf-8d68-09a401f00fff","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c37ffcb-418a-41d7-a15a-9ca7498f504e","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"67100a47-77e7-4ebc-942f-7b77c93d84cb","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"26e40611-3be9-4bea-a37f-cade4c37450b","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"94b8aca0-182c-40e2-b188-a41bfb1a37a9","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4fcd9bd9-3803-4f57-9393-7891b3c04a3c","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -86,22 +75,13 @@
     "yorigin": 4,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sVFX_SKILL_FireballFlame","path":"sprites/sVFX_SKILL_FireballFlame/sVFX_SKILL_FireballFlame.yy",},
-    "resourceVersion": "1.4",
-    "name": "sVFX_SKILL_FireballFlame",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cbf7802b-46a9-48a9-8767-b3e7790393e6","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cbf7802b-46a9-48a9-8767-b3e7790393e6","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "VFX Skill",
     "path": "folders/Sprites/VFX/VFX Skill.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sVFX_SKILL_FireballFlame",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

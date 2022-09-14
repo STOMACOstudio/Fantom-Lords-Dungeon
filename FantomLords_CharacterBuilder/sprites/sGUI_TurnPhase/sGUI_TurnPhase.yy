@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sGUI_TurnPhase",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"26ded732-53e4-4910-9a67-64f97293f21e","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"26ded732-53e4-4910-9a67-64f97293f21e","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},"LayerId":{"name":"0b2701f1-cd47-4585-ba2e-61fb6d9b1e32","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGUI_TurnPhase","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},"resourceVersion":"1.0","name":"26ded732-53e4-4910-9a67-64f97293f21e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"48231669-c611-40ab-9474-5a2ab7e2fbf2","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"48231669-c611-40ab-9474-5a2ab7e2fbf2","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},"LayerId":{"name":"0b2701f1-cd47-4585-ba2e-61fb6d9b1e32","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGUI_TurnPhase","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},"resourceVersion":"1.0","name":"48231669-c611-40ab-9474-5a2ab7e2fbf2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1c3fee94-e334-4b2e-80a5-64797c0b3b93","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1c3fee94-e334-4b2e-80a5-64797c0b3b93","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},"LayerId":{"name":"0b2701f1-cd47-4585-ba2e-61fb6d9b1e32","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGUI_TurnPhase","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},"resourceVersion":"1.0","name":"1c3fee94-e334-4b2e-80a5-64797c0b3b93","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"26ded732-53e4-4910-9a67-64f97293f21e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"48231669-c611-40ab-9474-5a2ab7e2fbf2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1c3fee94-e334-4b2e-80a5-64797c0b3b93",},
   ],
   "sequence": {
-    "spriteId": {"name":"sGUI_TurnPhase","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sGUI_TurnPhase",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -46,11 +45,11 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"07af6865-77d3-4c76-86cd-8b0c0ed0acbe","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"26ded732-53e4-4910-9a67-64f97293f21e","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"417104d3-3c68-4c39-b501-2d572c8e7a34","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"48231669-c611-40ab-9474-5a2ab7e2fbf2","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5cdfefc6-7550-4eb0-97d3-54504e4c02ae","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1c3fee94-e334-4b2e-80a5-64797c0b3b93","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sGUI_TurnPhase","path":"sprites/sGUI_TurnPhase/sGUI_TurnPhase.yy",},
-    "resourceVersion": "1.4",
-    "name": "sGUI_TurnPhase",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0b2701f1-cd47-4585-ba2e-61fb6d9b1e32","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0b2701f1-cd47-4585-ba2e-61fb6d9b1e32","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "GUI",
     "path": "folders/Sprites/GUI.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sGUI_TurnPhase",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

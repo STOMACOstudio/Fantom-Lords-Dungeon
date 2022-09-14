@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sCollect_PotionDrop",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,13 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c4f65be2-2d58-4863-a9e5-075814edfa24","path":"sprites/sCollect_PotionDrop/sCollect_PotionDrop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c4f65be2-2d58-4863-a9e5-075814edfa24","path":"sprites/sCollect_PotionDrop/sCollect_PotionDrop.yy",},"LayerId":{"name":"df18f8b2-fe53-4663-b6a8-7a423a0162c9","path":"sprites/sCollect_PotionDrop/sCollect_PotionDrop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"c4f65be2-2d58-4863-a9e5-075814edfa24","path":"sprites/sCollect_PotionDrop/sCollect_PotionDrop.yy",},"LayerId":{"name":"24807bff-9594-4b44-8d25-2eedd39cc2ef","path":"sprites/sCollect_PotionDrop/sCollect_PotionDrop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCollect_PotionDrop","path":"sprites/sCollect_PotionDrop/sCollect_PotionDrop.yy",},"resourceVersion":"1.0","name":"c4f65be2-2d58-4863-a9e5-075814edfa24","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c4f65be2-2d58-4863-a9e5-075814edfa24",},
   ],
   "sequence": {
-    "spriteId": {"name":"sCollect_PotionDrop","path":"sprites/sCollect_PotionDrop/sCollect_PotionDrop.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sCollect_PotionDrop",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -41,9 +43,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"8c8de9dd-99c3-479f-926a-b5c8886fd130","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c4f65be2-2d58-4863-a9e5-075814edfa24","path":"sprites/sCollect_PotionDrop/sCollect_PotionDrop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -59,23 +61,14 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sCollect_PotionDrop","path":"sprites/sCollect_PotionDrop/sCollect_PotionDrop.yy",},
-    "resourceVersion": "1.4",
-    "name": "sCollect_PotionDrop",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"df18f8b2-fe53-4663-b6a8-7a423a0162c9","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"24807bff-9594-4b44-8d25-2eedd39cc2ef","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"df18f8b2-fe53-4663-b6a8-7a423a0162c9","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"24807bff-9594-4b44-8d25-2eedd39cc2ef","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Collect",
     "path": "folders/Sprites/Collect.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sCollect_PotionDrop",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

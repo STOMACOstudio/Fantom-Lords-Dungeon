@@ -12,6 +12,12 @@ if oManagerCombat.combatPhase = 0 && global.hasControl && global.fightMode = tru
 			battlecry --;
 			if battlecry = 0 thisLord_ATK = thisLord_ATKmax;
 		}
+		if burden > 0
+		{
+			burden --;
+			if burden = 0 thisLord_DEF = thisLord_DEFmax;
+		}
+		if shadow > 0 shadow --;
 	}
 	with (oLord0FrameParent) thisLocked = false;
 	with (oVFX_spellCast0father) instance_destroy();

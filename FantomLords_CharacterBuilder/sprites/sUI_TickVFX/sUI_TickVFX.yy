@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sUI_TickVFX",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5b4d59bb-849a-431e-bc33-0315d13734d5","path":"sprites/sUI_TickVFX/sUI_TickVFX.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5b4d59bb-849a-431e-bc33-0315d13734d5","path":"sprites/sUI_TickVFX/sUI_TickVFX.yy",},"LayerId":{"name":"7817ffd9-1158-47a0-8c3b-573e1de758f9","path":"sprites/sUI_TickVFX/sUI_TickVFX.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sUI_TickVFX","path":"sprites/sUI_TickVFX/sUI_TickVFX.yy",},"resourceVersion":"1.0","name":"5b4d59bb-849a-431e-bc33-0315d13734d5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"82b6d476-2e2c-43fe-9a2c-defb06fc4965","path":"sprites/sUI_TickVFX/sUI_TickVFX.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"82b6d476-2e2c-43fe-9a2c-defb06fc4965","path":"sprites/sUI_TickVFX/sUI_TickVFX.yy",},"LayerId":{"name":"7817ffd9-1158-47a0-8c3b-573e1de758f9","path":"sprites/sUI_TickVFX/sUI_TickVFX.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sUI_TickVFX","path":"sprites/sUI_TickVFX/sUI_TickVFX.yy",},"resourceVersion":"1.0","name":"82b6d476-2e2c-43fe-9a2c-defb06fc4965","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5b4d59bb-849a-431e-bc33-0315d13734d5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"82b6d476-2e2c-43fe-9a2c-defb06fc4965",},
   ],
   "sequence": {
-    "spriteId": {"name":"sUI_TickVFX","path":"sprites/sUI_TickVFX/sUI_TickVFX.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sUI_TickVFX",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1ea1654f-be16-4a14-9376-14ac4d976fb6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5b4d59bb-849a-431e-bc33-0315d13734d5","path":"sprites/sUI_TickVFX/sUI_TickVFX.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"76f83cc5-ed6f-4ed2-bb92-cac882872506","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"82b6d476-2e2c-43fe-9a2c-defb06fc4965","path":"sprites/sUI_TickVFX/sUI_TickVFX.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sUI_TickVFX","path":"sprites/sUI_TickVFX/sUI_TickVFX.yy",},
-    "resourceVersion": "1.4",
-    "name": "sUI_TickVFX",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7817ffd9-1158-47a0-8c3b-573e1de758f9","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7817ffd9-1158-47a0-8c3b-573e1de758f9","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "GUI",
     "path": "folders/Sprites/GUI.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sUI_TickVFX",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

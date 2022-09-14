@@ -47,6 +47,16 @@ if oLord2.spellCast = 6 //Lullaby
 {
 	with oEnemy0_Father if revealed && !obstacle draw_rectangle_color(x+1,y+1,x+sprite_width-1,y+sprite_height-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
 }
+else if oLord2.spellCast = 7 //Burden
+{
+	if lord != noone
+	{
+		if (lord.x = oLord2.x && lord.y = oLord2.y-64) || (lord.x = oLord2.x+64 && lord.y = oLord2.y) || (lord.x = oLord2.x && lord.y = oLord2.y+64) || (lord.x = oLord2.x-64 && lord.y = oLord2.y) || (lord.x = oLord2.x && lord.y = oLord2.y)
+		{
+			draw_rectangle_color(lord.x+1,lord.y+1,lord.x+62,lord.y+62,c_lime,c_lime,c_lime,c_lime,true);
+		}
+	}
+}
 if oLord2.spellCast = 8 //Burn
 {
 	with oEnemy0_Father

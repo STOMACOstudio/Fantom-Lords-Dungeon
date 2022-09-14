@@ -69,6 +69,15 @@ if oLordStats.lord3active && instance_exists(oLord3)
 		global.currentSelectedDescription2 = "SLEEP to all";
 		global.currentSelectedDescription3 = "enemies";
 	}
+	else if oLord3.thisLord_skillClassArmor = 7
+	{
+		global.currentSelectedName = "Burden";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Increase";
+		global.currentSelectedDescription2 = "target DEF";
+		global.currentSelectedDescription3 = "stat";
+	}
 	else if oLord3.thisLord_skillClassArmor = 8
 	{
 		global.currentSelectedName = "Burn";

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sVFX_MusicNote",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,18 +27,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2ec7d8b9-26d9-432f-8cb3-22b9eff0dfa9","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2ec7d8b9-26d9-432f-8cb3-22b9eff0dfa9","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"LayerId":{"name":"347d2b59-066e-4609-ae0e-8cd00da67210","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_MusicNote","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"resourceVersion":"1.0","name":"2ec7d8b9-26d9-432f-8cb3-22b9eff0dfa9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"16b2fa3b-b79d-4bca-b1e7-dfd7617a2ffd","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"16b2fa3b-b79d-4bca-b1e7-dfd7617a2ffd","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"LayerId":{"name":"347d2b59-066e-4609-ae0e-8cd00da67210","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_MusicNote","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"resourceVersion":"1.0","name":"16b2fa3b-b79d-4bca-b1e7-dfd7617a2ffd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c6754b73-8b71-4d10-9733-ef1559009443","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c6754b73-8b71-4d10-9733-ef1559009443","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"LayerId":{"name":"347d2b59-066e-4609-ae0e-8cd00da67210","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_MusicNote","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"resourceVersion":"1.0","name":"c6754b73-8b71-4d10-9733-ef1559009443","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2ec7d8b9-26d9-432f-8cb3-22b9eff0dfa9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"16b2fa3b-b79d-4bca-b1e7-dfd7617a2ffd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c6754b73-8b71-4d10-9733-ef1559009443",},
   ],
   "sequence": {
-    "spriteId": {"name":"sVFX_MusicNote","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sVFX_MusicNote",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -43,14 +42,14 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 3.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"19c9a71e-e3fb-4187-b8ee-1d958f6d541e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2ec7d8b9-26d9-432f-8cb3-22b9eff0dfa9","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"2d1d442f-1118-48c0-8678-f6b9dbb122e6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"16b2fa3b-b79d-4bca-b1e7-dfd7617a2ffd","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"7d88b9e2-76ef-40cd-a98a-24bbc0029b59","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c6754b73-8b71-4d10-9733-ef1559009443","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"19c9a71e-e3fb-4187-b8ee-1d958f6d541e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2ec7d8b9-26d9-432f-8cb3-22b9eff0dfa9","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2d1d442f-1118-48c0-8678-f6b9dbb122e6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"16b2fa3b-b79d-4bca-b1e7-dfd7617a2ffd","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7d88b9e2-76ef-40cd-a98a-24bbc0029b59","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c6754b73-8b71-4d10-9733-ef1559009443","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -66,22 +65,13 @@
     "yorigin": 6,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sVFX_MusicNote","path":"sprites/sVFX_MusicNote/sVFX_MusicNote.yy",},
-    "resourceVersion": "1.4",
-    "name": "sVFX_MusicNote",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"347d2b59-066e-4609-ae0e-8cd00da67210","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"347d2b59-066e-4609-ae0e-8cd00da67210","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "VFX",
     "path": "folders/Sprites/VFX.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sVFX_MusicNote",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

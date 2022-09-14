@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sVFX_SKILL_BLADEWHIRL",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"18b29fa8-971a-42a7-b21a-ec5b4fcfe098","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"18b29fa8-971a-42a7-b21a-ec5b4fcfe098","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"LayerId":{"name":"725adeee-bf58-4c5b-a67c-3a2ba1bf9ecb","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_SKILL_BLADEWHIRL","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"resourceVersion":"1.0","name":"18b29fa8-971a-42a7-b21a-ec5b4fcfe098","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"40d9306f-fe72-4f81-9b00-b6b17892658e","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"40d9306f-fe72-4f81-9b00-b6b17892658e","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"LayerId":{"name":"725adeee-bf58-4c5b-a67c-3a2ba1bf9ecb","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_SKILL_BLADEWHIRL","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"resourceVersion":"1.0","name":"40d9306f-fe72-4f81-9b00-b6b17892658e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cf54a989-1bbb-47b1-9e10-ae173400d437","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cf54a989-1bbb-47b1-9e10-ae173400d437","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"LayerId":{"name":"725adeee-bf58-4c5b-a67c-3a2ba1bf9ecb","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_SKILL_BLADEWHIRL","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"resourceVersion":"1.0","name":"cf54a989-1bbb-47b1-9e10-ae173400d437","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"38f80bbd-a1b4-4ae0-b501-21933441bf89","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"38f80bbd-a1b4-4ae0-b501-21933441bf89","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"LayerId":{"name":"725adeee-bf58-4c5b-a67c-3a2ba1bf9ecb","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_SKILL_BLADEWHIRL","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"resourceVersion":"1.0","name":"38f80bbd-a1b4-4ae0-b501-21933441bf89","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"18b29fa8-971a-42a7-b21a-ec5b4fcfe098",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"40d9306f-fe72-4f81-9b00-b6b17892658e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cf54a989-1bbb-47b1-9e10-ae173400d437",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"38f80bbd-a1b4-4ae0-b501-21933441bf89",},
   ],
   "sequence": {
-    "spriteId": {"name":"sVFX_SKILL_BLADEWHIRL","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sVFX_SKILL_BLADEWHIRL",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -46,15 +43,15 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 4.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a79774fe-920d-4744-a9be-1a4f29d06211","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"18b29fa8-971a-42a7-b21a-ec5b4fcfe098","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"17e2c071-e475-477d-85f7-3537558fc28d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"40d9306f-fe72-4f81-9b00-b6b17892658e","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"6949ea46-d625-45d1-a251-e7f89abdf487","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cf54a989-1bbb-47b1-9e10-ae173400d437","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"4e645c3c-65b0-4233-9099-a5e5c07249ce","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"38f80bbd-a1b4-4ae0-b501-21933441bf89","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"a79774fe-920d-4744-a9be-1a4f29d06211","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"18b29fa8-971a-42a7-b21a-ec5b4fcfe098","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"17e2c071-e475-477d-85f7-3537558fc28d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"40d9306f-fe72-4f81-9b00-b6b17892658e","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6949ea46-d625-45d1-a251-e7f89abdf487","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cf54a989-1bbb-47b1-9e10-ae173400d437","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4e645c3c-65b0-4233-9099-a5e5c07249ce","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"38f80bbd-a1b4-4ae0-b501-21933441bf89","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sVFX_SKILL_BLADEWHIRL","path":"sprites/sVFX_SKILL_BLADEWHIRL/sVFX_SKILL_BLADEWHIRL.yy",},
-    "resourceVersion": "1.4",
-    "name": "sVFX_SKILL_BLADEWHIRL",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"725adeee-bf58-4c5b-a67c-3a2ba1bf9ecb","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"725adeee-bf58-4c5b-a67c-3a2ba1bf9ecb","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "VFX Skill",
     "path": "folders/Sprites/VFX/VFX Skill.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sVFX_SKILL_BLADEWHIRL",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

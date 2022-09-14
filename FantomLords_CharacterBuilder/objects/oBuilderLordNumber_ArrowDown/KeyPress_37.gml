@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if global.lordNumber > 1 global.lordNumber --;
-else global.lordNumber = 11;
+else global.lordNumber = 12;
 
 if global.lordNumber >= 1 && global.lordNumber <= 250 scrLordGenerator1();
 /*else if global.lordNumber >= 251 && global.lordNumber <= 500 scrLordGenerator1B();

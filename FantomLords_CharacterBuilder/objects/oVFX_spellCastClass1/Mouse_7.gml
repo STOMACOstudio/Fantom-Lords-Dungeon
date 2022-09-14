@@ -97,6 +97,20 @@ else if oLord1.spellCast = 6
 		instance_destroy();
 	}
 }
+else if oLord1.spellCast = 7
+{
+	if lord != noone
+	{
+		if (lord.x = oLord1.x && lord.y = oLord1.y-64) || (lord.x = oLord1.x+64 && lord.y = oLord1.y) || (lord.x = oLord1.x && lord.y = oLord1.y+64) || (lord.x = oLord1.x-64 && lord.y = oLord1.y) || (lord.x = oLord1.x && lord.y = oLord1.y)
+		{
+			var struct = { MAG : round(oLord1.thisLord_MAG/2) };
+			oLord1.spellCast = noone;
+			oLord1.thisLord_ACTpoints -= 2;
+			instance_create_layer(lord.x,lord.y,"VFX",oSKILL_CLASS_Burden, struct);
+			instance_destroy();
+		}
+	}
+}
 else if oLord1.spellCast = 8
 {
 	if collision_point(x,y,oLord1,false,true)

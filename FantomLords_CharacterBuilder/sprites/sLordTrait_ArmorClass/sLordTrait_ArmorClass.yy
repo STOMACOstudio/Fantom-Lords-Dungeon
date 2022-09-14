@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sLordTrait_ArmorClass",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,45 +27,23 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cb528441-abb7-48f2-8ef9-ffeb5d0420f4","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cb528441-abb7-48f2-8ef9-ffeb5d0420f4","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":{"name":"1fea4d92-d7a3-46d3-85da-60556f673612","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_ArmorClass","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"cb528441-abb7-48f2-8ef9-ffeb5d0420f4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ead3f9e9-5853-44fa-97fb-486de8dcffca","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ead3f9e9-5853-44fa-97fb-486de8dcffca","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":{"name":"1fea4d92-d7a3-46d3-85da-60556f673612","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_ArmorClass","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"ead3f9e9-5853-44fa-97fb-486de8dcffca","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"464bc7ed-e4f1-4cce-bdec-fe026ae1559d","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"464bc7ed-e4f1-4cce-bdec-fe026ae1559d","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":{"name":"1fea4d92-d7a3-46d3-85da-60556f673612","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_ArmorClass","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"464bc7ed-e4f1-4cce-bdec-fe026ae1559d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"45d93ce0-9bea-441b-a6d7-efc824ce46a7","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"45d93ce0-9bea-441b-a6d7-efc824ce46a7","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":{"name":"1fea4d92-d7a3-46d3-85da-60556f673612","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_ArmorClass","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"45d93ce0-9bea-441b-a6d7-efc824ce46a7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"28cc45c1-ef66-4230-9637-5d929317ff4c","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"28cc45c1-ef66-4230-9637-5d929317ff4c","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":{"name":"1fea4d92-d7a3-46d3-85da-60556f673612","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_ArmorClass","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"28cc45c1-ef66-4230-9637-5d929317ff4c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a84a5241-d200-4f8d-b0e5-977d6992c642","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a84a5241-d200-4f8d-b0e5-977d6992c642","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":{"name":"1fea4d92-d7a3-46d3-85da-60556f673612","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_ArmorClass","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"a84a5241-d200-4f8d-b0e5-977d6992c642","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9308f44c-57ed-4f3a-9bc5-3979aa4052e2","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9308f44c-57ed-4f3a-9bc5-3979aa4052e2","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":{"name":"1fea4d92-d7a3-46d3-85da-60556f673612","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_ArmorClass","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"9308f44c-57ed-4f3a-9bc5-3979aa4052e2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d277fd43-f8f5-4945-98a4-7ae25046f09e","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d277fd43-f8f5-4945-98a4-7ae25046f09e","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":{"name":"1fea4d92-d7a3-46d3-85da-60556f673612","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_ArmorClass","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"d277fd43-f8f5-4945-98a4-7ae25046f09e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"74ecff79-058b-4cfd-8d85-50a805f2853d","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"74ecff79-058b-4cfd-8d85-50a805f2853d","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":{"name":"1fea4d92-d7a3-46d3-85da-60556f673612","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_ArmorClass","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"74ecff79-058b-4cfd-8d85-50a805f2853d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"622f141e-5b5a-41eb-b068-9451b609f4a8","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"622f141e-5b5a-41eb-b068-9451b609f4a8","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":{"name":"1fea4d92-d7a3-46d3-85da-60556f673612","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_ArmorClass","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"622f141e-5b5a-41eb-b068-9451b609f4a8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1b75649f-068a-4226-8d3e-b5d49149d7f1","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1b75649f-068a-4226-8d3e-b5d49149d7f1","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":{"name":"1fea4d92-d7a3-46d3-85da-60556f673612","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_ArmorClass","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"1b75649f-068a-4226-8d3e-b5d49149d7f1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4c8fc271-ac76-43ee-9386-eb4a6734d1e5","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4c8fc271-ac76-43ee-9386-eb4a6734d1e5","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"LayerId":{"name":"1fea4d92-d7a3-46d3-85da-60556f673612","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_ArmorClass","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","name":"4c8fc271-ac76-43ee-9386-eb4a6734d1e5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cb528441-abb7-48f2-8ef9-ffeb5d0420f4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ead3f9e9-5853-44fa-97fb-486de8dcffca",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"464bc7ed-e4f1-4cce-bdec-fe026ae1559d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"45d93ce0-9bea-441b-a6d7-efc824ce46a7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"28cc45c1-ef66-4230-9637-5d929317ff4c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a84a5241-d200-4f8d-b0e5-977d6992c642",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9308f44c-57ed-4f3a-9bc5-3979aa4052e2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d277fd43-f8f5-4945-98a4-7ae25046f09e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"74ecff79-058b-4cfd-8d85-50a805f2853d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"622f141e-5b5a-41eb-b068-9451b609f4a8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1b75649f-068a-4226-8d3e-b5d49149d7f1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4c8fc271-ac76-43ee-9386-eb4a6734d1e5",},
   ],
   "sequence": {
-    "spriteId": {"name":"sLordTrait_ArmorClass","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sLordTrait_ArmorClass",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -73,7 +54,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"4049b791-8c27-4daa-80f5-584d022c9c7a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cb528441-abb7-48f2-8ef9-ffeb5d0420f4","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"2223557b-a674-4c70-a9ba-7e2a9ecacee3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ead3f9e9-5853-44fa-97fb-486de8dcffca","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"92574972-3fb8-4c17-b07f-a7a842df2266","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"464bc7ed-e4f1-4cce-bdec-fe026ae1559d","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -86,7 +67,7 @@
             {"id":"3a394948-9570-4c98-8328-9984be20183e","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"622f141e-5b5a-41eb-b068-9451b609f4a8","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c0a0749a-6fe0-4625-a9c9-07ba9de6fd90","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1b75649f-068a-4226-8d3e-b5d49149d7f1","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"190a2f5c-b6f7-4d7c-8465-76359d4874b8","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4c8fc271-ac76-43ee-9386-eb4a6734d1e5","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -102,22 +83,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sLordTrait_ArmorClass","path":"sprites/sLordTrait_ArmorClass/sLordTrait_ArmorClass.yy",},
-    "resourceVersion": "1.4",
-    "name": "sLordTrait_ArmorClass",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1fea4d92-d7a3-46d3-85da-60556f673612","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1fea4d92-d7a3-46d3-85da-60556f673612","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "LordTraits",
     "path": "folders/Sprites/LordTraits.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sLordTrait_ArmorClass",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

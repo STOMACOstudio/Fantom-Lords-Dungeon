@@ -27,3 +27,4 @@ isFighting = false;
 turnComplete = false;
 
 obstacle = true;
+sleep = 0;

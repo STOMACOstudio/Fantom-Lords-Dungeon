@@ -42,6 +42,15 @@ if oLordStats.lord3active && instance_exists(oLord3)
 		global.currentSelectedDescription2 = "if enemy has";
 		global.currentSelectedDescription3 = "full health";
 	}
+	else if oLord3.thisLord_skillWeapon = 6
+	{
+		global.currentSelectedName = "Revenge";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Higher damage";
+		global.currentSelectedDescription2 = "if Lord LIF";
+		global.currentSelectedDescription3 = "is low";
+	}
 	else if oLord3.thisLord_skillWeapon = 7
 	{
 		global.currentSelectedName = "Blade Whirl";

@@ -44,5 +44,7 @@ function scrVolumeSFX(){
 	audio_sound_gain(sn_SKILL_Storm,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_HealSong,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Lullaby,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Burden,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Revenge,global.volumeSFX,0);
 	
 }

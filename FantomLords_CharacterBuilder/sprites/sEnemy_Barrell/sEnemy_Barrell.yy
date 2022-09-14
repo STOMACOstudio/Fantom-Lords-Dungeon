@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sEnemy_Barrell",
   "bboxMode": 1,
   "collisionKind": 1,
   "type": 0,
@@ -24,24 +27,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dc827729-d54f-4ac2-bd2b-e434876a00ab","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dc827729-d54f-4ac2-bd2b-e434876a00ab","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"LayerId":{"name":"c2632104-4e58-428f-88eb-a2e0a9cabc6c","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemy_Barrell","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"resourceVersion":"1.0","name":"dc827729-d54f-4ac2-bd2b-e434876a00ab","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6423d0ec-6e3f-41e2-852c-49f9f3de2b24","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6423d0ec-6e3f-41e2-852c-49f9f3de2b24","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"LayerId":{"name":"c2632104-4e58-428f-88eb-a2e0a9cabc6c","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemy_Barrell","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"resourceVersion":"1.0","name":"6423d0ec-6e3f-41e2-852c-49f9f3de2b24","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"089a0aa1-3ffa-43da-b5f6-eb369dcd4799","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"089a0aa1-3ffa-43da-b5f6-eb369dcd4799","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"LayerId":{"name":"c2632104-4e58-428f-88eb-a2e0a9cabc6c","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemy_Barrell","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"resourceVersion":"1.0","name":"089a0aa1-3ffa-43da-b5f6-eb369dcd4799","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"773c6241-a297-4e8c-a752-48a9d308e244","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"773c6241-a297-4e8c-a752-48a9d308e244","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"LayerId":{"name":"c2632104-4e58-428f-88eb-a2e0a9cabc6c","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemy_Barrell","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"resourceVersion":"1.0","name":"773c6241-a297-4e8c-a752-48a9d308e244","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3738b344-22e6-48ca-84de-d9483d908e15","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3738b344-22e6-48ca-84de-d9483d908e15","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"LayerId":{"name":"c2632104-4e58-428f-88eb-a2e0a9cabc6c","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemy_Barrell","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"resourceVersion":"1.0","name":"3738b344-22e6-48ca-84de-d9483d908e15","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dc827729-d54f-4ac2-bd2b-e434876a00ab",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6423d0ec-6e3f-41e2-852c-49f9f3de2b24",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"089a0aa1-3ffa-43da-b5f6-eb369dcd4799",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"773c6241-a297-4e8c-a752-48a9d308e244",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3738b344-22e6-48ca-84de-d9483d908e15",},
   ],
   "sequence": {
-    "spriteId": {"name":"sEnemy_Barrell","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sEnemy_Barrell",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -52,13 +47,13 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f247d815-28b4-4c92-91a6-c80668801df3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dc827729-d54f-4ac2-bd2b-e434876a00ab","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"5ec4e1bf-3fe9-4edd-8582-e431cf0f680d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6423d0ec-6e3f-41e2-852c-49f9f3de2b24","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f0f7899d-430b-4222-bd3b-773da7c3fad2","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"089a0aa1-3ffa-43da-b5f6-eb369dcd4799","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"465ffff0-6198-4ea6-b5b1-d1afc4b5be6e","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"773c6241-a297-4e8c-a752-48a9d308e244","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"7910e320-8d16-4b0c-a9af-5991d4504384","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3738b344-22e6-48ca-84de-d9483d908e15","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,22 +69,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sEnemy_Barrell","path":"sprites/sEnemy_Barrell/sEnemy_Barrell.yy",},
-    "resourceVersion": "1.4",
-    "name": "sEnemy_Barrell",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c2632104-4e58-428f-88eb-a2e0a9cabc6c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c2632104-4e58-428f-88eb-a2e0a9cabc6c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Enemy",
     "path": "folders/Sprites/Enemy.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sEnemy_Barrell",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

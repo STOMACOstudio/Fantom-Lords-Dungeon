@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sEnemyBoss_Lizard",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,45 +27,23 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cf0fab7c-efcf-4c14-b9c0-5936b5f14729","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cf0fab7c-efcf-4c14-b9c0-5936b5f14729","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":{"name":"d5a2651f-fde5-492f-8e22-7724d5eac36b","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyBoss_Lizard","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"cf0fab7c-efcf-4c14-b9c0-5936b5f14729","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"961b1663-3bd5-46af-b78e-61c4fe3efad2","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"961b1663-3bd5-46af-b78e-61c4fe3efad2","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":{"name":"d5a2651f-fde5-492f-8e22-7724d5eac36b","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyBoss_Lizard","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"961b1663-3bd5-46af-b78e-61c4fe3efad2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"23a86bbd-a7e2-4022-92fe-1c638d78c9ec","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"23a86bbd-a7e2-4022-92fe-1c638d78c9ec","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":{"name":"d5a2651f-fde5-492f-8e22-7724d5eac36b","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyBoss_Lizard","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"23a86bbd-a7e2-4022-92fe-1c638d78c9ec","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"efdc2867-bc43-41e2-8808-dac82d348e61","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"efdc2867-bc43-41e2-8808-dac82d348e61","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":{"name":"d5a2651f-fde5-492f-8e22-7724d5eac36b","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyBoss_Lizard","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"efdc2867-bc43-41e2-8808-dac82d348e61","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ea6cacf9-9e0c-46c8-94bf-5ff53a93a08b","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ea6cacf9-9e0c-46c8-94bf-5ff53a93a08b","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":{"name":"d5a2651f-fde5-492f-8e22-7724d5eac36b","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyBoss_Lizard","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"ea6cacf9-9e0c-46c8-94bf-5ff53a93a08b","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0d7a4d75-6ac8-483f-827c-8964421dc701","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0d7a4d75-6ac8-483f-827c-8964421dc701","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":{"name":"d5a2651f-fde5-492f-8e22-7724d5eac36b","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyBoss_Lizard","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"0d7a4d75-6ac8-483f-827c-8964421dc701","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"40aa902a-6cc3-4c59-a653-4b034ee2a7d9","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"40aa902a-6cc3-4c59-a653-4b034ee2a7d9","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":{"name":"d5a2651f-fde5-492f-8e22-7724d5eac36b","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyBoss_Lizard","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"40aa902a-6cc3-4c59-a653-4b034ee2a7d9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"df42e2b7-3a3e-4eff-85e5-452f5797fe1a","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"df42e2b7-3a3e-4eff-85e5-452f5797fe1a","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":{"name":"d5a2651f-fde5-492f-8e22-7724d5eac36b","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyBoss_Lizard","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"df42e2b7-3a3e-4eff-85e5-452f5797fe1a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8ff0e8d5-14f2-49b7-a405-34934d8d0013","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8ff0e8d5-14f2-49b7-a405-34934d8d0013","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":{"name":"d5a2651f-fde5-492f-8e22-7724d5eac36b","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyBoss_Lizard","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"8ff0e8d5-14f2-49b7-a405-34934d8d0013","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"739dcfb2-ebf9-48ef-8d53-1c2d89652914","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"739dcfb2-ebf9-48ef-8d53-1c2d89652914","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":{"name":"d5a2651f-fde5-492f-8e22-7724d5eac36b","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyBoss_Lizard","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"739dcfb2-ebf9-48ef-8d53-1c2d89652914","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ed9da5c6-0aec-4b16-932a-1a3d95dae9cc","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ed9da5c6-0aec-4b16-932a-1a3d95dae9cc","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":{"name":"d5a2651f-fde5-492f-8e22-7724d5eac36b","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyBoss_Lizard","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"ed9da5c6-0aec-4b16-932a-1a3d95dae9cc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"696e5867-c550-4b3c-8c93-f0e001445f83","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"696e5867-c550-4b3c-8c93-f0e001445f83","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"LayerId":{"name":"d5a2651f-fde5-492f-8e22-7724d5eac36b","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEnemyBoss_Lizard","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","name":"696e5867-c550-4b3c-8c93-f0e001445f83","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cf0fab7c-efcf-4c14-b9c0-5936b5f14729",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"961b1663-3bd5-46af-b78e-61c4fe3efad2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"23a86bbd-a7e2-4022-92fe-1c638d78c9ec",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"efdc2867-bc43-41e2-8808-dac82d348e61",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ea6cacf9-9e0c-46c8-94bf-5ff53a93a08b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0d7a4d75-6ac8-483f-827c-8964421dc701",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"40aa902a-6cc3-4c59-a653-4b034ee2a7d9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"df42e2b7-3a3e-4eff-85e5-452f5797fe1a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8ff0e8d5-14f2-49b7-a405-34934d8d0013",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"739dcfb2-ebf9-48ef-8d53-1c2d89652914",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ed9da5c6-0aec-4b16-932a-1a3d95dae9cc",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"696e5867-c550-4b3c-8c93-f0e001445f83",},
   ],
   "sequence": {
-    "spriteId": {"name":"sEnemyBoss_Lizard","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sEnemyBoss_Lizard",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 12.0,
@@ -73,7 +54,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"863f8214-9e54-4636-ab94-9ea1d9380061","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cf0fab7c-efcf-4c14-b9c0-5936b5f14729","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c1c52eda-3ebf-4947-8532-ae6bb827deec","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"961b1663-3bd5-46af-b78e-61c4fe3efad2","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b087d8fb-6253-4b78-95d5-2f1a571f420c","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"23a86bbd-a7e2-4022-92fe-1c638d78c9ec","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -86,7 +67,7 @@
             {"id":"0e064ec4-895a-4e9c-b2e5-4244d64584ea","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"739dcfb2-ebf9-48ef-8d53-1c2d89652914","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8cd3a74b-0c31-46a9-9fca-47d4692724ef","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed9da5c6-0aec-4b16-932a-1a3d95dae9cc","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"eb9eb984-03f5-4350-99a7-ef72b8f63954","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"696e5867-c550-4b3c-8c93-f0e001445f83","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -102,22 +83,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sEnemyBoss_Lizard","path":"sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",},
-    "resourceVersion": "1.4",
-    "name": "sEnemyBoss_Lizard",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d5a2651f-fde5-492f-8e22-7724d5eac36b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d5a2651f-fde5-492f-8e22-7724d5eac36b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Enemy",
     "path": "folders/Sprites/Enemy.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sEnemyBoss_Lizard",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

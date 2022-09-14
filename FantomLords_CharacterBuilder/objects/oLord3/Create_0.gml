@@ -64,6 +64,7 @@ if oLordStats.lord3active
 	spellCast = -1;
 	
 	battlecry = 0;
+	burden = 0;
 	shadow = 0;
 }
 else instance_destroy();

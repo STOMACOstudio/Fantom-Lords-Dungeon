@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sGUI_BloodshedLord",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,27 +27,17 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"92de9b61-3c7f-4fe9-8549-360b3c5a778d","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"92de9b61-3c7f-4fe9-8549-360b3c5a778d","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"LayerId":{"name":"18ba475b-9d8d-4b76-9100-2f203df7d85c","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGUI_BloodshedLord","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","name":"92de9b61-3c7f-4fe9-8549-360b3c5a778d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dbf8898d-d846-4b8c-9dba-725421c0625d","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dbf8898d-d846-4b8c-9dba-725421c0625d","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"LayerId":{"name":"18ba475b-9d8d-4b76-9100-2f203df7d85c","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGUI_BloodshedLord","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","name":"dbf8898d-d846-4b8c-9dba-725421c0625d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ee1881cd-7eb3-4c9c-a49a-fb0e4d7670e5","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ee1881cd-7eb3-4c9c-a49a-fb0e4d7670e5","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"LayerId":{"name":"18ba475b-9d8d-4b76-9100-2f203df7d85c","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGUI_BloodshedLord","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","name":"ee1881cd-7eb3-4c9c-a49a-fb0e4d7670e5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"00389c8e-b0f5-4670-b488-091266f403bb","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"00389c8e-b0f5-4670-b488-091266f403bb","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"LayerId":{"name":"18ba475b-9d8d-4b76-9100-2f203df7d85c","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGUI_BloodshedLord","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","name":"00389c8e-b0f5-4670-b488-091266f403bb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9f07b5d3-a3ae-42fe-ad15-4672503ee3e4","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9f07b5d3-a3ae-42fe-ad15-4672503ee3e4","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"LayerId":{"name":"18ba475b-9d8d-4b76-9100-2f203df7d85c","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGUI_BloodshedLord","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","name":"9f07b5d3-a3ae-42fe-ad15-4672503ee3e4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e793d8ee-711c-4358-b48e-7668526e5d75","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e793d8ee-711c-4358-b48e-7668526e5d75","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"LayerId":{"name":"18ba475b-9d8d-4b76-9100-2f203df7d85c","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGUI_BloodshedLord","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","name":"e793d8ee-711c-4358-b48e-7668526e5d75","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"92de9b61-3c7f-4fe9-8549-360b3c5a778d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dbf8898d-d846-4b8c-9dba-725421c0625d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ee1881cd-7eb3-4c9c-a49a-fb0e4d7670e5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"00389c8e-b0f5-4670-b488-091266f403bb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9f07b5d3-a3ae-42fe-ad15-4672503ee3e4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e793d8ee-711c-4358-b48e-7668526e5d75",},
   ],
   "sequence": {
-    "spriteId": {"name":"sGUI_BloodshedLord","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sGUI_BloodshedLord",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -55,14 +48,14 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ed16f2b1-acbf-49c4-9f47-3919d5f3fd49","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"92de9b61-3c7f-4fe9-8549-360b3c5a778d","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c28b5695-4df0-40ba-882d-252a37713da9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dbf8898d-d846-4b8c-9dba-725421c0625d","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"e15c04e8-d99f-42ee-bc6f-f6b5889a801e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ee1881cd-7eb3-4c9c-a49a-fb0e4d7670e5","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"cab1fc23-532d-4d33-a821-01759a477fe9","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"00389c8e-b0f5-4670-b488-091266f403bb","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"77ec557c-8464-42bb-858c-1287624f67bb","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9f07b5d3-a3ae-42fe-ad15-4672503ee3e4","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1419ddec-4092-4ede-896b-b729d9d11040","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e793d8ee-711c-4358-b48e-7668526e5d75","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -78,22 +71,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sGUI_BloodshedLord","path":"sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",},
-    "resourceVersion": "1.4",
-    "name": "sGUI_BloodshedLord",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"18ba475b-9d8d-4b76-9100-2f203df7d85c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"18ba475b-9d8d-4b76-9100-2f203df7d85c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "GUI",
     "path": "folders/Sprites/GUI.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sGUI_BloodshedLord",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

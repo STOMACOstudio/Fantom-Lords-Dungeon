@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sLordTrait_Ancestry",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,54 +27,26 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8c17e2d5-038f-4cde-8edd-90ecfa11be80","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8c17e2d5-038f-4cde-8edd-90ecfa11be80","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":{"name":"e217a536-99c3-4d29-8bfb-85532395628d","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"8c17e2d5-038f-4cde-8edd-90ecfa11be80","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"df5f32be-7525-40e6-9462-37127ce5917c","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"df5f32be-7525-40e6-9462-37127ce5917c","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":{"name":"e217a536-99c3-4d29-8bfb-85532395628d","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"df5f32be-7525-40e6-9462-37127ce5917c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dd15b4b1-3cd2-40c3-a065-3da806cad463","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dd15b4b1-3cd2-40c3-a065-3da806cad463","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":{"name":"e217a536-99c3-4d29-8bfb-85532395628d","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"dd15b4b1-3cd2-40c3-a065-3da806cad463","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8f08fbe6-0ae2-4c35-92a0-f719ea2f8349","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8f08fbe6-0ae2-4c35-92a0-f719ea2f8349","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":{"name":"e217a536-99c3-4d29-8bfb-85532395628d","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"8f08fbe6-0ae2-4c35-92a0-f719ea2f8349","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"801984d1-6e79-40a9-81a0-2c917a446cfd","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"801984d1-6e79-40a9-81a0-2c917a446cfd","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":{"name":"e217a536-99c3-4d29-8bfb-85532395628d","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"801984d1-6e79-40a9-81a0-2c917a446cfd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"1d66c509-82fb-4956-aaf9-6d91c36ea7ef","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1d66c509-82fb-4956-aaf9-6d91c36ea7ef","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":{"name":"e217a536-99c3-4d29-8bfb-85532395628d","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"1d66c509-82fb-4956-aaf9-6d91c36ea7ef","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"080e9a86-e0a1-4ce4-9b76-5ce402b177ca","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"080e9a86-e0a1-4ce4-9b76-5ce402b177ca","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":{"name":"e217a536-99c3-4d29-8bfb-85532395628d","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"080e9a86-e0a1-4ce4-9b76-5ce402b177ca","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cb56fd9d-6ca4-43fa-81aa-e5abf24c0891","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cb56fd9d-6ca4-43fa-81aa-e5abf24c0891","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":{"name":"e217a536-99c3-4d29-8bfb-85532395628d","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"cb56fd9d-6ca4-43fa-81aa-e5abf24c0891","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b5690767-f9db-40e9-816b-ce23c37b93ae","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b5690767-f9db-40e9-816b-ce23c37b93ae","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":{"name":"e217a536-99c3-4d29-8bfb-85532395628d","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"b5690767-f9db-40e9-816b-ce23c37b93ae","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3bc5b441-93e0-4475-82cd-a433b58d9b83","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3bc5b441-93e0-4475-82cd-a433b58d9b83","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":{"name":"e217a536-99c3-4d29-8bfb-85532395628d","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"3bc5b441-93e0-4475-82cd-a433b58d9b83","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"09801a38-2b0f-4be0-b4a6-4b4f8aedbcf7","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"09801a38-2b0f-4be0-b4a6-4b4f8aedbcf7","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":{"name":"e217a536-99c3-4d29-8bfb-85532395628d","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"09801a38-2b0f-4be0-b4a6-4b4f8aedbcf7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"74a7b339-1782-46a6-88a0-7ab86814ea9e","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"74a7b339-1782-46a6-88a0-7ab86814ea9e","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":{"name":"e217a536-99c3-4d29-8bfb-85532395628d","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"74a7b339-1782-46a6-88a0-7ab86814ea9e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4c0289c7-381f-4502-ab6e-ff364825e315","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4c0289c7-381f-4502-ab6e-ff364825e315","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":{"name":"e217a536-99c3-4d29-8bfb-85532395628d","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"4c0289c7-381f-4502-ab6e-ff364825e315","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"59e179b4-fd98-458f-938e-0518e55ab1c1","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"59e179b4-fd98-458f-938e-0518e55ab1c1","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":{"name":"e217a536-99c3-4d29-8bfb-85532395628d","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"59e179b4-fd98-458f-938e-0518e55ab1c1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"f3bd4993-eb3a-4526-8711-1d3a74767324","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f3bd4993-eb3a-4526-8711-1d3a74767324","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"LayerId":{"name":"e217a536-99c3-4d29-8bfb-85532395628d","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","name":"f3bd4993-eb3a-4526-8711-1d3a74767324","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8c17e2d5-038f-4cde-8edd-90ecfa11be80",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"df5f32be-7525-40e6-9462-37127ce5917c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dd15b4b1-3cd2-40c3-a065-3da806cad463",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8f08fbe6-0ae2-4c35-92a0-f719ea2f8349",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"801984d1-6e79-40a9-81a0-2c917a446cfd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d66c509-82fb-4956-aaf9-6d91c36ea7ef",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"080e9a86-e0a1-4ce4-9b76-5ce402b177ca",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cb56fd9d-6ca4-43fa-81aa-e5abf24c0891",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b5690767-f9db-40e9-816b-ce23c37b93ae",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3bc5b441-93e0-4475-82cd-a433b58d9b83",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"09801a38-2b0f-4be0-b4a6-4b4f8aedbcf7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"74a7b339-1782-46a6-88a0-7ab86814ea9e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4c0289c7-381f-4502-ab6e-ff364825e315",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"59e179b4-fd98-458f-938e-0518e55ab1c1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f3bd4993-eb3a-4526-8711-1d3a74767324",},
   ],
   "sequence": {
-    "spriteId": {"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sLordTrait_Ancestry",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -82,7 +57,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ceaccd9a-e834-4ac2-a225-82e7132c524a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8c17e2d5-038f-4cde-8edd-90ecfa11be80","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"9b472ee3-4f73-4dd4-97fe-e96efa8f34aa","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"df5f32be-7525-40e6-9462-37127ce5917c","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c9b330ba-e5cf-4f98-8bfb-c325296cb687","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dd15b4b1-3cd2-40c3-a065-3da806cad463","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -98,7 +73,7 @@
             {"id":"ca249bfd-84f5-4ad6-beb6-05155c353d01","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4c0289c7-381f-4502-ab6e-ff364825e315","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f1b28fe6-9c8b-4f6e-b854-541d1e87d4bb","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"59e179b4-fd98-458f-938e-0518e55ab1c1","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6a88c998-a6dd-466c-b880-ef2a72152141","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f3bd4993-eb3a-4526-8711-1d3a74767324","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -114,22 +89,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},
-    "resourceVersion": "1.4",
-    "name": "sLordTrait_Ancestry",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e217a536-99c3-4d29-8bfb-85532395628d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e217a536-99c3-4d29-8bfb-85532395628d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "LordTraits",
     "path": "folders/Sprites/LordTraits.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sLordTrait_Ancestry",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

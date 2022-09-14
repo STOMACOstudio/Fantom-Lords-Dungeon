@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sGUI_skillAttack",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,21 +27,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f8a1db31-8def-47fe-827c-be7b4937f4ca","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f8a1db31-8def-47fe-827c-be7b4937f4ca","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"LayerId":{"name":"4fbf9abc-6c26-41a6-bb15-c0ca6fe18b82","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGUI_skillAttack","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"resourceVersion":"1.0","name":"f8a1db31-8def-47fe-827c-be7b4937f4ca","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"dc48d9a5-0dfd-4f7a-ab37-cabdf3329b89","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dc48d9a5-0dfd-4f7a-ab37-cabdf3329b89","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"LayerId":{"name":"4fbf9abc-6c26-41a6-bb15-c0ca6fe18b82","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGUI_skillAttack","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"resourceVersion":"1.0","name":"dc48d9a5-0dfd-4f7a-ab37-cabdf3329b89","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9b24f6fd-0fb1-402c-9a3d-2dcc5edaf441","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9b24f6fd-0fb1-402c-9a3d-2dcc5edaf441","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"LayerId":{"name":"4fbf9abc-6c26-41a6-bb15-c0ca6fe18b82","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGUI_skillAttack","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"resourceVersion":"1.0","name":"9b24f6fd-0fb1-402c-9a3d-2dcc5edaf441","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c5730cc2-5d8b-492c-82f9-ed71fe61b2ef","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c5730cc2-5d8b-492c-82f9-ed71fe61b2ef","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"LayerId":{"name":"4fbf9abc-6c26-41a6-bb15-c0ca6fe18b82","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGUI_skillAttack","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"resourceVersion":"1.0","name":"c5730cc2-5d8b-492c-82f9-ed71fe61b2ef","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f8a1db31-8def-47fe-827c-be7b4937f4ca",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dc48d9a5-0dfd-4f7a-ab37-cabdf3329b89",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9b24f6fd-0fb1-402c-9a3d-2dcc5edaf441",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c5730cc2-5d8b-492c-82f9-ed71fe61b2ef",},
   ],
   "sequence": {
-    "spriteId": {"name":"sGUI_skillAttack","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sGUI_skillAttack",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -49,12 +46,12 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5be6097a-8a42-49b9-84aa-b3ca84b20200","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f8a1db31-8def-47fe-827c-be7b4937f4ca","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"bfb378ce-baec-4904-9cc2-4c754e13e332","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dc48d9a5-0dfd-4f7a-ab37-cabdf3329b89","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"cee4d297-0c8c-46a4-a4f5-02e022135231","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9b24f6fd-0fb1-402c-9a3d-2dcc5edaf441","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"3c500bce-9c82-41c2-b062-238e0c299d50","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c5730cc2-5d8b-492c-82f9-ed71fe61b2ef","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -70,22 +67,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sGUI_skillAttack","path":"sprites/sGUI_skillAttack/sGUI_skillAttack.yy",},
-    "resourceVersion": "1.4",
-    "name": "sGUI_skillAttack",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4fbf9abc-6c26-41a6-bb15-c0ca6fe18b82","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4fbf9abc-6c26-41a6-bb15-c0ca6fe18b82","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "GUI",
     "path": "folders/Sprites/GUI.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sGUI_skillAttack",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

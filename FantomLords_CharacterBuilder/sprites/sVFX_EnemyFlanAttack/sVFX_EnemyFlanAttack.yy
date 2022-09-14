@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sVFX_EnemyFlanAttack",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,54 +27,26 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"fa1e4fa9-dc2a-4d39-8e51-98dabd89fd42","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fa1e4fa9-dc2a-4d39-8e51-98dabd89fd42","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":{"name":"0969c355-a286-4063-828c-d58d5830450b","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"fa1e4fa9-dc2a-4d39-8e51-98dabd89fd42","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cc13fd1f-051d-450f-84e5-a9e2988ac92f","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cc13fd1f-051d-450f-84e5-a9e2988ac92f","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":{"name":"0969c355-a286-4063-828c-d58d5830450b","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"cc13fd1f-051d-450f-84e5-a9e2988ac92f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"80507fc6-4bf3-4cf9-bec9-bc961854f943","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"80507fc6-4bf3-4cf9-bec9-bc961854f943","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":{"name":"0969c355-a286-4063-828c-d58d5830450b","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"80507fc6-4bf3-4cf9-bec9-bc961854f943","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"76688f5b-5ece-4bd6-88ec-09548ca86112","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"76688f5b-5ece-4bd6-88ec-09548ca86112","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":{"name":"0969c355-a286-4063-828c-d58d5830450b","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"76688f5b-5ece-4bd6-88ec-09548ca86112","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"92f7b51a-d7a7-4de5-abf2-e9ccacef0cee","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"92f7b51a-d7a7-4de5-abf2-e9ccacef0cee","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":{"name":"0969c355-a286-4063-828c-d58d5830450b","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"92f7b51a-d7a7-4de5-abf2-e9ccacef0cee","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3f4c5ef1-8e61-4601-a73f-df401efa5ada","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3f4c5ef1-8e61-4601-a73f-df401efa5ada","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":{"name":"0969c355-a286-4063-828c-d58d5830450b","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"3f4c5ef1-8e61-4601-a73f-df401efa5ada","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"182f33df-2e21-41c5-8514-094a445d8f32","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"182f33df-2e21-41c5-8514-094a445d8f32","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":{"name":"0969c355-a286-4063-828c-d58d5830450b","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"182f33df-2e21-41c5-8514-094a445d8f32","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"7e280ce3-4427-4b8a-9d9e-4a7727628830","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7e280ce3-4427-4b8a-9d9e-4a7727628830","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":{"name":"0969c355-a286-4063-828c-d58d5830450b","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"7e280ce3-4427-4b8a-9d9e-4a7727628830","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6959daae-b402-4ba0-8a45-06418c995e76","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6959daae-b402-4ba0-8a45-06418c995e76","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":{"name":"0969c355-a286-4063-828c-d58d5830450b","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"6959daae-b402-4ba0-8a45-06418c995e76","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"863a28cc-8555-4a43-92e7-a38aeef5f58c","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"863a28cc-8555-4a43-92e7-a38aeef5f58c","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":{"name":"0969c355-a286-4063-828c-d58d5830450b","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"863a28cc-8555-4a43-92e7-a38aeef5f58c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e0827148-f2e1-48a6-abfc-c6ba6a7ec66f","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e0827148-f2e1-48a6-abfc-c6ba6a7ec66f","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":{"name":"0969c355-a286-4063-828c-d58d5830450b","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"e0827148-f2e1-48a6-abfc-c6ba6a7ec66f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fee64942-2476-4678-acb1-fddc94103ae6","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fee64942-2476-4678-acb1-fddc94103ae6","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":{"name":"0969c355-a286-4063-828c-d58d5830450b","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"fee64942-2476-4678-acb1-fddc94103ae6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4530e6a9-4377-48e5-b7c2-0702aaba3e7a","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4530e6a9-4377-48e5-b7c2-0702aaba3e7a","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":{"name":"0969c355-a286-4063-828c-d58d5830450b","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"4530e6a9-4377-48e5-b7c2-0702aaba3e7a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6b0dbcb1-bdbf-4091-a198-0c192e6f85f4","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6b0dbcb1-bdbf-4091-a198-0c192e6f85f4","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":{"name":"0969c355-a286-4063-828c-d58d5830450b","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"6b0dbcb1-bdbf-4091-a198-0c192e6f85f4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e53c580b-dd07-48f3-a8e0-d03eaaa2af11","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e53c580b-dd07-48f3-a8e0-d03eaaa2af11","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"LayerId":{"name":"0969c355-a286-4063-828c-d58d5830450b","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","name":"e53c580b-dd07-48f3-a8e0-d03eaaa2af11","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fa1e4fa9-dc2a-4d39-8e51-98dabd89fd42",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cc13fd1f-051d-450f-84e5-a9e2988ac92f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"80507fc6-4bf3-4cf9-bec9-bc961854f943",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"76688f5b-5ece-4bd6-88ec-09548ca86112",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"92f7b51a-d7a7-4de5-abf2-e9ccacef0cee",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3f4c5ef1-8e61-4601-a73f-df401efa5ada",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"182f33df-2e21-41c5-8514-094a445d8f32",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7e280ce3-4427-4b8a-9d9e-4a7727628830",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6959daae-b402-4ba0-8a45-06418c995e76",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"863a28cc-8555-4a43-92e7-a38aeef5f58c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e0827148-f2e1-48a6-abfc-c6ba6a7ec66f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fee64942-2476-4678-acb1-fddc94103ae6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4530e6a9-4377-48e5-b7c2-0702aaba3e7a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6b0dbcb1-bdbf-4091-a198-0c192e6f85f4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e53c580b-dd07-48f3-a8e0-d03eaaa2af11",},
   ],
   "sequence": {
-    "spriteId": {"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sVFX_EnemyFlanAttack",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 16.0,
@@ -82,7 +57,7 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1e37d0db-3773-49d7-ba30-fcc283eefdb1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fa1e4fa9-dc2a-4d39-8e51-98dabd89fd42","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1dc594bc-d7ba-496b-803d-1bc1e6fa281c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cc13fd1f-051d-450f-84e5-a9e2988ac92f","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"140f4e72-8780-4a85-ae1a-c3c3d0a19aab","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"80507fc6-4bf3-4cf9-bec9-bc961854f943","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
@@ -98,7 +73,7 @@
             {"id":"281ac057-17bf-4b35-8f00-e4f1e612ec5a","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4530e6a9-4377-48e5-b7c2-0702aaba3e7a","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"f4c4608e-9ccb-4b26-a315-7c33d26da589","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6b0dbcb1-bdbf-4091-a198-0c192e6f85f4","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"482f3f5a-5243-4842-877e-b9ef556c75d7","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e53c580b-dd07-48f3-a8e0-d03eaaa2af11","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -114,22 +89,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},
-    "resourceVersion": "1.4",
-    "name": "sVFX_EnemyFlanAttack",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0969c355-a286-4063-828c-d58d5830450b","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0969c355-a286-4063-828c-d58d5830450b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "VFX_Enemy",
     "path": "folders/Sprites/VFX/VFX_Enemy.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sVFX_EnemyFlanAttack",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

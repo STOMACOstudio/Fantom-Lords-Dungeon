@@ -71,7 +71,7 @@ else if global.weapon = 6 //Holy Avenger
 	global.modDEFweapon = HolyAvDEFmod;
 	global.modMAGweapon = HolyAvMAGmod;
 	global.modACTweapon = HolyAvACTmod;
-	global.weaponSkill = "Exorcism";
+	global.weaponSkill = "Revenge";
 }
 else if global.weapon = 7 //Katars
 {

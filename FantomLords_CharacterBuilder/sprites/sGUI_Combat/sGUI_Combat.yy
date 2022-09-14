@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sGUI_Combat",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,15 +27,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"039b1266-dd74-4da8-8ba8-a6e337937ab1","path":"sprites/sGUI_Combat/sGUI_Combat.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"039b1266-dd74-4da8-8ba8-a6e337937ab1","path":"sprites/sGUI_Combat/sGUI_Combat.yy",},"LayerId":{"name":"cd58794c-1d97-4e83-87d7-b90f84106f28","path":"sprites/sGUI_Combat/sGUI_Combat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGUI_Combat","path":"sprites/sGUI_Combat/sGUI_Combat.yy",},"resourceVersion":"1.0","name":"039b1266-dd74-4da8-8ba8-a6e337937ab1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4ba58a32-42cd-4fc7-8ae5-f045241d9bcb","path":"sprites/sGUI_Combat/sGUI_Combat.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4ba58a32-42cd-4fc7-8ae5-f045241d9bcb","path":"sprites/sGUI_Combat/sGUI_Combat.yy",},"LayerId":{"name":"cd58794c-1d97-4e83-87d7-b90f84106f28","path":"sprites/sGUI_Combat/sGUI_Combat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGUI_Combat","path":"sprites/sGUI_Combat/sGUI_Combat.yy",},"resourceVersion":"1.0","name":"4ba58a32-42cd-4fc7-8ae5-f045241d9bcb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"039b1266-dd74-4da8-8ba8-a6e337937ab1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4ba58a32-42cd-4fc7-8ae5-f045241d9bcb",},
   ],
   "sequence": {
-    "spriteId": {"name":"sGUI_Combat","path":"sprites/sGUI_Combat/sGUI_Combat.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sGUI_Combat",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 24.0,
@@ -43,10 +44,10 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"e5311f5a-88a9-41c9-9d61-69a6f71ae87e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"039b1266-dd74-4da8-8ba8-a6e337937ab1","path":"sprites/sGUI_Combat/sGUI_Combat.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"0f023997-7b00-4b52-968b-8f9eab37b4b4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4ba58a32-42cd-4fc7-8ae5-f045241d9bcb","path":"sprites/sGUI_Combat/sGUI_Combat.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,22 +63,13 @@
     "yorigin": 29,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sGUI_Combat","path":"sprites/sGUI_Combat/sGUI_Combat.yy",},
-    "resourceVersion": "1.4",
-    "name": "sGUI_Combat",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cd58794c-1d97-4e83-87d7-b90f84106f28","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cd58794c-1d97-4e83-87d7-b90f84106f28","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "GUI",
     "path": "folders/Sprites/GUI.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sGUI_Combat",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
