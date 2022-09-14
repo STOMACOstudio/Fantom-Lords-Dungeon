@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snAttack",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.4,
@@ -17,8 +20,4 @@
     "name": "OTHERS",
     "path": "folders/Sounds/OTHERS.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "snAttack",
-  "tags": [],
-  "resourceType": "GMSound",
 }

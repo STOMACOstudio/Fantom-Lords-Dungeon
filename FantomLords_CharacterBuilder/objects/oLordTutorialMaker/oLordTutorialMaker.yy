@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oLordTutorialMaker",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -25,8 +28,4 @@
     "name": "Lords",
     "path": "folders/Objects/Lords.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oLordTutorialMaker",
-  "tags": [],
-  "resourceType": "GMObject",
 }

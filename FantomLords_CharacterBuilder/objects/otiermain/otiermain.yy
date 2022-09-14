@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oTierMain",
   "spriteId": {
     "name": "sTierSprite",
     "path": "sprites/sTierSprite/sTierSprite.yy",
@@ -28,8 +31,4 @@
     "name": "GUI",
     "path": "folders/Objects/GUI.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oTierMain",
-  "tags": [],
-  "resourceType": "GMObject",
 }

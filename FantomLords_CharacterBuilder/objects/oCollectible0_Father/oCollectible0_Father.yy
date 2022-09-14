@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oCollectible0_Father",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -25,8 +28,4 @@
     "name": "Collectibles",
     "path": "folders/Objects/Collectibles.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oCollectible0_Father",
-  "tags": [],
-  "resourceType": "GMObject",
 }

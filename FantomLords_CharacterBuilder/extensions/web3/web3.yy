@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMExtension",
+  "resourceVersion": "1.2",
+  "name": "web3",
   "optionsFile": "options.json",
   "options": [],
   "exportToGame": true,
@@ -16,19 +19,19 @@
   "androidProps": false,
   "installdir": "",
   "files": [
-    {"filename":"custom_script.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[
-        {"externalName":"checkMetaConnection","kind":5,"help":"checkMetaConnection();","hidden":false,"returnType":2,"argCount":0,"args":[],"resourceVersion":"1.0","name":"checkMetaConnection","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"getMetamaskAccount","kind":5,"help":"getMetamaskAccount()","hidden":false,"returnType":1,"argCount":0,"args":[],"resourceVersion":"1.0","name":"getMetamaskAccount","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"getTokenBalance","kind":5,"help":"getTokenBalance(wallet_address, token_address)","hidden":false,"returnType":2,"argCount":0,"args":[
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"custom_script.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"checkMetaConnection","externalName":"checkMetaConnection","kind":5,"help":"checkMetaConnection();","hidden":false,"returnType":2,"argCount":0,"args":[],},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"getMetamaskAccount","externalName":"getMetamaskAccount","kind":5,"help":"getMetamaskAccount()","hidden":false,"returnType":1,"argCount":0,"args":[],},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"getTokenBalance","externalName":"getTokenBalance","kind":5,"help":"getTokenBalance(wallet_address, token_address)","hidden":false,"returnType":2,"argCount":0,"args":[
             1,
             1,
-          ],"resourceVersion":"1.0","name":"getTokenBalance","tags":[],"resourceType":"GMExtensionFunction",},
+          ],},
       ],"constants":[],"ProxyFiles":[],"copyToTargets":32,"order":[
         {"name":"checkMetaConnection","path":"extensions/web3/web3.yy",},
         {"name":"getMetamaskAccount","path":"extensions/web3/web3.yy",},
         {"name":"getTokenBalance","path":"extensions/web3/web3.yy",},
-      ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
-    {"filename":"web3.min.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"order":[],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
+      ],},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"web3.min.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"order":[],},
   ],
   "classname": "",
   "tvosclassname": null,
@@ -67,8 +70,4 @@
     "name": "Extensions",
     "path": "folders/Extensions.yy",
   },
-  "resourceVersion": "1.2",
-  "name": "web3",
-  "tags": [],
-  "resourceType": "GMExtension",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oVFX_BossFlanAttack",
   "spriteId": {
     "name": "sVFX_BossFlanAttack",
     "path": "sprites/sVFX_BossFlanAttack/sVFX_BossFlanAttack.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "VFX",
     "path": "folders/Objects/VFX.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oVFX_BossFlanAttack",
-  "tags": [],
-  "resourceType": "GMObject",
 }

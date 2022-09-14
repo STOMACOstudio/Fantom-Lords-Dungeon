@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oVFX_spellCast0father",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -25,8 +28,4 @@
     "name": "VFX",
     "path": "folders/Objects/VFX.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oVFX_spellCast0father",
-  "tags": [],
-  "resourceType": "GMObject",
 }

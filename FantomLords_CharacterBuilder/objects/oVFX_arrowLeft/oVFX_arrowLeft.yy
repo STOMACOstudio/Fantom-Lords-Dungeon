@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oVFX_arrowLeft",
   "spriteId": {
     "name": "sGUI_arrowLeft",
     "path": "sprites/sGUI_arrowLeft/sGUI_arrowLeft.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "VFX",
     "path": "folders/Objects/VFX.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oVFX_arrowLeft",
-  "tags": [],
-  "resourceType": "GMObject",
 }

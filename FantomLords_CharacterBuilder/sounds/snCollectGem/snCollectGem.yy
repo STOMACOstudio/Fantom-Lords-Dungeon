@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snCollectGem",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "OTHERS",
     "path": "folders/Sounds/OTHERS.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "snCollectGem",
-  "tags": [],
-  "resourceType": "GMSound",
 }

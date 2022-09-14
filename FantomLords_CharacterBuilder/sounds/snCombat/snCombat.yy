@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snCombat",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.5,
@@ -17,8 +20,4 @@
     "name": "OTHERS",
     "path": "folders/Sounds/OTHERS.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "snCombat",
-  "tags": [],
-  "resourceType": "GMSound",
 }

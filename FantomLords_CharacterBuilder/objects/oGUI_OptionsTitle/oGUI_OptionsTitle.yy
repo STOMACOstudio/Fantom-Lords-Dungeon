@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oGUI_OptionsTitle",
   "spriteId": {
     "name": "sGUI_Options",
     "path": "sprites/sGUI_Options/sGUI_Options.yy",
@@ -28,8 +31,4 @@
     "name": "GUI",
     "path": "folders/Objects/GUI.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oGUI_OptionsTitle",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sn_SKILL_DrainSlash",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "SKILL SFX",
     "path": "folders/Sounds/SKILL SFX.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sn_SKILL_DrainSlash",
-  "tags": [],
-  "resourceType": "GMSound",
 }

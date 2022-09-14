@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oSKILL_WEAPON_Moonblast2",
   "spriteId": {
     "name": "sVFX_SKILL_MOONBLAST2",
     "path": "sprites/sVFX_SKILL_MOONBLAST2/sVFX_SKILL_MOONBLAST2.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "Skills",
     "path": "folders/Objects/Skills.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oSKILL_WEAPON_Moonblast2",
-  "tags": [],
-  "resourceType": "GMObject",
 }

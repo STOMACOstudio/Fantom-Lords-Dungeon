@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oMap_blocktileEmbellishment3",
   "spriteId": {
     "name": "sBlockWallEmbellishment3",
     "path": "sprites/sBlockWallEmbellishment3/sBlockWallEmbellishment3.yy",
@@ -31,8 +34,4 @@
     "name": "Map",
     "path": "folders/Objects/Map.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oMap_blocktileEmbellishment3",
-  "tags": [],
-  "resourceType": "GMObject",
 }

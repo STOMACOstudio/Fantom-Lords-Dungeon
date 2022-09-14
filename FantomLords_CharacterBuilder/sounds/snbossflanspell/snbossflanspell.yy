@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "snBossFlanSpell",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "ENEMY SFX",
     "path": "folders/Sounds/ENEMY SFX.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "snBossFlanSpell",
-  "tags": [],
-  "resourceType": "GMSound",
 }

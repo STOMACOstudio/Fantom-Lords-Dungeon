@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sn2_BossBattle1Victory",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "OST",
     "path": "folders/Sounds/OST.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sn2_BossBattle1Victory",
-  "tags": [],
-  "resourceType": "GMSound",
 }
