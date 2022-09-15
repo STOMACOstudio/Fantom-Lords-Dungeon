@@ -221,14 +221,23 @@ function scrLordGenerator1(){
 	}
 	else if global.lordNumber = 13
 	{
-		global.lordName = global.lordNumber;
+		global.lordName = "Thulu";
+		//global.setLordSprite = global.lordNumber -1;
+		global.weapon = 1;
+		global.background = 0;
+		global.ancestry = 0;
+		global.classArmor = 3;
+		global.headgear = 5;
+		global.relic = 0;
+		
+		/*global.lordName = global.lordNumber;
 		//global.setLordSprite = global.lordNumber -1;
 		global.weapon = 0;
 		global.background = 0;
 		global.ancestry = 1;
 		global.classArmor = 2;
 		global.headgear = 0;
-		global.relic = 7;
+		global.relic = 7;*/
 	}
 	else if global.lordNumber = 14
 	{

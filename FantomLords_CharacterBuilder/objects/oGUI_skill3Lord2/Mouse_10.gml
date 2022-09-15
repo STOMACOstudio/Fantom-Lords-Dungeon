@@ -15,6 +15,15 @@ if oLordStats.lord2active && instance_exists(oLord2)
 		global.currentSelectedDescription2 = "area spell";
 		global.currentSelectedDescription3 = "using MAG";
 	}
+	else if oLord2.thisLord_skillWeapon = 1
+	{
+		global.currentSelectedName = "Hydrobolt";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Shoot a long";
+		global.currentSelectedDescription2 = "range MAG";
+		global.currentSelectedDescription3 = "bullet";
+	}
 	else if oLord2.thisLord_skillWeapon = 2
 	{
 		global.currentSelectedName = "Poison";

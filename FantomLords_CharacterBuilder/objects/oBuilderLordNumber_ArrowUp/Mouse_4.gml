@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if global.lordNumber < 12 global.lordNumber ++;
+if global.lordNumber < 13 global.lordNumber ++;
 else global.lordNumber = 1;
 
 if global.lordNumber >= 1 && global.lordNumber <= 250 scrLordGenerator1();

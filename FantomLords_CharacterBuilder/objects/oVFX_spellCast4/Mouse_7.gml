@@ -4,7 +4,7 @@
 tile = collision_point(mouse_x,mouse_y,oMap_0parent,false,true);
 enemy = collision_point(x,y,oEnemy0_Father,false,true);
 
-if oLord4.spellCast = 0 //FIREBALL
+if oLord4.spellCast = 0 //Fire Ball
 {
 	if tile != noone && tile.stepped
 	{
@@ -15,6 +15,17 @@ if oLord4.spellCast = 0 //FIREBALL
 		instance_create_layer(tile.x+32,tile.y+32,"VFX",oSKILL_WEAPON_FireBall);
 		instance_destroy();
 	}
+}
+else if oLord4.spellCast = 1 //Hydrobolt
+{
+	var struct = { xDir : mouse_x,
+				   yDir : mouse_y };
+	global.dmgLORD = oLord4.thisLord_MAG + irandom_range(-3,6);
+	if global.dmgLORD <= 0 global.dmgLORD = 1;				   
+	oLord4.spellCast = noone;
+	oLord4.thisLord_ACTpoints -= 2;
+	instance_create_layer(oLord4.x+oLord4.sprite_width/2,oLord4.y+oLord4.sprite_height/2,"VFX",oSKILL_WEAPON_Hydrobolt, struct);
+	instance_destroy();
 }
 else if oLord4.spellCast = 2 //Poison
 {
