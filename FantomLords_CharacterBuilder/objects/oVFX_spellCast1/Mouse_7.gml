@@ -211,6 +211,17 @@ else if oLord1.spellCast = 11 //HEAL SONG
 		instance_destroy();
 	}
 }
+else if oLord1.spellCast = 12 //MAGIC MISSILE
+{
+	var struct = { xDir : mouse_x,
+				   yDir : mouse_y };
+	global.dmgLORD = round((oLord1.thisLord_MAG + irandom_range(-3,6))/2);
+	if global.dmgLORD <= 0 global.dmgLORD = 1;				   
+	oLord1.spellCast = noone;
+	oLord1.thisLord_ACTpoints -= 2;
+	instance_create_layer(oLord1.x+oLord1.sprite_width/2,oLord1.y+oLord1.sprite_height/2,"VFX",oSKILL_WEAPON_Missile, struct);
+	instance_destroy();
+}
 else if oLord1.spellCast = 13 //DRAIN SLASH
 {
 		if enemy != noone && enemy.target

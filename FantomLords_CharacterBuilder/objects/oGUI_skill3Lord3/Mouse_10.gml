@@ -105,6 +105,15 @@ if oLordStats.lord3active && instance_exists(oLord3)
 		global.currentSelectedDescription2 = "lords by a";
 		global.currentSelectedDescription3 = "small amount";
 	}
+	else if oLord3.thisLord_skillWeapon = 12
+	{
+		global.currentSelectedName = "Magic Missile";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Shoots a long";
+		global.currentSelectedDescription2 = "piercing MAG";
+		global.currentSelectedDescription3 = "bullet";
+	}
 	else if oLord3.thisLord_skillWeapon = 13
 	{
 		global.currentSelectedName = "Drain Slash";

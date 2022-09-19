@@ -3,7 +3,7 @@
 
 draw_sprite_ext(sVFX_spellCast,image_index,x,y,1,1,image_angle,c_white,0.8);
 
-if oLord3.spellCast = 0 ||  oLord3.spellCast = 1 //Fire Ball Hydrobolt
+if oLord3.spellCast = 0 ||  oLord3.spellCast = 1  ||  oLord3.spellCast = 12 //Fire Ball Hydrobolt Magic Missile
 {
 	with oMap_0parent
 	{
