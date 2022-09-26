@@ -41,6 +41,18 @@ async function getTokenBalance(wallet_address, token_address) {
 	    "outputs":[{"name":"balance","type":"uint256"}],
 	    "type":"function"
 	  },
+	  // walletOfOwner
+	  {
+	    "constant":true,
+	    "inputs":[{"name":"_owner","type":"address"}],
+		"name":"walletOfOwner",
+		"outputs":[{
+			"internalType":"uint256[]",
+			"name":"",
+			"type":"uint256[]"
+		}],
+	    "type":"function"
+	  }
 	  // decimals
 	  /*{
 	    "constant":true,
@@ -54,6 +66,7 @@ async function getTokenBalance(wallet_address, token_address) {
 	var map = {};
 	map["id"] = "getTokenBalance";
 	map["balance"]="-1";
+	map["tokenIDs"] = [];
 
 	let contract = new web3.eth.Contract(minABI, token_address);
 	console.log(contract);
@@ -61,6 +74,7 @@ async function getTokenBalance(wallet_address, token_address) {
 	try {
 
 		let balance = await contract.methods.balanceOf(wallet_address).call();
+		let tokenIDs = await contract.methods.walletOfOwner(wallet_address).call();
 		//const decimalPlaces = await contract.methods.decimals().call(); // 8
 		//let newBalance = 0;
 		const newBalance = (balance / 1e18).toFixed(3);
@@ -73,12 +87,15 @@ async function getTokenBalance(wallet_address, token_address) {
 		//console.log(decimalPlaces);
 		//console.log(newBalance);
 
+		map["tokenIDs"] = tokenIDs;
 		map["balance"] = newBalance;
 
 	} catch(error) {
 		console.log(error);
 	}
-
+	
+	console.log({ map });
+	
 	GMS_API.send_async_event_social(map);
 }
 
