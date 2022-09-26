@@ -43,7 +43,7 @@ async function getTokenBalance(wallet_address, token_address) {
 	  },
 	  // walletOfOwner
 	  {
-  		"inputs":[{"internalType":"address","name":"_owner","type":"address"}]
+  		"inputs":[{"internalType":"address","name":"_owner","type":"address"}],
 		"name":"walletOfOwner",
 		"outputs":[{"internalType":"uint256[]","name":"","type":"uint256[]"}],
 		"stateMutability":"view",
