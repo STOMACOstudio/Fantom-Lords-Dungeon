@@ -32,6 +32,33 @@ async function getMetamaskAccount() {
 async function getTokenBalance(wallet_address, token_address) {
 
 	// Default structure of ERC20 smart contract
+	let minABI = [{
+	    "inputs": [{
+    		"name": "_owner",
+    		"type":"address"
+    	}],
+	    "name":"balanceOf",
+	    "outputs":[{
+	    	"name":"balance",
+	    	"type":"uint256"
+	    }],
+	    "type":"function"
+	}, {
+  		"inputs": [{
+  			"internalType":"address",
+  			"name":"_owner",
+  			"type":"address"
+  		}],
+		"name":"walletOfOwner",
+		"outputs":[{
+			"internalType":"uint256[]",
+			"name":"",
+			"type":"uint256[]"
+		}],
+		"stateMutability":"view",
+		"type":"function"
+	}];
+
 	let minABI = [
 	  // balanceOf
 	  {
