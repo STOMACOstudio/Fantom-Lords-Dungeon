@@ -29,7 +29,7 @@ async function getMetamaskAccount() {
 }
 
 
-async function getUserFantomLords() {
+async function getUserFantomLords(wallet_address) {
 	// contract address: 0xfee8077c909d956E9036c2d2999723931CeFE548
 	let minABI = [{
   		"inputs": [{
@@ -78,7 +78,7 @@ async function getTokenBalance(wallet_address, token_address) {
 	var map = {};
 	map["id"] = "getTokenBalance";
 	map["balance"]="-1";
-	map["tokenIDs"] = await getUserFantomLords();
+	map["tokenIDs"] = await getUserFantomLords(wallet_address);
 
 	let contract = new web3.eth.Contract(minABI, token_address);
 	console.log(contract);
