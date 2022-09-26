@@ -261,36 +261,63 @@ function scrLordGenerator1(){
 	}
 	else if global.lordNumber = 15
 	{
-		global.lordName = global.lordNumber;
+		global.lordName = "Robin";
+		//global.setLordSprite = global.lordNumber -1;
+		global.weapon = 16;
+		global.background = 0;
+		global.ancestry = 0;
+		global.classArmor = 0;
+		global.headgear = 7;
+		global.relic = 0;
+		
+		/*global.lordName = global.lordNumber;
 		//global.setLordSprite = global.lordNumber -1;
 		global.weapon = 0;
 		global.background = 2;
 		global.ancestry = 0;
 		global.classArmor = 0;
 		global.headgear = 10;
-		global.relic = 1;
+		global.relic = 1;*/
 	}
 	else if global.lordNumber = 16
 	{
-		global.lordName = global.lordNumber;
+		global.lordName = "Paolo";
+		//global.setLordSprite = global.lordNumber -1;
+		global.weapon = 15;
+		global.background = 0;
+		global.ancestry = 0;
+		global.classArmor = 5;
+		global.headgear = 2;
+		global.relic = 0;
+		
+		/*global.lordName = global.lordNumber;
 		//global.setLordSprite = global.lordNumber -1;
 		global.weapon = 9;
 		global.background = 0;
 		global.ancestry = 13;
 		global.classArmor = 9;
 		global.headgear = 4;
-		global.relic = 1;
+		global.relic = 1;*/
 	}
 	else if global.lordNumber = 17
 	{
-		global.lordName = global.lordNumber;
+		global.lordName = "Gxyz";
+		//global.setLordSprite = global.lordNumber -1;
+		global.weapon = 5;
+		global.background = 0;
+		global.ancestry = 0;
+		global.classArmor = 11;
+		global.headgear = 16;
+		global.relic = 0;
+		
+		/*global.lordName = global.lordNumber;
 		//global.setLordSprite = global.lordNumber -1;
 		global.weapon = 5;
 		global.background = 0;
 		global.ancestry = 14;
 		global.classArmor = 6;
 		global.headgear = 0;
-		global.relic = 9;
+		global.relic = 9;*/
 	}
 	else if global.lordNumber = 18
 	{

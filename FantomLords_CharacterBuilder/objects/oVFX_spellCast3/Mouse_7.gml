@@ -71,6 +71,27 @@ else if oLord3.spellCast = 4 //Slay
 		instance_destroy();
 	}
 }
+else if oLord3.spellCast = 5 //QUAKE
+{
+		if collision_point(x,y,oLord3,false,true)
+		{
+			global.castLord = oLord3;
+			oLord3.spellCast = noone;
+			oLord3.thisLord_ACTpoints -= 2;
+			global.dmgLORD = oLord3.thisLord_MAG + irandom_range(-3,1);
+			if global.dmgLORD <= 0 global.dmgLORD = 1;
+			audio_play_sound(sn_SKILL_Quake,0,false);
+			instance_create_layer(oLord3.x+32,oLord3.y-32,"VFX",oSKILL_WEAPON_Quake);
+			instance_create_layer(oLord3.x+96,oLord3.y+32,"VFX",oSKILL_WEAPON_Quake);
+			instance_create_layer(oLord3.x+32,oLord3.y+96,"VFX",oSKILL_WEAPON_Quake);
+			instance_create_layer(oLord3.x-32,oLord3.y+32,"VFX",oSKILL_WEAPON_Quake);
+			instance_create_layer(oLord3.x+32,oLord3.y-96,"VFX",oSKILL_WEAPON_Quake);
+			instance_create_layer(oLord3.x+160,oLord3.y+32,"VFX",oSKILL_WEAPON_Quake);
+			instance_create_layer(oLord3.x+32,oLord3.y+160,"VFX",oSKILL_WEAPON_Quake);
+			instance_create_layer(oLord3.x-96,oLord3.y+32,"VFX",oSKILL_WEAPON_Quake);
+			instance_destroy();
+		}
+}
 else if oLord3.spellCast = 6 //Revenge
 {
 	if enemy != noone
@@ -245,4 +266,34 @@ else if oLord3.spellCast = 14 //STORM
 			with oEnemy0_Father if revealed instance_create_layer(x+32,y+32,"VFX",oSKILL_WEAPON_Storm);
 			instance_destroy();
 		}
+}
+else if oLord3.spellCast = 15 //SWAP
+{
+	if swap1 = noone && collision_point(x,y,oEnemy0_Father,false,true)
+	{
+		swap1 = collision_point(x,y,oEnemy0_Father,false,true);
+		instance_create_layer(swap1.x,swap1.y,"VFX",oSKILL_WEAPON_SwapSelection);
+	}
+	else if swap1 != noone  && collision_point(x,y,oEnemy0_Father,false,true) swap2 = collision_point(x,y,oEnemy0_Father,false,true);
+	if swap1 != noone && swap2 != noone
+	{
+		oLord3.spellCast = noone;
+		oLord3.thisLord_ACTpoints -= 2;
+		instance_create_depth(swap1.x+32,swap1.y+32,depth-1,oSKILL_WEAPON_Swap);
+		instance_create_depth(swap2.x+32,swap2.y+32,depth-1,oSKILL_WEAPON_Swap2);
+		swap1.x = oSKILL_WEAPON_Swap2.x-32;
+		swap1.y = oSKILL_WEAPON_Swap2.y-32;
+		swap2.x = oSKILL_WEAPON_Swap.x-32;
+		swap2.y = oSKILL_WEAPON_Swap.y-32;
+		instance_destroy();
+	}
+}
+else if oLord3.spellCast = 16 //SCOUT
+{
+	var struct = { xDir : mouse_x,
+				   yDir : mouse_y };			   
+	oLord3.spellCast = noone;
+	oLord3.thisLord_ACTpoints -= 2;
+	instance_create_layer(oLord3.x+oLord3.sprite_width/2,oLord3.y+oLord3.sprite_height/2,"VFX",oSKILL_WEAPON_Scout, struct);
+	instance_destroy();
 }

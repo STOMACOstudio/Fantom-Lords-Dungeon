@@ -7,3 +7,4 @@ with oEnemy0_Father target = false;
 instance_create_layer(x,y,"VFX",oVFX_spellCastEnd);
 with oLord0SkillParent casting = false;
 with oLord0SkillParent thisColor = c_white;
+with oSKILL_WEAPON_SwapSelection instance_destroy();

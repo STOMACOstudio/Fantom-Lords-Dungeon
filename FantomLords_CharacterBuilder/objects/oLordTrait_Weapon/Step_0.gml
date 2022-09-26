@@ -62,7 +62,7 @@ else if global.weapon = 5 //Elemental Staff
 	global.modDEFweapon = EleStaDEFmod;
 	global.modMAGweapon = EleStaMAGmod;
 	global.modACTweapon = EleStaACTmod;
-	global.weaponSkill = "Stone Shield";
+	global.weaponSkill = "Quake";
 }
 else if global.weapon = 6 //Holy Avenger
 {
@@ -152,7 +152,7 @@ else if global.weapon = 15 //Wand and Bell
 	global.modDEFweapon = WaBellDEFmod;
 	global.modMAGweapon = WaBellMAGmod;
 	global.modACTweapon = WaBellACTmod;
-	global.weaponSkill = "Scry";
+	global.weaponSkill = "Swap";
 }
 else if global.weapon = 16 //Wooden Staff
 {
@@ -161,5 +161,5 @@ else if global.weapon = 16 //Wooden Staff
 	global.modDEFweapon = WoodDEFmod;
 	global.modMAGweapon = WoodMAGmod;
 	global.modACTweapon = WoodACTmod;
-	global.weaponSkill = "Hunt";
+	global.weaponSkill = "Scout";
 }

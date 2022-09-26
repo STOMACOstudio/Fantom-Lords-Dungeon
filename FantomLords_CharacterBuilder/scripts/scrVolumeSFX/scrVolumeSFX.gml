@@ -50,5 +50,8 @@ function scrVolumeSFX(){
 	audio_sound_gain(sn_SKILL_Hydrobolt_shot,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Missile_shot,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Missile_impact,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Scout,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Swap,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Quake,global.volumeSFX,0);
 	
 }

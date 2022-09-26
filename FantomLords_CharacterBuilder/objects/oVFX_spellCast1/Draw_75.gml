@@ -3,7 +3,7 @@
 
 draw_sprite_ext(sVFX_spellCast,image_index,x,y,1,1,image_angle,c_white,0.8);
 
-if oLord1.spellCast = 0 ||  oLord1.spellCast = 1  ||  oLord1.spellCast = 12 //Fire Ball Hydrobolt Magic Missile
+if oLord1.spellCast = 0 ||  oLord1.spellCast = 1  ||  oLord1.spellCast = 12 ||  oLord1.spellCast = 15 //Fire Ball Hydrobolt Magic Missile Swap
 {
 	with oMap_0parent
 	{
@@ -40,6 +40,17 @@ if oLord1.spellCast = 4 //Slay
 		else if x = oLord1.x && y = oLord1.y+64 && thisLIF = thisLIFmax draw_rectangle_color(x+1,y+1,x+sprite_width-1,y+sprite_height-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
 		else if x = oLord1.x-64 && y = oLord1.y && thisLIF = thisLIFmax draw_rectangle_color(x+1,y+1,x+sprite_width-1,y+sprite_height-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
 	}
+}
+else if oLord1.spellCast = 5 //QUAKE
+{
+	draw_rectangle_color(oLord1.x-63,oLord1.y+1,oLord1.x-1,oLord1.y+63,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	draw_rectangle_color(oLord1.x+1,oLord1.y-63,oLord1.x+64,oLord1.y-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	draw_rectangle_color(oLord1.x+127,oLord1.y+1,oLord1.x+65,oLord1.y+63,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	draw_rectangle_color(oLord1.x+1,oLord1.y+65,oLord1.x+63,oLord1.y+125,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	draw_rectangle_color(oLord1.x-127,oLord1.y+1,oLord1.x-1,oLord1.y+63,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	draw_rectangle_color(oLord1.x+1,oLord1.y-127,oLord1.x+64,oLord1.y-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	draw_rectangle_color(oLord1.x+191,oLord1.y+1,oLord1.x+65,oLord1.y+63,c_yellow,c_yellow,c_yellow,c_yellow,true);
+	draw_rectangle_color(oLord1.x+1,oLord1.y+1,oLord1.x+63,oLord1.y+190,c_yellow,c_yellow,c_yellow,c_yellow,true);
 }
 if oLord1.spellCast = 6 //Revenge
 {

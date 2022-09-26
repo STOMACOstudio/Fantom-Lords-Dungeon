@@ -28,3 +28,4 @@ turnComplete = false;
 
 obstacle = true;
 sleep = 0;
+bashed = false;

@@ -3,3 +3,5 @@
 
 enemy = noone;
 tile = noone;
+swap1 = noone;
+swap2 = noone;

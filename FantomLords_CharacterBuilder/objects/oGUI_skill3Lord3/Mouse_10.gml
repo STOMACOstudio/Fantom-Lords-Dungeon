@@ -51,6 +51,15 @@ if oLordStats.lord3active && instance_exists(oLord3)
 		global.currentSelectedDescription2 = "if enemy has";
 		global.currentSelectedDescription3 = "full health";
 	}
+	else if oLord3.thisLord_skillWeapon = 5
+	{
+		global.currentSelectedName = "Quake";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Deals MAG";
+		global.currentSelectedDescription2 = "damage to all";
+		global.currentSelectedDescription3 = "the nearby";
+	}
 	else if oLord3.thisLord_skillWeapon = 6
 	{
 		global.currentSelectedName = "Revenge";
@@ -131,5 +140,23 @@ if oLordStats.lord3active && instance_exists(oLord3)
 		global.currentSelectedDescription1 = "Randomly hits";
 		global.currentSelectedDescription2 = "all enemies";
 		global.currentSelectedDescription3 = "at once";
+	}
+	else if oLord3.thisLord_skillWeapon = 15
+	{
+		global.currentSelectedName = "Swap";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Swaps two";
+		global.currentSelectedDescription2 = "targets";
+		global.currentSelectedDescription3 = "at once";
+	}
+	else if oLord3.thisLord_skillWeapon = 16
+	{
+		global.currentSelectedName = "Scout";
+		global.currentSelectedSprite = sprite_index;
+		global.currentSelectedImageIndex = image_index;
+		global.currentSelectedDescription1 = "Partially";
+		global.currentSelectedDescription2 = "reveals the";
+		global.currentSelectedDescription3 = "map";
 	}
 }

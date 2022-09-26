@@ -18,12 +18,17 @@ if (my_id=="getWalletAddress") {
 
 if (my_id=="getTokenBalance") {
 	var bal = async_load[? "balance"];
+	global.lordTokenIDs = async_load[? "tokenIDs"];
+	var arrayLength = array_length(global.lordTokenIDs);
+	show_debug_message("debug array: " + string(arrayLength));
+	show_debug_message("debug lord ids: " + string(global.lordTokenIDs));
 
 	if (bal==-1) {
 		oPrintMessage.thisPrint = "Failed to get the balance";
 	} else {
 		oPrintMessage.thisPrint = "User has "+string(bal)+" XRLC";
-		if bal >= 50 oGUI_FantomTitleMain.canStart = true;
-		else oPrintMessage.thisPrint = "You need at least 50 XRLC to play";
+		if bal >= 50 && arrayLength > 0 oGUI_FantomTitleMain.canStart = true;
+		else if bal < 50 oPrintMessage.thisPrint = "You need at least 50 XRLC to play";
+		else if arrayLength < 1 oPrintMessage.thisPrint = "You need at least 1 Fantom Lord to play";
 	}
 }

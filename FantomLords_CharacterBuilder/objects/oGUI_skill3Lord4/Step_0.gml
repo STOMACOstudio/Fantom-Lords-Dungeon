@@ -10,7 +10,7 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 		else if oLord4.thisLord_skillWeapon = 2 global.printSkill = "POISON VIAL";
 		else if oLord4.thisLord_skillWeapon = 3 global.printSkill = "SOUL SIPHON";
 		else if oLord4.thisLord_skillWeapon = 4 global.printSkill = "SLAY";
-		else if oLord4.thisLord_skillWeapon = 5 global.printSkill = "STONE SHIELD";
+		else if oLord4.thisLord_skillWeapon = 5 global.printSkill = "QUAKE";
 		else if oLord4.thisLord_skillWeapon = 6 global.printSkill = "REVENGE";
 		else if oLord4.thisLord_skillWeapon = 7 global.printSkill = "DOUBLE STRIKE";
 		else if oLord4.thisLord_skillWeapon = 8 global.printSkill = "CLOSE SHOT";
@@ -20,8 +20,8 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 		else if oLord4.thisLord_skillWeapon = 12 global.printSkill = "MAGIC MISSILE";
 		else if oLord4.thisLord_skillWeapon = 13 global.printSkill = "DRAIN SLASH";
 		else if oLord4.thisLord_skillWeapon = 14 global.printSkill = "STORM";
-		else if oLord4.thisLord_skillWeapon = 15 global.printSkill = "SCRY";
-		else if oLord4.thisLord_skillWeapon = 16 global.printSkill = "HUNT";
+		else if oLord4.thisLord_skillWeapon = 15 global.printSkill = "SWAP";
+		else if oLord4.thisLord_skillWeapon = 16 global.printSkill = "SCOUT";
 	}
 
 		if global.hasControl && instance_exists(oLord4) && mouse_check_button_pressed(mb_left)

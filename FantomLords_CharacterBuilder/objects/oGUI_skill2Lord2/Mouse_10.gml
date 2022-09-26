@@ -8,7 +8,7 @@ if oLordStats.lord2active && instance_exists(oLord2)
 	
 	if oLord2.thisLord_skillClassArmor = 0
 	{
-		global.currentSelectedName = "Scout";
+		global.currentSelectedName = "Disarm";
 		global.currentSelectedSprite = sprite_index;
 		global.currentSelectedImageIndex = image_index;
 		global.currentSelectedDescription1 = "Disable";

@@ -19,7 +19,7 @@ if global.classArmor = 0 //ranger
 	global.modDEFarmor = RangDEFmod;
 	global.modMAGarmor = RangMAGmod;
 	global.modACTarmor = RangACTmod;
-	global.classArmorSkill = "Scout";
+	global.classArmorSkill = "Disarm";
 }
 else if global.classArmor = 1 //assassin
 {

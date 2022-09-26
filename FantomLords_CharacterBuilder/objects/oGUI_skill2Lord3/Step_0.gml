@@ -5,7 +5,7 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 {
 	if instance_exists(oLord3)
 	{
-		if oLord3.thisLord_skillClassArmor = 0 global.printSkill = "SCOUT";
+		if oLord3.thisLord_skillClassArmor = 0 global.printSkill = "DISARM";
 		else if oLord3.thisLord_skillClassArmor = 1 global.printSkill = "SHADOW";
 		else if oLord3.thisLord_skillClassArmor = 2 global.printSkill = "SUNBATHE";
 		else if oLord3.thisLord_skillClassArmor = 3 global.printSkill = "SUTURE";
