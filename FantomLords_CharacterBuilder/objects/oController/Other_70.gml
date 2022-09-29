@@ -18,17 +18,40 @@ if (my_id=="getWalletAddress") {
 
 if (my_id=="getTokenBalance") {
 	var bal = async_load[? "balance"];
-	global.lordTokenIDs = async_load[? "tokenIDs"];
-	var arrayLength = array_length(global.lordTokenIDs);
-	show_debug_message("debug array: " + string(arrayLength));
-	show_debug_message("debug lord ids: " + string(global.lordTokenIDs));
+	var parsed_token_ids = json_parse(async_load[? "tokenIDs"]);
+	
+	global.lordTokenData = {};
+	global.currentLordIndex = 0;
+	global.lordTokenIDs = parsed_token_ids.tokenIDs; // array of user's lords (in IDs) [1, 1000, 444]
+	//show_debug_message("global.lordTokenIDs: " + string(global.lordTokenIDs));
+	setLordsData(global.lordTokenIDs);
+	//show_debug_message("json_stringify(global.lordTokenData):");
+	//show_debug_message(json_stringify(global.lordTokenData));
+	
+	var current_lord_id = global.lordTokenIDs[0];
+	var current_lord_data = global.lordTokenData[$ string(current_lord_id)];
+	setCurrentLord(current_lord_data);	
+	
+	//global.lordTokenData = {
+	//	"1": {/* json data */},
+	//	"1000": {/* json data */},
+	//	"444": {/* json data */},
+	//}
+	
+	// gets a specific lord data:
+	// getLordData(lord token id as a string);
 
+	var arrayLength = array_length(global.lordTokenIDs);
 	if (bal==-1) {
 		oPrintMessage.thisPrint = "Failed to get the balance";
 	} else {
 		oPrintMessage.thisPrint = "User has "+string(bal)+" XRLC";
-		if bal >= 50 && arrayLength > 0 oGUI_FantomTitleMain.canStart = true;
-		else if bal < 50 oPrintMessage.thisPrint = "You need at least 50 XRLC to play";
-		else if arrayLength < 1 oPrintMessage.thisPrint = "You need at least 1 Fantom Lord to play";
+		if(bal >= 50 && arrayLength > 0) {
+			oGUI_FantomTitleMain.canStart = true;
+		} else if(bal < 50) {
+			oPrintMessage.thisPrint = "You need at least 50 XRLC to play";
+		} else if(arrayLength < 1) {
+			oPrintMessage.thisPrint = "You need at least 1 Fantom Lord to play";
+		}
 	}
 }

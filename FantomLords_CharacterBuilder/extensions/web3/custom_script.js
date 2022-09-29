@@ -55,7 +55,7 @@ async function getUserFantomLords(wallet_address) {
 	} catch(e) {
 		console.error(e);
 	}
-	return tokenIDs;
+	return JSON.stringify({ tokenIDs });
 }
 
 

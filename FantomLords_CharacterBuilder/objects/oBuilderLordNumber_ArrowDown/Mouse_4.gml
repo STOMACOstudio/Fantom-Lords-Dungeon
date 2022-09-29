@@ -1,10 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if global.lordNumber > 1 global.lordNumber --;
-else global.lordNumber = 17;
+var total_lords = array_length(global.lordTokenIDs);
+global.currentLordIndex--;
+if(global.currentLordIndex < 0) {
+	global.currentLordIndex = total_lords -1;
+}
+var current_lord_id = global.lordTokenIDs[global.currentLordIndex];
+setCurrentLord(global.lordTokenData[$ string(current_lord_id)])
 
-if global.lordNumber >= 1 && global.lordNumber <= 250 scrLordGenerator1();
+
+//if global.lordNumber > 1 global.lordNumber --;
+//else global.lordNumber = 17;
+
+//if global.lordNumber >= 1 && global.lordNumber <= 250 scrLordGenerator1();
 /*else if global.lordNumber >= 251 && global.lordNumber <= 500 scrLordGenerator1B();
 else if global.lordNumber >= 501 && global.lordNumber <= 750 scrLordGenerator1C();
 else if global.lordNumber >= 751 && global.lordNumber <= 1000 scrLordGenerator1D();
