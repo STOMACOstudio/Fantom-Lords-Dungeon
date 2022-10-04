@@ -758,6 +758,6 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"fantomLords.json","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.8.0.34",
+    "IDEVersion": "2022.8.1.37",
   },
 }

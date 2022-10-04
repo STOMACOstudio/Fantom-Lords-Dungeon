@@ -24,7 +24,7 @@ if isFighting && !turnComplete && actions > 0
 	
 	if actions >= 2
 	{
-		if (lordTop != noone && lordTop.shadow = 0) || (lordRight != noone && lordRight.shadow = 0) || (lordDown != noone && lordDown.shadow = 0) || (lordLeft != noone && lordLeft.shadow = 0)
+		if (lordRightRightDownDown != noone && lordRightRightDownDown.shadow = 0) || (lordRightRightRightDown != noone && lordRightRightRightDown.shadow = 0) || (lordDownDownDownRight != noone && lordDownDownDownRight.shadow = 0) || (lordTopTopRightRight != noone && lordTopTopRightRight.shadow = 0) || (lordRightRightRightTop != noone && lordRightRightRightTop.shadow = 0) || (lordRightRightRightDownDown != noone && lordRightRightRightDownDown.shadow = 0) || (lordDownDownDownRightRight != noone && lordDownDownDownRightRight.shadow = 0) || (lordDownDownDownLeft != noone && lordDownDownDownLeft.shadow = 0) || (lordLeftLeftDownDown != noone && lordLeftLeftDownDown.shadow = 0) || (lordTopTopTopRight != noone && lordTopTopTopRight.shadow = 0) || (lordRightRightRightRight != noone && lordRightRightRightRight.shadow = 0) || (lordRightRightRightRightDown != noone && lordRightRightRightRightDown.shadow = 0) || (lordDownDownDownDown != noone && lordDownDownDownDown.shadow = 0) || (lordDownDownDownDownRight != noone && lordDownDownDownDownRight.shadow = 0) || (lordRight != noone && lordLeftLeftLeftDown.shadow = 0)
 		{
 			var chooseAttack = irandom(3);
 			

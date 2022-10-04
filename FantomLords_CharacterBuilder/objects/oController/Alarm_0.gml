@@ -30,7 +30,7 @@ switch (state) {
 	case 2:
 		if (global.user_address!="0") {
 			//balance_input = get_string_async("Please enter the token address you want to check in the wallet (Default is SAT)","0x1e446cbea52badeb614fbe4ab7610f737995fb44");	
-			oPrintMessage.thisPrint = "Checking users wallet for token: Arcane Relic (XRLC)";
+			oPrintMessage.thisPrint = "Checking users wallet for token: Fantom Lord";
 			getTokenBalance(global.user_address, "0xE5586582E1a60E302a53e73E4FaDccAF868b459a");
 		break;
 		}

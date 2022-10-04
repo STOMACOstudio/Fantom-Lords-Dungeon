@@ -42,16 +42,10 @@ if (my_id=="getTokenBalance") {
 	// getLordData(lord token id as a string);
 
 	var arrayLength = array_length(global.lordTokenIDs);
-	if (bal==-1) {
-		oPrintMessage.thisPrint = "Failed to get the balance";
+	if ( arrayLength==0) {
+		oPrintMessage.thisPrint = "You don't own enough Fantom Lords";
 	} else {
-		oPrintMessage.thisPrint = "User has "+string(bal)+" XRLC";
-		if(bal >= 50 && arrayLength > 0) {
-			oGUI_FantomTitleMain.canStart = true;
-		} else if(bal < 50) {
-			oPrintMessage.thisPrint = "You need at least 50 XRLC to play";
-		} else if(arrayLength < 1) {
-			oPrintMessage.thisPrint = "You need at least 1 Fantom Lord to play";
-		}
+		oPrintMessage.thisPrint = "User has "+string(arrayLength)+" Fantom Lord/s";
+		oGUI_FantomTitleMain.canStart = true;
 	}
 }
