@@ -131,7 +131,7 @@ else if global.headgear = 15 //Tombhead
 	global.modMAGheadgear = TombMAGmod;
 	global.modACTheadgear = TombACTmod;
 }
-if global.headgear = 16 //Void Gazer
+else if global.headgear = 16 //Void Gazer
 {
 	global.modLIFheadgear = VoidLIFmod;
 	global.modATKheadgear = VoidATKmod;
