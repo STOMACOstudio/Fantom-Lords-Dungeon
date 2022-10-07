@@ -7,59 +7,59 @@ ds_list_add(list_clDragrmor, "Orichalcum Cuirass", "Ersatz Plate", "Golden Plate
 							 "Pelt Armor", "Long Jacket", "Decorated Kimono",
 							 "Occult Vest", "Sanguine Plate");
 
-#region pathfinder
-PathLIFmod = 0;
-PathATKmod = 0;
-PathDEFmod = 0;
-PathMAGmod = 0;
-PathACTmod = 4;
+#region pathfinder +10
+PathLIFmod = 2;
+PathATKmod = 2;
+PathDEFmod = 2;
+PathMAGmod = 2;
+PathACTmod = 2;
 #endregion
-#region dragonslayer
+#region dragonslayer +12
 DragLIFmod = 0;
-DragATKmod = 2;
-DragDEFmod = 0;
-DragMAGmod = 0;
-DragACTmod = 2;
+DragATKmod = 4;
+DragDEFmod = 4;
+DragMAGmod = 4;
+DragACTmod = 0;
 #endregion
-#region champion
-ChampLIFmod = 2;
+#region champion +10
+ChampLIFmod = 0;
 ChampATKmod = 0;
-ChampDEFmod = 0;
+ChampDEFmod = 10;
 ChampMAGmod = 2;
 ChampACTmod = 0;
 #endregion
-#region stormcaller
+#region stormcaller +10
 StrmLIFmod = 0;
 StrmATKmod = 0;
-StrmDEFmod = 0;
+StrmDEFmod = 4;
 StrmMAGmod = 4;
-StrmACTmod = 2;
+StrmACTmod = 4;
 #endregion
-#region seer
-SeerLIFmod = 2;
+#region seer +12
+SeerLIFmod = 0;
 SeerATKmod = 0;
 SeerDEFmod = 0;
-SeerMAGmod = 4;
-SeerACTmod = 0;
+SeerMAGmod = 8;
+SeerACTmod = 4;
 #endregion
-#region kensai
+#region kensai +12
 KensLIFmod = 0;
-KensATKmod = 0;
+KensATKmod = 6;
 KensDEFmod = 0;
-KensMAGmod = 8;
-KensACTmod = 0;
+KensMAGmod = 0;
+KensACTmod = 6;
 #endregion
-#region magus
-MaguLIFmod = 1;
-MaguATKmod = 1;
-MaguDEFmod = 1;
-MaguMAGmod = 2;
-MaguACTmod = 1;
+#region magus +10
+MaguLIFmod = 0;
+MaguATKmod = 0;
+MaguDEFmod = 0;
+MaguMAGmod = 10;
+MaguACTmod = 0;
 #endregion
-#region Sorcerer
-SrcrLIFmod = 4;
+#region Sorcerer +12
+SrcrLIFmod = 6;
 SrcrATKmod = 0;
-SrcrDEFmod = 4;
-SrcrMAGmod = 0;
+SrcrDEFmod = 0;
+SrcrMAGmod = 6;
 SrcrACTmod = 0;
 #endregion

@@ -20,18 +20,18 @@
   "installdir": "",
   "files": [
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"custom_script.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"checkMetaConnection","externalName":"checkMetaConnection","kind":5,"help":"checkMetaConnection();","hidden":false,"returnType":2,"argCount":0,"args":[],},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"getMetamaskAccount","externalName":"getMetamaskAccount","kind":5,"help":"getMetamaskAccount()","hidden":false,"returnType":1,"argCount":0,"args":[],},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"checkMetaConnection","externalName":"checkMetaConnection","kind":5,"help":"checkMetaConnection();","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"getMetamaskAccount","externalName":"getMetamaskAccount","kind":5,"help":"getMetamaskAccount()","hidden":false,"returnType":1,"argCount":0,"args":[],"documentation":"",},
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"getTokenBalance","externalName":"getTokenBalance","kind":5,"help":"getTokenBalance(wallet_address, token_address)","hidden":false,"returnType":2,"argCount":0,"args":[
             1,
             1,
-          ],},
-      ],"constants":[],"ProxyFiles":[],"copyToTargets":32,"order":[
+          ],"documentation":"",},
+      ],"constants":[],"ProxyFiles":[],"copyToTargets":32,"usesRunnerInterface":false,"order":[
         {"name":"checkMetaConnection","path":"extensions/web3/web3.yy",},
         {"name":"getMetamaskAccount","path":"extensions/web3/web3.yy",},
         {"name":"getTokenBalance","path":"extensions/web3/web3.yy",},
       ],},
-    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"web3.min.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"order":[],},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"web3.min.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"usesRunnerInterface":false,"order":[],},
   ],
   "classname": "",
   "tvosclassname": null,

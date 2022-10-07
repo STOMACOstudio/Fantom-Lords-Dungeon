@@ -11,11 +11,11 @@ else if global.weapon = 7 || global.weapon = 11 global.weaponAttack = "MAGIC";
 
 if global.weapon = 0 //Dragon Scythe
 {
-	global.modLIFweapon = DraScBellLIFmod;
-	global.modATKweapon = DraScBellATKmod;
-	global.modDEFweapon = DraScBellDEFmod;
-	global.modMAGweapon = DraScBellMAGmod;
-	global.modACTweapon = DraScBellACTmod;
+	global.modLIFweapon = DraScLIFmod;
+	global.modATKweapon = DraScATKmod;
+	global.modDEFweapon = DraScDEFmod;
+	global.modMAGweapon = DraScMAGmod;
+	global.modACTweapon = DraScACTmod;
 	global.weaponSkill = "Fire Ball";
 }
 else if global.weapon = 1 //Dragon Slayer Halberd
