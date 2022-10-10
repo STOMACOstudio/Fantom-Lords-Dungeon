@@ -3,7 +3,15 @@
 
 image_index = global.headgear;
 
-if global.headgear = 0 //ArcaneArcherHood
+if global.headgear = 0 //no Hat
+{
+	global.modLIFheadgear = noHatLIFmod;
+	global.modATKheadgear = noHatATKmod;
+	global.modDEFheadgear = noHatDEFmod;
+	global.modMAGheadgear = noHatMAGmod;
+	global.modACTheadgear = noHatACTmod;
+}
+if global.headgear = 1 //ArcaneArcherHood
 {
 	global.modLIFheadgear = ArcaLIFmod;
 	global.modATKheadgear = ArcaATKmod;
@@ -11,7 +19,7 @@ if global.headgear = 0 //ArcaneArcherHood
 	global.modMAGheadgear = ArcaMAGmod;
 	global.modACTheadgear = ArcaACTmod;
 }
-else if global.headgear = 1 //BearHat
+else if global.headgear = 2 //BearHat
 {
 	global.modLIFheadgear = BearLIFmod;
 	global.modATKheadgear = BearATKmod;
@@ -19,7 +27,7 @@ else if global.headgear = 1 //BearHat
 	global.modMAGheadgear = BearMAGmod;
 	global.modACTheadgear = BearACTmod;
 }
-else if global.headgear = 2 //BeastManMutation
+else if global.headgear = 3 //BeastManMutation
 {
 	global.modLIFheadgear = BeaMaLIFmod;
 	global.modATKheadgear = BeaMaATKmod;
@@ -27,7 +35,7 @@ else if global.headgear = 2 //BeastManMutation
 	global.modMAGheadgear = BeaMaMAGmod;
 	global.modACTheadgear = BeaMaACTmod;
 }
-else if global.headgear = 3 //BurningSkull
+else if global.headgear = 4 //BurningSkull
 {
 	global.modLIFheadgear = BurnLIFmod;
 	global.modATKheadgear = BurnATKmod;
@@ -35,7 +43,7 @@ else if global.headgear = 3 //BurningSkull
 	global.modMAGheadgear = BurnMAGmod;
 	global.modACTheadgear = BurnACTmod;
 }
-else if global.headgear = 4 //DivingHelmet
+else if global.headgear = 5 //DivingHelmet
 {
 	global.modLIFheadgear = DiveLIFmod;
 	global.modATKheadgear = DiveATKmod;
@@ -43,7 +51,7 @@ else if global.headgear = 4 //DivingHelmet
 	global.modMAGheadgear = DiveMAGmod;
 	global.modACTheadgear = DiveACTmod;
 }
-else if global.headgear = 5 //GreatHelm
+else if global.headgear = 6 //GreatHelm
 {
 	global.modLIFheadgear = GrHeLIFmod;
 	global.modATKheadgear = GrHeATKmod;
@@ -51,7 +59,7 @@ else if global.headgear = 5 //GreatHelm
 	global.modMAGheadgear = GrHeMAGmod;
 	global.modACTheadgear = GrHeACTmod;
 }
-else if global.headgear = 6 //HemotheurgeHood
+else if global.headgear = 7 //HemotheurgeHood
 {
 	global.modLIFheadgear = HemoLIFmod;
 	global.modATKheadgear = HemoATKmod;
@@ -59,7 +67,7 @@ else if global.headgear = 6 //HemotheurgeHood
 	global.modMAGheadgear = HemoMAGmod;
 	global.modACTheadgear = HemoACTmod;
 }
-else if global.headgear = 7 //HornedJingasa
+else if global.headgear = 8 //HornedJingasa
 {
 	global.modLIFheadgear = JingLIFmod;
 	global.modATKheadgear = JingATKmod;
@@ -67,7 +75,7 @@ else if global.headgear = 7 //HornedJingasa
 	global.modMAGheadgear = JingMAGmod;
 	global.modACTheadgear = JingACTmod;
 }
-else if global.headgear = 8 //JadeMysta
+else if global.headgear = 9 //JadeMysta
 {
 	global.modLIFheadgear = JadeLIFmod;
 	global.modATKheadgear = JadeATKmod;
@@ -75,7 +83,7 @@ else if global.headgear = 8 //JadeMysta
 	global.modMAGheadgear = JadeDEFmod;
 	global.modACTheadgear = JadeACTmod;
 }
-else if global.headgear = 9 //LapislazuliMysta
+else if global.headgear = 10 //LapislazuliMysta
 {
 	global.modLIFheadgear = LapisLIFmod;
 	global.modATKheadgear = LapisATKmod;
@@ -83,7 +91,7 @@ else if global.headgear = 9 //LapislazuliMysta
 	global.modMAGheadgear = LapisMAGmod;
 	global.modACTheadgear = LapisACTmod;
 }
-else if global.headgear = 10 //MindFlayerMutation
+else if global.headgear = 11 //MindFlayerMutation
 {
 	global.modLIFheadgear = MindLIFmod;
 	global.modATKheadgear = MindATKmod;
@@ -91,7 +99,7 @@ else if global.headgear = 10 //MindFlayerMutation
 	global.modMAGheadgear = MindMAGmod;
 	global.modACTheadgear = MindACTmod;
 }
-else if global.headgear = 11 //MysteriousHood
+else if global.headgear = 12 //MysteriousHood
 {
 	global.modLIFheadgear = MystLIFmod;
 	global.modATKheadgear = MystATKmod;
@@ -99,7 +107,7 @@ else if global.headgear = 11 //MysteriousHood
 	global.modMAGheadgear = MystMAGmod;
 	global.modACTheadgear = MystACTmod;
 }
-else if global.headgear = 12 //NagaMutation
+else if global.headgear = 13 //NagaMutation
 {
 	global.modLIFheadgear = NagaLIFmod;
 	global.modATKheadgear = NagaATKmod;
@@ -107,7 +115,7 @@ else if global.headgear = 12 //NagaMutation
 	global.modMAGheadgear = NagaMAGmod;
 	global.modACTheadgear = NagaACTmod;
 }
-else if global.headgear = 13 //None
+else if global.headgear = 14 //None
 {
 	global.modLIFheadgear = NoneLIFmod;
 	global.modATKheadgear = NoneATKmod;
@@ -115,7 +123,7 @@ else if global.headgear = 13 //None
 	global.modMAGheadgear = NoneMAGmod;
 	global.modACTheadgear = NoneACTmod;
 }
-else if global.headgear = 14 //OccultGoatMutation
+else if global.headgear = 15 //OccultGoatMutation
 {
 	global.modLIFheadgear = GoatLIFmod;
 	global.modATKheadgear = GoatATKmod;
@@ -123,7 +131,7 @@ else if global.headgear = 14 //OccultGoatMutation
 	global.modMAGheadgear = GoatMAGmod;
 	global.modACTheadgear = GoatACTmod;
 }
-else if global.headgear = 15 //PolarHelm
+else if global.headgear = 16 //PolarHelm
 {
 	global.modLIFheadgear = PolarLIFmod;
 	global.modATKheadgear = PolarATKmod;
@@ -131,7 +139,7 @@ else if global.headgear = 15 //PolarHelm
 	global.modMAGheadgear = PolarMAGmod;
 	global.modACTheadgear = PolarACTmod;
 }
-else if global.headgear = 16 //PurpleleMagusHat
+else if global.headgear = 17 //PurpleleMagusHat
 {
 	global.modLIFheadgear = PurpleLIFmod;
 	global.modATKheadgear = PurpleATKmod;
@@ -139,7 +147,7 @@ else if global.headgear = 16 //PurpleleMagusHat
 	global.modMAGheadgear = PurpleMAGmod;
 	global.modACTheadgear = PurpleACTmod;
 }
-else if global.headgear = 17 //RedArchmageHat
+else if global.headgear = 18 //RedArchmageHat
 {
 	global.modLIFheadgear = RdArcLIFmod;
 	global.modATKheadgear = RdArcATKmod;
@@ -147,7 +155,7 @@ else if global.headgear = 17 //RedArchmageHat
 	global.modMAGheadgear = RdArcMAGmod;
 	global.modACTheadgear = RdArcACTmod;
 }
-else if global.headgear = 18 //SacredHalo
+else if global.headgear = 19 //SacredHalo
 {
 	global.modLIFheadgear = SacHaLIFmod;
 	global.modATKheadgear = SacHaATKmod;
@@ -155,7 +163,7 @@ else if global.headgear = 18 //SacredHalo
 	global.modMAGheadgear = SacHaMAGmod;
 	global.modACTheadgear = SacHaACTmod;
 }
-else if global.headgear = 19 //TemplarHelm
+else if global.headgear = 20 //TemplarHelm
 {
 	global.modLIFheadgear = TemHeLIFmod;
 	global.modATKheadgear = TemHeATKmod;
@@ -163,7 +171,7 @@ else if global.headgear = 19 //TemplarHelm
 	global.modMAGheadgear = TemHeMAGmod;
 	global.modACTheadgear = TemHeACTmod;
 }
-else if global.headgear = 20 //WayfarerLapisan
+else if global.headgear = 21 //WayfarerLapisan
 {
 	global.modLIFheadgear = WayfLIFmod;
 	global.modATKheadgear = WayfATKmod;
@@ -171,7 +179,7 @@ else if global.headgear = 20 //WayfarerLapisan
 	global.modMAGheadgear = WayfMAGmod;
 	global.modACTheadgear = WayfACTmod;
 }
-else if global.headgear = 21 //WyrmHelm
+else if global.headgear = 22 //WyrmHelm
 {
 	global.modLIFheadgear = WyrmLIFmod;
 	global.modATKheadgear = WyrmATKmod;

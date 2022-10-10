@@ -56,7 +56,7 @@ MaguDEFmod = 0;
 MaguMAGmod = 10;
 MaguACTmod = 0;
 #endregion
-#region Sorcerer +12
+#region sorcerer +12
 SrcrLIFmod = 6;
 SrcrATKmod = 0;
 SrcrDEFmod = 0;

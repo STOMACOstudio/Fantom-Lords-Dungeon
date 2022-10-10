@@ -19,7 +19,7 @@ if global.classArmor = 0 //pathfinder
 	global.modDEFarmor = PathDEFmod;
 	global.modMAGarmor = PathMAGmod;
 	global.modACTarmor = PathACTmod;
-	global.classArmorSkill = "Disarm";
+	global.classArmorSkill = "Path";
 }
 else if global.classArmor = 1 //dragonslayer
 {
@@ -28,7 +28,7 @@ else if global.classArmor = 1 //dragonslayer
 	global.modDEFarmor = DragDEFmod;
 	global.modMAGarmor = DragMAGmod;
 	global.modACTarmor = DragACTmod;
-	global.classArmorSkill = "Shadow";
+	global.classArmorSkill = "Empower";
 }
 else if global.classArmor = 2 //champion
 {
@@ -37,7 +37,7 @@ else if global.classArmor = 2 //champion
 	global.modDEFarmor = ChampDEFmod;
 	global.modMAGarmor = ChampMAGmod;
 	global.modACTarmor = ChampACTmod;
-	global.classArmorSkill = "Sunbathe";
+	global.classArmorSkill = "Clash";
 }
 else if global.classArmor = 3 //stormcaller
 {
@@ -46,7 +46,7 @@ else if global.classArmor = 3 //stormcaller
 	global.modDEFarmor = StrmDEFmod;
 	global.modMAGarmor = StrmMAGmod;
 	global.modACTarmor = StrmACTmod;
-	global.classArmorSkill = "Suture";
+	global.classArmorSkill = "Life Breath";
 }
 else if global.classArmor = 4 //seer
 {
@@ -55,7 +55,7 @@ else if global.classArmor = 4 //seer
 	global.modDEFarmor = SeerDEFmod;
 	global.modMAGarmor = SeerMAGmod;
 	global.modACTarmor = SeerACTmod;
-	global.classArmorSkill = "Weaken";
+	global.classArmorSkill = "Crystalize";
 }
 else if global.classArmor = 5 //kensai
 {
@@ -64,7 +64,7 @@ else if global.classArmor = 5 //kensai
 	global.modDEFarmor = KensDEFmod;
 	global.modMAGarmor = KensMAGmod;
 	global.modACTarmor = KensACTmod;
-	global.classArmorSkill = "Teleport";
+	global.classArmorSkill = "Honor";
 }
 else if global.classArmor = 6 //magus
 {
@@ -73,7 +73,7 @@ else if global.classArmor = 6 //magus
 	global.modDEFarmor = MaguDEFmod;
 	global.modMAGarmor = MaguMAGmod;
 	global.modACTarmor = MaguACTmod;
-	global.classArmorSkill = "Lullaby";
+	global.classArmorSkill = "Beam";
 }
 else if global.classArmor = 7 //sorcerer
 {
@@ -82,5 +82,5 @@ else if global.classArmor = 7 //sorcerer
 	global.modDEFarmor = SrcrDEFmod;
 	global.modMAGarmor = SrcrMAGmod;
 	global.modACTarmor = SrcrACTmod;
-	global.classArmorSkill = "Burden";
+	global.classArmorSkill = "Drain";
 }

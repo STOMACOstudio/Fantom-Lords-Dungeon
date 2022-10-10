@@ -16,7 +16,7 @@ if global.weapon = 0 //Dragon Scythe
 	global.modDEFweapon = DraScDEFmod;
 	global.modMAGweapon = DraScMAGmod;
 	global.modACTweapon = DraScACTmod;
-	global.weaponSkill = "Fire Ball";
+	global.weaponSkill = "Rattle";
 }
 else if global.weapon = 1 //Dragon Slayer Halberd
 {
@@ -25,7 +25,7 @@ else if global.weapon = 1 //Dragon Slayer Halberd
 	global.modDEFweapon = DraSlDEFmod;
 	global.modMAGweapon = DraSlMAGmod;
 	global.modACTweapon = DraSlACTmod;
-	global.weaponSkill = "Hydro Bolt";
+	global.weaponSkill = "Execute";
 }
 else if global.weapon = 2 //Enchanted Long Bow
 {
@@ -34,7 +34,7 @@ else if global.weapon = 2 //Enchanted Long Bow
 	global.modDEFweapon = EnchBowDEFmod;
 	global.modMAGweapon = EnchBowMAGmod;
 	global.modACTweapon = EnchBowACTmod;
-	global.weaponSkill = "Poison Vial";
+	global.weaponSkill = "Spirit Arrow";
 }
 else if global.weapon = 3 //Enchanted Uchigatana
 {
@@ -43,7 +43,7 @@ else if global.weapon = 3 //Enchanted Uchigatana
 	global.modDEFweapon = UchiDEFmod;
 	global.modMAGweapon = UchiMAGmod;
 	global.modACTweapon = UchiACTmod;
-	global.weaponSkill = "Soul Siphon";
+	global.weaponSkill = "Deathblow";
 }
 else if global.weapon = 4 //Ghastly Greatsword
 {
@@ -52,7 +52,7 @@ else if global.weapon = 4 //Ghastly Greatsword
 	global.modDEFweapon = GhastlDEFmod;
 	global.modMAGweapon = GhastlMAGmod;
 	global.modACTweapon = GhastlACTmod;
-	global.weaponSkill = "Slay";
+	global.weaponSkill = "Ghost Slash";
 }
 else if global.weapon = 5 //Ice Lance
 {
@@ -61,7 +61,7 @@ else if global.weapon = 5 //Ice Lance
 	global.modDEFweapon = IceLaDEFmod;
 	global.modMAGweapon = IceLaMAGmod;
 	global.modACTweapon = IceLaACTmod;
-	global.weaponSkill = "Quake";
+	global.weaponSkill = "Blizzard";
 }
 else if global.weapon = 6 //Royal Greatsword
 {
@@ -70,7 +70,7 @@ else if global.weapon = 6 //Royal Greatsword
 	global.modDEFweapon = RoyalDEFmod;
 	global.modMAGweapon = RoyalMAGmod;
 	global.modACTweapon = RoyalACTmod;
-	global.weaponSkill = "Revenge";
+	global.weaponSkill = "Royal Cut";
 }
 else if global.weapon = 7 //Runebinder Staff And Book
 {
@@ -79,7 +79,7 @@ else if global.weapon = 7 //Runebinder Staff And Book
 	global.modDEFweapon = RuneDEFmod;
 	global.modMAGweapon = RuneMAGmod;
 	global.modACTweapon = RuneACTmod;
-	global.weaponSkill = "Blade Whirl";
+	global.weaponSkill = "Lazerain";
 }
 else if global.weapon = 8 //Sanguine Greatsword
 {
@@ -88,7 +88,7 @@ else if global.weapon = 8 //Sanguine Greatsword
 	global.modDEFweapon = SangGreDEFmod;
 	global.modMAGweapon = SangGreMAGmod;
 	global.modACTweapon = SangGreACTmod;
-	global.weaponSkill = "Close Shot";
+	global.weaponSkill = "Bloodshed";
 }
 else if global.weapon = 9 //Sanguine Scimitars
 {
@@ -97,7 +97,7 @@ else if global.weapon = 9 //Sanguine Scimitars
 	global.modDEFweapon = SangSciDEFmod;
 	global.modMAGweapon = SangSciMAGmod;
 	global.modACTweapon = SangSciACTmod;
-	global.weaponSkill = "Bash";
+	global.weaponSkill = "Double Strike";
 }
 else if global.weapon = 10 //Shapeshifter Claw
 {
@@ -106,7 +106,7 @@ else if global.weapon = 10 //Shapeshifter Claw
 	global.modDEFweapon = ShapeDEFmod;
 	global.modMAGweapon = ShapeMAGmod;
 	global.modACTweapon = ShapeACTmod;
-	global.weaponSkill = "Moon Blast";
+	global.weaponSkill = "Mirror Strike";
 }
 else if global.weapon = 11 //Sword And Drake Shield
 {
@@ -115,7 +115,7 @@ else if global.weapon = 11 //Sword And Drake Shield
 	global.modDEFweapon = SwoDraDEFmod;
 	global.modMAGweapon = SwoDraMAGmod;
 	global.modACTweapon = SwoDraACTmod;
-	global.weaponSkill = "Heal Song";
+	global.weaponSkill = "Agility";
 }
 else if global.weapon = 12 //Theurge Staff And Aspersory
 {
@@ -124,7 +124,7 @@ else if global.weapon = 12 //Theurge Staff And Aspersory
 	global.modDEFweapon = TheurDEFmod;
 	global.modMAGweapon = TheurMAGmod;
 	global.modACTweapon = TheurACTmod;
-	global.weaponSkill = "Magic Missile";
+	global.weaponSkill = "Incense";
 }
 else if global.weapon = 13 //Tower Shield
 {
@@ -133,5 +133,5 @@ else if global.weapon = 13 //Tower Shield
 	global.modDEFweapon = TowerDEFmod;
 	global.modMAGweapon = TowerMAGmod;
 	global.modACTweapon = TowerACTmod;
-	global.weaponSkill = "Drain Slash";
+	global.weaponSkill = "Tank";
 }

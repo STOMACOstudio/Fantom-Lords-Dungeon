@@ -7,5 +7,3 @@ ds_list_add(list_relic, "none", "Amulet of Protection", "Black Dragon Hatchling"
 						"Blue Dragon Hatchling", "Flying Cosmic Spawn", "Glass Pipe", "Green Cube",
 						"Lady of the Lake", "Living Dead", "Red Dragon Hatchling", "White Wolf Pup",
 						"Wooden Pipe",);
-						
-// scrLordGenerator1();
