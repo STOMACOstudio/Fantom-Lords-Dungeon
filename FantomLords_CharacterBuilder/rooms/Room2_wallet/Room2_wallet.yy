@@ -38,6 +38,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_72B3068D","properties":[],"isDnd":false,"objectId":{"name":"oGUI_lordBlock2","path":"objects/oGUI_lordBlock2/oGUI_lordBlock2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":340.0,"y":480.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_731C21EB","properties":[],"isDnd":false,"objectId":{"name":"oGUI_lordBlock3","path":"objects/oGUI_lordBlock3/oGUI_lordBlock3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":430.0,"y":480.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_BA341EE","properties":[],"isDnd":false,"objectId":{"name":"oGUI_lordBlock4","path":"objects/oGUI_lordBlock4/oGUI_lordBlock4.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":510.0,"y":480.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2CF466AB","properties":[],"isDnd":false,"objectId":{"name":"oUI_ChoiceFantom","path":"objects/oUI_ChoiceFantom/oUI_ChoiceFantom.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":270.0,"y":70.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3B77A151","properties":[],"isDnd":false,"objectId":{"name":"oUI_ChoiceAscended","path":"objects/oUI_ChoiceAscended/oUI_ChoiceAscended.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":400.0,"y":70.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":10,"gridY":10,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"BG","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_617E2ACF_1_1","properties":[],"isDnd":false,"objectId":{"name":"oBlueTile","path":"objects/oBlueTile/oBlueTile.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":15.25,"scaleY":18.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":670.0,"y":0.0,},
@@ -72,6 +74,8 @@
     {"name":"inst_BA341EE","path":"rooms/Room2_wallet/Room2_wallet.yy",},
     {"name":"inst_5989C8A4_1_1","path":"rooms/Room2_wallet/Room2_wallet.yy",},
     {"name":"inst_3A918FA0","path":"rooms/Room2_wallet/Room2_wallet.yy",},
+    {"name":"inst_2CF466AB","path":"rooms/Room2_wallet/Room2_wallet.yy",},
+    {"name":"inst_3B77A151","path":"rooms/Room2_wallet/Room2_wallet.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
