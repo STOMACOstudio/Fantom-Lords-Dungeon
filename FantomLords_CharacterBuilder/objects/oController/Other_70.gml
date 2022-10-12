@@ -19,10 +19,13 @@ if (my_id=="getWalletAddress") {
 if (my_id=="getTokenBalance") {
 	var bal = async_load[? "balance"];
 	var parsed_token_ids = json_parse(async_load[? "tokenIDs"]);
+	var parsed_ascended_token_ids = json_parse(async_load[? "tokenIDs"]);
 	
 	global.lordTokenData = {};
 	global.currentLordIndex = 0;
 	global.lordTokenIDs = parsed_token_ids.tokenIDs; // array of user's lords (in IDs) [1, 1000, 444]
+	global.ascendedLordTokenIDs = parsed_ascended_token_ids.tokenIDs;
+	var total_lords_balance = array_length(global.lordTokenIDs) + array_length(global.ascendedLordTokenIDs);
 	//show_debug_message("global.lordTokenIDs: " + string(global.lordTokenIDs));
 	setLordsData(global.lordTokenIDs);
 	//show_debug_message("json_stringify(global.lordTokenData):");
@@ -41,8 +44,7 @@ if (my_id=="getTokenBalance") {
 	// gets a specific lord data:
 	// getLordData(lord token id as a string);
 
-	var arrayLength = array_length(global.lordTokenIDs);
-	if ( arrayLength==0) {
+	if(total_lords_balance == 0) {
 		oPrintMessage.thisPrint = "You don't own enough Fantom Lords";
 	} else {
 		oPrintMessage.thisPrint = "User has "+string(arrayLength)+" Fantom Lord/s";

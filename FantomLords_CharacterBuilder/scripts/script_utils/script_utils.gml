@@ -13,19 +13,21 @@ function getFileContents(filename) {
 }
 
 function getLordData(_id) {
-	//show_debug_message("-> getLordData");
 	var rawFileContents = getFileContents("./fantomLords.json")
 	var fantomLords = json_decode(rawFileContents);
 	var fantomLordsStr = json_encode(fantomLords);
 	show_debug_message("_id:" + string(_id));
-	//show_debug_message("fantomLordsStr" + fantomLordsStr);
-	//show_debug_message("fantomLords [] :" + string(fantomLords[_id]));
-	//show_debug_message("fantomLords ? :" + string(fantomLords[? _id]));
 	var fantomLord = fantomLords[? _id];
-	//show_debug_message("fantomLord: " + string(fantomLord));
-	//var fantomLordClass = fantomLord[? "class"];
-	//show_debug_message("fantomLordClass: " + string(fantomLordClass));
-	////show_debug_message("fantomLords $ :" + string(fantomLords[$ _id]));
+	return fantomLord;
+}
+
+
+function getAscendedLordData(_id) {
+	var rawFileContents = getFileContents("./fantomLordsAscended.json")
+	var fantomLords = json_decode(rawFileContents);
+	var fantomLordsStr = json_encode(fantomLords);
+	show_debug_message("_id:" + string(_id));
+	var fantomLord = fantomLords[? _id];
 	return fantomLord;
 }
 

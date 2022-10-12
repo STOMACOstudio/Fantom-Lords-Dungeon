@@ -28,6 +28,63 @@ async function getMetamaskAccount() {
 	GMS_API.send_async_event_social(map);
 }
 
+async function getUserAscendedLords(wallet_address) {
+	let minABI = [{
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "owner",
+                "type": "address"
+            }
+        ],
+        "name": "balanceOf",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },{
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "owner",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "index",
+                "type": "uint256"
+            }
+        ],
+        "name": "tokenOfOwnerByIndex",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }];
+	let contract = new web3.eth.Contract(minABI, "0x6139b9C548FBd1C50d2768f3464D89c8744aB5f2");
+	const tokenIDs = [];
+	let tokenCount = await contract.methods.balanceOf(wallet_address).call();
+	try {
+		for (let i = 0; i < tokenCount; i++) {
+			const response = await contract.methods.tokenOfOwnerByIndex(wallet_address, i).call();
+			tokenIDs.push(response);
+		}
+	} catch (e) {
+		console.log(e);
+	}
+	return JSON.stringify({ tokenIDs });
+	// return tokenIDs;
+}
 
 async function getUserFantomLords(wallet_address) {
 	// contract address: 0xfee8077c909d956E9036c2d2999723931CeFE548
@@ -79,6 +136,7 @@ async function getTokenBalance(wallet_address, token_address) {
 	map["id"] = "getTokenBalance";
 	map["balance"]="-1";
 	map["tokenIDs"] = await getUserFantomLords(wallet_address);
+	map["ascendedTokenIDs"] = await getUserAscendedLords(wallet_address);
 
 	let contract = new web3.eth.Contract(minABI, token_address);
 	console.log(contract);
