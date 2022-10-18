@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oLordTrait_0",
+    "path": "objects/oLordTrait_0/oLordTrait_0.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

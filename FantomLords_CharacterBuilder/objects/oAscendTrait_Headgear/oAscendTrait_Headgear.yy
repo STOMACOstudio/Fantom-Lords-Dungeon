@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oAscendedTrait_0",
+    "path": "objects/oAscendedTrait_0/oAscendedTrait_0.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

@@ -156,6 +156,7 @@
     {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},"order":10,},
     {"id":{"name":"scrEnemyAI","path":"scripts/scrEnemyAI/scrEnemyAI.yy",},"order":21,},
     {"id":{"name":"snGameOver","path":"sounds/snGameOver/snGameOver.yy",},"order":9,},
+    {"id":{"name":"oLordTrait_0","path":"objects/oLordTrait_0/oLordTrait_0.yy",},"order":34,},
     {"id":{"name":"sprite_sewer13","path":"sprites/sprite_sewer13/sprite_sewer13.yy",},"order":13,},
     {"id":{"name":"oVFX_attackMag","path":"objects/oVFX_attackMag/oVFX_attackMag.yy",},"order":5,},
     {"id":{"name":"sSKILL_CLASS_Knight","path":"sprites/sSKILL_CLASS_Knight/sSKILL_CLASS_Knight.yy",},"order":5,},
@@ -183,6 +184,7 @@
     {"id":{"name":"oGUI_randomLord","path":"objects/oGUI_randomLord/oGUI_randomLord.yy",},"order":59,},
     {"id":{"name":"oEnemy_Mimic","path":"objects/oEnemy_Mimic/oEnemy_Mimic.yy",},"order":13,},
     {"id":{"name":"oGUI_LordStatsOverlay1","path":"objects/oGUI_LordStatsOverlay1/oGUI_LordStatsOverlay1.yy",},"order":6,},
+    {"id":{"name":"oAscendedTrait_0","path":"objects/oAscendedTrait_0/oAscendedTrait_0.yy",},"order":35,},
     {"id":{"name":"scrEnemyCheckForTiles","path":"scripts/scrEnemyCheckForTiles/scrEnemyCheckForTiles.yy",},"order":1,},
     {"id":{"name":"sn_SKILL_BladeWhirl","path":"sounds/sn_SKILL_BladeWhirl/sn_SKILL_BladeWhirl.yy",},"order":12,},
     {"id":{"name":"oUI_ChoiceFantom","path":"objects/oUI_ChoiceFantom/oUI_ChoiceFantom.yy",},"order":88,},
@@ -762,15 +764,15 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"mods_1.json","CopyToMask":-1,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"mods_2.json","CopyToMask":-1,"filePath":"datafiles",},
-    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"fantomLords.json","CopyToMask":-1,"filePath":"datafiles",},
-    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"fantomLordsAscended.json","CopyToMask":-1,"filePath":"datafiles",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"fantomLords.json","CopyToMask":3035426170322551022,"filePath":"datafiles",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"fantomLordsAscended.json","CopyToMask":3035426170322551022,"filePath":"datafiles",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.8.0.34",
+    "IDEVersion": "2022.9.1.51",
   },
 }

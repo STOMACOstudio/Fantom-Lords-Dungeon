@@ -23,12 +23,14 @@ function getLordData(_id) {
 
 
 function getAscendedLordData(_id) {
-	var rawFileContents = getFileContents("./fantomLordsAscended.json")
-	var fantomLords = json_decode(rawFileContents);
-	var fantomLordsStr = json_encode(fantomLords);
-	show_debug_message("_id:" + string(_id));
-	var fantomLord = fantomLords[? _id];
-	return fantomLord;
+  var rawFileContents = getFileContents("./fantomLordsAscended.json");
+  show_debug_message("rawFileContents: " + rawFileContents);
+  var fantomLords = json_decode(rawFileContents);
+  show_debug_message("fantomLords: " + json_stringify(rawFileContents));
+  var fantomLordsStr = json_encode(fantomLords);
+  show_debug_message("_id:" + string(_id));
+  var fantomLord = fantomLords[? _id];
+  return fantomLord;
 }
 
 function setLordsData(lordIDs) {
@@ -46,6 +48,24 @@ function setLordsData(lordIDs) {
 			"relic":		lordData[? "relic"]
 		}
 	}
+}
+
+function setAscendedLordsData(lordIDs) {
+  for(var i = 0; i < array_length(lordIDs); i++) {
+    show_debug_message("ascended lord n" +string(i));
+    var lordID = lordIDs[i];
+    var lordData = getAscendedLordData(string(lordID));
+	show_debug_message("ascendedLord n" + string(lordID)+ " json "+ json_stringify(lordData));
+    global.ascendedLordTokenData[$ string(lordID)] = {
+      "lordName":    lordID,
+      "weapon":    lordData[? "weapon"],
+      "background":  lordData[? "background"],
+      "ancestry":    lordData[? "ancestry"],
+      "classArmor":  lordData[? "armor"],
+      "headgear":    lordData[? "headgear"],
+      "relic":    lordData[? "relic"]
+    }
+  }
 }
 
 function setCurrentLord(_lordData) {
