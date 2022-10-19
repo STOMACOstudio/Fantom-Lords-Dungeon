@@ -3,7 +3,7 @@
 
 list_relic = ds_list_create();
 
-ds_list_add(list_relic, "none", "Albino Snake", "Blue Egg", "Cat Familiar", "Crow Familiar",
+ds_list_add(list_relic, "Albino Snake", "Blue Egg", "Cat Familiar", "Crow Familiar",
 						"Floating Eye", "Floating Hand", "Floating Skull", "Floating Tarots",
 						"Green Egg", "Invaluable Loot", "None", "Purple Egg","Toad Knight",
 						"Toad Wizard");

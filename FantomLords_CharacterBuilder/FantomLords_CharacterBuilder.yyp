@@ -338,6 +338,7 @@
     {"id":{"name":"oManagerOptions","path":"objects/oManagerOptions/oManagerOptions.yy",},"order":3,},
     {"id":{"name":"oBlueTileDown","path":"objects/oBlueTileDown/oBlueTileDown.yy",},"order":67,},
     {"id":{"name":"scr_ini","path":"scripts/scr_ini/scr_ini.yy",},"order":0,},
+    {"id":{"name":"oGUI_ButtonDemo","path":"objects/oGUI_ButtonDemo/oGUI_ButtonDemo.yy",},"order":90,},
     {"id":{"name":"sprite_sewer17","path":"sprites/sprite_sewer17/sprite_sewer17.yy",},"order":17,},
     {"id":{"name":"oDoorBoss","path":"objects/oDoorBoss/oDoorBoss.yy",},"order":11,},
     {"id":{"name":"oBuilderClassArmor_ArrowDown","path":"objects/oBuilderClassArmor_ArrowDown/oBuilderClassArmor_ArrowDown.yy",},"order":2,},
@@ -454,7 +455,6 @@
     {"id":{"name":"sVFX_SKIL_Poison","path":"sprites/sVFX_SKIL_Poison/sVFX_SKIL_Poison.yy",},"order":18,},
     {"id":{"name":"oGUI_AutomaticNumberScroll","path":"objects/oGUI_AutomaticNumberScroll/oGUI_AutomaticNumberScroll.yy",},"order":0,},
     {"id":{"name":"sLordBallon3b","path":"sprites/sLordBallon3b/sLordBallon3b.yy",},"order":5,},
-    {"id":{"name":"Room2_wallet2","path":"rooms/Room2_wallet2/Room2_wallet2.yy",},"order":7,},
     {"id":{"name":"snCollectPotion","path":"sounds/snCollectPotion/snCollectPotion.yy",},"order":6,},
     {"id":{"name":"sprite_sewer14","path":"sprites/sprite_sewer14/sprite_sewer14.yy",},"order":14,},
     {"id":{"name":"sprite_sewer43","path":"sprites/sprite_sewer43/sprite_sewer43.yy",},"order":43,},
@@ -708,7 +708,6 @@
     {"roomId":{"name":"Room3_Dungeon","path":"rooms/Room3_Dungeon/Room3_Dungeon.yy",},},
     {"roomId":{"name":"Room4_Boss","path":"rooms/Room4_Boss/Room4_Boss.yy",},},
     {"roomId":{"name":"Room5_Options","path":"rooms/Room5_Options/Room5_Options.yy",},},
-    {"roomId":{"name":"Room2_wallet2","path":"rooms/Room2_wallet2/Room2_wallet2.yy",},},
     {"roomId":{"name":"Room5_TierList","path":"rooms/Room5_TierList/Room5_TierList.yy",},},
   ],
   "Folders": [

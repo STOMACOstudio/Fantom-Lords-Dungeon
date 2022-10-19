@@ -5,9 +5,9 @@ image_index = global.weapon;
 
 if global.weapon = 0 || global.weapon = 1 || global.weapon = 3 || global.weapon = 4 || global.weapon = 5 
 					 || global.weapon = 6 || global.weapon = 8 || global.weapon = 9 || global.weapon = 10
-					 || global.weapon = 12 global.weaponAttack = "MELEE";
+					 || global.weapon = 11 global.weaponAttack = "MELEE";
 else if global.weapon = 2 global.weaponAttack = "RANGED";
-else if global.weapon = 7 || global.weapon = 11 global.weaponAttack = "MAGIC";
+else if global.weapon = 7 || global.weapon = 12 global.weaponAttack = "MAGIC";
 
 if global.weapon = 0 //Dragon Scythe
 {

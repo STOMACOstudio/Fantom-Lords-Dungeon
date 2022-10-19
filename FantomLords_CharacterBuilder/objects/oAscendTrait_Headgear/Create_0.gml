@@ -3,10 +3,10 @@
 
 list_headgear = ds_list_create();
 
-ds_list_add(list_headgear, "None", "Arcane Archer Hood", "Bear Hat","Beast Man Mutation","Burning Skull",
-						   "Diving Helmet","Great Helm", "Hemotheurge Hood","Horned Jingasa",
-						   "Jade Tiara", "Lapislazuli Tiara", "Mind Flayer Mutation", "Mysterious Hood",
-						   "Naga Mutation", "Arca", "Occult Goat Mutation","Polar Helm","Purple Magus Hat",
+ds_list_add(list_headgear,  "Arcane Archer Hood", "Bear Hat","Beast Man Mutation","Burning Skull",
+							"Diving Helmet","Great Helm", "Hemotheurge Hood","Horned Jingasa",
+							"Jade Tiara", "Lapislazuli Tiara", "Mind Flayer Mutation", "Mysterious Hood",
+							"Naga Mutation", "None", "Occult Goat Mutation","Polar Helm","Purple Magus Hat",
 							"Red Archmage Hat","Sacred Halo","Templar Helm","Wayfarer Turban","Wyrm Helm");
 
 #region noHat
