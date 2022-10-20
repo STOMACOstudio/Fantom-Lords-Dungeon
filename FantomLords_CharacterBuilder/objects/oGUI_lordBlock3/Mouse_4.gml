@@ -19,15 +19,15 @@ if empty && !oGUI_lordBlock1.empty && !oGUI_lordBlock2.empty
 		draw_sprite(sLordTrait_Headgear, global.headgear, 0, 0);
 		draw_sprite(sLordTrait_Weapon, global.weapon, 0, 0);
 		draw_sprite(sLordTrait_Relic, global.relic, 0, 0);
-		slord3 = sprite_create_from_surface(surf, 0, 0, 320, 320, false, false, 0, 0);
+		sLord3 = sprite_create_from_surface(surf, 0, 0, 320, 320, false, false, 0, 0);
 		surface_reset_target();
 		surface_free(surf);
-		sprite_index = slord3;
+		sprite_index = sLord3;
 		image_xscale /= 5;
 		image_yscale /= 5;
 	
 		oLordStats.lord3name = global.lordName;
-		oLordStats.lord3sprite = slord3;
+		oLordStats.lord3sprite = sLord3;
 		oLordStats.lord3LIF = global.LIF;
 		oLordStats.lord3LIFmax = global.LIF;
 		oLordStats.lord3ATK = global.ATK;
@@ -58,15 +58,15 @@ if empty && !oGUI_lordBlock1.empty && !oGUI_lordBlock2.empty
 		draw_sprite(sAscendTrait_Headgear, global.headgear, 0, 0);
 		draw_sprite(sAscendTrait_Weapon, global.weapon, 0, 0);
 		draw_sprite(sAscendTrait_Relic, global.relic, 0, 0);
-		slord3 = sprite_create_from_surface(surf, 0, 0, 320, 320, false, false, 0, 0);
+		sLord3 = sprite_create_from_surface(surf, 0, 0, 320, 320, false, false, 0, 0);
 		surface_reset_target();
 		surface_free(surf);
-		sprite_index = slord3;
+		sprite_index = sLord3;
 		image_xscale /= 5;
 		image_yscale /= 5;
 	
 		oLordStats.lord3name = global.lordName;
-		oLordStats.lord3sprite = slord3;
+		oLordStats.lord3sprite = sLord3;
 		oLordStats.lord3LIF = global.LIF;
 		oLordStats.lord3LIFmax = global.LIF;
 		oLordStats.lord3ATK = global.ATK;
