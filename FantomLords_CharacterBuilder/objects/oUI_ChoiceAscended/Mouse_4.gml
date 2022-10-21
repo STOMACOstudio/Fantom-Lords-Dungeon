@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if !active
+if !active && !global.demo
 {
 	instance_deactivate_object(oLordTrait_0);
 	instance_activate_object(oAscendedTrait_0);

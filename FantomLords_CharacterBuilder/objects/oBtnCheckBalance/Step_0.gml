@@ -14,3 +14,5 @@ if oGUI_FantomTitleMain.canStart
 	}
 	else image_speed = 0;
 }
+
+if global.demo instance_destroy();

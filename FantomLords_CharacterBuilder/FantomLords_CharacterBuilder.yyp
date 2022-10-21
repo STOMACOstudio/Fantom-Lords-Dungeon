@@ -549,6 +549,7 @@
     {"id":{"name":"oEnemy0_Father","path":"objects/oEnemy0_Father/oEnemy0_Father.yy",},"order":1,},
     {"id":{"name":"oGUI_gemsRNB","path":"objects/oGUI_gemsRNB/oGUI_gemsRNB.yy",},"order":16,},
     {"id":{"name":"oGUI_printLordStats3","path":"objects/oGUI_printLordStats3/oGUI_printLordStats3.yy",},"order":5,},
+    {"id":{"name":"sVFX_Loading","path":"sprites/sVFX_Loading/sVFX_Loading.yy",},"order":17,},
     {"id":{"name":"oEnemy_BossMaker","path":"objects/oEnemy_BossMaker/oEnemy_BossMaker.yy",},"order":8,},
     {"id":{"name":"sprite_sewer12","path":"sprites/sprite_sewer12/sprite_sewer12.yy",},"order":12,},
     {"id":{"name":"oLord_Baloon4","path":"objects/oLord_Baloon4/oLord_Baloon4.yy",},"order":24,},

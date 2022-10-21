@@ -9,3 +9,6 @@ if (global.user_address!="0") {
 } else {
 	oPrintMessage.thisPrint = "Please connect your wallet";
 }
+
+sprite_index = sVFX_Loading;
+image_speed = 1;

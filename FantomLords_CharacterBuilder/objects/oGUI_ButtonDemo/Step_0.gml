@@ -1,6 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-open = false;
-
-global.demo = false;
+if image_index > 2 && image_index < 6 image_speed = 0;
