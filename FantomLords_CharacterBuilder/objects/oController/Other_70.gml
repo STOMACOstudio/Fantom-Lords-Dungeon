@@ -50,11 +50,10 @@ if (my_id=="getTokenBalance") {
 		oPrintMessage.thisPrint = "You don't own enough Fantom Lords";
 		oBtnCheckBalance.sprite_index = sCollect_GemRNB;
 		oBtnCheckBalance.image_index = 0;
+		instance_destroy(oVFX_Loading);
 	} else {
 		oPrintMessage.thisPrint = "User has "+string(total_lords_balance)+" Fantom Lord/s";
 		oGUI_FantomTitleMain.canStart = true;
-		oBtnCheckBalance.sprite_index = sCollect_GemRNB;
-		oBtnCheckBalance.image_index = 0;
-		instance_destroy(oGUI_ButtonDemo);
+		instance_destroy(oVFX_Loading);
 	}
 }

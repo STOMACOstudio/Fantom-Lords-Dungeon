@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if !open
+/*if !open
 {
 	sprite_index = sEnemy_MimicBronze;
 	image_xscale = 0.2;

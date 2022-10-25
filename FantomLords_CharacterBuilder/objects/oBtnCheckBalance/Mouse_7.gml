@@ -1,6 +1,6 @@
 /// @description 
 
-if (global.user_address!="0") {
+/*if (global.user_address!="0") {
 	
 	oController.state=2;
 	oController.alarm[0]=1;
