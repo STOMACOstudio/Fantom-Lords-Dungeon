@@ -57,6 +57,7 @@ global.combatActive = false;
 global.revealdEnemies = 0;
 
 global.roomCondition = "none";
+global.roomType = "";
 global.tileNumber = 0;
 
 global.waitTimer = 50;
