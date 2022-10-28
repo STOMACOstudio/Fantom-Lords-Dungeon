@@ -10,3 +10,6 @@ done = false;
 global.hasControl = false;
 
 alarm[0] = 500;
+
+lastX = 0;
+lastY = 0;

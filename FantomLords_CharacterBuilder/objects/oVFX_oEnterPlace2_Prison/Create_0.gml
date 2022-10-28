@@ -7,4 +7,4 @@ fadeOut = false;
 
 alarm[0] = 200;
 
-global.roomType = "Sewers";
+global.roomType = "Prison";

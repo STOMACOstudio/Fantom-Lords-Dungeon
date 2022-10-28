@@ -6,3 +6,5 @@ image_alpha = 0.8;
 revealed = true;
 stepped = false;
 empty = true;
+
+if global.roomType = "Prison" sprite_index = sBlockTile_1_prison;

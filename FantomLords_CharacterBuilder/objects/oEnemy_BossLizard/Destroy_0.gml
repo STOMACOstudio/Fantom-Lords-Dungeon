@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 oManagerCombat.combatPhase = 0;
+global.roomType = "Prison";
 
 audio_stop_sound(sn2_BossBattle1Loop);
 audio_play_sound(sn2_BossBattle1Victory,0,false);

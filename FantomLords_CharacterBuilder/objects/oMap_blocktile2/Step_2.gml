@@ -10,7 +10,7 @@ if room != Room4_Boss
 		{
 			var chest = irandom_range(0,9);
 			if chest > 8 instance_create_layer(x,y,"Instances",oTreasureChest_Bronze);
-			else instance_create_layer(x,y,"Instances",choose(oEnemy_Goblin,oEnemy_Eye,oEnemy_Barrell,oTrapSpike));
+			else instance_create_layer(x,y,"Instances",choose(oEnemy_Bat,oEnemy_Skeleton,oEnemy_Shade,oEnemy_Barrell,oTrapSpike));
 		}
 		filled = true;
 	}
