@@ -23,3 +23,5 @@ if thisLocked
 {
 	if !instance_exists(oVFX_spellCast1) scrLordCheckTarget();
 }
+
+show_debug_message(string(weaken));

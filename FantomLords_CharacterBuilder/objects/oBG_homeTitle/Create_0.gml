@@ -5,4 +5,4 @@ image_alpha = 0;
 
 alarm[0] = 200;
 
-global.roomType = "Sewers";
+global.roomType = "Sewer";

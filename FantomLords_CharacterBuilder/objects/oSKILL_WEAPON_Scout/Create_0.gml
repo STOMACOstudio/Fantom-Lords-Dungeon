@@ -13,3 +13,5 @@ alarm[0] = 500;
 
 lastX = 0;
 lastY = 0;
+
+thisLord_LIF = 0;

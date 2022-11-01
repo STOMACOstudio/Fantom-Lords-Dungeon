@@ -63,8 +63,11 @@ if oLordStats.lord4active
 
 	spellCast = -1;
 	
+	#region lord status
 	battlecry = 0;
 	burden = 0;
 	shadow = 0;
+	weaken = 0;
+	#endregion
 }
 else instance_destroy();

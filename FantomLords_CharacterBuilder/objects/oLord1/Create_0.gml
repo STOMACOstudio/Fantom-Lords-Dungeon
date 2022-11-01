@@ -61,6 +61,9 @@ lastY = 0;
 
 spellCast = -1;
 
+#region lord status
 battlecry = 0;
 burden = 0;
 shadow = 0;
+weaken = 0;
+#endregion

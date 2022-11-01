@@ -27,11 +27,62 @@ if isFighting && !turnComplete && actions > 0
 	
 		if actions >= 2
 		{
+			
 			if (lordTop != noone && lordTop.shadow = 0) || (lordRight != noone && lordRight.shadow = 0) || (lordDown != noone && lordDown.shadow = 0) || (lordLeft != noone && lordLeft.shadow = 0)
 			{
-				actionsRate = 2;
-				dmgTYPE = thisMAG;
-				scrEnemyCheckForLords(); //choose a random lord to attack
+				var chooseAttack = irandom(3);
+				if chooseAttack = 3
+				{
+					chooseTarget = irandom_range(0,3);
+	
+					if chooseTarget = 0 && lordTop != noone
+					{
+						actionsRate = 2;
+						lordTarget = lordTop;
+						var struct = { rate : round(thisMAG/3) };
+						instance_create_layer(lordTarget.x+32,lordTarget.y+32,"VFX",oVFX_EnemyWeaken,struct);
+						isFighting = false;
+						actions -= 2;
+	
+						alarm[0] = alarmCounter;
+					}
+					else if chooseTarget = 1 && lordRight != noone
+					{
+						actionsRate = 2;
+						lordTarget = lordRight;
+						var struct = { rate : round(thisMAG/3) };
+						instance_create_layer(lordTarget.x+32,lordTarget.y+32,"VFX",oVFX_EnemyWeaken,struct);
+						isFighting = false;
+	
+						alarm[0] = alarmCounter;
+					}
+					else if chooseTarget = 2 && lordDown != noone
+					{
+						actionsRate = 2;
+						lordTarget = lordDown;
+						var struct = { rate : round(thisMAG/3) };
+						instance_create_layer(lordTarget.x+32,lordTarget.y+32,"VFX",oVFX_EnemyWeaken,struct);
+						isFighting = false;
+	
+						alarm[0] = alarmCounter;
+					}
+					else if chooseTarget = 3 && lordLeft != noone
+					{
+						actionsRate = 2;
+						lordTarget = lordLeft;
+						var struct = { rate : round(thisMAG/3) };
+						instance_create_layer(lordTarget.x+32,lordTarget.y+32,"VFX",oVFX_EnemyWeaken,struct);
+						isFighting = false;
+	
+						alarm[0] = alarmCounter;
+					}
+				}
+				else
+				{
+					actionsRate = 2;
+					dmgTYPE = thisMAG;
+					scrEnemyCheckForLords(); //choose a random lord to attack
+				}
 			}
 			else
 			{

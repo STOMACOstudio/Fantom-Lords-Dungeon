@@ -18,6 +18,16 @@ if oManagerCombat.combatPhase = 0 && global.hasControl && global.fightMode = tru
 			if burden = 0 thisLord_DEF = thisLord_DEFmax;
 		}
 		if shadow > 0 shadow --;
+		if weaken > 0
+		{
+			weaken --;
+			if weaken = 0
+			{
+				thisLord_ATK = thisLord_ATKmax;
+				thisLord_DEF = thisLord_DEFmax;
+				thisLord_MAG = thisLord_MAGmax;
+			}
+		}
 	}
 	with (oLord0FrameParent) thisLocked = false;
 	with (oVFX_spellCast0father) instance_destroy();
