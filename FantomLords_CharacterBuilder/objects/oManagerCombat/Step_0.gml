@@ -37,10 +37,26 @@ else if combatPhase = 1
 		}
 		
 		//reset dei punti azioni dei lord
-		if instance_exists(oLord1) oLord1.thisLord_ACTpoints = oLord1.thisLord_ACTpointsMAX;
-		if instance_exists(oLord2) oLord2.thisLord_ACTpoints = oLord2.thisLord_ACTpointsMAX;
-		if instance_exists(oLord3) oLord3.thisLord_ACTpoints = oLord3.thisLord_ACTpointsMAX;
-		if instance_exists(oLord4) oLord4.thisLord_ACTpoints = oLord4.thisLord_ACTpointsMAX;
+		if instance_exists(oLord1)
+		{
+			if oLord1.stun > 0 oLord1.stun--;
+			else oLord1.thisLord_ACTpoints = oLord1.thisLord_ACTpointsMAX;
+		}
+		if instance_exists(oLord2)
+		{
+			if oLord2.stun > 0 oLord2.stun--;
+			else oLord2.thisLord_ACTpoints = oLord2.thisLord_ACTpointsMAX;
+		}
+		if instance_exists(oLord3)
+		{
+			if oLord3.stun > 0 oLord3.stun--;
+			else oLord3.thisLord_ACTpoints = oLord3.thisLord_ACTpointsMAX;
+		}
+		if instance_exists(oLord4)
+		{
+			if oLord4.stun > 0 oLord4.stun--;
+			else oLord4.thisLord_ACTpoints = oLord4.thisLord_ACTpointsMAX;
+		}
 		instance_create_layer(512,224,"VFX",oVFX_YourTurn);
 		
 		fightStart = 0; //contatore di debug

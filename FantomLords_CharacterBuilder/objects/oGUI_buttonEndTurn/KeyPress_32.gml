@@ -3,10 +3,10 @@
 
 if oManagerCombat.combatPhase = 0 && global.hasControl && global.fightMode = true
 {
-	with (oLord0Parent) thisLocked = false;
-	with (oLord0Parent) image_blend = c_white;
 	with (oLord0Parent)
 	{
+		thisLocked = false;
+		image_blend = c_white;
 		if battlecry > 0
 		{
 			battlecry --;
@@ -28,12 +28,16 @@ if oManagerCombat.combatPhase = 0 && global.hasControl && global.fightMode = tru
 				thisLord_MAG = thisLord_MAGmax;
 			}
 		}
+		if stun > 0 stun --;
 	}
 	with (oLord0FrameParent) thisLocked = false;
 	with (oVFX_spellCast0father) instance_destroy();
-	with (oEnemy0_Father) turnCompelete = false;
-	with (oEnemy0_Father) isFighting = false;
-	with (oEnemy0_Father) actions = actionsMax;
+	with (oEnemy0_Father)
+	{
+		turnCompelete = false;
+		isFighting = false;
+		actions = actionsMax;
+	}
 	global.isLocked = false;
 	global.isLockedSkill = false;
 	

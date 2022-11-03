@@ -66,4 +66,5 @@ battlecry = 0;
 burden = 0;
 shadow = 0;
 weaken = 0;
+stun = 0;
 #endregion

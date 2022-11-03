@@ -31,7 +31,112 @@ if isFighting && !turnComplete && actions > 0
 			{
 				actionsRate = 2;
 				dmgTYPE = thisATK;
-				scrEnemyCheckForLords(); //choose a random lord to attack
+				chooseTarget = irandom_range(0,3);
+	
+		if chooseTarget = 0 && lordTop != noone
+		{
+			lordTarget = lordTop;
+			dmgENEMY = (dmgTYPE + irandom_range(-3,3)) - lordTarget.thisLord_DEF;
+			if dmgENEMY <= 0 dmgENEMY = 1;
+			global.dmgENEMY = dmgENEMY;
+			global.dmgLORD = round(dmgENEMY/2)+1;
+			audio_play_sound(attackSound,0,false);
+			instance_create_layer(lordTarget.x,lordTarget.y,"VFX",attackSprite);
+			instance_create_layer(lordTarget.x+irandom_range(8,56),lordTarget.y+irandom_range(8,56),"VFX",oGUI_printDMGenemy);
+			instance_create_layer(x+sprite_width/2,y+sprite_height/2,"VFX",oGUI_printHEAL);
+			thisLIF += round(dmgENEMY/2);
+			if thisLIF > thisLIFmax thisLIF = thisLIFmax;
+			lordTarget.thisLord_LIF -= dmgENEMY;
+			isFighting = false;
+	
+			if lordTarget.thisLord_LIF <= lordTarget.thisLord_LIFmax/2 && lordTarget.thisLord_LIF > 0
+			{
+					 if collision_point(lordTarget.x,lordTarget.y,oLord1,false,true) instance_create_layer(oGUI_LordFrame1.x+64,oGUI_LordFrame1.y+16,"VFX",oLord_Baloon3);
+				else if collision_point(lordTarget.x,lordTarget.y,oLord2,false,true) instance_create_layer(oGUI_LordFrame2.x+64,oGUI_LordFrame2.y+16,"VFX",oLord_Baloon3);
+				else if collision_point(lordTarget.x,lordTarget.y,oLord3,false,true) instance_create_layer(oGUI_LordFrame3.x+64,oGUI_LordFrame3.y+16,"VFX",oLord_Baloon3);
+				else if collision_point(lordTarget.x,lordTarget.y,oLord4,false,true) instance_create_layer(oGUI_LordFrame4.x+64,oGUI_LordFrame4.y+16,"VFX",oLord_Baloon3);
+			}
+	
+			alarm[0] = alarmCounter;
+		}
+		else if chooseTarget = 1 && lordRight != noone
+		{
+			lordTarget = lordRight;
+			dmgENEMY = (dmgTYPE + irandom_range(-3,3)) - lordTarget.thisLord_DEF;
+			if dmgENEMY <= 0 dmgENEMY = 1;
+			global.dmgENEMY = dmgENEMY;
+			global.dmgLORD = round(dmgENEMY/2)+1;
+			audio_play_sound(attackSound,0,false);
+			instance_create_layer(lordTarget.x,lordTarget.y,"VFX",attackSprite);
+			instance_create_layer(lordTarget.x+irandom_range(8,56),lordTarget.y+irandom_range(8,56),"VFX",oGUI_printDMGenemy);
+			instance_create_layer(x+sprite_width/2,y+sprite_height/2,"VFX",oGUI_printHEAL);
+			thisLIF += round(dmgENEMY/2);
+			if thisLIF > thisLIFmax thisLIF = thisLIFmax;
+			lordTarget.thisLord_LIF -= dmgENEMY;
+			isFighting = false;
+	
+			if lordTarget.thisLord_LIF <= lordTarget.thisLord_LIFmax/2 && lordTarget.thisLord_LIF > 0
+			{
+					 if collision_point(lordTarget.x,lordTarget.y,oLord1,false,true) instance_create_layer(oGUI_LordFrame1.x+64,oGUI_LordFrame1.y+16,"VFX",oLord_Baloon3);
+				else if collision_point(lordTarget.x,lordTarget.y,oLord2,false,true) instance_create_layer(oGUI_LordFrame2.x+64,oGUI_LordFrame2.y+16,"VFX",oLord_Baloon3);
+				else if collision_point(lordTarget.x,lordTarget.y,oLord3,false,true) instance_create_layer(oGUI_LordFrame3.x+64,oGUI_LordFrame3.y+16,"VFX",oLord_Baloon3);
+				else if collision_point(lordTarget.x,lordTarget.y,oLord4,false,true) instance_create_layer(oGUI_LordFrame4.x+64,oGUI_LordFrame4.y+16,"VFX",oLord_Baloon3);
+			}
+	
+			alarm[0] = alarmCounter;
+		}
+		else if chooseTarget = 2 && lordDown != noone
+		{
+			lordTarget = lordDown;
+			dmgENEMY = (dmgTYPE + irandom_range(-3,3)) - lordTarget.thisLord_DEF;
+			if dmgENEMY <= 0 dmgENEMY = 1;
+			global.dmgENEMY = dmgENEMY;
+			global.dmgLORD = round(dmgENEMY/2)+1;
+			audio_play_sound(attackSound,0,false);
+			instance_create_layer(lordTarget.x,lordTarget.y,"VFX",attackSprite);
+			instance_create_layer(lordTarget.x+irandom_range(8,56),lordTarget.y+irandom_range(8,56),"VFX",oGUI_printDMGenemy);
+			instance_create_layer(x+sprite_width/2,y+sprite_height/2,"VFX",oGUI_printHEAL);
+			thisLIF += round(dmgENEMY/2);
+			if thisLIF > thisLIFmax thisLIF = thisLIFmax;
+			lordTarget.thisLord_LIF -= dmgENEMY;
+			isFighting = false;
+	
+			if lordTarget.thisLord_LIF <= lordTarget.thisLord_LIFmax/2 && lordTarget.thisLord_LIF > 0
+			{
+					 if collision_point(lordTarget.x,lordTarget.y,oLord1,false,true) instance_create_layer(oGUI_LordFrame1.x+64,oGUI_LordFrame1.y+16,"VFX",oLord_Baloon3);
+				else if collision_point(lordTarget.x,lordTarget.y,oLord2,false,true) instance_create_layer(oGUI_LordFrame2.x+64,oGUI_LordFrame2.y+16,"VFX",oLord_Baloon3);
+				else if collision_point(lordTarget.x,lordTarget.y,oLord3,false,true) instance_create_layer(oGUI_LordFrame3.x+64,oGUI_LordFrame3.y+16,"VFX",oLord_Baloon3);
+				else if collision_point(lordTarget.x,lordTarget.y,oLord4,false,true) instance_create_layer(oGUI_LordFrame4.x+64,oGUI_LordFrame4.y+16,"VFX",oLord_Baloon3);
+			}
+	
+			alarm[0] = alarmCounter;
+		}
+		else if chooseTarget = 3 && lordLeft != noone
+		{
+			lordTarget = lordLeft;
+			dmgENEMY = (dmgTYPE + irandom_range(-3,3)) - lordTarget.thisLord_DEF;
+			if dmgENEMY <= 0 dmgENEMY = 1;
+			global.dmgENEMY = dmgENEMY;
+			global.dmgLORD = round(dmgENEMY/2)+1;
+			audio_play_sound(attackSound,0,false);
+			instance_create_layer(lordTarget.x,lordTarget.y,"VFX",attackSprite);
+			instance_create_layer(lordTarget.x+irandom_range(8,56),lordTarget.y+irandom_range(8,56),"VFX",oGUI_printDMGenemy);
+			instance_create_layer(x+sprite_width/2,y+sprite_height/2,"VFX",oGUI_printHEAL);
+			thisLIF += round(dmgENEMY/2);
+			if thisLIF > thisLIFmax thisLIF = thisLIFmax;
+			lordTarget.thisLord_LIF -= dmgENEMY;
+			isFighting = false;
+	
+			if lordTarget.thisLord_LIF <= lordTarget.thisLord_LIFmax/2 && lordTarget.thisLord_LIF > 0
+			{
+					 if collision_point(lordTarget.x,lordTarget.y,oLord1,false,true) instance_create_layer(oGUI_LordFrame1.x+64,oGUI_LordFrame1.y+16,"VFX",oLord_Baloon3);
+				else if collision_point(lordTarget.x,lordTarget.y,oLord2,false,true) instance_create_layer(oGUI_LordFrame2.x+64,oGUI_LordFrame2.y+16,"VFX",oLord_Baloon3);
+				else if collision_point(lordTarget.x,lordTarget.y,oLord3,false,true) instance_create_layer(oGUI_LordFrame3.x+64,oGUI_LordFrame3.y+16,"VFX",oLord_Baloon3);
+				else if collision_point(lordTarget.x,lordTarget.y,oLord4,false,true) instance_create_layer(oGUI_LordFrame4.x+64,oGUI_LordFrame4.y+16,"VFX",oLord_Baloon3);
+			}
+	
+			alarm[0] = alarmCounter;
+		}
 			}
 			else
 			{
