@@ -30,8 +30,8 @@ if isFighting && !turnComplete && actions > 0
 			
 			if (lordTop != noone && lordTop.shadow = 0) || (lordRight != noone && lordRight.shadow = 0) || (lordDown != noone && lordDown.shadow = 0) || (lordLeft != noone && lordLeft.shadow = 0)
 			{
-				var chooseAttack = irandom(3);
-				if chooseAttack = 3
+				var chooseAttack = irandom(2);
+				if chooseAttack = 2
 				{
 					chooseTarget = irandom_range(0,3);
 	
