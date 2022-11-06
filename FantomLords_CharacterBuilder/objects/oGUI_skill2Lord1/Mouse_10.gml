@@ -11,8 +11,8 @@ if oLordStats.lord1active && instance_exists(oLord1)
 		global.currentSelectedName = "Disarm";
 		global.currentSelectedSprite = sprite_index;
 		global.currentSelectedImageIndex = image_index;
-		global.currentSelectedDescription1 = "Disable";
-		global.currentSelectedDescription2 = "closer trap";
+		global.currentSelectedDescription1 = "Disable a";
+		global.currentSelectedDescription2 = "nearby trap";
 		global.currentSelectedDescription3 = "";
 	}
 	else if oLord1.thisLord_skillClassArmor = 1
@@ -21,7 +21,7 @@ if oLordStats.lord1active && instance_exists(oLord1)
 		global.currentSelectedSprite = sprite_index;
 		global.currentSelectedImageIndex = image_index;
 		global.currentSelectedDescription1 = "Can't be";
-		global.currentSelectedDescription2 = "target for";
+		global.currentSelectedDescription2 = "targeted for";
 		global.currentSelectedDescription3 = "three turns";
 	}
 	else if oLord1.thisLord_skillClassArmor = 2
@@ -29,7 +29,7 @@ if oLordStats.lord1active && instance_exists(oLord1)
 		global.currentSelectedName = "Sunbathe";
 		global.currentSelectedSprite = sprite_index;
 		global.currentSelectedImageIndex = image_index;
-		global.currentSelectedDescription1 = "Heals itself";
+		global.currentSelectedDescription1 = "Rejuvenate self";
 		global.currentSelectedDescription2 = "using MAG";
 		global.currentSelectedDescription3 = "stat";
 	}
@@ -75,7 +75,7 @@ if oLordStats.lord1active && instance_exists(oLord1)
 		global.currentSelectedSprite = sprite_index;
 		global.currentSelectedImageIndex = image_index;
 		global.currentSelectedDescription1 = "Increase";
-		global.currentSelectedDescription2 = "target DEF";
+		global.currentSelectedDescription2 = "target's DEF";
 		global.currentSelectedDescription3 = "stat";
 	}
 	else if oLord1.thisLord_skillClassArmor = 8
@@ -101,7 +101,7 @@ if oLordStats.lord1active && instance_exists(oLord1)
 		global.currentSelectedName = "Battlecry";
 		global.currentSelectedSprite = sprite_index;
 		global.currentSelectedImageIndex = image_index;
-		global.currentSelectedDescription1 = "Increase self";
+		global.currentSelectedDescription1 = "Raise self";
 		global.currentSelectedDescription2 = "ATK stat";
 		global.currentSelectedDescription3 = "3 turns";
 	}

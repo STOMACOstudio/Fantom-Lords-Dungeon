@@ -39,8 +39,8 @@ if oLordStats.lord4active && instance_exists(oLord4)
 		global.currentSelectedSprite = sprite_index;
 		global.currentSelectedImageIndex = image_index;
 		global.currentSelectedDescription1 = "MAG attack";
-		global.currentSelectedDescription2 = "if kills enemy";
-		global.currentSelectedDescription3 = "gives gemstone";
+		global.currentSelectedDescription2 = "kills grant";
+		global.currentSelectedDescription3 = "a precious relic";
 	}
 	else if oLord4.thisLord_skillWeapon = 4
 	{
@@ -74,9 +74,9 @@ if oLordStats.lord4active && instance_exists(oLord4)
 		global.currentSelectedName = "Blade Whirl";
 		global.currentSelectedSprite = sprite_index;
 		global.currentSelectedImageIndex = image_index;
-		global.currentSelectedDescription1 = "Deals damage";
-		global.currentSelectedDescription2 = "at everyone";
-		global.currentSelectedDescription3 = "around";
+		global.currentSelectedDescription1 = "Deals ATK damage";
+		global.currentSelectedDescription2 = "Around the Lord";
+		global.currentSelectedDescription3 = "";
 	}
 	else if oLord4.thisLord_skillWeapon = 8
 	{
@@ -128,9 +128,9 @@ if oLordStats.lord4active && instance_exists(oLord4)
 		global.currentSelectedName = "Drain Slash";
 		global.currentSelectedSprite = sprite_index;
 		global.currentSelectedImageIndex = image_index;
-		global.currentSelectedDescription1 = "Hit close";
-		global.currentSelectedDescription2 = "enemy and";
-		global.currentSelectedDescription3 = "steals LIF";
+		global.currentSelectedDescription1 = "Hit nearby";
+		global.currentSelectedDescription2 = "enemies and";
+		global.currentSelectedDescription3 = "steal LIF";
 	}
 	else if oLord4.thisLord_skillWeapon = 14
 	{
@@ -146,9 +146,9 @@ if oLordStats.lord4active && instance_exists(oLord4)
 		global.currentSelectedName = "Swap";
 		global.currentSelectedSprite = sprite_index;
 		global.currentSelectedImageIndex = image_index;
-		global.currentSelectedDescription1 = "Swaps two";
-		global.currentSelectedDescription2 = "targets";
-		global.currentSelectedDescription3 = "at once";
+		global.currentSelectedDescription1 = "Swaps position";
+		global.currentSelectedDescription2 = "of two targets";
+		global.currentSelectedDescription3 = "";
 	}
 	else if oLord4.thisLord_skillWeapon = 16
 	{
