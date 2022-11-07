@@ -13,56 +13,56 @@ if done = true
 	#region target enemy
 	if target1enemy != noone
 	{
-		global.dmgENEMY = round((dmg - target1enemy.thisMAG)/2);
+		global.dmgENEMY = round(dmg - target1enemy.thisMAG);
 		if global.dmgENEMY <= 0 global.dmgENEMY = 1;
 		target1enemy.thisLIF -= global.dmgENEMY;
 		instance_create_layer(target1enemy.x,target1enemy.y,"VFX",oGUI_printDMGenemy);
 	}
 	if target2enemy != noone
 	{
-		global.dmgENEMY = round((dmg - target2enemy.thisMAG)/2);
+		global.dmgENEMY = round(dmg - target2enemy.thisMAG);
 		if global.dmgENEMY <= 0 global.dmgENEMY = 1;
 		target2enemy.thisLIF -= global.dmgENEMY;
 		instance_create_layer(target2enemy.x,target2enemy.y,"VFX",oGUI_printDMGenemy);
 	}
 	if target3enemy != noone
 	{
-		global.dmgENEMY = round((dmg - target3enemy.thisMAG)/2);
+		global.dmgENEMY = round(dmg - target3enemy.thisMAG);
 		if global.dmgENEMY <= 0 global.dmgENEMY = 1;
 		target3enemy.thisLIF -= global.dmgENEMY;
 		instance_create_layer(target3enemy.x,target3enemy.y,"VFX",oGUI_printDMGenemy);
 	}
 	if target4enemy != noone
 	{
-		global.dmgENEMY = round((dmg - target4enemy.thisMAG)/2);
+		global.dmgENEMY = round(dmg - target4enemy.thisMAG);
 		if global.dmgENEMY <= 0 global.dmgENEMY = 1;
 		target4enemy.thisLIF -= global.dmgENEMY;
 		instance_create_layer(target4enemy.x,target4enemy.y,"VFX",oGUI_printDMGenemy);
 	}
 	if target5enemy != noone
 	{
-		global.dmgENEMY = round((dmg - target5enemy.thisMAG)/2);
+		global.dmgENEMY = round(dmg - target5enemy.thisMAG);
 		if global.dmgENEMY <= 0 global.dmgENEMY = 1;
 		target5enemy.thisLIF -= global.dmgENEMY;
 		instance_create_layer(target5enemy.x,target5enemy.y,"VFX",oGUI_printDMGenemy);
 	}
 	if target6enemy != noone
 	{
-		global.dmgENEMY = round((dmg - target6enemy.thisMAG)/2);
+		global.dmgENEMY = round(dmg - target6enemy.thisMAG);
 		if global.dmgENEMY <= 0 global.dmgENEMY = 1;
 		target6enemy.thisLIF -= global.dmgENEMY;
 		instance_create_layer(target6enemy.x,target6enemy.y,"VFX",oGUI_printDMGenemy);
 	}
 	if target7enemy != noone
 	{
-		global.dmgENEMY = round((dmg - target7enemy.thisMAG)/2);
+		global.dmgENEMY = round(dmg - target7enemy.thisMAG);
 		if global.dmgENEMY <= 0 global.dmgENEMY = 1;
 		target7enemy.thisLIF -= global.dmgENEMY;
 		instance_create_layer(target7enemy.x,target7enemy.y,"VFX",oGUI_printDMGenemy);
 	}
 	if target8enemy != noone
 	{
-		global.dmgENEMY = round((dmg - target8enemy.thisMAG)/2);
+		global.dmgENEMY = round(dmg - target8enemy.thisMAG);
 		if global.dmgENEMY <= 0 global.dmgENEMY = 1;
 		target8enemy.thisLIF -= global.dmgENEMY;
 		instance_create_layer(target8enemy.x,target8enemy.y,"VFX",oGUI_printDMGenemy);

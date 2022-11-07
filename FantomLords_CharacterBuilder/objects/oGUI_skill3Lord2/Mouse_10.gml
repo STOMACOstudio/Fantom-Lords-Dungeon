@@ -132,7 +132,7 @@ if oLordStats.lord2active && instance_exists(oLord2)
 		global.currentSelectedDescription2 = "enemies and";
 		global.currentSelectedDescription3 = "steal LIF";
 	}
-	else if oLord1.thisLord_skillWeapon = 14
+	else if oLord2.thisLord_skillWeapon = 14
 	{
 		global.currentSelectedName = "Storm";
 		global.currentSelectedSprite = sprite_index;

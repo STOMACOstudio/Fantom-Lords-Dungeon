@@ -21,7 +21,7 @@ if isFighting && !turnComplete && actions > 0
 	{
 	
 	scrEnemyCheckForTiles(); //check all close lords and tiles
-	canMove = false;
+	//canMove = false;
 	
 	if actions >= 2
 	{
