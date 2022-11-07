@@ -15,7 +15,6 @@ if (my_id=="getWalletAddress") {
 	}
 }
 
-
 if (my_id=="getTokenBalance") {
 	var bal = async_load[? "balance"];
 	var parsed_token_ids = json_parse(async_load[? "tokenIDs"]);

@@ -38,7 +38,7 @@ if isSelected && revealed
 	}
 	if gemChoice = sCollect_GemRNB
 	{
-		global.currentSelectedDescription1 = "Precious stone,";
+		global.currentSelectedDescription1 = "Precious relic,";
 		global.currentSelectedDescription2 = "it increases all";
 		global.currentSelectedDescription3 = "Lord's STATS";
 	}

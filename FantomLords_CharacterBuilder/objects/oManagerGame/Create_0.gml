@@ -60,9 +60,8 @@ global.roomCondition = "none";
 global.roomType = "";
 global.tileNumber = 0;
 
-global.waitTimer = 50;
-
-score = 0;
+score = 1000;
+global.scoreEndTurn = 5;
 
 global.roomCounter = 1;
 
