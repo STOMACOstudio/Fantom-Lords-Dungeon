@@ -9,15 +9,7 @@ instance_create_layer(x,y,"Instances",oCollectible_GoldS,value);
 
 if isSelected
 {
-	global.currentSelectedName = "none";
-	global.currentSelectedSprite = "none";
-	global.currentSelectedLIF = 0;
-	global.currentSelectedLIFmax = 0;
-	global.currentSelectedATK = 0;
-	global.currentSelectedDEF = 0;
-	global.currentSelectedMAG = 0;
-	global.currentSelectedStatus = "none";
-	global.currentSelectedColor = c_white;
+	scrEnemyResetVars();
 }
 
 if revealed global.revealdEnemies --;

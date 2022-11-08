@@ -11,15 +11,7 @@ if collect == 10 instance_create_layer(x,y,"Instances",choose(oCollectible_StatG
 
 if isSelected
 {
-	global.currentSelectedName = "none";
-	global.currentSelectedSprite = "none";
-	global.currentSelectedImageIndex = 0;
-	global.currentSelectedLIF = 0;
-	global.currentSelectedLIFmax = 0;
-	global.currentSelectedATK = 0;
-	global.currentSelectedDEF = 0;
-	global.currentSelectedMAG = 0;
-	global.currentSelectedColor = c_white;
+	scrEnemyResetVars();
 }
 
 if revealed global.revealdEnemies --;

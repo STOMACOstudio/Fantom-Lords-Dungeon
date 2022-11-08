@@ -15,7 +15,6 @@ if isSelected && revealed
 	global.currentSelectedDescription1 = "A flan made";
 	global.currentSelectedDescription2 = "of pure magic:";
 	global.currentSelectedDescription3 = "resists attacks.";
-	global.currentStatusColor = statusColor;
 }
 
 if isFighting && !turnComplete && actions > 0

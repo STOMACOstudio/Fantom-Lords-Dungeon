@@ -15,15 +15,7 @@ instance_create_layer(x+64,y+64,"Instances",oEnemy_Eye);
 
 if isSelected
 {
-	global.currentSelectedName = "none";
-	global.currentSelectedSprite = "none";
-	global.currentSelectedLIF = 0;
-	global.currentSelectedLIFmax = 0;
-	global.currentSelectedATK = 0;
-	global.currentSelectedDEF = 0;
-	global.currentSelectedMAG = 0;
-	global.currentSelectedStatus = "none";
-	global.currentSelectedColor = c_white;
+	scrEnemyResetVars();
 }
 
 global.bossBattle ++;

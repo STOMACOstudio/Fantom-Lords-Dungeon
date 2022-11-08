@@ -34,6 +34,10 @@ global.currentSelectedDescription2 = "none";
 global.currentSelectedDescription3 = "none";
 global.currentSelectedStatus = "none";
 global.currentStatusColor = c_lime;
+global.currentStatusSleep = 0;
+global.currentStatusStun = 0;
+global.currentStatusWeak = 0;
+global.currentStatusPoison = 0;
 
 global.dmgLORD = 0;
 global.dmgENEMY = 0;

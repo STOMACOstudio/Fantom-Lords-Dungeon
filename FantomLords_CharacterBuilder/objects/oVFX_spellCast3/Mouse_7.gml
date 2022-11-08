@@ -293,10 +293,13 @@ else if oLord3.spellCast = 15 //SWAP
 }
 else if oLord3.spellCast = 16 //SCOUT
 {
-	var struct = { xDir : mouse_x,
-				   yDir : mouse_y };			   
-	oLord3.spellCast = noone;
-	oLord3.thisLord_ACTpoints -= 2;
-	instance_create_layer(oLord3.x+oLord3.sprite_width/2,oLord3.y+oLord3.sprite_height/2,"VFX",oSKILL_WEAPON_Scout, struct);
-	instance_destroy();
+	if mouse_y < 504
+	{
+		var struct = { xDir : mouse_x,
+					   yDir : mouse_y };			   
+		oLord3.spellCast = noone;
+		oLord3.thisLord_ACTpoints -= 2;
+		instance_create_layer(oLord3.x+oLord3.sprite_width/2,oLord3.y+oLord3.sprite_height/2,"VFX",oSKILL_WEAPON_Scout, struct);
+		instance_destroy();
+	}
 }

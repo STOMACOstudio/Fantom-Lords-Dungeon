@@ -11,5 +11,9 @@ function scrEnemyPrintStats(){
 	global.currentSelectedDEF = thisDEF;
 	global.currentSelectedMAG = thisATK;
 	global.currentSelectedStatus = status;
+	global.currentStatusSleep = sleep;
+	global.currentStatusStun = stun;
+	global.currentStatusWeak = weaken;
+	global.currentStatusPoison = poison;
 
 }
