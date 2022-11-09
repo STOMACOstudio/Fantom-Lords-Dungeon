@@ -20,7 +20,7 @@ if oLord3.spellCast = 0 ||  oLord3.spellCast = 1  ||  oLord3.spellCast = 12 ||  
 		}
 	}
 }
-if oLord3.spellCast = 3 //Soul Syphon
+if oLord3.spellCast = 3 || oLord3.spellCast = 2 //Soul Syphon //poison
 {
 	with oEnemy0_Father
 	{

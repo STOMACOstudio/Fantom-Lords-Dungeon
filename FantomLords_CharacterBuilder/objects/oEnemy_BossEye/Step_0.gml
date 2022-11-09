@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+show_debug_message(string(actions));
+
 if sleep > 0 image_speed = 0;
 else image_speed = 1;
 
@@ -20,7 +22,7 @@ if isFighting && !turnComplete && actions > 0
 	if !stun && sleep = 0
 	{
 		scrEnemyCheckForTiles(); //check all close lords and tiles
-		//canMove = false;
+		canMove = false;
 	
 		if actions >= 2
 		{
@@ -68,7 +70,7 @@ if isFighting && !turnComplete && actions > 0
 			actionsRate = 1;
 		
 			if lordTop != noone || lordTopRight != noone || lordRightRight != noone || lordRightRightDown != noone || lordDownDownRight != noone || lordDownDown != noone || lordLeft != noone || lordDownLeft != noone scrEnemyForceEndTurn();
-			else scrBossMoveChoice();
+			else scrEnemyForceEndTurn();
 		}
 	}
 	else

@@ -17,5 +17,4 @@ function scr_ini(){
 
 function print(msg) {
 	global.print_message += "\n"+string(msg);
-	//show_debug_message(global.print_message)
 }

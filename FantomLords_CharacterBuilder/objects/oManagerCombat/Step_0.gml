@@ -68,7 +68,7 @@ else if combatPhase = 1
 	{
 		enemy[i] = instance_find(oEnemy0_Father,i); //array con gli id di ogni nemico
 		whosfighting = string(enemy[i]); //variabile di debug
-		if enemy[i].revealed && !enemy[i].obstacle && !enemy[i].isFighting && !enemy[i].turnComplete //check se il nemico è rivelatot sula mappa, non sta né combattendo né ha combattuto
+		if enemy[i].revealed && !enemy[i].obstacle && !enemy[i].isFighting && !enemy[i].turnComplete //check se il nemico è rivelato sula mappa, non sta né combattendo né ha combattuto
 		{
 			enemy[i].isFighting = true; //inizializza le azioni del nemico scelto
 			if i < instance_number(oEnemy0_Father) i++; //aggiorna la i

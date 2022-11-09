@@ -3,8 +3,7 @@
 function scrEnemyForceEndTurn(){
 	
 	actions = 0;
-	//isFighting = false;
-	//oManagerCombat.fightEnd ++;
+	isFighting = false;
 	if poison
 	{
 		global.dmgENEMY = round(thisLIFmax/10);

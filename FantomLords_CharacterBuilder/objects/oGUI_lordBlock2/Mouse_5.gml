@@ -3,7 +3,6 @@
 
 if !empty && oGUI_lordBlock3.empty && oGUI_lordBlock4.empty
 {
-	show_debug_message(string(empty));
 	audio_play_sound(snRemoveLord,0,false);
 	oLordStats.lord2active = false;
 	sprite_index = sGUI_addLord;

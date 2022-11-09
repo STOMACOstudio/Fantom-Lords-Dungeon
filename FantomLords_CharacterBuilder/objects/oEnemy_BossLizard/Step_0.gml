@@ -21,7 +21,7 @@ if isFighting && !turnComplete && actions > 0
 	{
 	
 	scrEnemyCheckForTiles(); //check all close lords and tiles
-	//canMove = false;
+	canMove = false;
 	
 	if actions >= 2
 	{
@@ -262,7 +262,7 @@ if isFighting && !turnComplete && actions > 0
 			actionsRate = 1;
 		
 			if lordTop != noone || lordTopRight != noone || lordRightRight != noone || lordRightRightDown != noone || lordDownDownRight != noone || lordDownDown != noone || lordLeft != noone || lordDownLeft != noone scrEnemyForceEndTurn();
-			else scrBossMoveChoice();
+			else scrEnemyForceEndTurn();
 		}
 	}
 	else
