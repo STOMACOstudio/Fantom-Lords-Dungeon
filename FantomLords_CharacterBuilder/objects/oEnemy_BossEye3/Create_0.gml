@@ -1,9 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+oManagerCombat.combatPhase = 1
+
 image_alpha = 1;
 revealed = true;
-image_blend = c_blue;
 
 target = false;
 

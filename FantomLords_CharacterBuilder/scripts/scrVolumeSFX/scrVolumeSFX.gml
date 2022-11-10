@@ -54,5 +54,7 @@ function scrVolumeSFX(){
 	audio_sound_gain(sn_SKILL_Swap,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Quake,global.volumeSFX,0);
 	audio_sound_gain(snShadeAttack,global.volumeSFX,0);
+	audio_sound_gain(snFlanDeath,global.volumeSFX,0);
+	audio_sound_gain(snBossDeath,global.volumeSFX,0);
 	
 }

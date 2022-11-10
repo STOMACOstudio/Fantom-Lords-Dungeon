@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oEnemy_BossEye3",
   "spriteId": {
-    "name": "sEnemyBoss_Lizard",
-    "path": "sprites/sEnemyBoss_Lizard/sEnemyBoss_Lizard.yy",
+    "name": "sEnemyBoss_Lizard3",
+    "path": "sprites/sEnemyBoss_Lizard3/sEnemyBoss_Lizard3.yy",
   },
   "solid": false,
   "visible": true,

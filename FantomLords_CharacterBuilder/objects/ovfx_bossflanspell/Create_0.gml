@@ -3,4 +3,4 @@
 
 dmg = dmg + irandom_range(-4,4);
 
-lord = collision_point(x,y,oLord0Parent,false,true);
+lord = collision_point(x+32,y+32,oLord0Parent,false,true);
