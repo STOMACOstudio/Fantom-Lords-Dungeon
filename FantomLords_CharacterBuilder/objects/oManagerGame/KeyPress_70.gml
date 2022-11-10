@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-/*var propWidth = (display_get_width()/1280);
+var propWidth = (display_get_width()/1280);
 var propHeight = (display_get_width()/720);
 
 if (global.fullScreen = false)

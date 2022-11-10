@@ -6,21 +6,21 @@ revealed = true;
 
 target = false;
 
-image_xscale /= 2.5;
-image_yscale /= 2.5;
+image_xscale /= 5;
+image_yscale /= 5;
 
 isSelected = false;
 
 thisName = "Flan King";
-thisLIF = 40 + (5*global.roomCounter) + irandom_range(-8,8);
+thisLIF = 60 + (5*global.roomCounter) + irandom_range(-8,8);
 thisLIFmax = thisLIF;
 thisATK = 10 + irandom_range(-2,5);
 thisATKmax = thisATK;
 thisDEF = (80 + global.roomCounter) + irandom_range(-10,10);
 thisDEFmax = thisDEF;
-thisMAG = 10 + (2*global.roomCounter) + irandom_range(-4,6);
+thisMAG = 5 + (2*global.roomCounter) + irandom_range(-4,6);
 thisMAGmax = thisMAG;
-scoreAdd = 50;
+scoreAdd = 30;
 isFighting = false;
 turnComplete = false;
 actionsMax = 4;

@@ -4,8 +4,8 @@
 image_alpha = 1;
 revealed = true;
 
-image_xscale /= 2.5;
-image_yscale /= 2.5;
+image_xscale /= 5;
+image_yscale /= 5;
 
 target = false;
 
