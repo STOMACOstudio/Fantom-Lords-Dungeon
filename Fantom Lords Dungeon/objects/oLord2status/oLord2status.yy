@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oLord2status",
-  "spriteId": {
-    "name": "sSTATUS",
-    "path": "sprites/sSTATUS/sSTATUS.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -30,7 +27,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Lord1",
-    "path": "folders/Objects/Lords/Lord1.yy",
+    "name": "Lord2",
+    "path": "folders/Objects/Lords/Lord2.yy",
   },
 }

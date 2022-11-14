@@ -3,7 +3,9 @@
 
 if instance_exists(oLord4)
 {
-	draw_rectangle_color(mouse_x+16,mouse_y,mouse_x+80,mouse_y+82,c_black,c_black,c_black,c_black,false);
+	draw_rectangle_color(mouse_x+16,mouse_y-16,mouse_x+80,mouse_y+82,c_black,c_black,c_black,c_black,false);
+	
+	draw_text_transformed(mouse_x+18,mouse_y-14,"LVL: " + string(oLord4.thisLord_level),0.5,0.5,0);
 	
 	draw_text_transformed(mouse_x+18,mouse_y+2,"LIF: " + string(oLord4.thisLord_LIFmax),0.5,0.5,0);
 	

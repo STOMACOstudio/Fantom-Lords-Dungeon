@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oLord1status",
-  "spriteId": {
-    "name": "sSTATUS",
-    "path": "sprites/sSTATUS/sSTATUS.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

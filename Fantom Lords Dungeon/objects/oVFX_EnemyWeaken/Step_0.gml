@@ -8,6 +8,18 @@ if done = true
 		targetLord.thisLord_ATK -= rate;
 		targetLord.thisLord_DEF -= rate;
 		targetLord.thisLord_MAG -= rate;
+		if (targetLord.thisLord_ATK < 0)
+		{
+			targetLord.thisLord_ATK  = 0
+		};
+		if (targetLord.thisLord_DEF < 0)
+		{
+			targetLord.thisLord_DEF  = 0
+		};
+		if (targetLord.thisLord_MAG < 0)
+		{
+			targetLord.thisLord_MAG  = 0
+		};
 		
 		if targetLord.weaken = 0 targetLord.weaken = 2;
 	}

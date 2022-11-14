@@ -23,3 +23,5 @@ if thisLocked
 {
 	if !instance_exists(oVFX_spellCast1) scrLordCheckTarget();
 }
+
+thisLord_level = thisLord_LIFmax + thisLord_ATK + thisLord_DEF + thisLord_MAG + thisLord_ACT;

@@ -20,6 +20,7 @@ if thisLord_ACTpointsMAX < 2 thisLord_ACTpointsMAX = 2;
 thisLord_typeAttack = oLordStats.lord1typeAttack;
 thisLord_skillClassArmor = oLordStats.lord1skillClassArmor;
 thisLord_skillWeapon = oLordStats.lord1skillWeapon;
+thisLord_level = thisLord_LIFmax + thisLord_ATK + thisLord_DEF + thisLord_MAG + thisLord_ACT;
 sprite_index = oLordStats.lord1sprite;
 image_xscale /= 5;
 image_yscale /= 5;

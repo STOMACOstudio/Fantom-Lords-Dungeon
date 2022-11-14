@@ -1,26 +1,24 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-oManagerCombat.combatPhase = 1
-
 image_alpha = 1;
 revealed = true;
-
-target = false;
 
 image_xscale /= 5;
 image_yscale /= 5;
 
+target = false;
+
 isSelected = false;
 
-thisName = "Shade King";
-thisLIF = 40 + (5*global.roomCounter) + irandom_range(-8,8);
+thisName = "Skeleton King";
+thisLIF = (100 + (10*global.roomCounter)) + irandom_range(-5,5);
 thisLIFmax = thisLIF;
-thisATK = 2 + irandom_range(-2,5);
+thisATK = (10 + (2*global.roomCounter)) + irandom_range(-2,5);
 thisATKmax = thisATK;
-thisDEF = (125 + global.roomCounter) + irandom_range(-10,10);
+thisDEF = 1;
 thisDEFmax = thisDEF;
-thisMAG = 20 + (2*global.roomCounter) + irandom_range(-4,6);
+thisMAG = (12 + (2*global.roomCounter)) + irandom_range(-3,3);
 thisMAGmax = thisMAG;
 scoreAdd = 120;
 isFighting = false;
@@ -28,8 +26,8 @@ turnComplete = false;
 actionsMax = 4;
 actions = actionsMax;
 bashed = false;
-attackSprite = oVFX_EnemyShadeAttack;
-attackSound = snShadeAttack;
+attackSprite = oVFX_EnemySkeletonAttack;
+attackSound = snAttack;
 status = "Uninjured";
 LIFpercentage = 100;
 statusColor = c_lime;

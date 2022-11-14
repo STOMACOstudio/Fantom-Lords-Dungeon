@@ -22,6 +22,7 @@ if oLordStats.lord4active
 	thisLord_typeAttack = oLordStats.lord4typeAttack;
 	thisLord_skillClassArmor = oLordStats.lord4skillClassArmor;
 	thisLord_skillWeapon = oLordStats.lord4skillWeapon;
+	thisLord_level = thisLord_LIFmax + thisLord_ATK + thisLord_DEF + thisLord_MAG + thisLord_ACT;
 	sprite_index = oLordStats.lord4sprite;
 	image_xscale /= 5;
 	image_yscale /= 5;
