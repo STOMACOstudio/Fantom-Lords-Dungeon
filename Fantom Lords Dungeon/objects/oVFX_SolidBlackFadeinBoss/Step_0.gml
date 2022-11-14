@@ -18,5 +18,7 @@ if image_alpha >= 1
 	if instance_exists(oLord4) oLord4.thisLord_ACTpoints = oLord4.thisLord_ACTpointsMAX;
 	
 	with oTrap0Father instance_destroy();
-	room_goto(Room4_Boss);
+	
+	if global.roomType = "Sewers" room_goto(Room4_Boss);
+	else if global.roomType = "Prison" room_goto(Room4_BossPrison);
 }

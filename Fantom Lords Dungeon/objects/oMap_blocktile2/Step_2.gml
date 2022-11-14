@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if room != Room4_Boss
+if room != Room4_BossPrison
 {
 	if !filled && empty
 	{
