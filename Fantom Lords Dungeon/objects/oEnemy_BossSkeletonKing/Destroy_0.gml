@@ -11,6 +11,7 @@ score += scoreAdd;
 
 var struct = { revealed : true };
 
+with (oEnemy_Skeleton) { instance_destroy(); }
 instance_create_layer(x,y,"VFX",oVFX_BossDeath);
 instance_create_layer(oGUI_score.x+112,oGUI_score.y,"Instances",oGUI_printScoreAdd);
 instance_create_layer(x,y,"Instances",oDoor,struct);

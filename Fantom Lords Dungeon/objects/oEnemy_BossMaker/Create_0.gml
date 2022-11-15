@@ -7,6 +7,6 @@ if (global.roomType = "Sewers")
 }
 else if (global.roomType = "Prison")
 {
-	instance_create_layer(x,y,"Instances", choose(oEnemy_BossShadeKing,oEnemy_BossSkeletonKing));
+	instance_create_layer(x,y,"Instances", choose(oEnemy_BossShadeKing,oEnemy_BossSkeletonKing,oEnemy_BossWardenTroll));
 }
 instance_destroy();

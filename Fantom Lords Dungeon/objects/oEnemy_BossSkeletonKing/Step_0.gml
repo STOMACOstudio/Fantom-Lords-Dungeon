@@ -10,8 +10,8 @@ if isSelected && revealed
 {
 	scrEnemyPrintStats();
 	global.currentSelectedDescription1 = "The king of";
-	global.currentSelectedDescription2 = "the undead can";
-	global.currentSelectedDescription3 = "summon minions.";
+	global.currentSelectedDescription2 = "the undead ";
+	global.currentSelectedDescription3 = "can summon.";
 	global.currentStatusColor = statusColor;
 }
 

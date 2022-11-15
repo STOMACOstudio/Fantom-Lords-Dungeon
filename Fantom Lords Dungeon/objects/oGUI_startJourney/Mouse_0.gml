@@ -4,9 +4,10 @@
 if !oGUI_lordBlock1.empty
 {
 	audio_play_sound(snClick,0,false);
-	room_goto(Room3_Prison);
-	global.roomType = "Prison";
+	room_goto(Room3_Dungeon);
+	
+	//test boss
+	/*global.roomType = "Prison";
 	global.roomCounter = 1;
-	//global.roomCounter = 1;
-	room_goto(Room4_BossPrison);
+	room_goto(Room4_BossPrison);*/
 }

@@ -12,7 +12,7 @@ target = false;
 isSelected = false;
 
 thisName = "Skeleton King";
-thisLIF = (100 + (10*global.roomCounter)) + irandom_range(-5,5);
+thisLIF = (30 + (10*global.roomCounter)) + irandom_range(-5,5);
 thisLIFmax = thisLIF;
 thisATK = (10 + (2*global.roomCounter)) + irandom_range(-2,5);
 thisATKmax = thisATK;
