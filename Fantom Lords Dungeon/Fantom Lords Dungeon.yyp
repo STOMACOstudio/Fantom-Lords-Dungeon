@@ -56,6 +56,7 @@
     {"id":{"name":"oAscendTrait_Relic","path":"objects/oAscendTrait_Relic/oAscendTrait_Relic.yy",},"order":32,},
     {"id":{"name":"oGUI_OptionsBarOSTplus","path":"objects/oGUI_OptionsBarOSTplus/oGUI_OptionsBarOSTplus.yy",},"order":32,},
     {"id":{"name":"sCollect_KeySilver","path":"sprites/sCollect_KeySilver/sCollect_KeySilver.yy",},"order":24,},
+    {"id":{"name":"oVFX_EnemyRise","path":"objects/oVFX_EnemyRise/oVFX_EnemyRise.yy",},"order":41,},
     {"id":{"name":"sVFX_BossFlanAttack","path":"sprites/sVFX_BossFlanAttack/sVFX_BossFlanAttack.yy",},"order":1,},
     {"id":{"name":"oLord_Baloon6","path":"objects/oLord_Baloon6/oLord_Baloon6.yy",},"order":26,},
     {"id":{"name":"oVFX_spellCastEnd","path":"objects/oVFX_spellCastEnd/oVFX_spellCastEnd.yy",},"order":29,},

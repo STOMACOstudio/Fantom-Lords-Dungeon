@@ -3,4 +3,4 @@
 
 image_blend = c_white;
 
-url_open_ext("https://spooky.fi/#/swap?outputCurrency=0xe5586582e1a60e302a53e73e4fadccaf868b459a", "_blank");
+url_open_ext("https://paintswap.finance/marketplace/collections/ascended-fantom-lords", "_blank");
