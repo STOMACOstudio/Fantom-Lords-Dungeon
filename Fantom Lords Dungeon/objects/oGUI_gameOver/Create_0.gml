@@ -7,3 +7,11 @@ audio_stop_all();
 
 audio_play_sound(snGameOver,0,false);
 alarm[0] = 30;
+
+global.lastScore = score;
+if (score > global.highScore)
+{
+	global.highScore = score;
+}
+
+scrSaveGame();
