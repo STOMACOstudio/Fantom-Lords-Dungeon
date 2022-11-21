@@ -28,7 +28,7 @@ else if global.classArmor = 1 //dragonslayer
 	global.modDEFarmor = DragDEFmod;
 	global.modMAGarmor = DragMAGmod;
 	global.modACTarmor = DragACTmod;
-	global.classArmorSkill = "Empower";
+	global.classArmorSkill = "Bless";
 }
 else if global.classArmor = 2 //champion
 {

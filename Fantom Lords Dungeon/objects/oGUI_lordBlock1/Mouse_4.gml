@@ -48,6 +48,7 @@ if empty
 		audio_play_sound(snAddLord,0,false);
 	
 		oLordStats.lord1active = true;
+		oLordStats.lord1ascend = true;
 	
 		var surf = surface_create(320,320);
 		surface_set_target(surf);

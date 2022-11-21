@@ -5,6 +5,7 @@ if !empty && oGUI_lordBlock3.empty && oGUI_lordBlock4.empty
 {
 	audio_play_sound(snRemoveLord,0,false);
 	oLordStats.lord2active = false;
+	oLordStats.lord2ascend = false;
 	sprite_index = sGUI_addLord;
 	image_xscale = 1;
 	image_yscale = 1;

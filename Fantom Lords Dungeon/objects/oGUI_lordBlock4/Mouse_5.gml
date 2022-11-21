@@ -5,6 +5,7 @@ if !empty
 {
 	audio_play_sound(snRemoveLord,0,false);
 	oLordStats.lord4active = false;
+	oLordStats.lord4ascend = false;
 	sprite_index = sGUI_addLord;
 	image_xscale = 1;
 	image_yscale = 1;

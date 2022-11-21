@@ -3,6 +3,7 @@
 
 #region lord 1
 lord1active = false;
+lord1ascend = false;
 lord1name = "Lord 1";
 lord1sprite = "none";
 lord1typeAttack = "none";
@@ -21,6 +22,7 @@ lord1ACTmax = 0;
 #endregion
 #region lord 2
 lord2active = false;
+lord2ascend = false;
 lord2name = "Lord 2";
 lord2sprite = "none";
 lord2typeAttack = "none";
@@ -39,6 +41,7 @@ lord2ACTmax = 0;
 #endregion
 #region lord 3
 lord3active = false;
+lord3ascend = false;
 lord3name = "Lord 3";
 lord3sprite = "none";
 lord3typeAttack = "none";
@@ -57,6 +60,7 @@ lord3ACTmax = 0;
 #endregion
 #region lord 4
 lord4active = false;
+lord4ascend = false;
 lord4name = "Lord 4";
 lord4sprite = "none";
 lord4typeAttack = "none";

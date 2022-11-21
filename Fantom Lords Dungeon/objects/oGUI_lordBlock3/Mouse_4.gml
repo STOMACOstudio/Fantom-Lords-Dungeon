@@ -9,7 +9,6 @@ if empty && !oGUI_lordBlock1.empty && !oGUI_lordBlock2.empty
 		audio_play_sound(snAddLord,0,false);
 	
 		oLordStats.lord3active = true;
-	
 		var surf = surface_create(320,320);
 		surface_set_target(surf);
 		draw_clear_alpha(0, 0);
@@ -48,7 +47,7 @@ if empty && !oGUI_lordBlock1.empty && !oGUI_lordBlock2.empty
 		audio_play_sound(snAddLord,0,false);
 	
 		oLordStats.lord3active = true;
-	
+		oLordStats.lord3ascend = true;
 		var surf = surface_create(320,320);
 		surface_set_target(surf);
 		draw_clear_alpha(0, 0);

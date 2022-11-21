@@ -16,7 +16,7 @@ if global.weapon = 0 //Dragon Scythe
 	global.modDEFweapon = DraScDEFmod;
 	global.modMAGweapon = DraScMAGmod;
 	global.modACTweapon = DraScACTmod;
-	global.weaponSkill = "Rattle";
+	global.weaponSkill = "Dead Hour";
 }
 else if global.weapon = 1 //Dragon Slayer Halberd
 {
@@ -25,7 +25,7 @@ else if global.weapon = 1 //Dragon Slayer Halberd
 	global.modDEFweapon = DraSlDEFmod;
 	global.modMAGweapon = DraSlMAGmod;
 	global.modACTweapon = DraSlACTmod;
-	global.weaponSkill = "Execute";
+	global.weaponSkill = "Matchup";
 }
 else if global.weapon = 2 //Enchanted Long Bow
 {
@@ -34,7 +34,7 @@ else if global.weapon = 2 //Enchanted Long Bow
 	global.modDEFweapon = EnchBowDEFmod;
 	global.modMAGweapon = EnchBowMAGmod;
 	global.modACTweapon = EnchBowACTmod;
-	global.weaponSkill = "Spirit Arrow";
+	global.weaponSkill = "Spirit Arrows";
 }
 else if global.weapon = 3 //Enchanted Uchigatana
 {
@@ -43,7 +43,7 @@ else if global.weapon = 3 //Enchanted Uchigatana
 	global.modDEFweapon = UchiDEFmod;
 	global.modMAGweapon = UchiMAGmod;
 	global.modACTweapon = UchiACTmod;
-	global.weaponSkill = "Deathblow";
+	global.weaponSkill = "Eerie Slash";
 }
 else if global.weapon = 4 //Ghastly Greatsword
 {
@@ -52,7 +52,7 @@ else if global.weapon = 4 //Ghastly Greatsword
 	global.modDEFweapon = GhastlDEFmod;
 	global.modMAGweapon = GhastlMAGmod;
 	global.modACTweapon = GhastlACTmod;
-	global.weaponSkill = "Ghost Slash";
+	global.weaponSkill = "Ghosts";
 }
 else if global.weapon = 5 //Ice Lance
 {
@@ -70,7 +70,7 @@ else if global.weapon = 6 //Royal Greatsword
 	global.modDEFweapon = RoyalDEFmod;
 	global.modMAGweapon = RoyalMAGmod;
 	global.modACTweapon = RoyalACTmod;
-	global.weaponSkill = "Royal Cut";
+	global.weaponSkill = "Royal Buff";
 }
 else if global.weapon = 7 //Runebinder Staff And Book
 {
@@ -133,5 +133,5 @@ else if global.weapon = 13 //Tower Shield
 	global.modDEFweapon = TowerDEFmod;
 	global.modMAGweapon = TowerMAGmod;
 	global.modACTweapon = TowerACTmod;
-	global.weaponSkill = "Tank";
+	global.weaponSkill = "Tower";
 }
