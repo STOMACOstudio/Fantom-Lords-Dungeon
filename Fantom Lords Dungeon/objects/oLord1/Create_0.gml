@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 thisLocked = false;
+thisLord_ascend = oLordStats.lord1ascend = true;
 thisLord_name = oLordStats.lord1name;
 thisLord_LIF = oLordStats.lord1LIF;
 thisLord_LIFmax = oLordStats.lord1LIFmax;

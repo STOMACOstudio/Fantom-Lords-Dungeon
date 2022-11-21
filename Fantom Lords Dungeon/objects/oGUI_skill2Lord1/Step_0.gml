@@ -5,18 +5,32 @@ if mouse_x > x && mouse_x < x+32 && mouse_y > y && mouse_y < y+32 && !instance_e
 {
 	if instance_exists(oLord1)
 	{
-		if oLord1.thisLord_skillClassArmor = 0 global.printSkill = "DISARM";
-		else if oLord1.thisLord_skillClassArmor = 1 global.printSkill = "SHADOW";
-		else if oLord1.thisLord_skillClassArmor = 2 global.printSkill = "SUNBATHE";
-		else if oLord1.thisLord_skillClassArmor = 3 global.printSkill = "SUTURE";
-		else if oLord1.thisLord_skillClassArmor = 4 global.printSkill = "LIFESTEAL";
-		else if oLord1.thisLord_skillClassArmor = 5 global.printSkill = "TELEPORT";
-		else if oLord1.thisLord_skillClassArmor = 6 global.printSkill = "LULLABY";
-		else if oLord1.thisLord_skillClassArmor = 7 global.printSkill = "BURDEN";
-		else if oLord1.thisLord_skillClassArmor = 8 global.printSkill = "BURN";
-		else if oLord1.thisLord_skillClassArmor = 9 global.printSkill = "REVIVE";
-		else if oLord1.thisLord_skillClassArmor = 10 global.printSkill = "BATTLECRY";
-		else if oLord1.thisLord_skillClassArmor = 11 global.printSkill = "CRUSH";
+		if (oLord1.thisLord_ascend)
+		{
+				 if oLord1.thisLord_skillClassArmor = 0 global.printSkill = "PATH";
+			else if oLord1.thisLord_skillClassArmor = 1 global.printSkill = "BLESS";
+			else if oLord1.thisLord_skillClassArmor = 2 global.printSkill = "CLASH";
+			else if oLord1.thisLord_skillClassArmor = 3 global.printSkill = "LIFE BREATH";
+			else if oLord1.thisLord_skillClassArmor = 4 global.printSkill = "CRYSTALIZE";
+			else if oLord1.thisLord_skillClassArmor = 5 global.printSkill = "HONOR";
+			else if oLord1.thisLord_skillClassArmor = 6 global.printSkill = "BEAM";
+			else if oLord1.thisLord_skillClassArmor = 7 global.printSkill = "DRAIN";
+		}
+		else
+		{
+				 if oLord1.thisLord_skillClassArmor = 0 global.printSkill = "DISARM";
+			else if oLord1.thisLord_skillClassArmor = 1 global.printSkill = "SHADOW";
+			else if oLord1.thisLord_skillClassArmor = 2 global.printSkill = "SUNBATHE";
+			else if oLord1.thisLord_skillClassArmor = 3 global.printSkill = "SUTURE";
+			else if oLord1.thisLord_skillClassArmor = 4 global.printSkill = "LIFESTEAL";
+			else if oLord1.thisLord_skillClassArmor = 5 global.printSkill = "TELEPORT";
+			else if oLord1.thisLord_skillClassArmor = 6 global.printSkill = "LULLABY";
+			else if oLord1.thisLord_skillClassArmor = 7 global.printSkill = "BURDEN";
+			else if oLord1.thisLord_skillClassArmor = 8 global.printSkill = "BURN";
+			else if oLord1.thisLord_skillClassArmor = 9 global.printSkill = "REVIVE";
+			else if oLord1.thisLord_skillClassArmor = 10 global.printSkill = "BATTLECRY";
+			else if oLord1.thisLord_skillClassArmor = 11 global.printSkill = "CRUSH";
+		}
 	}
 
 	if global.hasControl && instance_exists(oLord1) && mouse_check_button_pressed(mb_left)

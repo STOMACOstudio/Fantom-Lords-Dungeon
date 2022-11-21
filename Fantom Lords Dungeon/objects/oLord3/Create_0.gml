@@ -4,6 +4,7 @@
 if oLordStats.lord3active
 {
 	thisLocked = false;
+	thisLord_ascend = oLordStats.lord3ascend = true;
 	thisLord_name = oLordStats.lord3name;
 	thisLord_LIF = oLordStats.lord3LIF;
 	thisLord_LIFmax = oLordStats.lord3LIFmax;
