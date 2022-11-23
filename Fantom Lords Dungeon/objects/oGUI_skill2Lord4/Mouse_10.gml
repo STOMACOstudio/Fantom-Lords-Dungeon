@@ -7,7 +7,80 @@ if oLordStats.lord4active && instance_exists(oLord4)
 	global.currentStatusColor = c_white;
 	
 	if (oLord4.thisLord_ascend)
-	{}
+	{
+		if oLord4.thisLord_skillClassArmor = 0
+		{
+			global.currentSelectedName = "Path";
+			global.currentSelectedSprite = sprite_index;
+			global.currentSelectedImageIndex = image_index;
+			global.currentSelectedDescription1 = "Reveal the";
+			global.currentSelectedDescription2 = "next door on";
+			global.currentSelectedDescription3 = "the map";
+		}
+		else if oLord4.thisLord_skillClassArmor = 1
+		{
+			global.currentSelectedName = "Bless";
+			global.currentSelectedSprite = sprite_index;
+			global.currentSelectedImageIndex = image_index;
+			global.currentSelectedDescription1 = "Heals and";
+			global.currentSelectedDescription2 = "rise DEF and";
+			global.currentSelectedDescription3 = "ATK of target";
+		}
+		else if oLord4.thisLord_skillClassArmor = 2
+		{
+			global.currentSelectedName = "Clash";
+			global.currentSelectedSprite = sprite_index;
+			global.currentSelectedImageIndex = image_index;
+			global.currentSelectedDescription1 = "Deals a high";
+			global.currentSelectedDescription2 = "ATK damage";
+			global.currentSelectedDescription3 = "with recoil";
+		}
+		else if oLord4.thisLord_skillClassArmor = 3
+		{
+			global.currentSelectedName = "Life Breath";
+			global.currentSelectedSprite = sprite_index;
+			global.currentSelectedImageIndex = image_index;
+			global.currentSelectedDescription1 = "Heals self";
+			global.currentSelectedDescription2 = "or target";
+			global.currentSelectedDescription3 = "";
+		}
+		else if oLord4.thisLord_skillClassArmor = 4
+		{
+			global.currentSelectedName = "Crystalize";
+			global.currentSelectedSprite = sprite_index;
+			global.currentSelectedImageIndex = image_index;
+			global.currentSelectedDescription1 = "Immobilize";
+			global.currentSelectedDescription2 = "the target but";
+			global.currentSelectedDescription3 = "rise its DEF";
+		}
+		else if oLord4.thisLord_skillClassArmor = 5
+		{
+			global.currentSelectedName = "Honor";
+			global.currentSelectedSprite = sprite_index;
+			global.currentSelectedImageIndex = image_index;
+			global.currentSelectedDescription1 = "Suicide for";
+			global.currentSelectedDescription2 = "healing and";
+			global.currentSelectedDescription3 = "reviving allies";
+		}
+		else if oLord4.thisLord_skillClassArmor = 6
+		{
+			global.currentSelectedName = "Beam";
+			global.currentSelectedSprite = sprite_index;
+			global.currentSelectedImageIndex = image_index;
+			global.currentSelectedDescription1 = "Powerful MAG";
+			global.currentSelectedDescription2 = "piercing damage";
+			global.currentSelectedDescription3 = "";
+		}
+		else if oLord4.thisLord_skillClassArmor = 7
+		{
+			global.currentSelectedName = "Drain";
+			global.currentSelectedSprite = sprite_index;
+			global.currentSelectedImageIndex = image_index;
+			global.currentSelectedDescription1 = "Deals MAG";
+			global.currentSelectedDescription2 = "damage and";
+			global.currentSelectedDescription3 = "heals back";
+		}
+	}
 	else
 	{
 		if oLord4.thisLord_skillClassArmor = 0
