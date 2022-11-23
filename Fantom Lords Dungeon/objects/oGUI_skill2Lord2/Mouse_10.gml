@@ -3,6 +3,35 @@
 
 if oLordStats.lord2active && instance_exists(oLord2)
 {
+	if (oLord2.thisLord_ascend)
+	{
+		if oLord2.thisLord_skillClassArmor = 0 global.printSkill = "PATH";
+		else if oLord2.thisLord_skillClassArmor = 1 global.printSkill = "BLESS";
+		else if oLord2.thisLord_skillClassArmor = 2 global.printSkill = "CLASH";
+		else if oLord2.thisLord_skillClassArmor = 3 global.printSkill = "LIFE BREATH";
+		else if oLord2.thisLord_skillClassArmor = 4 global.printSkill = "CRYSTALIZE";
+		else if oLord2.thisLord_skillClassArmor = 5 global.printSkill = "HONOR";
+		else if oLord2.thisLord_skillClassArmor = 6 global.printSkill = "BEAM";
+		else if oLord2.thisLord_skillClassArmor = 7 global.printSkill = "DRAIN";
+	}
+	else
+	{
+		if oLord2.thisLord_skillClassArmor = 0 global.printSkill = "DISARM";
+		else if oLord2.thisLord_skillClassArmor = 1 global.printSkill = "SHADOW";
+		else if oLord2.thisLord_skillClassArmor = 2 global.printSkill = "SUNBATHE";
+		else if oLord2.thisLord_skillClassArmor = 3 global.printSkill = "SUTURE";
+		else if oLord2.thisLord_skillClassArmor = 4 global.printSkill = "LIFESTEAL";
+		else if oLord2.thisLord_skillClassArmor = 5 global.printSkill = "TELEPORT";
+		else if oLord2.thisLord_skillClassArmor = 6 global.printSkill = "LULLABY";
+		else if oLord2.thisLord_skillClassArmor = 7 global.printSkill = "BURDEN";
+		else if oLord2.thisLord_skillClassArmor = 8 global.printSkill = "BURN";
+		else if oLord2.thisLord_skillClassArmor = 9 global.printSkill = "REVIVE";
+		else if oLord2.thisLord_skillClassArmor = 10 global.printSkill = "BATTLECRY";
+		else if oLord2.thisLord_skillClassArmor = 11 global.printSkill = "CRUSH";
+	}
+
+	if instance_exists(oLord2) image_index = oLord2.thisLord_skillClassArmor;
+
 	global.currentSelectedStatus = "Class Skill";
 	global.currentStatusColor = c_white;
 	

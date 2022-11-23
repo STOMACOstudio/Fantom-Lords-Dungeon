@@ -27,6 +27,12 @@ image_xscale /= 5;
 image_yscale /= 5;
 dmgLORD = 0;
 
+if (thisLord_ascend)
+{
+	oGUI_skill2Lord1.sprite_index = sGUI_skillClassArmorAscended;
+	oGUI_skill3Lord1.sprite_index = sGUI_skillWeaponAscended;
+}
+
 #region attack and movement
 enemy = noone;
 instTopLeft = noone;

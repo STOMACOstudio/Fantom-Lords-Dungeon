@@ -18,14 +18,17 @@ if oLord2.spellCast = 0 //FIREBALL
 }
 else if oLord2.spellCast = 1 //Hydrobolt
 {
-	var struct = { xDir : mouse_x,
-				   yDir : mouse_y };
-	global.dmgLORD = oLord2.thisLord_MAG + irandom_range(-3,6);
-	if global.dmgLORD <= 0 global.dmgLORD = 1;				   
-	oLord2.spellCast = noone;
-	oLord2.thisLord_ACTpoints -= 2;
-	instance_create_layer(oLord2.x+oLord2.sprite_width/2,oLord2.y+oLord2.sprite_height/2,"VFX",oSKILL_WEAPON_Hydrobolt, struct);
-	instance_destroy();
+	if (collision_point(x,y,oEnemy0_Father,false,true) && collision_point(x,y,oEnemy0_Father,false,true).revealed)
+	{
+		var struct = { xDir : mouse_x,
+					   yDir : mouse_y };
+		global.dmgLORD = oLord2.thisLord_MAG + irandom_range(-3,6);
+		if global.dmgLORD <= 0 global.dmgLORD = 1;				   
+		oLord2.spellCast = noone;
+		oLord2.thisLord_ACTpoints -= 2;
+		instance_create_layer(oLord2.x+oLord2.sprite_width/2,oLord2.y+oLord2.sprite_height/2,"VFX",oSKILL_WEAPON_Hydrobolt, struct);
+		instance_destroy();
+	}
 }
 else if oLord2.spellCast = 2 //Poison
 {

@@ -1,8 +1,48 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if oLordStats.lord4active && instance_exists(oLord4)
+if (oLordStats.lord4active && instance_exists(oLord4))
 {
+	if (oLord4.thisLord_ascend)
+	{
+		if oLord4.thisLord_skillWeapon = 0 global.printSkill = "DEAD HOUR";
+		else if oLord4.thisLord_skillWeapon = 1 global.printSkill = "MATCHUP";
+		else if oLord4.thisLord_skillWeapon = 2 global.printSkill = "SPIRIT ARROWS";
+		else if oLord4.thisLord_skillWeapon = 3 global.printSkill = "EERIE SLASH";
+		else if oLord4.thisLord_skillWeapon = 4 global.printSkill = "GHOSTS";
+		else if oLord4.thisLord_skillWeapon = 5 global.printSkill = "BLIZZARD";
+		else if oLord4.thisLord_skillWeapon = 6 global.printSkill = "ROYAL BUFF";
+		else if oLord4.thisLord_skillWeapon = 7 global.printSkill = "LAZERAIN";
+		else if oLord4.thisLord_skillWeapon = 8 global.printSkill = "BLOODSHED";
+		else if oLord4.thisLord_skillWeapon = 9 global.printSkill = "DOUBLE STRIKE";
+		else if oLord4.thisLord_skillWeapon = 10 global.printSkill = "BERSERK";
+		else if oLord4.thisLord_skillWeapon = 11 global.printSkill = "AGILITY";
+		else if oLord4.thisLord_skillWeapon = 12 global.printSkill = "INCENSE";
+		else if oLord4.thisLord_skillWeapon = 13 global.printSkill = "TOWER";
+	}
+	else
+	{
+		if oLord4.thisLord_skillWeapon = 0 global.printSkill = "FIREBALL";
+		else if oLord4.thisLord_skillWeapon = 1 global.printSkill = "HYDROBOLT";
+		else if oLord4.thisLord_skillWeapon = 2 global.printSkill = "POISON";
+		else if oLord4.thisLord_skillWeapon = 3 global.printSkill = "SOUL SIPHON";
+		else if oLord4.thisLord_skillWeapon = 4 global.printSkill = "SLAY";
+		else if oLord4.thisLord_skillWeapon = 5 global.printSkill = "QUAKE";
+		else if oLord4.thisLord_skillWeapon = 6 global.printSkill = "REVENGE";
+		else if oLord4.thisLord_skillWeapon = 7 global.printSkill = "BLADE WHIRL";
+		else if oLord4.thisLord_skillWeapon = 8 global.printSkill = "CLOSE SHOT";
+		else if oLord4.thisLord_skillWeapon = 9 global.printSkill = "BASH";
+		else if oLord4.thisLord_skillWeapon = 10 global.printSkill = "MOON BLAST";
+		else if oLord4.thisLord_skillWeapon = 11 global.printSkill = "HEAL SONG";
+		else if oLord4.thisLord_skillWeapon = 12 global.printSkill = "MAGIC MISSILE";
+		else if oLord4.thisLord_skillWeapon = 13 global.printSkill = "DRAIN SLASH";
+		else if oLord4.thisLord_skillWeapon = 14 global.printSkill = "STORM";
+		else if oLord4.thisLord_skillWeapon = 15 global.printSkill = "SWAP";
+		else if oLord4.thisLord_skillWeapon = 16 global.printSkill = "SCOUT";
+	}
+
+	if (instance_exists(oLord4)) image_index = oLord4.thisLord_skillWeapon;
+
 	global.currentStatusColor = c_white;
 	global.currentSelectedStatus = "Weapon Skill";
 	
