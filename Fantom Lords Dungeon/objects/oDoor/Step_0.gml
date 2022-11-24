@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-show_debug_message(string(image_alpha));
-
 if instance_exists(oLord1)
 {
 	if oLordStats.lord1active && collision_rectangle(x-96,y-96,x+160,y+160,oLord1,false,true) != noone lord1 = 0;
