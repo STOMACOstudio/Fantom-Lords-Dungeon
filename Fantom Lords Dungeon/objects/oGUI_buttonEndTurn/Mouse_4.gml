@@ -29,6 +29,15 @@ if oManagerCombat.combatPhase = 0 && global.hasControl && global.fightMode = tru
 			}
 		}
 		if stun > 0 stun --;
+		if (tower > 0)
+		{
+			tower --;
+			if (tower = 0)
+			{
+				thisLord_MAG = thisLord_MAGmax;
+				thisLord_DEF = thisLord_DEFmax;
+			}
+		}
 	}
 	with (oLord0FrameParent) thisLocked = false;
 	with (oVFX_spellCast0father) instance_destroy();

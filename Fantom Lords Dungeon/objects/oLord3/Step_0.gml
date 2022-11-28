@@ -3,9 +3,15 @@
 
 if global.fightMode
 {
-	scrLordMovement();
+	if (!tower)
+	{
+		scrLordMovement();
+	}
 }
-else scrLordMovementFree();
+else
+{
+	scrLordMovementFree();
+}
 
 if thisLord_LIF <= 0
 {

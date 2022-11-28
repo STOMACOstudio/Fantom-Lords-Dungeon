@@ -77,6 +77,7 @@ if oLordStats.lord3active
 	shadow = 0;
 	weaken = 0;
 	stun = 0;
+	tower = 0;
 	#endregion
 }
 else instance_destroy();

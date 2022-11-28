@@ -5,10 +5,10 @@ if done = true
 {
 	image_alpha = 0;
 
-	global.dmgENEMY = dmg - target0enemy.thisDEF;
-	if global.dmgENEMY <= 0 global.dmgENEMY = 1;
-	target0enemy.thisLIF -= global.dmgENEMY;
-	instance_create_layer(target0enemy.x,target0enemy.y,"VFX",oGUI_printDMGenemy);
+	global.dmgLORD = dmg - target0enemy.thisDEF;
+	if global.dmgLORD <= 0 global.dmgLORD = 1;
+	target0enemy.thisLIF -= global.dmgLORD;
+	instance_create_layer(target0enemy.x,target0enemy.y,"VFX",oGUI_printDMGlord);
 	
 	global.hasControl = true;
 	instance_destroy();

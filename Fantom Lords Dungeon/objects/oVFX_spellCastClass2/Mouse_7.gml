@@ -2,7 +2,39 @@
 // You can write your code in this editor
 
 if oLord2.thisLord_ascend
-{}
+{
+	if oLord2.spellCast = 2
+	{
+		if enemy != noone
+		{
+			#region target
+			if enemy.x = oLord2.x && enemy.y = oLord2.y-64 enemy.target = true;
+			else if enemy.x = oLord2.x+64 && enemy.y = oLord2.y enemy.target = true;
+			else if enemy.x = oLord2.x && enemy.y = oLord2.y+64 enemy.target = true;
+			else if enemy.x = oLord2.x-64 && enemy.y = oLord2.y enemy.target = true;
+			else enemy.target = false;
+			#endregion
+			
+			if enemy.target = true
+			{
+				global.dmgLORD = round(oLord2.thisLord_ATK*2);
+				if global.dmgLORD <= 0 global.dmgLORD = 1;
+				global.dmgENEMY = round(global.dmgLORD/2);
+				if global.dmgENEMY <= 0 global.dmgENEMY = 1;
+				
+				oLord2.spellCast = noone;
+				oLord2.thisLord_ACTpoints -= 2;
+				
+				audio_play_sound(sn_SKILL_Clash,0,false);
+				
+				instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_CLASS_Clash1);
+				instance_create_layer(oLord2.x+oLord2.sprite_width/2,oLord2.y+oLord2.sprite_height/2,"VFX",oSKILL_CLASS_Clash2);
+				
+				instance_destroy();
+			}
+		}
+	}
+}
 else
 {
 	if oLord2.spellCast = 0

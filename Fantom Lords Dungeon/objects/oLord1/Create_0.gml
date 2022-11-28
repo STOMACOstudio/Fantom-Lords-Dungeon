@@ -75,4 +75,5 @@ burden = 0;
 shadow = 0;
 weaken = 0;
 stun = 0;
+tower = 0;
 #endregion

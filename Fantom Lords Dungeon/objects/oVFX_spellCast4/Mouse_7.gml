@@ -5,7 +5,47 @@ tile = collision_point(mouse_x,mouse_y,oMap_0parent,false,true);
 enemy = collision_point(x,y,oEnemy0_Father,false,true);
 
 if oLord4.thisLord_ascend
-{}
+{
+	if oLord4.spellCast = 12 //Incense
+	{
+			if collision_point(x,y,oLord4,false,true)
+			{
+				global.castLord = oLord4;
+				oLord4.spellCast = noone;
+				oLord4.thisLord_ACTpoints -= 2;
+				global.dmgLORD = round(oLord4.thisLord_MAG/2);
+				if global.dmgLORD <= 0 global.dmgLORD = 1;
+				
+				audio_play_sound(sn_SKILL_Incense,0,false);
+				
+				#region target
+				instance_create_layer(oLord4.x+32,oLord4.y+32,"VFX",oSKILL_WEAPON_Incense);
+				instance_create_layer(oLord4.x-32,oLord4.y-32,"VFX",oSKILL_WEAPON_Incense);
+				instance_create_layer(oLord4.x+32,oLord4.y-32,"VFX",oSKILL_WEAPON_Incense);
+				instance_create_layer(oLord4.x+96,oLord4.y-32,"VFX",oSKILL_WEAPON_Incense);
+				instance_create_layer(oLord4.x+96,oLord4.y+32,"VFX",oSKILL_WEAPON_Incense);
+				instance_create_layer(oLord4.x+96,oLord4.y+96,"VFX",oSKILL_WEAPON_Incense);
+				instance_create_layer(oLord4.x+32,oLord4.y+96,"VFX",oSKILL_WEAPON_Incense);
+				instance_create_layer(oLord4.x-32,oLord4.y+96,"VFX",oSKILL_WEAPON_Incense);
+				instance_create_layer(oLord4.x-32,oLord4.y+32,"VFX",oSKILL_WEAPON_Incense);
+				#endregion
+				
+				instance_destroy();
+			}
+	}
+	else if (oLord4.spellCast = 13) //Tower
+	{
+		if (collision_point(x,y,oLord4,false,true))
+		{
+			global.castLord = oLord4;
+			oLord4.spellCast = noone;
+			oLord4.thisLord_ACTpoints -= 2;
+			var struct = { buff : oLord4.thisLord_MAG };
+			instance_create_layer(oLord4.x+32,oLord4.y+32,"VFX",oSKILL_WEAPON_Tower,struct);
+			instance_destroy();
+		}
+	}	
+}
 else
 {
 	if oLord4.spellCast = 0 //Fire Ball

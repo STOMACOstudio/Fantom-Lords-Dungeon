@@ -2,7 +2,39 @@
 // You can write your code in this editor
 
 if oLord3.thisLord_ascend
-{}
+{
+if oLord3.spellCast = 2
+	{
+		if enemy != noone
+		{
+			#region target
+			if enemy.x = oLord3.x && enemy.y = oLord3.y-64 enemy.target = true;
+			else if enemy.x = oLord3.x+64 && enemy.y = oLord3.y enemy.target = true;
+			else if enemy.x = oLord3.x && enemy.y = oLord3.y+64 enemy.target = true;
+			else if enemy.x = oLord3.x-64 && enemy.y = oLord3.y enemy.target = true;
+			else enemy.target = false;
+			#endregion
+			
+			if enemy.target = true
+			{
+				global.dmgLORD = round(oLord3.thisLord_ATK*2);
+				if global.dmgLORD <= 0 global.dmgLORD = 1;
+				global.dmgENEMY = round(global.dmgLORD/2);
+				if global.dmgENEMY <= 0 global.dmgENEMY = 1;
+				
+				oLord3.spellCast = noone;
+				oLord3.thisLord_ACTpoints -= 2;
+				
+				audio_play_sound(sn_SKILL_Clash,0,false);
+				
+				instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_CLASS_Clash1);
+				instance_create_layer(oLord3.x+oLord3.sprite_width/2,oLord3.y+oLord3.sprite_height/2,"VFX",oSKILL_CLASS_Clash2);
+				
+				instance_destroy();
+			}
+		}
+	}
+}
 else
 {
 	if oLord3.spellCast = 0
