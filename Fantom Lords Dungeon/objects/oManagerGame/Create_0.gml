@@ -38,6 +38,7 @@ global.currentStatusSleep = 0;
 global.currentStatusStun = 0;
 global.currentStatusWeak = 0;
 global.currentStatusPoison = 0;
+global.currentStatusMatchup = 0;
 
 global.dmgLORD = 0;
 global.dmgENEMY = 0;

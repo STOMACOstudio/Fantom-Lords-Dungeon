@@ -28,5 +28,17 @@ if actions <= 0
 			thisMAG = thisMAGmax;
 		}
 	}
+	if (matchup > 0)
+	{
+		matchup --;
+		if (matchup = 0)
+		{
+			if (matchupType = "atk") thisATK = thisATKmax;
+			else if (matchupType = "def") thisDEF = thisDEFmax;
+			else if (matchupType = "mag") thisMAG = thisMAGmax;
+			matchupType = "none";
+		}
+	}
+		
 	oManagerCombat.combatPhase = 1;
 }

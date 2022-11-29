@@ -38,6 +38,17 @@ if oManagerCombat.combatPhase = 0 && global.hasControl && global.fightMode = tru
 				thisLord_DEF = thisLord_DEFmax;
 			}
 		}
+		if (matchup > 0)
+		{
+			matchup --;
+			if (matchup = 0)
+			{
+				if (matchupType = "atk") thisLord_ATK = thisLord_ATKmax;
+				else if (matchupType = "def") thisLord_DEF = thisLord_DEFmax;
+				else if (matchupType = "mag") thisLord_MAG = thisLord_MAGmax;
+				matchupType = "none";
+			}
+		}
 	}
 	with (oLord0FrameParent) thisLocked = false;
 	with (oVFX_spellCast0father) instance_destroy();

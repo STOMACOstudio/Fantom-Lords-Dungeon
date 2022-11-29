@@ -76,4 +76,6 @@ shadow = 0;
 weaken = 0;
 stun = 0;
 tower = 0;
+matchupType = "none";
+matchup = 0;
 #endregion

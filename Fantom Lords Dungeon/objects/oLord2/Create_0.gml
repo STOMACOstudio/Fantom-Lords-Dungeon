@@ -78,6 +78,8 @@ if oLordStats.lord2active
 	weaken = 0;
 	stun = 0;
 	tower = 0;
+	matchupType = "none";
+	matchup = 0;
 	#endregion
 }
 else instance_destroy();

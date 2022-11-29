@@ -9,4 +9,5 @@ if instance_exists(oLord4)
 	if oLord4.weaken > 0 draw_sprite(sSTATUS,2,x+42,y);
 	if oLord4.stun > 0 draw_sprite(sSTATUS,1,x+56,y);
 	if oLord4.tower > 0 draw_sprite(sSTATUS,7,x+70,y);
+	if oLord4.matchup > 0 draw_sprite(sSTATUS,8,x+70,y);
 }

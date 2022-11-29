@@ -59,6 +59,8 @@ function scrEnemyCombatVars(){
 	stun = false;
 	weaken = 0;
 	sleep = 0;
+	matchup = 0;
+	matchupType = "none";
 
 	dmgENEMY = 0;
 	dmgTYPE = 0;

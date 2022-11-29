@@ -3,7 +3,7 @@
 
 if oLord4.thisLord_ascend
 {
-	if oLord4.spellCast = 2
+	if oLord4.spellCast = 2 //Clash
 	{
 		if enemy != noone
 		{
@@ -32,6 +32,20 @@ if oLord4.thisLord_ascend
 				
 				instance_destroy();
 			}
+		}
+	}
+	else if (oLord4.spellCast = 5) //Honor
+	{
+		if (collision_point(x,y,oLord4,false,true))
+		{
+			oLord4.spellCast = noone;
+			oLord4.thisLord_ACTpoints -= 2;
+			
+			var struct = { targetLord : oLord4 };
+			
+			instance_create_layer(oLord4.x+oLord4.sprite_width/2,oLord4.y+oLord4.sprite_height/2,"VFX",oSKILL_CLASS_Honor,struct);
+				
+			instance_destroy();
 		}
 	}
 }

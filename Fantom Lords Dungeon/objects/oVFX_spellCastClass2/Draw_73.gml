@@ -15,6 +15,12 @@ if oLord2.thisLord_ascend
 			else if x = oLord2.x-64 && y = oLord2.y draw_rectangle_color(x+1,y+1,x+sprite_width-1,y+sprite_height-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
 		}
 	}
+	else if (oLord2.spellCast = 5) //Honor
+	{
+		with oLord0Parent draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+		draw_rectangle_color(oLord2.x,oLord2.y,oLord2.x+64,oLord2.y+64,c_yellow,c_yellow,c_yellow,c_yellow,true);
+		
+	}
 }
 else
 {

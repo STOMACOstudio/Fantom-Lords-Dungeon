@@ -16,6 +16,12 @@ if oLord4.thisLord_ascend
 		
 		}
 	}
+	else if (oLord4.spellCast = 5) //Honor
+	{
+		with oLord0Parent draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+		draw_rectangle_color(oLord4.x,oLord4.y,oLord4.x+64,oLord4.y+64,c_yellow,c_yellow,c_yellow,c_yellow,true);
+		
+	}
 }
 else
 {

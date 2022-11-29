@@ -60,5 +60,8 @@ function scrVolumeSFX(){
 	audio_sound_gain(snBossTrollSwing,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Clash,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Incense,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Tower,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Honor,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Matchup,global.volumeSFX,0);
 	
 }

@@ -6,7 +6,51 @@ enemy = collision_point(x,y,oEnemy0_Father,false,true);
 
 if oLord1.thisLord_ascend
 {
-	if (oLord1.spellCast = 12) //Incense
+	if (oLord1.spellCast = 1) //Matchup
+	{
+		var targetEnemy = (collision_point(x,y,oEnemy0_Father,false,true));
+		
+		if (targetEnemy != noone && targetEnemy != obstacle)
+		{
+			global.castLord = oLord1;
+			oLord1.spellCast = noone;
+			oLord1.thisLord_ACTpoints -= 2;
+			
+			audio_play_sound(sn_SKILL_Matchup,0,false);
+				
+			var atk = targetEnemy.thisATK;
+			var def = targetEnemy.thisDEF;
+			var mag = targetEnemy.thisMAG;
+			
+			if (atk >= def && atk >= mag)
+			{
+				var struct1 = { choice : "def" , buff : oLord1.thisLord_MAG };
+				var struct2 = { choice : "atk" , debuff : oLord1.thisLord_MAG };
+				
+				instance_create_layer(oLord1.x+32,oLord1.y+32,"VFX",oSKILL_WEAPON_Matchup1,struct1);
+				instance_create_layer(targetEnemy.x+targetEnemy.sprite_width/2,targetEnemy.y+targetEnemy.sprite_height/2,"VFX",oSKILL_WEAPON_Matchup2,struct2);
+			}
+			else if (def >= atk && def >= mag)
+			{
+				var struct1 = { choice : "atk" , buff : oLord1.thisLord_MAG };
+				var struct2 = { choice : "def" , debuff : oLord1.thisLord_MAG };
+				
+				instance_create_layer(oLord1.x+32,oLord1.y+32,"VFX",oSKILL_WEAPON_Matchup1,struct1);
+				instance_create_layer(targetEnemy.x+targetEnemy.sprite_width/2,targetEnemy.y+targetEnemy.sprite_height/2,"VFX",oSKILL_WEAPON_Matchup2,struct2);
+			}
+			else if (mag >= atk && mag >= def)
+			{
+				var struct1 = { choice : "mag" ,  buff : oLord1.thisLord_MAG };
+				var struct2 = { choice : "mag" ,  debuff : oLord1.thisLord_MAG };
+				
+				instance_create_layer(oLord1.x+32,oLord1.y+32,"VFX",oSKILL_WEAPON_Matchup1,struct1);
+				instance_create_layer(targetEnemy.x+targetEnemy.sprite_width/2,targetEnemy.y+targetEnemy.sprite_height/2,"VFX",oSKILL_WEAPON_Matchup2,struct2);
+			}
+				
+			instance_destroy();
+		}
+	}
+	else if (oLord1.spellCast = 12) //Incense
 	{
 			if (collision_point(x,y,oLord1,false,true))
 			{

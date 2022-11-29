@@ -15,5 +15,6 @@ function scrEnemyPrintStats(){
 	global.currentStatusStun = stun;
 	global.currentStatusWeak = weaken;
 	global.currentStatusPoison = poison;
+	global.currentStatusMatchup = matchup;
 
 }

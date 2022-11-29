@@ -19,5 +19,6 @@ function scrEnemyResetVars(){
 	global.currentStatusStun = false;
 	global.currentStatusWeak = 0;
 	global.currentStatusPoison = false;
+	global.currentStatusMatchup = false;
 
 }
