@@ -50,6 +50,33 @@ if oLord3.thisLord_ascend
 			instance_destroy();
 		}
 	}
+	else if (oLord3.spellCast = 2) //Spirit Arrows
+	{
+		if ((collision_point(x,y,oEnemy0_Father,false,true) && collision_point(x,y,oEnemy0_Father,false,true).revealed))
+		{
+			var struct = { xDir : mouse_x,
+						   yDir : mouse_y };
+						   
+			global.dmgLORD = (oLord3.thisLord_MAG + irandom_range(-3,6));
+			if global.dmgLORD <= 0 global.dmgLORD = 1;				   
+			oLord3.spellCast = noone;
+			oLord3.thisLord_ACTpoints -= 2;
+			instance_create_layer(oLord3.x+oLord3.sprite_width/2,oLord3.y+oLord3.sprite_height/2,"VFX",oSKILL_WEAPON_SpiritArrow, struct);
+			instance_destroy();
+		}
+	}
+	else if (oLord3.spellCast = 9) //Double Strike
+	{
+		if (enemy != noone && enemy.target)
+		{
+			global.dmgLORD = (oLord3.thisLord_ATK + oLord3.thisLord_ACT + irandom_range(-4,4));
+			if global.dmgLORD <= 0 global.dmgLORD = 1;				   
+			oLord3.spellCast = noone;
+			oLord3.thisLord_ACTpoints -= 2;
+			instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_WEAPON_DoubleStrike);
+			instance_destroy();
+		}
+	}
 	else if oLord3.spellCast = 12 //Incense
 	{
 			if collision_point(x,y,oLord3,false,true)

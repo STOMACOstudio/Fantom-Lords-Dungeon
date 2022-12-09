@@ -5,12 +5,22 @@ draw_sprite_ext(sVFX_spellCast,image_index,x,y,1,1,image_angle,c_white,0.8);
 
 if (oLord3.thisLord_ascend)
 {
-	if (oLord3.spellCast = 1)
+	if (oLord3.spellCast = 1 || oLord3.spellCast = 2)
 	{
 		draw_rectangle_color(oLord3.x,oLord3.y,oLord3.x+64,oLord3.y+64,c_lime,c_lime,c_lime,c_lime,true);
 		with oEnemy0_Father
 		{
 			if revealed
+			{
+				draw_rectangle_color(x,y,x+64,y+64,c_yellow,c_yellow,c_yellow,c_yellow,true);
+			}
+		}
+	}
+	else if (oLord3.spellCast = 9)
+	{
+		with oEnemy0_Father
+		{
+			if (target)
 			{
 				draw_rectangle_color(x,y,x+64,y+64,c_yellow,c_yellow,c_yellow,c_yellow,true);
 			}

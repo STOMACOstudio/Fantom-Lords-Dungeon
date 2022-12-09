@@ -22,6 +22,16 @@ if oLord1.thisLord_ascend
 		draw_rectangle_color(oLord1.x,oLord1.y,oLord1.x+64,oLord1.y+64,c_yellow,c_yellow,c_yellow,c_yellow,true);
 		
 	}
+	else if (oLord1.spellCast = 6) //Beam
+	{
+		with oEnemy0_Father
+		{
+			if revealed
+			{
+				draw_rectangle_color(x,y,x+64,y+64,c_yellow,c_yellow,c_yellow,c_yellow,true);
+			}
+		}
+	}
 }
 else
 {

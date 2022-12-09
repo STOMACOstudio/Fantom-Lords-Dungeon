@@ -48,6 +48,20 @@ if oLord2.thisLord_ascend
 			instance_destroy();
 		}
 	}
+	else if (oLord2.spellCast = 6) //Beam
+	{
+		if (enemy != noone && enemy.revealed)
+		{
+			var struct = { xDir : mouse_x,
+						   yDir : mouse_y ,
+						   beamTime : oLord2.thisLord_MAG*2};
+						   
+			oLord2.spellCast = noone;
+			oLord2.thisLord_ACTpoints -= 2;
+			instance_create_layer(oLord2.x+oLord2.sprite_width/2,oLord2.y+oLord2.sprite_height/2,"VFX",oSKILL_CLASS_Beam, struct);
+			instance_destroy();
+		}
+	}
 }
 else
 {

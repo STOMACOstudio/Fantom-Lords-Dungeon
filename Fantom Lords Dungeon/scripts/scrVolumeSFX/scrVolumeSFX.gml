@@ -63,5 +63,7 @@ function scrVolumeSFX(){
 	audio_sound_gain(sn_SKILL_Tower,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Honor,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Matchup,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_SpiritArrow,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_DoubleStrike,global.volumeSFX,0);
 	
 }
