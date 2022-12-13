@@ -80,6 +80,7 @@ if oLordStats.lord4active
 	tower = 0;
 	matchupType = "none";
 	matchup = 0;
+	royalBuff = 0;
 	#endregion
 }
 else instance_destroy();

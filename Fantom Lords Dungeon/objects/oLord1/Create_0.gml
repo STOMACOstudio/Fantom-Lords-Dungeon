@@ -78,4 +78,5 @@ stun = 0;
 tower = 0;
 matchupType = "none";
 matchup = 0;
+royalBuff = 0;
 #endregion

@@ -16,6 +16,13 @@ if (oLord2.thisLord_ascend)
 			}
 		}
 	}
+	else if (oLord2.spellCast = 6)
+	{
+		with oLord0Parent
+		{
+			draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+		}
+	}
 	else if (oLord2.spellCast = 9)
 	{
 		with oEnemy0_Father

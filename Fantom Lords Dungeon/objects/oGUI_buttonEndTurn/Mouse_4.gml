@@ -7,18 +7,18 @@ if oManagerCombat.combatPhase = 0 && global.hasControl && global.fightMode = tru
 	{
 		thisLocked = false;
 		image_blend = c_white;
-		if battlecry > 0
+		if (battlecry > 0)
 		{
 			battlecry --;
 			if battlecry = 0 thisLord_ATK = thisLord_ATKmax;
 		}
-		if burden > 0
+		if (burden > 0)
 		{
 			burden --;
 			if burden = 0 thisLord_DEF = thisLord_DEFmax;
 		}
-		if shadow > 0 shadow --;
-		if weaken > 0
+		if (shadow > 0) shadow --;
+		if (weaken > 0)
 		{
 			weaken --;
 			if weaken = 0
@@ -47,6 +47,17 @@ if oManagerCombat.combatPhase = 0 && global.hasControl && global.fightMode = tru
 				else if (matchupType = "def") thisLord_DEF = thisLord_DEFmax;
 				else if (matchupType = "mag") thisLord_MAG = thisLord_MAGmax;
 				matchupType = "none";
+			}
+		}
+		if (royalBuff > 0)
+		{
+			royalBuff --;
+			if (royalBuff = 0)
+			{
+				thisLord_ATK = thisLord_ATKmax;
+				thisLord_DEF = thisLord_DEFmax;
+				thisLord_MAG = thisLord_MAGmax;
+				//thisLord_ACT = thisLord_ACTmax;
 			}
 		}
 	}

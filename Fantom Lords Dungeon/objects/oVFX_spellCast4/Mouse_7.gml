@@ -3,6 +3,7 @@
 
 tile = collision_point(mouse_x,mouse_y,oMap_0parent,false,true);
 enemy = collision_point(x,y,oEnemy0_Father,false,true);
+lord = collision_point(x,y,oLord0Parent,false,true);
 
 if oLord4.thisLord_ascend
 {
@@ -62,6 +63,16 @@ if oLord4.thisLord_ascend
 			oLord4.spellCast = noone;
 			oLord4.thisLord_ACTpoints -= 2;
 			instance_create_layer(oLord4.x+oLord4.sprite_width/2,oLord4.y+oLord4.sprite_height/2,"VFX",oSKILL_WEAPON_SpiritArrow, struct);
+			instance_destroy();
+		}
+	}
+	else if (oLord4.spellCast = 6) //Royal Buff
+	{
+		if collision_point(x,y,oLord0Parent,0,false)
+		{
+			oLord4.spellCast = noone;
+			oLord4.thisLord_ACTpoints -= 2;
+			instance_create_layer(lord.x+32,lord.y+32,"VFX",oSKILL_WEAPON_RoyalBuff);
 			instance_destroy();
 		}
 	}
