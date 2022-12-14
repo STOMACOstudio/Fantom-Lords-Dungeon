@@ -3,7 +3,22 @@
 
 if oLord2.thisLord_ascend
 {
-	if oLord2.spellCast = 2 //Clash
+	if (oLord2.spellCast = 0) //Path
+	{
+		if (collision_point(x,y,oLord2,false,true))
+		{
+			oLord2.spellCast = noone;
+			oLord2.thisLord_ACTpoints -= 2;
+			
+			if (instance_exists(oDoor))
+			{
+				instance_create_layer(oDoor.x+32,oDoor.y+32,"VFX",oSKILL_CLASS_Path);
+			}
+				
+			instance_destroy();
+		}
+	}
+	else if oLord2.spellCast = 2 //Clash
 	{
 		if enemy != noone
 		{

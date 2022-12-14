@@ -5,7 +5,11 @@ draw_sprite_ext(sVFX_spellCast,image_index,x,y,1,1,image_angle,c_white,0.8);
 
 if oLord4.thisLord_ascend
 {
-	if oLord4.spellCast = 2 //Clash
+	if (oLord4.spellCast = 0) //Path
+	{
+		draw_rectangle_color(oLord4.x,oLord4.y,oLord4.x+64,oLord4.y+64,c_lime,c_lime,c_lime,c_lime,true);
+	}
+	else if oLord4.spellCast = 2 //Clash
 	{
 		with oEnemy0_Father
 		{
