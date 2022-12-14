@@ -86,6 +86,17 @@ if oLord1.thisLord_ascend
 			instance_destroy();
 		}
 	}
+	else if (oLord1.spellCast = 11) //Agility
+	{
+		if (collision_point(x,y,oLord1,false,true))
+		{
+			global.castLord = oLord1;
+			oLord1.spellCast = noone;
+			oLord1.thisLord_ACTpoints -= 2;
+			instance_create_layer(oLord1.x+32,oLord1.y+32,"VFX",oSKILL_WEAPON_Agility);
+			instance_destroy();
+		}
+	}	
 	else if (oLord1.spellCast = 12) //Incense
 	{
 			if (collision_point(x,y,oLord1,false,true))

@@ -11,4 +11,5 @@ if instance_exists(oLord2)
 	if oLord2.tower > 0 draw_sprite(sSTATUS,7,x+70,y);
 	if oLord2.matchup > 0 draw_sprite(sSTATUS,8,x+70,y);
 	if oLord2.royalBuff > 0 draw_sprite(sSTATUS,9,x+98,y);
+	if oLord2.agility > 0 draw_sprite(sSTATUS,10,x+112,y);
 }

@@ -21,5 +21,7 @@ if instance_exists(oLord4)
 	else if oLord4.thisLord_MAG < oLord4.thisLord_MAGmax  draw_text_transformed_color(mouse_x+18,mouse_y+50,"MAG: " + string(oLord4.thisLord_MAG),0.5,0.5,0,c_red,c_red,c_red,c_red,1);
 	else draw_text_transformed(mouse_x+18,mouse_y+50,"MAG: " + string(oLord4.thisLord_MAG),0.5,0.5,0);
 	
-	draw_text_transformed(mouse_x+18,mouse_y+66,"ACT: " + string(oLord4.thisLord_ACT),0.5,0.5,0);
+	if oLord4.thisLord_ACT > oLord4.thisLord_ACTmax  draw_text_transformed_color(mouse_x+18,mouse_y+66,"ACT: " + string(oLord4.thisLord_ACT),0.5,0.5,0,c_green,c_green,c_green,c_green,1);
+	else if oLord4.thisLord_ACT < oLord4.thisLord_ACTmax  draw_text_transformed_color(mouse_x+18,mouse_y+66,"ACT: " + string(oLord4.thisLord_ACT),0.5,0.5,0,c_red,c_red,c_red,c_red,1);
+	else draw_text_transformed(mouse_x+18,mouse_y+66,"ACT: " + string(oLord4.thisLord_ACT),0.5,0.5,0);
 }

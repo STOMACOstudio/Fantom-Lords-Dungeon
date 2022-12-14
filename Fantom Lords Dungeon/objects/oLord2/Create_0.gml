@@ -81,6 +81,7 @@ if oLordStats.lord2active
 	matchupType = "none";
 	matchup = 0;
 	royalBuff = 0;
+	agility = 0;
 	#endregion
 }
 else instance_destroy();

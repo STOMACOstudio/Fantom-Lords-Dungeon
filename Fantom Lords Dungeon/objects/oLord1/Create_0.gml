@@ -79,4 +79,5 @@ tower = 0;
 matchupType = "none";
 matchup = 0;
 royalBuff = 0;
+agility = 0;
 #endregion

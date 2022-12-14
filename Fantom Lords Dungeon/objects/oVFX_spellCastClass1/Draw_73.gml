@@ -20,6 +20,10 @@ if oLord1.thisLord_ascend
 		
 		}
 	}
+	else if (oLord1.spellCast = 3) //LifeBreath
+	{
+		with oLord0Parent draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+	}	
 	else if (oLord1.spellCast = 5) //Honor
 	{
 		with oLord0Parent draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);

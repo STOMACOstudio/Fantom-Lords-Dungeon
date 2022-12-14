@@ -60,6 +60,15 @@ if oManagerCombat.combatPhase = 0 && global.hasControl && global.fightMode = tru
 				//thisLord_ACT = thisLord_ACTmax;
 			}
 		}
+		if (agility > 0)
+		{
+			agility --;
+			if (agility = 0)
+			{
+			thisLord_ACT = thisLord_ACTmax;
+			thisLord_ACTpointsMAX = round((oLord1.thisLord_ACT)/5);
+			}
+		}
 	}
 	with (oLord0FrameParent) thisLocked = false;
 	with (oVFX_spellCast0father) instance_destroy();

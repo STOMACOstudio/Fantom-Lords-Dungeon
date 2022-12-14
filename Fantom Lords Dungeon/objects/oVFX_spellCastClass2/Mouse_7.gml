@@ -49,6 +49,18 @@ if oLord2.thisLord_ascend
 			}
 		}
 	}
+	else if (oLord2.spellCast = 3) //LifeBreath
+	{
+		if lord != noone
+		{
+			oLord2.spellCast = noone;
+			oLord2.thisLord_ACTpoints -= 2;
+			global.dmgLORD = round(oLord2.thisLord_MAG/2) + irandom_range(-3,6);
+			if global.dmgLORD <= 0 global.dmgLORD = 1;
+			instance_create_layer(lord.x+32,lord.y+32,"VFX",oSKILL_CLASS_LifeBreath);
+			instance_destroy();
+		}
+	}
 	else if (oLord2.spellCast = 5) //Honor
 	{
 		if (collision_point(x,y,oLord2,false,true))
