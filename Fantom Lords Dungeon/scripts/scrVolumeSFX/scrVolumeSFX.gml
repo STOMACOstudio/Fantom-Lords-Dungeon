@@ -69,5 +69,6 @@ function scrVolumeSFX(){
 	audio_sound_gain(sn_SKILL_Path,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_LifeBreath,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Agility,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Drain,global.volumeSFX,0);
 	
 }

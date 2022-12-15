@@ -49,7 +49,7 @@ if oLord1.thisLord_ascend
 			instance_destroy();
 		}
 	}
-	if (oLord1.spellCast = 6) //Royal Buff
+	else if (oLord1.spellCast = 6) //Royal Buff
 	{
 		if collision_point(x,y,oLord0Parent,0,false)
 		{

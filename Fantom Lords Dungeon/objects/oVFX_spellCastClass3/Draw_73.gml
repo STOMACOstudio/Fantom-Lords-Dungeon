@@ -39,6 +39,23 @@ if oLord3.thisLord_ascend
 			}
 		}
 	}
+	else if (oLord3.spellCast = 7) //Drain
+	{
+		with oEnemy0_Father
+		{
+			if (!obstacle)
+			{
+				if x = oLord3.x && y = oLord3.y-64 draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+				else if x = oLord3.x+64 && y = oLord3.y draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+				else if x = oLord3.x && y = oLord3.y+64 draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+				else if x = oLord3.x-64 && y = oLord3.y draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+				else if x = oLord3.x+64 && y = oLord3.y-64 draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+				else if x = oLord3.x+64 && y = oLord3.y+64 draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+				else if x = oLord3.x-64 && y = oLord3.y+64 draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+				else if x = oLord3.x-64 && y = oLord3.y-64 draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+			}
+		}
+	}
 }
 else
 {
