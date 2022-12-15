@@ -18,6 +18,16 @@ if oLord4.thisLord_ascend
 			instance_destroy();
 		}
 	}
+	else if (oLord4.spellCast = 1) //Bless
+	{
+		if lord != noone
+		{
+			oLord4.spellCast = noone;
+			oLord4.thisLord_ACTpoints -= 2;
+			instance_create_layer(lord.x+32,lord.y+32,"VFX",oSKILL_CLASS_Bless);
+			instance_destroy();
+		}
+	}
 	else if (oLord4.spellCast = 2) //Clash
 	{
 		if enemy != noone

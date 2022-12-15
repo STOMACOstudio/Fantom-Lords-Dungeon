@@ -49,16 +49,6 @@ if oLord1.thisLord_ascend
 			instance_destroy();
 		}
 	}
-	else if (oLord1.spellCast = 6) //Royal Buff
-	{
-		if collision_point(x,y,oLord0Parent,0,false)
-		{
-			oLord1.spellCast = noone;
-			oLord1.thisLord_ACTpoints -= 2;
-			instance_create_layer(lord.x+32,lord.y+32,"VFX",oSKILL_WEAPON_RoyalBuff);
-			instance_destroy();
-		}
-	}
 	else if (oLord1.spellCast = 2) //Spirit Arrows
 	{
 		if (enemy != noone && enemy.revealed)
@@ -71,6 +61,28 @@ if oLord1.thisLord_ascend
 			oLord1.spellCast = noone;
 			oLord1.thisLord_ACTpoints -= 2;
 			instance_create_layer(oLord1.x+oLord1.sprite_width/2,oLord1.y+oLord1.sprite_height/2,"VFX",oSKILL_WEAPON_SpiritArrow, struct);
+			instance_destroy();
+		}
+	}
+	else if (oLord1.spellCast = 4) //Ghosts
+	{
+		if (collision_point(x,y,oLord1,false,true))
+		{
+			var struct = { dmg : oLord1.thisLord_MAG };
+			
+			oLord1.spellCast = noone;
+			oLord1.thisLord_ACTpoints -= 2;
+			instance_create_layer(oLord1.x+32,oLord1.y+32,"VFX",oSKILL_WEAPON_GhostMaker, struct);
+			instance_destroy();
+		}
+	}
+	else if (oLord1.spellCast = 6) //Royal Buff
+	{
+		if collision_point(x,y,oLord0Parent,0,false)
+		{
+			oLord1.spellCast = noone;
+			oLord1.thisLord_ACTpoints -= 2;
+			instance_create_layer(lord.x+32,lord.y+32,"VFX",oSKILL_WEAPON_RoyalBuff);
 			instance_destroy();
 		}
 	}

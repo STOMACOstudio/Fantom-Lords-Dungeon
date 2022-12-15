@@ -20,7 +20,7 @@ if oLord1.thisLord_ascend
 		
 		}
 	}
-	else if (oLord1.spellCast = 3) //LifeBreath
+	else if (oLord1.spellCast = 1 || oLord1.spellCast = 3) //Bless //LifeBreath
 	{
 		with oLord0Parent draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
 	}	

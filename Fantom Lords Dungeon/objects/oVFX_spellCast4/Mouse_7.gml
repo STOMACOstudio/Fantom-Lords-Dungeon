@@ -66,6 +66,18 @@ if oLord4.thisLord_ascend
 			instance_destroy();
 		}
 	}
+	else if (oLord4.spellCast = 4) //Ghosts
+	{
+		if (collision_point(x,y,oLord4,false,true))
+		{
+			var struct = { dmg : oLord4.thisLord_MAG };
+			
+			oLord4.spellCast = noone;
+			oLord4.thisLord_ACTpoints -= 2;
+			instance_create_layer(oLord4.x+32,oLord4.y+32,"VFX",oSKILL_WEAPON_GhostMaker, struct);
+			instance_destroy();
+		}
+	}
 	else if (oLord4.spellCast = 6) //Royal Buff
 	{
 		if collision_point(x,y,oLord0Parent,0,false)

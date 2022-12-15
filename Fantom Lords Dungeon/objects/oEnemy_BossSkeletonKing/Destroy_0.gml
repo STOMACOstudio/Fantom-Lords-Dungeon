@@ -4,6 +4,8 @@
 oManagerCombat.combatPhase = 0;
 global.roomType = "Prison";
 
+global.killedEnemies ++;
+
 audio_stop_sound(sn2_BossBattle1Loop);
 
 global.scoreAdd = string(scoreAdd);

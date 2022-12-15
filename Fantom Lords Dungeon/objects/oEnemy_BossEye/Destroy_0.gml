@@ -4,6 +4,8 @@
 global.scoreAdd = string(scoreAdd);
 score += scoreAdd;
 
+global.killedEnemies ++;
+
 var struct =
 {
 	colorStart : c_green,

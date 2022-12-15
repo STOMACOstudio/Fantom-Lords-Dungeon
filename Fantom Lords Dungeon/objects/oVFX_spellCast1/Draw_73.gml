@@ -109,7 +109,7 @@ if (oLord1.thisLord_ascend)
 			draw_rectangle_color(oLord1.x-64,oLord1.y,oLord1.x,oLord1.y+64,c_red,c_red,c_red,c_red,true);
 		}
 	}	
-	else if (oLord1.spellCast = 11 || oLord1.spellCast = 13)
+	else if (oLord1.spellCast = 4 || oLord1.spellCast = 11 || oLord1.spellCast = 13)
 	{
 		draw_rectangle_color(oLord1.x,oLord1.y,oLord1.x+64,oLord1.y+64,c_lime,c_lime,c_lime,c_lime,true);
 	}

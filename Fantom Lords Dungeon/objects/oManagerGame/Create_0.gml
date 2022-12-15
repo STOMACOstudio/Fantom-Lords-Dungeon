@@ -82,3 +82,5 @@ global.enterPlaceSewer = false;
 global.enterPlacePrison = false;
 
 global.fullScreen = false;
+
+global.killedEnemies = 0;

@@ -19,7 +19,7 @@ if oLord2.thisLord_ascend
 			else if x = oLord2.x-64 && y = oLord2.y draw_rectangle_color(x+1,y+1,x+sprite_width-1,y+sprite_height-1,c_yellow,c_yellow,c_yellow,c_yellow,true);
 		}
 	}
-	else if (oLord2.spellCast = 3) //LifeBreath
+	else if (oLord2.spellCast = 1 || oLord2.spellCast = 3) //Bless //LifeBreath
 	{
 		with oLord0Parent draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
 	}	
