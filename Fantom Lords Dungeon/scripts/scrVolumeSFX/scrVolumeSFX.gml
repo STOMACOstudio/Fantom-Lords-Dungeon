@@ -71,5 +71,6 @@ function scrVolumeSFX(){
 	audio_sound_gain(sn_SKILL_Agility,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Drain,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Bless,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_EerieSlash,global.volumeSFX,0);
 	
 }

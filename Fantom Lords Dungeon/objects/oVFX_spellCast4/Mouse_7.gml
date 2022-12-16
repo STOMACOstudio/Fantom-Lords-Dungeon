@@ -66,6 +66,18 @@ if oLord4.thisLord_ascend
 			instance_destroy();
 		}
 	}
+	else if (oLord4.spellCast = 3) //Eerie Slash
+	{
+		if (enemy != noone && enemy.target)
+		{
+			global.dmgLORD = ((oLord4.thisLord_MAG + oLord4.thisLord_ATK) + irandom_range(-3,6));
+			if global.dmgLORD <= 0 global.dmgLORD = 1;				   
+			oLord4.spellCast = noone;
+			oLord4.thisLord_ACTpoints -= 2;
+			instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_WEAPON_EerieSlash);
+			instance_destroy();
+		}
+	}
 	else if (oLord4.spellCast = 4) //Ghosts
 	{
 		if (collision_point(x,y,oLord4,false,true))
@@ -87,6 +99,20 @@ if oLord4.thisLord_ascend
 			instance_create_layer(lord.x+32,lord.y+32,"VFX",oSKILL_WEAPON_RoyalBuff);
 			instance_destroy();
 		}
+	}
+	else if oLord4.spellCast = 8 //Bloodshed
+	{
+			if collision_point(x,y,oLord4,false,true)
+			{
+				var struct = {targetLord : oLord4};
+				global.castLord = oLord4;
+				oLord4.spellCast = noone;
+				oLord4.thisLord_ACTpoints -= 2;
+				global.dmgLORD = oLord4.thisLord_ATK + irandom_range(-3,1);
+				if global.dmgLORD <= 0 global.dmgLORD = 1;
+				instance_create_layer(oLord4.x+32,oLord4.y+32,"VFX",oSKILL_WEAPON_Bloodshed,struct);
+				instance_destroy();
+			}
 	}
 	else if (oLord4.spellCast = 9) //Double Strike
 	{
