@@ -25,6 +25,10 @@ if done = true
 		{
 			targetLord.royalBuff = 2
 		}
+		if (targetLord.berserk)
+		{
+			targetLord.berserk = false;
+		}
 	}
 	
 	global.hasControl = true;

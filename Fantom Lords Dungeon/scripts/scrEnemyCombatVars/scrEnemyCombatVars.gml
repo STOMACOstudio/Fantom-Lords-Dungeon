@@ -61,6 +61,7 @@ function scrEnemyCombatVars(){
 	sleep = 0;
 	matchup = 0;
 	matchupType = "none";
+	berserk = false;
 
 	dmgENEMY = 0;
 	dmgTYPE = 0;

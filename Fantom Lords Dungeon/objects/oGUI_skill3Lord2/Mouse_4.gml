@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (global.hasControl && instance_exists(oLord2) && mouse_check_button_pressed(mb_left))
+if (global.hasControl && instance_exists(oLord2) && mouse_check_button_pressed(mb_left) && !oLord2.berserk)
 {
 	if oLord2.thisLocked && oLord2.thisLord_ACTpoints >= 2
 	{

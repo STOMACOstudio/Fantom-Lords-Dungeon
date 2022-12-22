@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if global.hasControl
 {
-	if thisLocked && thisLord_ACTpoints >= 2
+	if thisLocked && thisLord_ACTpoints >= 2 && !berserk
 	{
 		if instance_exists(oVFX_spellCast0father)
 		{

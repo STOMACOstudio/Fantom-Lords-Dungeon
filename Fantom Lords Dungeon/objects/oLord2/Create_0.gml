@@ -82,6 +82,7 @@ if oLordStats.lord2active
 	matchup = 0;
 	royalBuff = 0;
 	agility = 0;
+	berserk = false;
 	#endregion
 }
 else instance_destroy();

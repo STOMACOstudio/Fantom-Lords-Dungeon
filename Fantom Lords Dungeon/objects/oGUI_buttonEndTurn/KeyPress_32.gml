@@ -10,12 +10,18 @@ if oManagerCombat.combatPhase = 0 && global.hasControl && global.fightMode = tru
 		if battlecry > 0
 		{
 			battlecry --;
-			if battlecry = 0 thisLord_ATK = thisLord_ATKmax;
+			if (battlecry = 0 && !berserk)
+			{
+				thisLord_ATK = thisLord_ATKmax;
+			}
 		}
 		if burden > 0
 		{
 			burden --;
-			if burden = 0 thisLord_DEF = thisLord_DEFmax;
+			if ( burden = 0 && !tower)
+			{
+				thisLord_DEF = thisLord_DEFmax;
+			}
 		}
 		if shadow > 0 shadow --;
 		if weaken > 0
@@ -54,8 +60,8 @@ if oManagerCombat.combatPhase = 0 && global.hasControl && global.fightMode = tru
 			royalBuff --;
 			if (royalBuff = 0)
 			{
-				thisLord_ATK = thisLord_ATKmax;
-				thisLord_DEF = thisLord_DEFmax;
+				if (!berserk) { thisLord_ATK = thisLord_ATKmax; }
+				if (!tower) { thisLord_DEF = thisLord_DEFmax; }
 				thisLord_MAG = thisLord_MAGmax;
 				//thisLord_ACT = thisLord_ACTmax;
 			}

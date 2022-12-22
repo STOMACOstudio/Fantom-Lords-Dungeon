@@ -90,6 +90,18 @@ if oLord3.thisLord_ascend
 			instance_destroy();
 		}
 	}
+	else if (oLord3.spellCast = 5) //Blizzard
+	{
+		if tile != noone && tile.stepped
+			{
+				oLord3.spellCast = noone;
+				oLord3.thisLord_ACTpoints -= 2;
+				global.dmgLORD = oLord3.thisLord_MAG + irandom_range(-3,6);
+				if global.dmgLORD <= 0 global.dmgLORD = 1;
+				instance_create_layer(tile.x+32,tile.y+32,"VFX",oSKILL_WEAPON_Blizzard);
+				instance_destroy();
+			}
+	}
 	else if (oLord3.spellCast = 6) //Royal Buff
 	{
 		if collision_point(x,y,oLord0Parent,0,false)
@@ -97,6 +109,22 @@ if oLord3.thisLord_ascend
 			oLord3.spellCast = noone;
 			oLord3.thisLord_ACTpoints -= 2;
 			instance_create_layer(lord.x+32,lord.y+32,"VFX",oSKILL_WEAPON_RoyalBuff);
+			instance_destroy();
+		}
+	}
+	else if (oLord3.spellCast = 7) //Lazerain
+	{
+		if (collision_point(x,y,oLord3,false,true))
+		{
+			var struct =
+			{
+				beamTime : oLord3.thisLord_MAG*2,
+				beamDamage : oLord3.thisLord_MAG
+			}
+
+			oLord3.spellCast = noone;
+			oLord3.thisLord_ACTpoints -= 2;
+			instance_create_layer(oLord3.x+oLord3.sprite_width/2,oLord3.y+oLord3.sprite_height/2,"VFX",oSKILL_WEAPON_Lazerain, struct);
 			instance_destroy();
 		}
 	}
@@ -123,6 +151,25 @@ if oLord3.thisLord_ascend
 			oLord3.spellCast = noone;
 			oLord3.thisLord_ACTpoints -= 2;
 			instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_WEAPON_DoubleStrike);
+			instance_destroy();
+		}
+	}
+	else if (oLord3.spellCast = 10) //Berserk
+	{
+		if (collision_point(x,y,oLord0Parent,0,false))
+		{
+			oLord3.spellCast = noone;
+			oLord3.thisLord_ACTpoints -= 2;
+			var struct = { buff : oLord3.thisLord_MAG };
+			instance_create_layer(lord.x+32,lord.y+32,"VFX",oSKILL_WEAPON_Berserk,struct);
+			instance_destroy();
+		}
+		else if (collision_point(x,y,oEnemy0_Father,0,false) && enemy.revealed)
+		{
+			oLord3.spellCast = noone;
+			oLord3.thisLord_ACTpoints -= 2;
+			var struct = { buff : oLord3.thisLord_MAG };
+			instance_create_layer(enemy.x+32,enemy.y+32,"VFX",oSKILL_WEAPON_Berserk,struct);
 			instance_destroy();
 		}
 	}
