@@ -74,5 +74,7 @@ function scrVolumeSFX(){
 	audio_sound_gain(sn_SKILL_EerieSlash,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Blizzard,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Berserk,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Lazerain,global.volumeSFX,0);
+	audio_sound_gain(sn_SKILL_Deadour,global.volumeSFX,0);
 	
 }

@@ -5,7 +5,24 @@ draw_sprite_ext(sVFX_spellCast,image_index,x,y,1,1,image_angle,c_white,0.8);
 
 if (oLord2.thisLord_ascend)
 {
-	if (oLord2.spellCast = 1 || oLord2.spellCast = 2)
+	if (oLord2.spellCast = 0)
+	{
+		with oEnemy0_Father
+		{
+			if (!obstacle)
+			{
+				if x = oLord2.x && y = oLord2.y-64 draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+				else if x = oLord2.x+64 && y = oLord2.y draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+				else if x = oLord2.x && y = oLord2.y+64 draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+				else if x = oLord2.x-64 && y = oLord2.y draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+				else if x = oLord2.x+64 && y = oLord2.y-64 draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+				else if x = oLord2.x+64 && y = oLord2.y+64 draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+				else if x = oLord2.x-64 && y = oLord2.y+64 draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+				else if x = oLord2.x-64 && y = oLord2.y-64 draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
+			}
+		}
+	}	
+	else if (oLord2.spellCast = 1 || oLord2.spellCast = 2)
 	{
 		draw_rectangle_color(oLord2.x,oLord2.y,oLord2.x+64,oLord2.y+64,c_lime,c_lime,c_lime,c_lime,true);
 		with oEnemy0_Father

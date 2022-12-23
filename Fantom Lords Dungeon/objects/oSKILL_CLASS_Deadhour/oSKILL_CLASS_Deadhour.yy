@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oGUI_printVersion",
-  "spriteId": null,
+  "name": "oSKILL_CLASS_Deadhour",
+  "spriteId": {
+    "name": "sVFX_SKILL_DeadHour",
+    "path": "sprites/sVFX_SKILL_DeadHour/sVFX_SKILL_DeadHour.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -22,12 +25,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Objects/GUI.yy",
+    "name": "Skills",
+    "path": "folders/Objects/Skills.yy",
   },
 }

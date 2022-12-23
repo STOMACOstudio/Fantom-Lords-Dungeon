@@ -7,7 +7,45 @@ lord = collision_point(x,y,oLord0Parent,false,true);
 
 if oLord4.thisLord_ascend
 {
-	if (oLord4.spellCast = 1) //Matchup
+	if (oLord4.spellCast = 0) //Deadhour
+	{
+		if (enemy != noone && !enemy.obstacle)
+		{
+			if enemy.x = oLord4.x && enemy.y = oLord4.y-64 enemy.target = true;
+			else if enemy.x = oLord4.x+64 && enemy.y = oLord4.y enemy.target = true;
+			else if enemy.x = oLord4.x && enemy.y = oLord4.y+64 enemy.target = true;
+			else if enemy.x = oLord4.x-64 && enemy.y = oLord4.y enemy.target = true;
+			else if enemy.x = oLord4.x+64 && enemy.y = oLord4.y-64 enemy.target = true;
+			else if enemy.x = oLord4.x+64 && enemy.y = oLord4.y+64 enemy.target = true;
+			else if enemy.x = oLord4.x-64 && enemy.y = oLord4.y+64 enemy.target = true;
+			else if enemy.x = oLord4.x-64 && enemy.y = oLord4.y-64 enemy.target = true;
+			else enemy.target = false;
+			
+			if enemy.target = true
+			{
+				if (current_hour > 0 && current_hour < 6)
+				{
+					global.dmgLORD = (oLord4.thisLord_MAG*2) + irandom_range(-6,12);
+					if global.dmgLORD <= 0 global.dmgLORD = 1;		
+				}
+				else if (current_hour > 6 && current_hour < 12)
+				{
+					global.dmgLORD = round(oLord4.thisLord_MAG/2) + irandom_range(-3,6);
+					if global.dmgLORD <= 0 global.dmgLORD = 1;		
+				}
+				else
+				{
+					global.dmgLORD = oLord4.thisLord_MAG + irandom_range(-3,6);
+					if global.dmgLORD <= 0 global.dmgLORD = 1;		
+				}
+				oLord4.spellCast = noone;
+				oLord4.thisLord_ACTpoints -= 2;
+				instance_create_layer(enemy.x+enemy.sprite_width/2,enemy.y+enemy.sprite_height/2,"VFX",oSKILL_CLASS_Deadhour);
+				instance_destroy();
+			}
+		}
+	}
+	else if (oLord4.spellCast = 1) //Matchup
 	{
 		var targetEnemy = (collision_point(x,y,oEnemy0_Father,false,true));
 		
