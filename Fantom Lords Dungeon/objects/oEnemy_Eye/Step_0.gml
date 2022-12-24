@@ -4,7 +4,7 @@
 if revealed image_alpha = 1;
 else image_alpha = 0;
 
-if sleep > 0 image_speed = 0;
+if (sleep > 0 || crystalized) image_speed = 0;
 else image_speed = 1;
 
 scrEnemyLIFcounter();
@@ -20,7 +20,7 @@ if isSelected && revealed
 
 if isFighting && !turnComplete && actions > 0
 {
-	if !stun && sleep = 0
+	if (!stun && !crystalized && sleep = 0)
 	{
 		scrEnemyCheckForTiles(); //check all close lords and tiles
 		canMove = false;

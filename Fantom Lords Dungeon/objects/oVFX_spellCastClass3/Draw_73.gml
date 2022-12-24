@@ -39,7 +39,7 @@ if oLord3.thisLord_ascend
 			}
 		}
 	}
-	else if (oLord3.spellCast = 7) //Drain
+	else if (oLord3.spellCast = 4 || oLord3.spellCast = 7) //Drain
 	{
 		with oEnemy0_Father
 		{
