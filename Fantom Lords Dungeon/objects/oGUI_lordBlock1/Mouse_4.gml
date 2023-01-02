@@ -53,7 +53,7 @@ if empty
 		var surf = surface_create(320,320);
 		surface_set_target(surf);
 		draw_clear_alpha(0, 0);
-		draw_sprite(sAscendTrait_Background, global.background, 0, 0);
+		//draw_sprite(sAscendTrait_Background, global.background, 0, 0);
 		draw_sprite(sAscendTrait_Ancestry, global.ancestry, 0, 0);
 		draw_sprite(sAscendTrait_ArmorClass, global.classArmor, 0, 0);
 		draw_sprite(sAscendTrait_Headgear, global.headgear, 0, 0);
