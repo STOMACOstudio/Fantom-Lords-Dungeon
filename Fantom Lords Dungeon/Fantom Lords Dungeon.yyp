@@ -374,6 +374,7 @@
     {"id":{"name":"oGUI_ButtonPlayDemo","path":"objects/oGUI_ButtonPlayDemo/oGUI_ButtonPlayDemo.yy",},"order":92,},
     {"id":{"name":"oManagerGame","path":"objects/oManagerGame/oManagerGame.yy",},"order":1,},
     {"id":{"name":"oVFX_spellCast3","path":"objects/oVFX_spellCast3/oVFX_spellCast3.yy",},"order":22,},
+    {"id":{"name":"oGUI_printSelectedStatLord","path":"objects/oGUI_printSelectedStatLord/oGUI_printSelectedStatLord.yy",},"order":104,},
     {"id":{"name":"oGUI_LordFrame4","path":"objects/oGUI_LordFrame4/oGUI_LordFrame4.yy",},"order":0,},
     {"id":{"name":"sGUI_homeConnectWallet","path":"sprites/sGUI_homeConnectWallet/sGUI_homeConnectWallet.yy",},"order":18,},
     {"id":{"name":"oSKILL_WEAPON_Bloodshed2","path":"objects/oSKILL_WEAPON_Bloodshed2/oSKILL_WEAPON_Bloodshed2.yy",},"order":68,},

@@ -6,6 +6,9 @@ if global.hasControl
 	{
 		if !thisLocked
 		{
+			oGUI_printSelectedStatLord.locked = true;
+			oGUI_printSelectedStatLord.selectedLord = 2;
+			
 			with (oLord0FrameParent)
 			{
 				thisLocked = false;
@@ -25,6 +28,7 @@ if global.hasControl
 		}
 		else
 		{
+			oGUI_printSelectedStatLord.locked = false;
 			thisLocked = false;
 			oLord2.image_blend = c_white;
 			oLord2.thisLocked = false;

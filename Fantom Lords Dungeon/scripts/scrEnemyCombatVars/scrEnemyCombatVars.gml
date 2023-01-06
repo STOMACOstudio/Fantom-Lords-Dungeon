@@ -62,7 +62,7 @@ function scrEnemyCombatVars(){
 	matchup = 0;
 	matchupType = "none";
 	berserk = false;
-	crystalize = false;
+	crystalized = false;
 
 	dmgENEMY = 0;
 	dmgTYPE = 0;

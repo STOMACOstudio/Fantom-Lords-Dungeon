@@ -20,6 +20,8 @@ if  global.hasControl && !collision_point(mouse_x,mouse_y,oVFX_spellCast0father,
 	
 		if instance_exists(oVFX_spellCast0father) instance_destroy(oVFX_spellCast0father);
 	
+		oGUI_printSelectedStatLord.locked = true;
+		oGUI_printSelectedStatLord.selectedLord = 4;
 		thisLocked = true;
 		oGUI_LordFrame4.thisLocked = true;
 		image_blend = c_yellow;
@@ -27,6 +29,7 @@ if  global.hasControl && !collision_point(mouse_x,mouse_y,oVFX_spellCast0father,
 	}
 	else
 	{
+		oGUI_printSelectedStatLord.locked = false;
 		thisLocked = false;
 		oGUI_LordFrame4.thisLocked = false;
 		image_blend = c_white;
