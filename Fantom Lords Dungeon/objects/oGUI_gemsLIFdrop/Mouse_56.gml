@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if instance_exists(oGUI_LordStatsOverlay1) && instance_exists(oLord1)
+if collision_point(x,y,oGUI_LordFrame1,false,true) && instance_exists(oLord1)
 {
 	oLord1.thisLord_LIFmax += 2;
 	oLord1.thisLord_LIF += 2;
@@ -9,7 +9,7 @@ if instance_exists(oGUI_LordStatsOverlay1) && instance_exists(oLord1)
 	instance_create_layer(oGUI_LordFrame1.x,oGUI_LordFrame1.y,"Instances",oVFX_powerUpLIF);
 	used = true;
 }
-else if instance_exists(oGUI_LordStatsOverlay2) && instance_exists(oLord2)
+else if collision_point(x,y,oGUI_LordFrame2,false,true) && instance_exists(oLord2)
 {
 	oLord2.thisLord_LIFmax += 2;
 	oLord2.thisLord_LIF += 2;
@@ -17,7 +17,7 @@ else if instance_exists(oGUI_LordStatsOverlay2) && instance_exists(oLord2)
 	instance_create_layer(oGUI_LordFrame2.x,oGUI_LordFrame2.y,"Instances",oVFX_powerUpLIF);
 	used = true;
 }
-else if instance_exists(oGUI_LordStatsOverlay3) && instance_exists(oLord3)
+else if collision_point(x,y,oGUI_LordFrame3,false,true) && instance_exists(oLord3)
 {
 	oLord3.thisLord_LIFmax += 2;
 	oLord3.thisLord_LIF += 2;
@@ -25,7 +25,7 @@ else if instance_exists(oGUI_LordStatsOverlay3) && instance_exists(oLord3)
 	instance_create_layer(oGUI_LordFrame3.x,oGUI_LordFrame3.y,"Instances",oVFX_powerUpLIF);
 	used = true;
 }
-else if instance_exists(oGUI_LordStatsOverlay4) && instance_exists(oLord4)
+else if collision_point(x,y,oGUI_LordFrame4,false,true) && instance_exists(oLord4)
 {
 	oLord4.thisLord_LIFmax += 2;
 	oLord4.thisLord_LIF += 2;

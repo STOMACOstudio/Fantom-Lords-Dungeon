@@ -6,7 +6,10 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sGUI_BloodshedLord",
+    "path": "sprites/sGUI_BloodshedLord/sGUI_BloodshedLord.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "oLord0FrameParent",
