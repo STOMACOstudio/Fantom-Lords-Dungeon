@@ -6,6 +6,7 @@ if oLordStats.lord2active && !instance_exists(oLord2) instance_create_layer(512,
 if oLordStats.lord3active && !instance_exists(oLord3) instance_create_layer(448,256,"Instances",oLord3);
 if oLordStats.lord4active && !instance_exists(oLord4) instance_create_layer(512,256,"Instances",oLord4);
 
+#region all vars
 global.isLocked = false;
 global.isLockedSkill = false;
 global.castLord = noone;
@@ -84,3 +85,4 @@ global.enterPlacePrison = false;
 global.fullScreen = false;
 
 global.killedEnemies = 0;
+#endregion

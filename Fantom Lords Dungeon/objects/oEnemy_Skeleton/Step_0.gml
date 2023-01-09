@@ -1,8 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if revealed image_alpha = 1;
-else image_alpha = 0;
+if (revealed)
+{
+	image_alpha = 1;
+	if (!global.bestiarySkeletonDiscovered)
+	{
+		global.bestiarySkeletonDiscovered = true;
+	}
+}
+else
+{
+	image_alpha = 0;
+}
 
 if (sleep > 0 || crystalized) image_speed = 0;
 else image_speed = 1;

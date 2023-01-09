@@ -7,8 +7,11 @@ function scrLoadGame(){
 	#region var load
 	global.highScore = ini_read_real("Save1","highScore",0);
 	global.lastScore = ini_read_real("Save1","lastScore",0);
+	global.bestiaryFlanDiscovered =	ini_read_real("Save1","bestiaryFlanDiscovered",0);
+	global.bestiaryFlanKilled = ini_read_real("Save1","bestiaryFlanKilled",0);
+	global.bestiaryBatDiscovered =	ini_read_real("Save1","bestiaryBatDiscovered",0);
+	global.bestiaryBatKilled = ini_read_real("Save1","bestiaryBatKilled",0);
 	#endregion
 
-	ini_close();
-	
+	ini_close();	
 }
