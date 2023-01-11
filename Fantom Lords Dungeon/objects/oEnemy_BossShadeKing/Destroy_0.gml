@@ -5,6 +5,7 @@ oManagerCombat.combatPhase = 0;
 global.roomType = "Prison";
 
 global.killedEnemies ++;
+global.bestiaryShadeKingKilled ++;
 
 audio_stop_sound(sn2_BossBattle1Loop);
 

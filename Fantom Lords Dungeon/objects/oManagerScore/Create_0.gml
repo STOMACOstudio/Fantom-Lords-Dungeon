@@ -17,12 +17,12 @@ global.bestiaryBatBossDiscovered = false;
 global.bestiaryBatBossKilled = 0;
 global.bestiaryBloodBatDiscovered = false;
 global.bestiaryBloodBatKilled = 0;
-global.bestiaryShadowDiscovered = false;
-global.bestiaryShadowKilled = 0;
+global.bestiaryShadeDiscovered = false;
+global.bestiaryShadeKilled = 0;
 global.bestiarySkeletonDiscovered = false;
 global.bestiarySkeletonKilled = 0;
-global.bestiaryShadowBossDiscovered = false;
-global.bestiaryShadowBossKilled = 0;
+global.bestiaryShadeKingDiscovered = false;
+global.bestiaryShadeKingKilled = 0;
 global.bestiarySkeletonKingDiscovered = false;
 global.bestiarySkeletonKingKilled = 0;
 #endregion

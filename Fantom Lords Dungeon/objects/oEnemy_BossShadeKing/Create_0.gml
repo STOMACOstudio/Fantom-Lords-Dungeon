@@ -6,6 +6,8 @@ oManagerCombat.combatPhase = 1
 image_alpha = 1;
 revealed = true;
 
+global.bestiaryShadeKingDiscovered = true;
+
 target = false;
 
 image_xscale /= 5;

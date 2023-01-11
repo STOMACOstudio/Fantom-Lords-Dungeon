@@ -4,6 +4,8 @@
 image_alpha = 1;
 revealed = true;
 
+global.bestiaryRoyalFlanDiscovered = true;
+
 target = false;
 
 image_xscale /= 5;

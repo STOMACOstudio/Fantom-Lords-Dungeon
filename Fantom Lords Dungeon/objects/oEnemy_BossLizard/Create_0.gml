@@ -4,6 +4,8 @@
 image_alpha = 1;
 revealed = true;
 
+global.bestiaryBatKingDiscovered = true;
+
 image_xscale /= 5;
 image_yscale /= 5;
 

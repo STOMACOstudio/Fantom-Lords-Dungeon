@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+oGUI_printSelectedStatLord.selectedLord = 0;
+
 var chooseLord1 = irandom_range(1,5);
 var chooseLord2 = irandom_range(1,5);
 var chooseLord3 = irandom_range(1,5);

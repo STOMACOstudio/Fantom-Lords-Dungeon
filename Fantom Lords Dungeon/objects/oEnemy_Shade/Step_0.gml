@@ -4,9 +4,9 @@
 if (revealed)
 {
 	image_alpha = 1;
-	if (!global.bestiaryShadowDiscovered)
+	if (!global.bestiaryShadeDiscovered)
 	{
-		global.bestiaryShadowDiscovered = true;
+		global.bestiaryShadeDiscovered = true;
 	}
 }
 else
