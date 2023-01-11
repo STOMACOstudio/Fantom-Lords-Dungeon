@@ -62,6 +62,10 @@ if (oLord3.thisLord_ascend)
 			draw_rectangle_color(x,y,x+64,y+64,c_lime,c_lime,c_lime,c_lime,true);
 		}
 	}
+	else if (oLord3.spellCast = 7) //Lazerain
+	{
+		draw_rectangle_color(oLord3.x,oLord3.y,oLord3.x+64,oLord3.y+64,c_lime,c_lime,c_lime,c_lime,true);
+	}
 	else if (oLord3.spellCast = 3 || oLord3.spellCast = 9)
 	{
 		with oEnemy0_Father
