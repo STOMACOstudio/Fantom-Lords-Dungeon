@@ -28,8 +28,8 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3bf66cde-1d0d-4648-a161-798b82c1b0c7",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ddb53fe2-7000-40c1-ae0b-8d12c3641905",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"28a3f9ec-2bec-414f-9fbd-3d675fbc3f1e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e0922c89-01a1-4c7d-b369-b1a8f7e81bb6",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -46,8 +46,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"36a87cf9-3ae2-4e30-b044-41c39b86dafc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3bf66cde-1d0d-4648-a161-798b82c1b0c7","path":"sprites/sCollect_PotionACT/sCollect_PotionACT.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"567dae66-2ced-4c8b-bb90-49d1f6f3d259","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ddb53fe2-7000-40c1-ae0b-8d12c3641905","path":"sprites/sCollect_PotionACT/sCollect_PotionACT.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2c755892-d932-4beb-bdbf-8de87704dc56","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"28a3f9ec-2bec-414f-9fbd-3d675fbc3f1e","path":"sprites/sCollect_PotionACT/sCollect_PotionACT.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fc123683-9d4b-40d5-9adc-98fb33b237f8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e0922c89-01a1-4c7d-b369-b1a8f7e81bb6","path":"sprites/sCollect_PotionACT/sCollect_PotionACT.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -66,7 +66,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0d4c2906-36cc-4e5c-9123-08c2e86fb3bb","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1e09bc59-6551-41f2-8327-ec141897993c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
