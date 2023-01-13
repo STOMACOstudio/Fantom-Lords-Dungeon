@@ -6,3 +6,4 @@ display_set_gui_maximise(propWidth, propHeight, 0, 0);
 display_set_gui_size(display_get_width(),display_get_height());*/
 
 global.fullScreen = false;
+global.gameOver = false;

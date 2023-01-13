@@ -4,6 +4,7 @@
 if oLordStats.lord1active
 {
 	draw_sprite_stretched(oLordStats.lord1sprite,0,x,y,128,128);
+	
 	if instance_exists(oLord1)
 	{
 		if oLord1.thisLord_LIF = oLord1.thisLord_LIFmax currentLIF = 0;
