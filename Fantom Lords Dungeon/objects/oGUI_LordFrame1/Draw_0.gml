@@ -3,6 +3,15 @@
 
 if oLordStats.lord1active
 {
+	if (!oLordStats.lord1ascend)
+	{
+		draw_sprite_stretched(sLordTrait_Background,oLordStats.lord1bg,x,y,128,128);
+	}
+	else
+	{
+		draw_sprite_stretched(sAscendTrait_Background,oLordStats.lord1bg,x,y,128,128);
+	}
+	
 	draw_sprite_stretched(oLordStats.lord1sprite,0,x,y,128,128);
 	
 	if instance_exists(oLord1)

@@ -41,6 +41,7 @@ if empty
 		oLordStats.lord1typeAttack = global.weaponAttack;
 		oLordStats.lord1skillClassArmor = global.classArmor;
 		oLordStats.lord1skillWeapon = global.weapon;
+		oLordStats.lord1bg = global.background+5;
 	}
 	else if oUI_ChoiceAscended.active
 	{
@@ -53,7 +54,7 @@ if empty
 		var surf = surface_create(320,320);
 		surface_set_target(surf);
 		draw_clear_alpha(0, 0);
-		//draw_sprite(sAscendTrait_Background, global.background, 0, 0);
+		draw_sprite(sAscendTrait_Background, global.background, 0, 0);
 		draw_sprite(sAscendTrait_Ancestry, global.ancestry, 0, 0);
 		draw_sprite(sAscendTrait_ArmorClass, global.classArmor, 0, 0);
 		draw_sprite(sAscendTrait_Headgear, global.headgear, 0, 0);
@@ -81,6 +82,7 @@ if empty
 		oLordStats.lord1typeAttack = global.weaponAttack;
 		oLordStats.lord1skillClassArmor = global.classArmor;
 		oLordStats.lord1skillWeapon = global.weapon;
+		oLordStats.lord1bg = global.background+13;
 	}
 	
 	empty = false;

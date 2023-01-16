@@ -40,6 +40,7 @@ if empty && !oGUI_lordBlock1.empty && !oGUI_lordBlock2.empty && !oGUI_lordBlock3
 		oLordStats.lord4typeAttack = global.weaponAttack;
 		oLordStats.lord4skillClassArmor = global.classArmor;
 		oLordStats.lord4skillWeapon = global.weapon;
+		oLordStats.lord4bg = global.background+5;
 	}
 	else if oUI_ChoiceAscended.active
 	{
@@ -79,6 +80,7 @@ if empty && !oGUI_lordBlock1.empty && !oGUI_lordBlock2.empty && !oGUI_lordBlock3
 		oLordStats.lord4typeAttack = global.weaponAttack;
 		oLordStats.lord4skillClassArmor = global.classArmor;
 		oLordStats.lord4skillWeapon = global.weapon;
+		oLordStats.lord4bg = global.background+13;
 	}
 	
 	empty = false;

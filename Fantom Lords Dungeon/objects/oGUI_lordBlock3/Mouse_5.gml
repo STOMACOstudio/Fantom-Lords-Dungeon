@@ -25,5 +25,6 @@ if !empty && oGUI_lordBlock4.empty
 	oLordStats.lord3skillClassArmor = 0;
 	oLordStats.lord3skillWeapon = 0;
 	oLordStats.lord3name = "Lord 3";
+	oLordStats.lord3bg = 0;
 	empty = true;
 }

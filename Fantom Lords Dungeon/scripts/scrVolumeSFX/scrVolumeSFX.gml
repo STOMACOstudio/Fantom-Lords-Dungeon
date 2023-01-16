@@ -77,5 +77,6 @@ function scrVolumeSFX(){
 	audio_sound_gain(sn_SKILL_Lazerain,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Deadour,global.volumeSFX,0);
 	audio_sound_gain(sn_SKILL_Beam,global.volumeSFX,0);
+	audio_sound_gain(snPotionPop,global.volumeSFX,0);
 	
 }

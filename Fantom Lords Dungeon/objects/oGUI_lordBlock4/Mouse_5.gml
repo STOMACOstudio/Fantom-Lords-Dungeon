@@ -25,5 +25,6 @@ if !empty
 	oLordStats.lord4skillClassArmor = 0;
 	oLordStats.lord4skillWeapon = 0;
 	oLordStats.lord4name = "Lord 4";
+	oLordStats.lord4bg = 0;
 	empty = true;
 }

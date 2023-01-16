@@ -3,7 +3,17 @@
 
 if oLordStats.lord4active
 {
+	if (!oLordStats.lord4ascend)
+	{
+		draw_sprite_stretched(sLordTrait_Background,oLordStats.lord4bg,x,y,128,128);
+	}
+	else
+	{
+		draw_sprite_stretched(sAscendTrait_Background,oLordStats.lord4bg,x,y,128,128);
+	}
+	
 	draw_sprite_stretched(oLordStats.lord4sprite,0,x,y,128,128);
+	
 	if instance_exists(oLord4)
 	{
 		if oLord4.thisLord_LIF = oLord4.thisLord_LIFmax currentLIF = 0;

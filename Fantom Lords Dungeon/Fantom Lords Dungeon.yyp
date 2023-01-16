@@ -583,6 +583,7 @@
     {"id":{"name":"sVFX_SKILL_SOULSYPHON","path":"sprites/sVFX_SKILL_SOULSYPHON/sVFX_SKILL_SOULSYPHON.yy",},"order":9,},
     {"id":{"name":"sHomeButton_Demo","path":"sprites/sHomeButton_Demo/sHomeButton_Demo.yy",},"order":69,},
     {"id":{"name":"oSKILL_WEAPON_Hydrobolt_bubbe","path":"objects/oSKILL_WEAPON_Hydrobolt_bubbe/oSKILL_WEAPON_Hydrobolt_bubbe.yy",},"order":31,},
+    {"id":{"name":"snPotionPop","path":"sounds/snPotionPop/snPotionPop.yy",},"order":18,},
     {"id":{"name":"oGUI_SkinLord","path":"objects/oGUI_SkinLord/oGUI_SkinLord.yy",},"order":100,},
     {"id":{"name":"oGUI_PartyLord4","path":"objects/oGUI_PartyLord4/oGUI_PartyLord4.yy",},"order":46,},
     {"id":{"name":"sLordTrait_Ancestry","path":"sprites/sLordTrait_Ancestry/sLordTrait_Ancestry.yy",},"order":1,},
