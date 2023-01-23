@@ -869,6 +869,7 @@
     {"id":{"name":"sprite_sewer22","path":"sprites/sprite_sewer22/sprite_sewer22.yy",},"order":22,},
     {"id":{"name":"oVFX_arrowUp","path":"objects/oVFX_arrowUp/oVFX_arrowUp.yy",},"order":3,},
     {"id":{"name":"sVFX_PowerUpMAG","path":"sprites/sVFX_PowerUpMAG/sVFX_PowerUpMAG.yy",},"order":9,},
+    {"id":{"name":"scrLordEnterDoor","path":"scripts/scrLordEnterDoor/scrLordEnterDoor.yy",},"order":6,},
     {"id":{"name":"sBluieTile","path":"sprites/sBluieTile/sBluieTile.yy",},"order":1,},
     {"id":{"name":"oSKILL_CLASS_Pyromancer","path":"objects/oSKILL_CLASS_Pyromancer/oSKILL_CLASS_Pyromancer.yy",},"order":23,},
     {"id":{"name":"sVFX_SKILL_Blizzard","path":"sprites/sVFX_SKILL_Blizzard/sVFX_SKILL_Blizzard.yy",},"order":50,},
