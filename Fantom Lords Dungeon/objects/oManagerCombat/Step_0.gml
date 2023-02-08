@@ -1,6 +1,39 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+// enemy on_map_collision
+	// call combat_start()
+
+// on_enemy_death ()
+	// call check_combat_end ()
+
+// combat_start ()
+	// checks if fightMode is false
+	// if not, start fight (create ovFX combat start)
+	// start_player_turn()
+
+// on_player_turn_end()
+	// start_enemy_turn()
+
+// start_enemy_turn()
+	// start_enemy_action() (gets an enemy, and makes them do their action for this turn)
+
+// end_enemy_turn()
+	// start_player_turn()
+
+// on enemy_action_end ()
+	// check_enemy_turn_end ()
+
+// check_enemy_turn_end ()
+	// if enemies still have actions:
+		// start_enemy_action() (gets an enemy, and makes them do their action for this turn)
+	// else
+		// end_enemy_turn()
+
+exit;
+
+
 if combatPhase = 0
 {
 	if i2 < instance_number(oEnemy0_Father) //check for revealed enemies
@@ -8,9 +41,13 @@ if combatPhase = 0
 		enemy2[i2] = instance_find(oEnemy0_Father,i2); //array con gli id di ogni nemico
 		if enemy2[i2].revealed && !enemy2[i2].obstacle
 		{
-			if global.fightMode = false
-			{
-				with oEnemy0_Father if !revealed && !instance_exists(oVFX_Combat) instance_create_layer(512,224,"VFX",oVFX_Combat);
+			if(global.fightMode = false) {
+				with(oEnemy0_Father) {
+					if(!revealed && !instance_exists(oVFX_Combat)) {
+						instance_create_layer(512,224,"VFX",oVFX_Combat);
+					}
+				}
+				// with oEnemy0_Father if !revealed && !instance_exists(oVFX_Combat) instance_create_layer(512,224,"VFX",oVFX_Combat);
 			}
 		}
 		else //se il nemico non è rivelato
@@ -76,7 +113,9 @@ else if combatPhase = 1
 		}
 		else //se il nemico non è rivelato o ha già attaccato...
 		{
-			if i < instance_number(oEnemy0_Father) i++; //...check il nemico successivo
+			if(i < instance_number(oEnemy0_Father)) {
+				i++; //...check il nemico successivo
+			}
 		}
 	}
 }

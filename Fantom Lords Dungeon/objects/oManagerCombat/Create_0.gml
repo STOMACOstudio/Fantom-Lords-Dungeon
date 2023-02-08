@@ -11,3 +11,9 @@ fightEnd = 0;
 i  = 0;
 
 whosfighting = "none";
+
+function combat_start() {
+	show_debug_message("---> combat_start()");
+	if(global.fightMode) { return; }
+	instance_create_layer(512,224,"VFX",oVFX_Combat);
+}

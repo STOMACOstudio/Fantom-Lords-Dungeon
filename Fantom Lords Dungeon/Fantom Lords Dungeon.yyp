@@ -852,6 +852,7 @@
     {"id":{"name":"snTrapUnload","path":"sounds/snTrapUnload/snTrapUnload.yy",},"order":16,},
     {"id":{"name":"oGUI_LordStatsOverlay3","path":"objects/oGUI_LordStatsOverlay3/oGUI_LordStatsOverlay3.yy",},"order":7,},
     {"id":{"name":"sn_SKILL_Clash","path":"sounds/sn_SKILL_Clash/sn_SKILL_Clash.yy",},"order":32,},
+    {"id":{"name":"scrCombatManagement","path":"scripts/scrCombatManagement/scrCombatManagement.yy",},"order":39,},
     {"id":{"name":"oSKILL_CLASS_Suture","path":"objects/oSKILL_CLASS_Suture/oSKILL_CLASS_Suture.yy",},"order":3,},
     {"id":{"name":"oBuilderHeadgearAscend_ArrowDown","path":"objects/oBuilderHeadgearAscend_ArrowDown/oBuilderHeadgearAscend_ArrowDown.yy",},"order":22,},
     {"id":{"name":"sn_SKILL_Tower","path":"sounds/sn_SKILL_Tower/sn_SKILL_Tower.yy",},"order":34,},
@@ -907,7 +908,6 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
-    {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
     {"name":"Android","path":"options/android/options_android.yy",},
     {"name":"HTML5","path":"options/html5/options_html5.yy",},
     {"name":"iOS","path":"options/ios/options_ios.yy",},
@@ -1000,6 +1000,6 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"fantomLordsAscended.json","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.9.1.51",
+    "IDEVersion": "2022.11.1.56",
   },
 }

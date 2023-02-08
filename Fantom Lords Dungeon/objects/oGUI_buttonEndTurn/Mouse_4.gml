@@ -106,4 +106,5 @@ if oManagerCombat.combatPhase = 0 && global.hasControl && global.fightMode = tru
 	}
 	
 	audio_play_sound(snRandomize,0,false);
+	next_enemy_turn();
 }

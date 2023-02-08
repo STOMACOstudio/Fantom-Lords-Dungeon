@@ -9,8 +9,13 @@ if room != Room4_Boss
 		if filling >= 6
 		{
 			var chest = irandom_range(0,9);
-			if chest > 8 instance_create_layer(x,y,"Instances",oTreasureChest_Bronze);
-			else instance_create_layer(x,y,"Instances",choose(oEnemy_Goblin,oEnemy_Eye,oEnemy_Barrell,oTrapSpike));
+			if(chest > 8) {
+				instance_create_layer(x,y,"Instances",oTreasureChest_Bronze);
+			} else {
+				var random_creature = choose(oEnemy_Goblin,oEnemy_Eye,oEnemy_Barrell,oTrapSpike);
+				random_creature = oEnemy_Goblin;
+				instance_create_layer(x, y, "Instances", random_creature);
+			}
 		}
 		filled = true;
 	}

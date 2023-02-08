@@ -23,6 +23,7 @@ function scrEnemyForceEndTurn(){
 		}
 	}
 	turnCompelete = true;
-	oManagerCombat.combatPhase = 1;
+	
+	// oManagerCombat.combatPhase = 1;
 
 }
