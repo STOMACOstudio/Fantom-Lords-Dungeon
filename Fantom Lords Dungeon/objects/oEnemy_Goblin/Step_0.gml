@@ -54,6 +54,7 @@ if isFighting && !turnComplete && actions > 0
 			actionsRate = 1;
 		
 			if(lordTop != noone || lordRight != noone || lordDown != noone || lordLeft != noone) { 
+				// copia da qui
 				enemy_turn_end_action(self);
 				//scrEnemyForceEndTurn();
 			} else {
@@ -65,6 +66,7 @@ if isFighting && !turnComplete && actions > 0
 	{
 		if stun stun = false
 		if sleep > 0 sleep --;
+		// copia da qui
 		enemy_turn_end_action(self);
 		//scrEnemyForceEndTurn();
 	}

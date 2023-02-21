@@ -16,5 +16,5 @@ if isSelected
 }
 
 if revealed global.revealdEnemies --;
-
+// copia da qui
 check_fight_end();
