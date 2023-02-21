@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 if oManagerCombat.combatPhase = 0 && global.hasControl && global.fightMode = true && !instance_exists(oGUI_printScoreSubtract)
 {
 	with (oLord0Parent)
@@ -93,7 +94,7 @@ if oManagerCombat.combatPhase = 0 && global.hasControl && global.fightMode = tru
 	if instance_exists(oLord4) oLord4.thisLord_ACTpoints = 0;
 	
 	alarm[0] = 25;
-	isNext= true;
+	isNext = true;
 	
 	instance_create_layer(oGUI_score.x+112,oGUI_score.y,"Instances",oGUI_printScoreSubtract);
 	if (score >= global.scoreEndTurn)
@@ -106,4 +107,5 @@ if oManagerCombat.combatPhase = 0 && global.hasControl && global.fightMode = tru
 	}
 	
 	audio_play_sound(snRandomize,0,false);
+	next_enemy_turn();
 }
