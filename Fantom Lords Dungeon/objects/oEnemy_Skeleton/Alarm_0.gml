@@ -39,5 +39,9 @@ if actions <= 0
 			matchupType = "none";
 		}
 	}
-	oManagerCombat.combatPhase = 1;
+	
+	// copia da qui
+	// next enemy turn (if any) should be called here
+	next_enemy_turn();
+	// oManagerCombat.combatPhase = 1;
 }

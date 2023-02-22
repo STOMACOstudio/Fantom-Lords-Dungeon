@@ -53,14 +53,20 @@ if isFighting && !turnComplete && actions > 0
 		{
 			actionsRate = 1;
 		
-			if lordTop != noone || lordRight != noone || lordDown != noone || lordLeft != noone scrEnemyForceEndTurn();
-			else scrEnemyMoveChoice();
+			if(lordTop != noone || lordRight != noone || lordDown != noone || lordLeft != noone) { 
+				// copia da qui
+				enemy_turn_end_action(self);
+				//scrEnemyForceEndTurn();
+			} else {
+				scrEnemyMoveChoice();
+			}
 		}
 	}
 	else
 	{
 		if stun stun = false;
 		if sleep > 0 sleep --;
-		scrEnemyForceEndTurn();
+		enemy_turn_end_action(self);
+		//scrEnemyForceEndTurn();
 	}
 }

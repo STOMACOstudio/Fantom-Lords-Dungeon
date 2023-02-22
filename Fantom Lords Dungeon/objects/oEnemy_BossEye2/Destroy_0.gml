@@ -19,3 +19,5 @@ if isSelected
 {
 	scrEnemyResetVars();
 }
+
+check_fight_end();

@@ -16,3 +16,5 @@ if isSelected
 }
 
 if revealed global.revealdEnemies --;
+
+check_fight_end();

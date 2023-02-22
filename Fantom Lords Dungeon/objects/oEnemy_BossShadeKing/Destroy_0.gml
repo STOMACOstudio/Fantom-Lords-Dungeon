@@ -25,3 +25,5 @@ if isSelected
 }
 
 global.bossBattle ++;
+
+check_fight_end();
