@@ -24,8 +24,6 @@ function scrEnemyForceEndTurn(){
 	}
 	turnCompelete = true;
 	
-	var is_in_war_fog = instance_place(x, y, oMap_blocktile_WarFog);
-	revealed = !is_in_war_fog;
 	// oManagerCombat.combatPhase = 1;
 
 }
