@@ -39,5 +39,6 @@ if actions <= 0
 			matchupType = "none";
 		}
 	}
-	oManagerCombat.combatPhase = 1;
+	
+	next_enemy_turn();
 }
