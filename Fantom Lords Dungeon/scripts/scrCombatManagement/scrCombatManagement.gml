@@ -25,7 +25,6 @@ function check_fight_end() {
 function enemy_on_map_collision(enemy) {
 	show_debug_message("---> enemy_on_map_collision()");
 	enemy.revealed = true;
-	if(enemy.obstacle == true) { return; }
 	oManagerCombat.combat_start();
 }
 

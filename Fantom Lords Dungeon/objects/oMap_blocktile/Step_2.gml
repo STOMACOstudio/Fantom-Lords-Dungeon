@@ -13,7 +13,7 @@ if room != Room4_Boss
 				instance_create_layer(x,y,"Instances",oTreasureChest_Bronze);
 			} else {
 				var random_creature = choose(oEnemy_Goblin,oEnemy_Eye,oEnemy_Barrell,oTrapSpike);
-				//random_creature = oEnemy_Barrell;
+				//random_creature = oEnemy_Goblin;
 				instance_create_layer(x, y, "Instances", random_creature);
 			}
 		}
