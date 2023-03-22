@@ -10,7 +10,7 @@ target = false;
 
 isSelected = false;
 
-thisName = "Barrel";
+thisName = "Obstacle";
 thisLIF = 1;
 thisLIFmax = thisLIF;
 thisATK = 0;
