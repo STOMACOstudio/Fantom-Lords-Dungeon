@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 oManagerCombat.combatPhase = 0;
-global.roomType = "Prison";
+global.roomType = "Desert";
 
 global.killedEnemies ++;
 global.bestiaryShadeKingKilled ++;

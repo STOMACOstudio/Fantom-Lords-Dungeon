@@ -20,4 +20,5 @@ if image_alpha >= 1
 	with oTrap0Father instance_destroy();
 	if global.roomType = "Sewers" room_goto(Room3_Dungeon);
 	else if global.roomType = "Prison" room_goto(Room3_Prison);
+	else if global.roomType = "Desert" room_goto(Room3_Desert);
 }

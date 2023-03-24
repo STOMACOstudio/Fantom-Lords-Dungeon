@@ -21,4 +21,6 @@ if image_alpha >= 1
 	
 	if global.roomType = "Sewers" room_goto(Room4_Boss);
 	else if global.roomType = "Prison" room_goto(Room4_BossPrison);
+	else if global.roomType = "Desert" room_goto(Room5_BossDesert);
+	
 }
