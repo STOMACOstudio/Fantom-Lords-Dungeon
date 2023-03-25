@@ -15,4 +15,14 @@ function scrEnemyMoveRandom(){
 	}
 	else scrEnemyForceEndTurn();
 	
+	
+	
+	//var _tile = collision_point(x,y,oMap_0parent,false,true);
+	//var in_war_fog = instance_place(x, y, oMap_blocktile_WarFog) != noone;
+	//in_war_fog = !_tile.revealed;
+	//show_debug_message("in_war_fog: " + string(in_war_fog) );
+	//if(in_war_fog) {
+	//	instance_deactivate_object(id);
+	//}
+	
 }

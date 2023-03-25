@@ -913,6 +913,7 @@
     {"name":"oGUI_skill1Lord3","order":9,"path":"objects/oGUI_skill1Lord3/oGUI_skill1Lord3.yy",},
     {"name":"oGUI_LordStatsOverlay4","order":7,"path":"objects/oGUI_LordStatsOverlay4/oGUI_LordStatsOverlay4.yy",},
     {"name":"sprite_prison11","order":11,"path":"sprites/sprite_prison11/sprite_prison11.yy",},
+    {"name":"script_highscore","order":40,"path":"scripts/script_highscore/script_highscore.yy",},
     {"name":"sLordBallon7a","order":11,"path":"sprites/sLordBallon7a/sLordBallon7a.yy",},
     {"name":"oGUI_PartyLord3","order":45,"path":"objects/oGUI_PartyLord3/oGUI_PartyLord3.yy",},
     {"name":"sCollect_Door","order":3,"path":"sprites/sCollect_Door/sCollect_Door.yy",},

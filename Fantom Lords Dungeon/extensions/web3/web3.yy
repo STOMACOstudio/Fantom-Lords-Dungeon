@@ -25,6 +25,10 @@
             1,
             1,
           ],"documentation":"","externalName":"getTokenBalance","help":"getTokenBalance(wallet_address, token_address)","hidden":false,"kind":5,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"sendHighScore","argCount":0,"args":[
+            1,
+            1,
+          ],"documentation":"","externalName":"sendHighScore","help":"","hidden":false,"kind":5,"returnType":1,},
       ],"init":"","kind":5,"order":[
         {"name":"checkMetaConnection","path":"extensions/web3/web3.yy",},
         {"name":"getMetamaskAccount","path":"extensions/web3/web3.yy",},

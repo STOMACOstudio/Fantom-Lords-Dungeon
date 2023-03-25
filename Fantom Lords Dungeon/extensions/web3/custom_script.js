@@ -1,4 +1,5 @@
 // See if Metamask is installed in the browser
+const API_ENDPOINT = "http://13.50.241.9/fantom-lords";
 web3 = "";
 
 function checkMetaConnection() {
@@ -167,19 +168,81 @@ async function getTokenBalance(wallet_address, token_address) {
 	GMS_API.send_async_event_social(map);
 }
 
+// async function sendHighScore() {
+// }
 
+async function sendHighScore(address, highscore) {
+    const rawRes = await fetch(`${API_ENDPOINT}/auth/step/1`, {
+        method: "POST",
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            address: address
+        })
+    });
 
+    const response = await rawRes.json();
+    console.log("response: ");
+    console.log({ response });
+    const nonce = response.data.user.nonce;
+    console.log({ user: response.data.user });
+    console.log({ user: response.data.user.nonce });
+    const message = `Sign this message to send your score. Your magical nonce is: ${nonce}`;
+    const signature = await ethereum.request({ 
+        method: 'personal_sign', 
+        params: [ 
+            message,
+            address
+        ]
+    });
+    console.log("signature");
+    console.log({ signature });
 
+    const rawResAuth = await fetch(`${API_ENDPOINT}/auth/step/2`, {
+        method: 'POST',
+        body: JSON.stringify({ 
+            address,
+            message,
+            signature
+        }),
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+    });
 
+    const responseAuth = await rawResAuth.json();
+    console.log("responseAuth:");
+    console.log({ responseAuth });
 
+    const setHighScoreResponse = await fetch(`${API_ENDPOINT}/dungeon/highscore`, {
+        method: 'POST',
+        body: JSON.stringify({ 
+            address,
+			highscore
+        }),
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer: ' + responseAuth.token
+        },
+    });
 
+	const responseHighScore = await setHighScoreResponse.json();
+	console.log({ responseHighScore });
+	
+    const asyncData = {};
+    asyncData["id"] = "highscoreReponse";
+    asyncData["success"] = true;
+    asyncData["error"] = false;
+    // asyncData["message"] = "";
+    // asyncData["jwt"] = responseAuth["token"];
+    if("error" in responseAuth) {
+        asyncData["error"] = true;
+        asyncData["message"] = responseAuth["error"];
+    }
+    GMS_API.send_async_event_social(asyncData);
 
-
-
-
-
-
-
-
-
-//
+}

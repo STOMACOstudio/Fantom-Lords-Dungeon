@@ -969,6 +969,7 @@
     {"id":{"name":"oGUI_skill1Lord3","path":"objects/oGUI_skill1Lord3/oGUI_skill1Lord3.yy",},"order":9,},
     {"id":{"name":"oGUI_LordStatsOverlay4","path":"objects/oGUI_LordStatsOverlay4/oGUI_LordStatsOverlay4.yy",},"order":7,},
     {"id":{"name":"sprite_prison11","path":"sprites/sprite_prison11/sprite_prison11.yy",},"order":11,},
+    {"id":{"name":"script_highscore","path":"scripts/script_highscore/script_highscore.yy",},"order":40,},
     {"id":{"name":"sVFX_EnemyFlanAttack","path":"sprites/sVFX_EnemyFlanAttack/sVFX_EnemyFlanAttack.yy",},"order":0,},
     {"id":{"name":"oCollectible0_Father","path":"objects/oCollectible0_Father/oCollectible0_Father.yy",},"order":0,},
     {"id":{"name":"sLordBallon7a","path":"sprites/sLordBallon7a/sLordBallon7a.yy",},"order":11,},
