@@ -7,7 +7,9 @@ if (!oLordStats.lord1active && !oLordStats.lord2active && !oLordStats.lord3activ
 	audio_play_sound(snGameOver,0,false);
 	if !instance_exists(oGUI_gameOver) instance_create_layer(512,256,"VFX",oGUI_gameOver);
 	if !instance_exists(oVFX_solidBlack) instance_create_layer(0,0,"VFX",oVFX_solidBlack);
-	sendHighScore(global.user_address, score);
+	if(!global.demo) {
+		sendHighScore(global.user_address, score);
+	}
 }
 
 if (global.revealdEnemies <= 0)
