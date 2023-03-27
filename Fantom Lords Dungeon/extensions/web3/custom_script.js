@@ -1,5 +1,5 @@
 // See if Metamask is installed in the browser
-const API_ENDPOINT = "http://13.50.241.9/fantom-lords";
+const API_ENDPOINT = "https://13.50.241.9/fantom-lords";
 web3 = "";
 
 function checkMetaConnection() {
