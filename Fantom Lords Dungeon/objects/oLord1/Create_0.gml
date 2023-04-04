@@ -69,16 +69,4 @@ lastY = 0;
 
 spellCast = -1;
 
-#region lord status
-battlecry = 0;
-burden = 0;
-shadow = 0;
-weaken = 0;
-stun = 0;
-tower = 0;
-matchupType = "none";
-matchup = 0;
-royalBuff = 0;
-agility = 0;
-berserk = false;
-#endregion
+scrLordStatus()

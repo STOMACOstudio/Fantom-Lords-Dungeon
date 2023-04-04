@@ -75,6 +75,10 @@ if oManagerCombat.combatPhase = 0 && global.hasControl && global.fightMode = tru
 			thisLord_ACTpointsMAX = round((oLord1.thisLord_ACT)/5);
 			}
 		}
+		if (poison)
+		{
+			thisLord_LIF -= round(thisLord_LIFmax/10)
+		}
 	}
 	with (oLord0FrameParent) thisLocked = false;
 	with (oVFX_spellCast0father) instance_destroy();
