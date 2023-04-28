@@ -15,5 +15,6 @@ if !oGUI_FantomTitleMain.canStart
 	var current_lord_data = global.lordTokenData[$ string(current_lord_id)];	
 	setCurrentLord(current_lord_data);
 	global.demo = true;
+	room_goto_next();
 	instance_destroy(oVFX_Loading);
 }

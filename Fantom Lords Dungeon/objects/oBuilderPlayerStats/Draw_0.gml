@@ -48,16 +48,23 @@ else if global.ACT > 19 colorACT = colorSup3;
 #endregion
 
 #region draw sheit dawg
-draw_text(x-392,y-36,"Lord " + string(global.lordName));
-draw_sprite(sGUI_iconStats,0,x,y);
-draw_text_color(x+34,y, "LIF " + string(global.LIF),	colorLIF,colorLIF,colorLIF,colorLIF,1);
-draw_sprite(sGUI_iconStats,1,x,y+34);
-draw_text_color(x+34,y+34, "ATK " + string(global.ATK), colorATK,colorATK,colorATK,colorATK,1);
-draw_sprite(sGUI_iconStats,2,x,y+68);
-draw_text_color(x+34,y+68, "DEF " + string(global.DEF), colorDEF,colorDEF,colorDEF,colorDEF,1);
-draw_sprite(sGUI_iconStats,3,x,y+102);
-draw_text_color(x+34,y+102, "MAG " + string(global.MAG), colorMAG,colorMAG,colorMAG,colorMAG,1);
-draw_sprite(sGUI_iconStats,4,x,y+136);
-draw_text_color(x+34,y+136, "ACT " + string(global.ACT), colorACT,colorACT,colorACT,colorACT,1);
-draw_text(x,y+172,"TOT " + string(global.TOT));
+draw_text(250,120,"Lord " + string(global.lordName));
+
+draw_sprite(sCollect_Gem,0,x-32,y-8);
+draw_text_transformed_color(x+34,y, "LIF " + string(global.LIF),1.5,1.5,0,	colorLIF,colorLIF,colorLIF,colorLIF,1);
+
+draw_sprite(sCollect_Gem,1,x-32,y+distance-8);
+draw_text_transformed_color(x+34,y+distance, "ATK " + string(global.ATK),1.5,1.5,0, colorATK,colorATK,colorATK,colorATK,1);
+
+draw_sprite(sCollect_Gem,2,x-32,y+distance*2-8);
+draw_text_transformed_color(x+34,y+distance*2, "DEF " + string(global.DEF),1.5,1.5,0, colorDEF,colorDEF,colorDEF,colorDEF,1);
+
+draw_sprite(sCollect_Gem,3,x-32,y+distance*3-8);
+draw_text_transformed_color(x+34,y+distance*3, "MAG " + string(global.MAG),1.5,1.5,0, colorMAG,colorMAG,colorMAG,colorMAG,1);
+
+draw_sprite(sCollect_Gem,4,x-32,y+distance*4-8);
+draw_text_transformed_color(x+34,y+distance*4, "ACT " + string(global.ACT),1.5,1.5,0, colorACT,colorACT,colorACT,colorACT,1);
+
+draw_sprite(sCollect_Gem,5,x-32,y+distance*5-8);
+draw_text_transformed(x+34,y+distance*5,"TOT " + string(global.TOT),1.5,1.5,0);
 #endregion

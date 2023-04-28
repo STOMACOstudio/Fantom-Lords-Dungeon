@@ -36,7 +36,7 @@ if (my_id=="getTokenBalance") {
     var current_lord_data = global.lordTokenData[$ string(current_lord_id)];
     setCurrentLord(current_lord_data);  
     oPrintMessage.thisPrint = "User has "+string(total_lords_balance)+" Fantom Lord/s";
-    oGUI_FantomTitleMain.canStart = true;
     instance_destroy(oVFX_Loading);
+	room_goto_next();
   }
 }
