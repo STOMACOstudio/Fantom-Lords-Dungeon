@@ -71,6 +71,7 @@ function setAscendedLordsData(lordIDs) {
 function setCurrentLord(_lordData) {
 	var lordData = json_parse(json_stringify(_lordData));
 	show_debug_message("start");
+	show_debug_message(json_stringify(_lordData));
 	global.lordName =	lordData.lordName;
 	global.weapon =		lordData.weapon;
 	global.background = lordData.background;
