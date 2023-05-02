@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sVFX_SKILL_Tower",
-    "path": "sprites/sVFX_SKILL_Tower/sVFX_SKILL_Tower.yy",
+    "name": "sVFX_SKILL_Tower_top",
+    "path": "sprites/sVFX_SKILL_Tower_top/sVFX_SKILL_Tower_top.yy",
   },
   "spriteMaskId": null,
   "visible": true,

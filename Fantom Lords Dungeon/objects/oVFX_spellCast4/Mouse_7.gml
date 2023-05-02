@@ -258,6 +258,7 @@ if oLord4.thisLord_ascend
 			oLord4.thisLord_ACTpoints -= 2;
 			var struct = { buff : oLord4.thisLord_MAG };
 			instance_create_layer(oLord4.x+32,oLord4.y+32,"VFX",oSKILL_WEAPON_Tower,struct);
+			instance_create_depth(oLord4.x+32,oLord4.y+32,depth+1,oSKILL_WEAPON_Tower_back);
 			instance_destroy();
 		}
 	}	

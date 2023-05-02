@@ -14,4 +14,5 @@ if done = true
 	
 	global.hasControl = true;
 	instance_destroy();
+	instance_destroy(oSKILL_WEAPON_Tower_back);
 }
