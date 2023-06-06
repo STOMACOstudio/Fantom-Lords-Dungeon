@@ -3,7 +3,7 @@
 
 if empty && !oGUI_lordBlock1.empty
 {
-	/*if oUI_ChoiceFantom.active
+	if oUI_ChoiceFantom.active
 	{
 		image_blend = c_yellow;
 		audio_play_sound(snAddLord,0,false);
@@ -43,7 +43,7 @@ if empty && !oGUI_lordBlock1.empty
 		oLordStats.lord2bg = global.background+5;
 	}
 	else if oUI_ChoiceAscended.active
-	{*/
+	{
 		image_blend = c_yellow;
 		audio_play_sound(snAddLord,0,false);
 	
@@ -81,7 +81,7 @@ if empty && !oGUI_lordBlock1.empty
 		oLordStats.lord2skillClassArmor = global.classArmor;
 		oLordStats.lord2skillWeapon = global.weapon;
 		oLordStats.lord2bg = global.background+13;
-	//}
+	}
 	
 	empty = false;
 }
