@@ -1,10 +1,16 @@
 // Initialize app
 
+//	TODO: cleanup, organize global variables
+
 // NOTE: this was scr_ini()
 
 // Initialize variables
 global.print_message="";
 global.user_address="0";
+
+// NOTE: added from deleted oManagerOptions
+global.volumeOST = 1;
+global.volumeSFX = 1;
 
 // draw_set_font(foAlagard24); // removed this, this does not go in a create event, and should have no effect
 
