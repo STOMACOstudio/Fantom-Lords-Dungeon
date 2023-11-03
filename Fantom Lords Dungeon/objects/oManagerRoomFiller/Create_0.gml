@@ -1,4 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
+//active = false;
+//isDoorMade = false;
 
-isDoorMade = false;
+
+//function init() {
+//	if(active) { return; };
+//	//create_door();
+//}
+
+//init();

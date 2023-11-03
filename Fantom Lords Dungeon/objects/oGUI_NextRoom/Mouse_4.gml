@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+// NOTE: next room logic
+
 if !instance_exists(oVFX_SolidBlackFadeinDungeon)
 {
 	if oLordStats.lord1active

@@ -12,7 +12,7 @@ function step() {
 			image_alpha -= 0.05;
 		}
 		if(image_alpha <= 0) {
-			room_goto_next();
+			room_goto(Room1);
 		}
 	} else {
 		print("You need to check for XRLC token (connect button)");

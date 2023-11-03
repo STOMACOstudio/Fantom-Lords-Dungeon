@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// checks for active lords, creates lord for each active lord
 if oLordStats.lord1active && !instance_exists(oLord1) instance_create_layer(448,192,"Instances",oLord1);
 if oLordStats.lord2active && !instance_exists(oLord2) instance_create_layer(512,192,"Instances",oLord2);
 if oLordStats.lord3active && !instance_exists(oLord3) instance_create_layer(448,256,"Instances",oLord3);

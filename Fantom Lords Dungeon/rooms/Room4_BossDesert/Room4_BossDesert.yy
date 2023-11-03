@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "Room4_BossDesert",
-  "creationCodeFile": "${project_dir}/rooms/Room4_BossPrison/RoomCreationCode.gml",
+  "creationCodeFile": "rooms/Room4_BossDesert/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,

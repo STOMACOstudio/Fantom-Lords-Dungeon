@@ -1,6 +1,20 @@
-// MOVED TO obj_dungeon_manager
+randomize();
 
-//randomize();
+function camera_setup() {
+	view_enabled = true;
+}
+
+function create_game_user_interface() {
+	;
+}
+function init() {
+	create_game_user_interface();
+}
+init();
+
+//if(!instance_exists(oManagerGame)) {
+//	instance_create_layer(0,0,"BG",oManagerGame);
+//}
 
 //if !instance_exists(oManagerGame) instance_create_layer(0,0,"BG",oManagerGame);
 

@@ -67,4 +67,12 @@ function setup_bestiary() {
 	global.bestiarySkeletonKingKilled = 0;
 }
 
+function on_key_pressed_any() {
+	if(keyboard_check_pressed(vk_tab)) {
+		if(os_browser != browser_not_a_browser) { return; }
+		if(room == room_testing_grounds) { return; }
+		room_goto(room_testing_grounds);
+	}
+}
+
 init();

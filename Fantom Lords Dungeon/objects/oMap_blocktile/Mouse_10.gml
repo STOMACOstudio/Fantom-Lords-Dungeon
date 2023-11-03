@@ -1,4 +1,1 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-if revealed image_alpha = 1;
+on_mouse_enter();
