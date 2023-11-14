@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+event_inherited();
 
 if oLordStats.lord4active
 {
@@ -74,3 +75,16 @@ if oLordStats.lord4active
 	scrLordStatus()
 }
 else instance_destroy();
+
+/////////////////////////////////////////////// NEW SECTION ////////////////////////////////////////////////////////
+
+// variables that depend on a specific lord
+gui_lord_frame = oGUI_LordFrame4;
+gui_death_lord = oGUI_deathLord;
+gui_act_points = oGUI_ACTpoints4;
+gui_lord_health_front = oGUI_lordHealthFront4;
+gui_lord_health_print = oGUI_lordHealthPrint4;
+lord_number = "4";
+vfx_spell_cast = oVFX_spellCast1;
+
+init();

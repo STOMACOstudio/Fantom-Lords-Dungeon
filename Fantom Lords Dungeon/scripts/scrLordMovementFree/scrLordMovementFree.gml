@@ -1,5 +1,16 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+
+function script_reveal_tile(tile, war_fog_tile) {
+	if(tile == noone) { return; }
+	if(tile.revealed) { return; }
+	tile.image_alpha = 0.8;
+	tile.revealed = true;
+	if(war_fog_tile == noone) { return; }
+	instance_destroy(war_fog_tile);
+	global.tileNumber -= 1;
+}
+
 function scrLordMovementFree(){
 	
 	lastX = x;
@@ -23,86 +34,95 @@ function scrLordMovementFree(){
 	WarFogDownLeft = collision_point(x-32,y+96,oMap_blocktile_WarFog,false,true);
 	WarFogLeft = collision_point(x-32,y+32,oMap_blocktile_WarFog,false,true);
 
-	if instTopLeft != noone
-	{
-		if !instTopLeft.revealed
-		{
-			instTopLeft.image_alpha = 0.8;
-			instTopLeft.revealed = true;
-			if WarFogTopLeft != noone instance_destroy(WarFogTopLeft);
-			global.tileNumber --;
-		}
-	}
-	if instTop != noone
-	{
-		if !instTop.revealed
-		{
-			instTop.image_alpha = 0.8;
-			instTop.revealed = true;
-			if WarFogTop != noone instance_destroy(WarFogTop);
-			global.tileNumber --;
-		}
-	}
-	if instTopRight != noone
-	{
-		if !instTopRight.revealed
-		{
-			instTopRight.image_alpha = 0.8;
-			instTopRight.revealed = true;
-			if WarFogTopRight != noone instance_destroy(WarFogTopRight);
-			global.tileNumber --;
-		}
-	}
-	if instRight != noone
-	{
-		if !instRight.revealed
-		{
-			instRight.image_alpha = 0.8;
-			instRight.revealed = true;
-			if WarFogTopRight != noone instance_destroy(WarFogRight);
-			global.tileNumber --;
-		}
-	}
-	if instDownRight != noone
-	{
-		if !instDownRight.revealed
-		{
-			instDownRight.image_alpha = 0.8;
-			instDownRight.revealed = true;
-			if WarFogDownRight != noone instance_destroy(WarFogDownRight);
-			global.tileNumber --;
-		}
-	}
-	if instDown != noone
-	{
-		if !instDown.revealed
-		{
-			instDown.image_alpha = 0.8;
-			instDown.revealed = true;
-			if WarFogDown != noone instance_destroy(WarFogDown);
-			global.tileNumber --;
-		}
-	}
-	if instDownLeft != noone
-	{
-		if !instDownLeft.revealed
-		{
-			instDownLeft.image_alpha = 0.8;
-			instDownLeft.revealed = true;
-			if WarFogDownLeft != noone instance_destroy(WarFogDownLeft);
-			global.tileNumber --;
-		}
-	}
-	if instLeft != noone
-	{
-		if !instLeft.revealed
-		{
-			instLeft.image_alpha = 0.8;
-			instLeft.revealed = true;
-			if WarFogLeft != noone instance_destroy(WarFogLeft);
-			global.tileNumber --;
-		}
-	}
+	script_reveal_tile(instTopLeft, WarFogTopLeft);
+	script_reveal_tile(instTop, WarFogTop);
+	script_reveal_tile(instTopRight, WarFogTopRight);
+	script_reveal_tile(instRight, WarFogRight);
+	script_reveal_tile(instDownRight, WarFogDownRight);
+	script_reveal_tile(instDown, WarFogDown);
+	script_reveal_tile(instDownLeft, WarFogDownLeft);
+	script_reveal_tile(instLeft, WarFogLeft);
+	
+	//if instTopLeft != noone
+	//{
+	//	if !instTopLeft.revealed
+	//	{
+	//		instTopLeft.image_alpha = 0.8;
+	//		instTopLeft.revealed = true;
+	//		if WarFogTopLeft != noone instance_destroy(WarFogTopLeft);
+	//		global.tileNumber --;
+	//	}
+	//}
+	//if instTop != noone
+	//{
+	//	if !instTop.revealed
+	//	{
+	//		instTop.image_alpha = 0.8;
+	//		instTop.revealed = true;
+	//		if WarFogTop != noone instance_destroy(WarFogTop);
+	//		global.tileNumber --;
+	//	}
+	//}
+	//if instTopRight != noone
+	//{
+	//	if !instTopRight.revealed
+	//	{
+	//		instTopRight.image_alpha = 0.8;
+	//		instTopRight.revealed = true;
+	//		if WarFogTopRight != noone instance_destroy(WarFogTopRight);
+	//		global.tileNumber --;
+	//	}
+	//}
+	//if instRight != noone
+	//{
+	//	if !instRight.revealed
+	//	{
+	//		instRight.image_alpha = 0.8;
+	//		instRight.revealed = true;
+	//		if WarFogTopRight != noone instance_destroy(WarFogRight);
+	//		global.tileNumber --;
+	//	}
+	//}
+	//if instDownRight != noone
+	//{
+	//	if !instDownRight.revealed
+	//	{
+	//		instDownRight.image_alpha = 0.8;
+	//		instDownRight.revealed = true;
+	//		if WarFogDownRight != noone instance_destroy(WarFogDownRight);
+	//		global.tileNumber --;
+	//	}
+	//}
+	//if instDown != noone
+	//{
+	//	if !instDown.revealed
+	//	{
+	//		instDown.image_alpha = 0.8;
+	//		instDown.revealed = true;
+	//		if WarFogDown != noone instance_destroy(WarFogDown);
+	//		global.tileNumber --;
+	//	}
+	//}
+	//if instDownLeft != noone
+	//{
+	//	if !instDownLeft.revealed
+	//	{
+	//		instDownLeft.image_alpha = 0.8;
+	//		instDownLeft.revealed = true;
+	//		if WarFogDownLeft != noone instance_destroy(WarFogDownLeft);
+	//		global.tileNumber --;
+	//	}
+	//}
+	//if instLeft != noone
+	//{
+	//	if !instLeft.revealed
+	//	{
+	//		instLeft.image_alpha = 0.8;
+	//		instLeft.revealed = true;
+	//		if WarFogLeft != noone instance_destroy(WarFogLeft);
+	//		global.tileNumber --;
+	//	}
+	//}
 	
 	if !instance_exists(oVFX_spellCast0father) //move the lord
 	{

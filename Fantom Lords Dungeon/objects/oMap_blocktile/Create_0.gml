@@ -10,7 +10,8 @@ stepped = false;
 empty = true;
 filled = choose(true, true, true, false);
 
-makeChest = irandom_range(0,10);		
+makeChest = irandom_range(0,10);
+
 function init() {
 	if(active) {return;};
 	active = true;
@@ -37,11 +38,17 @@ function step_begin() {
 	}
 }
 
+// NOTE: remove this note when this is not the case anymore
+// so basically revealed is set by the lord movement, every step
+// instead every tile checks for a current stepped
+// this stepped is not the current tile, but a bigger area
+// I don't know the logic behind it, it's just a note
+
 function step() {
 	if(!revealed) { return; };
 	image_index = 0;
 	stepped = false;
-	var lord_in_tile = collision_rectangle(x,y,x+60,y+60,oLord0Parent,false,true);
+	var lord_in_tile = collision_rectangle(x-96,y-96,x+160,y+160,oLord0Parent,false,true);
 	if(!lord_in_tile) { return; }
 	image_index = 1;
 	stepped = true;
@@ -62,5 +69,7 @@ function step_end() {
 	}
 	filled = true;
 }
+
+init();
 
 

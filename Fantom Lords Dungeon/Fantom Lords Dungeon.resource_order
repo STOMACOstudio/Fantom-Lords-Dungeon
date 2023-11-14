@@ -387,7 +387,6 @@
     {"name":"oGUI_TurnPhasePrint","order":64,"path":"objects/oGUI_TurnPhasePrint/oGUI_TurnPhasePrint.yy",},
     {"name":"sn_SKILL_Stun","order":17,"path":"sounds/sn_SKILL_Stun/sn_SKILL_Stun.yy",},
     {"name":"oSKILL_CLASS_Stun","order":22,"path":"objects/oSKILL_CLASS_Stun/oSKILL_CLASS_Stun.yy",},
-    {"name":"oManagerRoomFiller","order":4,"path":"objects/oManagerRoomFiller/oManagerRoomFiller.yy",},
     {"name":"Room5_Options","order":6,"path":"rooms/Room5_Options/Room5_Options.yy",},
     {"name":"sprite_sewer10","order":10,"path":"sprites/sprite_sewer10/sprite_sewer10.yy",},
     {"name":"sSTATUS","order":72,"path":"sprites/sSTATUS/sSTATUS.yy",},

@@ -72,7 +72,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.0.98",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"oGUI_ACTpoints3","path":"objects/oGUI_ACTpoints3/oGUI_ACTpoints3.yy",},},
@@ -427,7 +427,6 @@
     {"id":{"name":"oGUI_TurnPhasePrint","path":"objects/oGUI_TurnPhasePrint/oGUI_TurnPhasePrint.yy",},},
     {"id":{"name":"sn_SKILL_Stun","path":"sounds/sn_SKILL_Stun/sn_SKILL_Stun.yy",},},
     {"id":{"name":"oSKILL_CLASS_Stun","path":"objects/oSKILL_CLASS_Stun/oSKILL_CLASS_Stun.yy",},},
-    {"id":{"name":"oManagerRoomFiller","path":"objects/oManagerRoomFiller/oManagerRoomFiller.yy",},},
     {"id":{"name":"Room5_Options","path":"rooms/Room5_Options/Room5_Options.yy",},},
     {"id":{"name":"sprite_sewer10","path":"sprites/sprite_sewer10/sprite_sewer10.yy",},},
     {"id":{"name":"sSTATUS","path":"sprites/sSTATUS/sSTATUS.yy",},},
