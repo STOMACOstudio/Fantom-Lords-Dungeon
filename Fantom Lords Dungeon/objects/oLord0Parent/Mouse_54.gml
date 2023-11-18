@@ -1,0 +1,1 @@
+on_global_mouse_pressed();

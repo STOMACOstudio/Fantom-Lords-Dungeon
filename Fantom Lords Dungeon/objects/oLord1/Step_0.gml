@@ -1,1 +1,1 @@
-step();
+event_inherited();
