@@ -91,7 +91,7 @@ function on_key_r_pressed() {
 			if instance_exists(oVFX_spellCast0father) {
 				spellCast = -1;
 				instance_destroy(oVFX_spellCast0father);
-				oGUI_skill3Lord1.thisColor = c_white;
+				gui_skill_3_lord.thisColor = c_white;
 			} else {
 				spellCast = thisLord_skillWeapon;
 				if(!instance_exists(oVFX_spellCast1)) { 
@@ -99,15 +99,56 @@ function on_key_r_pressed() {
 				} else { 
 					instance_destroy(oVFX_spellCast1);
 				}
-				oGUI_skill3Lord1.thisColor = c_yellow;
+				gui_skill_3_lord.thisColor = c_yellow;
 			}
 		}
 	}
 }
 
-function on_key_e_pressed() {}
-function on_key_q_pressed() {}
-function on_key_o_pressed() {}
+function on_key_e_pressed() {
+	if(!global.hasControl) { return; }
+	if(thisLocked && thisLord_ACTpoints >= 2 && !berserk) {
+		if(instance_exists(vfx_spell_cast_class)) {
+			spellCast = -1;
+			instance_destroy(vfx_spell_cast_class); // oVFX_spellCast0father or oVFX_spellCastClass1 ? who knows
+			gui_skill_2_lord.thisColor = c_white;
+		} else {
+			spellCast = thisLord_skillClassArmor;
+			if !instance_exists(vfx_spell_cast_class) instance_create_layer(mouse_x,mouse_y,"VFX",vfx_spell_cast_class);
+			else instance_destroy(vfx_spell_cast_class);
+			gui_skill_2_lord.thisColor = c_yellow;
+		}
+	}
+}
+
+function on_key_q_pressed() {
+	if(global.hasControl) {
+		if(thisLocked && thisLord_ACTpoints >= 2) {
+			if(instance_exists(oVFX_spellCast0father)) {
+				spellCast = -1;
+				instance_destroy(oVFX_spellCast0father);
+			} else {
+				if(!instance_exists(oVFX_spellCastAttack)) {
+					instance_create_layer(mouse_x,mouse_y,"VFX",oVFX_spellCastAttack);
+				} else {
+					instance_destroy(oVFX_spellCastAttack);
+				}
+			}
+		}
+	}
+}
+
+function on_key_o_pressed() {
+	if(global.hasControl) {
+		if(thisLocked && global.potionACT > 0) {
+			thisLord_ACTpoints = thisLord_ACTpointsMAX;
+			audio_play_sound(snCollectPotion,0,false);
+			instance_create_layer(oGUI_LordFrame1.x,oGUI_LordFrame1.y,"Instances",oVFX_powerUpACT);
+			global.potionACT --;
+		}
+	}
+}
+
 function on_key_1_pressed() {}
 function on_key_2_pressed() {}
 function on_key_3_pressed() {}
@@ -116,31 +157,36 @@ function on_key_4_pressed() {}
 function on_key_pressed() {
 	switch(chr(keyboard_key)) {
 		case "P":
+			// health potion
 			on_key_p_pressed();
 			break;
 		case "R":
+			// attack
 			on_key_r_pressed();
 			break;
 		case "E":
+			// attack
 			on_key_e_pressed();
 			break;
 		case "Q":
+			// god mode, i guess
 			on_key_q_pressed();
 			break;
 		case "O":
+			// stamina potion
 			on_key_o_pressed();
 			break;
 		case "1":
 			on_key_1_pressed();
 			break;
 		case "2":
-			on_key_1_pressed();
+			on_key_2_pressed();
 			break;
 		case "3":
-			on_key_1_pressed();
+			on_key_3_pressed();
 			break;
 		case "4":
-			on_key_1_pressed();
+			on_key_4_pressed();
 			break;
 		default:
 			break;

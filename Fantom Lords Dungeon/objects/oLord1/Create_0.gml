@@ -86,6 +86,11 @@ gui_lord_health_print = oGUI_lordHealthPrint1;
 lord_number = "1";
 vfx_spell_cast = oVFX_spellCast1;
 
+// for press_E event
+gui_skill_2_lord = oGUI_skill2Lord1;
+gui_skill_3_lord = oGUI_skill3Lord1;
+vfx_spell_cast_class = oVFX_spellCastClass1;
+
 //function step() {
 //	if(!active) {return;}
 //	if(global.fightMode) {

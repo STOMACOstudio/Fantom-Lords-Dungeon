@@ -86,5 +86,10 @@ gui_lord_health_front = oGUI_lordHealthFront4;
 gui_lord_health_print = oGUI_lordHealthPrint4;
 lord_number = "4";
 vfx_spell_cast = oVFX_spellCast1;
+gui_skill_2_lord = oGUI_skill2Lord4;
 
+// for press_E event
+gui_skill_2_lord = oGUI_skill2Lord4;
+gui_skill_3_lord = oGUI_skill3Lord4;
+vfx_spell_cast_class = oVFX_spellCastClass4;
 init();

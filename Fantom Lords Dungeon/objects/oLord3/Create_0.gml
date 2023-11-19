@@ -88,5 +88,11 @@ gui_lord_health_front = oGUI_lordHealthFront3;
 gui_lord_health_print = oGUI_lordHealthPrint3;
 lord_number = "3";
 vfx_spell_cast = oVFX_spellCast1;
+gui_skill_2_lord = oGUI_skill2Lord3;
+
+// for press_E event
+gui_skill_2_lord = oGUI_skill2Lord3;
+gui_skill_3_lord = oGUI_skill3Lord3;
+vfx_spell_cast_class = oVFX_spellCastClass3;
 
 init();
