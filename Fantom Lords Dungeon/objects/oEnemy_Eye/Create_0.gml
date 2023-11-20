@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+event_inherited();
 
 image_alpha = 0;
 revealed = false;
@@ -39,3 +38,8 @@ alarmCounter = 50;
 obstacle = false;
 
 scrEnemyCombatVars();
+
+/// new section
+bestiary_entry = "bestiaryFlanDiscovered";
+battle_description = ["A flan made", "of pure magic:", "resists attacks." ];
+attack_type = thisMAG;

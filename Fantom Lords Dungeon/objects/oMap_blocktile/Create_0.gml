@@ -64,7 +64,8 @@ function step_end() {
 	if(populate_with_chest) {
 		instance_create_layer(x,y,"Instances",oTreasureChest_Bronze);	
 	} else {
-		var random_creature = choose(oEnemy_Goblin,oEnemy_Eye,oEnemy_Barrell,oTrapSpike);
+		var random_creature = choose(oEnemy_Goblin,oEnemy_Eye);
+		//var random_creature = choose(oEnemy_Goblin,oEnemy_Eye,oEnemy_Barrell,oTrapSpike);
 		instance_create_layer(x, y, "Instances", random_creature);
 	}
 	filled = true;

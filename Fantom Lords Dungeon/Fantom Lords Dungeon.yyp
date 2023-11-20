@@ -989,6 +989,7 @@
     {"id":{"name":"oCollectible0_Father","path":"objects/oCollectible0_Father/oCollectible0_Father.yy",},},
     {"id":{"name":"sLordBallon7a","path":"sprites/sLordBallon7a/sLordBallon7a.yy",},},
     {"id":{"name":"oGUI_PartyLord3","path":"objects/oGUI_PartyLord3/oGUI_PartyLord3.yy",},},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"sCollect_Door","path":"sprites/sCollect_Door/sCollect_Door.yy",},},
     {"id":{"name":"sprite_sewer31","path":"sprites/sprite_sewer31/sprite_sewer31.yy",},},
     {"id":{"name":"oBuilderAncestry_ArrowUp","path":"objects/oBuilderAncestry_ArrowUp/oBuilderAncestry_ArrowUp.yy",},},

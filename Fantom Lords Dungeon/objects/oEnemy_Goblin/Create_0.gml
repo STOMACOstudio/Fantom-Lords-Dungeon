@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+event_inherited();
 
 image_alpha = 0;
 revealed = false;
@@ -37,3 +36,8 @@ alarmCounter = 50;
 obstacle = false;
 
 scrEnemyCombatVars();
+
+/// new section
+bestiary_entry = "bestiaryBatDiscovered";
+battle_description = ["Bats are weak", "but come in", "numbers."];
+attack_type = thisATK;
