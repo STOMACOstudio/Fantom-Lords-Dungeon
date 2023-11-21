@@ -106,7 +106,37 @@ function move_towards_lord(lord) {
 	var direction_y = sign(lord.y - y);
 	var distance_in_x_axis = abs(lord.x - x);
 	var distance_in_y_axis = abs(lord.y - y);
-	if(distance_in_x_axis > distance_in_y_axis) {
+	if(distance_in_x_axis == distance_in_y_axis) {
+		if(direction_x == 1) {
+			// we're moving right, exclude left at all costs
+			if(tile2.empty) {
+				scrEnemyWalkRight(); return;
+			} else {
+				// right is not available, let's try up or down, first up
+				if(!tile1.empty && !tile3.empty) { scrEnemyWalkLeft(); return; };
+				if(tile1.empty) {
+					scrEnemyWalkUp();
+				} else {
+					scrEnemyWalkDown();
+				}
+				return;
+			}	
+		} else {
+			// we're moving left, exclude right at all costs
+			if(tile4.empty) {
+				scrEnemyWalkLeft(); return;
+			} else {
+				// left is not available, let's try up or down, first up
+				if(!tile1.empty && !tile3.empty) { scrEnemyWalkRight(); return; };
+				if(tile1.empty) {
+					scrEnemyWalkUp();
+				} else {
+					scrEnemyWalkDown();
+				}
+				return;
+			}
+		}
+	} else if(distance_in_x_axis > distance_in_y_axis) {
 		// if we're nearer horizontally
 		if(direction_x == 1) {
 			// we're moving right, exclude left at all costs
